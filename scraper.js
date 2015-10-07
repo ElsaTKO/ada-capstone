@@ -13,12 +13,60 @@ app.get('/scrape', function(req, res){
 
 			var name;
 			var stuff;
-			var json = { name: "", stuff: "" };
+			var json = {
+				name: "",
+				cuisine: "",
+				payment: "",
+				description: "",
+				schedule: [
+					{
+						monday: {
+							address: "",
+							coordinates: [
+								null,
+								null
+							],
+							open: "",
+							close: ""
+						},
+						tuesday: {
+							address: "",
+							coordinates: [
+								null,
+								null
+							],
+							open: "",
+							close: ""
+						},
+						other: ""
+					}
+				],
+				contact: [
+					{
+						facebook: "",
+						twitter: "",
+						twitter_handle: "",
+						website: ""
+					}
+				]
+			};
 
 			name = $(".entry-title").text();
       json.name = name;
 
+			var rows = $(".entry-content tr");
+			rows.each(function(index, value) {
+				console.log("row[" + index + "]:\n");
+				$(this).children().each(function(index, value) {
+					console.log("cell[" + index + "]: ", $(this).text());
+				});
+			});
+
+
       console.log(json);
+			console.log("json.name: ", json.name);
+			console.log("rows: \n", rows);
+
 
 			// links.each(function() {
 		  //       // var links = $(this);
@@ -42,7 +90,7 @@ app.get('/scrape', function(req, res){
 
 	// 	fs.writeFile('food_trucks_data.json', JSON.stringify(json, null, 4), function(err){
   //     if (err) {
-  //       console.log("Writ file error: ", err);
+  //       console.log("Write file error: ", err);
   //     }
   //       	console.log('Success!');
   //       });
