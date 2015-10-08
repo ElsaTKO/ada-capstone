@@ -2,6 +2,7 @@ var express = require('express');
 var fs      = require('fs');
 var request = require('request');
 var cheerio = require('cheerio');
+var sleep 	= require('sleep');
 var app     = express();
 
 app.get('/scrape', function(req, res){
@@ -10,6 +11,8 @@ app.get('/scrape', function(req, res){
 	request(url, function(error, response, html) {
 		if (!error) {
 			var $ = cheerio.load(html);
+
+			sleep.sleep(1);
 
 			var name;
 			var stuff;
@@ -54,18 +57,18 @@ app.get('/scrape', function(req, res){
 			name = $(".entry-title").text();
       json.name = name;
 
-			var rows = $(".entry-content tr");
-			rows.each(function(index, value) {
-				console.log("row[" + index + "]:\n");
-				$(this).children().each(function(index, value) {
-					console.log("cell[" + index + "]: ", $(this).text());
-				});
+			var cells = $(".entry-content td");
+			console.log("CELLS COUNT: ", cells.length); // 3
+			cells.each(function(index, value) {
+				console.log("CELL[" + index + "]: ", $(this).text());
 			});
 
 
-      console.log(json);
-			console.log("json.name: ", json.name);
-			console.log("rows: \n", rows);
+
+
+      // console.log(json);
+			// console.log("json.name: ", json.name);
+			// console.log("rows: \n", rows);
 
 
 			// links.each(function() {
