@@ -14,14 +14,14 @@ app.get('/scrape', function(req, res){
 
 			sleep.sleep(1);
 
-			var name;
+			var name, cuisine, payment, description, facebook, twitter, website;
 			var stuff;
 			var json = {
 				name: "",
 				cuisine: "",
 				payment: "",
 				description: "",
-				schedule: [
+				schedule:
 					{
 						monday: {
 							address: "",
@@ -42,31 +42,50 @@ app.get('/scrape', function(req, res){
 							close: ""
 						},
 						other: ""
-					}
-				],
-				contact: [
+					},
+				contact:
 					{
 						facebook: "",
 						twitter: "",
 						twitter_handle: "",
 						website: ""
 					}
-				]
+
 			};
 
 			name = $(".entry-title").text();
       json.name = name;
 
+			var cell_pairs = [];
 			var cells = $(".entry-content td");
 			console.log("CELLS COUNT: ", cells.length); // 3
 			cells.each(function(index, value) {
 				console.log("CELL[" + index + "]: ", $(this).text());
+				var orig_text = $(this).text();
+				var no_newline_text = orig_text.replace(/(\r\n|\n|\r)/gm,"").trim();
+				cell_pairs[index] = no_newline_text;
 			});
+			console.log(cell_pairs);
+			
+			var cuisine_index = cell_pairs.indexOf("Food Type:") + 1;
+			json.cuisine = cell_pairs[cuisine_index];
 
+			var payment_index = cell_pairs.indexOf("Payment:") + 1;
+			json.payment = cell_pairs[payment_index];
 
+			var description_index = cell_pairs.indexOf("Description:") + 1;
+			json.description = cell_pairs[description_index];
 
+			var facebook_index = cell_pairs.indexOf("Facebook:") + 1;
+			json.contact.facebook = cell_pairs[facebook_index];
 
-      // console.log(json);
+			var twitter_index = cell_pairs.indexOf("Twitter:") + 1;
+			json.contact.twitter 	= cell_pairs[twitter_index];
+
+			var website_index = cell_pairs.indexOf("Website:") + 1;
+			json.contact.website 	= cell_pairs[website_index];
+
+      console.log(json);
 			// console.log("json.name: ", json.name);
 			// console.log("rows: \n", rows);
 
