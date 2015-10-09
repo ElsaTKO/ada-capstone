@@ -41,13 +41,59 @@ app.get('/scrape', function(req, res){
 							open: "",
 							close: ""
 						},
-						other: ""
+						wednesday: {
+							address: "",
+							coordinates: [
+								null,
+								null
+							],
+							open: "",
+							close: ""
+						},
+						thursday: {
+							address: "",
+							coordinates: [
+								null,
+								null
+							],
+							open: "",
+							close: ""
+						},
+						friday: {
+							address: "",
+							coordinates: [
+								null,
+								null
+							],
+							open: "",
+							close: ""
+						},
+						saturday: {
+							address: "",
+							coordinates: [
+								null,
+								null
+							],
+							open: "",
+							close: ""
+						},
+						sunday: {
+							address: "",
+							coordinates: [
+								null,
+								null
+							],
+							open: "",
+							close: ""
+						}
 					},
 				contact:
 					{
 						facebook: "",
-						twitter: "",
-						twitter_handle: "",
+						twitter_link: "",
+						twitter_id: "",
+						twitter_screen_name: "",
+						twitter_name: "",
 						website: ""
 					}
 
@@ -62,11 +108,11 @@ app.get('/scrape', function(req, res){
 			cells.each(function(index, value) {
 				console.log("CELL[" + index + "]: ", $(this).text());
 				var orig_text = $(this).text();
-				var no_newline_text = orig_text.replace(/(\r\n|\n|\r)/gm,"").trim();
-				cell_pairs[index] = no_newline_text;
+				var scrubbed_text = orig_text.replace(/(\r\n|\n|\r)/gm,"").trim();
+				cell_pairs[index] = scrubbed_text;
 			});
 			console.log(cell_pairs);
-			
+
 			var cuisine_index = cell_pairs.indexOf("Food Type:") + 1;
 			json.cuisine = cell_pairs[cuisine_index];
 
@@ -76,14 +122,56 @@ app.get('/scrape', function(req, res){
 			var description_index = cell_pairs.indexOf("Description:") + 1;
 			json.description = cell_pairs[description_index];
 
+			var Monday_header_index = cell_pairs.indexOf("Monday:");
+			var Tuesday_header_index = cell_pairs.indexOf("Tuesday:");
+			var Wednesday_header_index = cell_pairs.indexOf("Wednesday:");
+			var Thursday_header_index = cell_pairs.indexOf("Thursday:");
+			var Friday_header_index = cell_pairs.indexOf("Friday:");
+			var Saturday_header_index = cell_pairs.indexOf("Saturday:");
+			var Sunday_header_index = cell_pairs.indexOf("Sunday:");
+
+			var header_indices = [Monday_header_index, Tuesday_header_index, Wednesday_header_index, Thursday_header_index, Friday_header_index, Saturday_header_index, Sunday_header_index];
+			var header_words = ["Monday:", "Tuesday:", "Wednesday:", "Thursday:", "Friday:", "Saturday:", "Sunday:"];
+
+			for (i = 0; i < header_indices.length; i++) {
+				var header_index = header_indices[i];
+				var header_word = header_words[i];
+				if (header_index > -1) {
+					switch (header_word) {
+						case "Monday:":
+							json.schedule.monday.address = cell_pairs[header_index + 1];
+							break;
+						case "Tuesday:":
+							json.schedule.tuesday.address = cell_pairs[header_index + 1];
+							break;
+						case "Wednesday:":
+							json.schedule.wednesday.address = cell_pairs[header_index + 1];
+							break;
+						case "Thursday:":
+							json.schedule.thursday.address = cell_pairs[header_index + 1];
+							break;
+						case "Friday:":
+							json.schedule.friday.address = cell_pairs[header_index + 1];
+							break;
+						case "Saturday:":
+							json.schedule.saturday.address = cell_pairs[header_index + 1];
+							break;
+						case "Sunday:":
+							json.schedule.sunday.address = cell_pairs[header_index + 1];
+							break;
+					}
+				}
+			}
+
+
 			var facebook_index = cell_pairs.indexOf("Facebook:") + 1;
 			json.contact.facebook = cell_pairs[facebook_index];
 
 			var twitter_index = cell_pairs.indexOf("Twitter:") + 1;
-			json.contact.twitter 	= cell_pairs[twitter_index];
+			json.contact.twitter_link = cell_pairs[twitter_index];
 
 			var website_index = cell_pairs.indexOf("Website:") + 1;
-			json.contact.website 	= cell_pairs[website_index];
+			json.contact.website = cell_pairs[website_index];
 
       console.log(json);
 			// console.log("json.name: ", json.name);
