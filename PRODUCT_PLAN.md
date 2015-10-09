@@ -31,13 +31,13 @@ For my own learning goals, I will implement the application using MongoDB, Node.
 ## Timeline
 ### [Trello board](https://trello.com/b/0NSFiRav/elsa-capstone)
 ### Friday Oct 9
-Have app set up with Mongo and Node. Have built a scraper to collect food truck data. Have API keys for Twitter and The Beer Mapping Project.
+Have app set up with Mongo and Node. Build a scraper to collect food truck data.
 
 ### Friday Oct 16
-Have brewery, distillery, and food truck data in database. Represent GeoJSON data on map through Google Maps API.
+Have API keys for Twitter and The Beer Mapping Project. Have brewery, distillery, and food truck data in database.
 
 ### Friday Oct 23
-Populate pop-up windows with data, including tweets and directions.
+Represent GeoJSON data on map through Google Maps API. Populate pop-up windows with data, including tweets and directions.
 
 ### Friday Oct 30
 Bug fixes, scope creep, and deploy to EC2.
