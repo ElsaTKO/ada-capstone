@@ -5,7 +5,11 @@ var cheerio = require('cheerio');
 var sleep 	= require('sleep');
 var app     = express();
 
-app.get('/scrape', function(req, res){
+var food_truck_json = {trucks: []};
+
+var two_trucks = ['http://www.seattlefoodtruck.com/index.php/trucks/314-pie/', 'http://www.seattlefoodtruck.com/index.php/trucks/a-fire-inside-wood-fired-pizza/'];
+
+app.get('/scrape', function(req, res) {
 	url = 'http://www.seattlefoodtruck.com/index.php/trucks/314-pie/';
 
 	request(url, function(error, response, html) {
@@ -307,6 +311,7 @@ app.get('/scrape', function(req, res){
 			json.contact.website = cell_pairs[website_index];
 
       console.log("\n*** JSON: \n", json);
+			food_truck_json.trucks.push(json);
 			// console.log("json.name: ", json.name);
 			// console.log("rows: \n", rows);
 
@@ -339,7 +344,9 @@ app.get('/scrape', function(req, res){
   //       });
   //
   //       res.send('Success!');
+	console.log("*** FOOD TRUCKS JSON: ", food_truck_json);
 	});
+
 
 
 
