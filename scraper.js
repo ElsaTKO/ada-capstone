@@ -5,14 +5,17 @@ var cheerio = require('cheerio');
 var sleep 	= require('sleep');
 var app     = express();
 
-var food_truck_json = {trucks: []};
+var food_truck_json = {food_trucks: []};
 
 var two_trucks = ['http://www.seattlefoodtruck.com/index.php/trucks/314-pie/', 'http://www.seattlefoodtruck.com/index.php/trucks/a-fire-inside-wood-fired-pizza/'];
 
 app.get('/scrape', function(req, res) {
-	url = 'http://www.seattlefoodtruck.com/index.php/trucks/314-pie/';
+	// url = 'http://www.seattlefoodtruck.com/index.php/trucks/314-pie/';
+	for (counter = 0; counter < two_trucks.length; counter++) {
+		var this_truck = two_trucks[counter];
 
-	request(url, function(error, response, html) {
+
+	request(this_truck, function(error, response, html) {
 		if (!error) {
 			var $ = cheerio.load(html);
 
@@ -311,7 +314,7 @@ app.get('/scrape', function(req, res) {
 			json.contact.website = cell_pairs[website_index];
 
       console.log("\n*** JSON: \n", json);
-			food_truck_json.trucks.push(json);
+			food_truck_json.food_trucks.push(json);
 			// console.log("json.name: ", json.name);
 			// console.log("rows: \n", rows);
 
@@ -336,17 +339,18 @@ app.get('/scrape', function(req, res) {
 	        // });
 		}
 
-	// 	fs.writeFile('food_trucks_data.json', JSON.stringify(json, null, 4), function(err){
-  //     if (err) {
-  //       console.log("Write file error: ", err);
-  //     }
-  //       	console.log('Success!');
-  //       });
-  //
-  //       res.send('Success!');
-	console.log("*** FOOD TRUCKS JSON: ", food_truck_json);
-	});
+		fs.writeFile('food_trucks_data.json', JSON.stringify(food_truck_json, null, 4), function(err){
+      if (err) {
+        console.log("Write file error: ", err);
+      }
+        	console.log('Success!');
+        });
 
+        // res.send('Success!');
+	console.log("*** FOOD TRUCKS JSON: ", food_truck_json);
+}); // END REQUEST
+
+} // end for loop, move down after request
 
 
 
