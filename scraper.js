@@ -12,7 +12,7 @@ app.get('/scrape', function(req, res){
 		if (!error) {
 			var $ = cheerio.load(html);
 
-			sleep.sleep(1);
+			sleep.usleep(250000);
 
 			var name, cuisine, payment, description, facebook, twitter, website;
 			var stuff;
@@ -104,14 +104,36 @@ app.get('/scrape', function(req, res){
 
 			var cell_pairs = [];
 			var cells = $(".entry-content td");
-			console.log("CELLS COUNT: ", cells.length); // 3
+			console.log("*** CELLS COUNT: ", cells.length);
 			cells.each(function(index, value) {
-				console.log("CELL[" + index + "]: ", $(this).text());
-				var orig_text = $(this).text();
-				var scrubbed_text = orig_text.replace(/(\r\n|\n|\r)/gm,"").trim();
-				cell_pairs[index] = scrubbed_text;
+				console.log("*** CELL[" + index + "]: ", $(this).html());
+				var orig_html = $(this).html();
+				if (orig_html.indexOf("<br>") != -1) {
+					var cut_hood = orig_html.split("<br>")[1];
+					var scrubbed_html = cut_hood.replace(/(\r\n|\n|\r)/gm, "").trim();
+					cell_pairs[index] = scrubbed_html;
+				} else {
+					var scrubbed_html = orig_html.replace(/(\r\n|\n|\r)/gm, "").trim();
+					cell_pairs[index] = scrubbed_html;
+				}
 			});
-			console.log(cell_pairs);
+
+
+			// REMOVE HTML TAGS
+			for (i = 0; i < cell_pairs.length; i++) {
+				// if cell contains <strong> tags
+				if (cell_pairs[i].indexOf("<strong>") != -1) {
+					// remove <strong> tags
+						cell_pairs[i] = cell_pairs[i].replace(/(<([^>]+)>)/gm, "");
+						console.log("*** this cell: ", cell_pairs[i]);
+					}
+				}
+				sleep.usleep(250000);
+
+			console.log("\n*** CELL PAIRS: \n", cell_pairs);
+
+
+			// replace &#x2013 with dash...
 
 			var cuisine_index = cell_pairs.indexOf("Food Type:") + 1;
 			json.cuisine = cell_pairs[cuisine_index];
@@ -163,7 +185,6 @@ app.get('/scrape', function(req, res){
 				}
 			}
 
-
 			var facebook_index = cell_pairs.indexOf("Facebook:") + 1;
 			json.contact.facebook = cell_pairs[facebook_index];
 
@@ -173,7 +194,7 @@ app.get('/scrape', function(req, res){
 			var website_index = cell_pairs.indexOf("Website:") + 1;
 			json.contact.website = cell_pairs[website_index];
 
-      console.log(json);
+      console.log("\n*** JSON: \n", json);
 			// console.log("json.name: ", json.name);
 			// console.log("rows: \n", rows);
 
@@ -213,7 +234,7 @@ app.get('/scrape', function(req, res){
 });
 
 app.listen('8181');
-console.log('Scraper port open');
+console.log('*** Scraper port open');
 exports = module.exports = app;
 
 
