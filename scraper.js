@@ -121,20 +121,26 @@ app.get('/scrape', function(req, res){
 
 			// REMOVE HTML TAGS
 			for (i = 0; i < cell_pairs.length; i++) {
-				// if cell contains <strong> tags
+				// <strong>
 				if (cell_pairs[i].indexOf("<strong>") != -1) {
-					// remove <strong> tags
-						cell_pairs[i] = cell_pairs[i].replace(/(<([^>]+)>)/gm, "");
-						console.log("*** this cell: ", cell_pairs[i]);
-					}
+					cell_pairs[i] = cell_pairs[i].replace(/(<([^>]+)>)/gm, "");
 				}
-				sleep.usleep(250000);
+				// <a href>
+				if (cell_pairs[i].indexOf("<a href") != -1) {
+					cell_pairs[i] = cell_pairs[i].replace(/(<([^>]+)>)/gm, "").trim();
+				}
+				// &#x2013; — dash
+				if (cell_pairs[i].indexOf("&#x2013;") != -1) {
+					cell_pairs[i] = cell_pairs[i].replace(" &#x2013; ", " — ").trim();
+				}
+
+				console.log("*** this cell: ", cell_pairs[i]);
+			}
 
 			console.log("\n*** CELL PAIRS: \n", cell_pairs);
 
 
-			// replace &#x2013 with dash...
-
+			// ASSIGN TO JSON
 			var cuisine_index = cell_pairs.indexOf("Food Type:") + 1;
 			json.cuisine = cell_pairs[cuisine_index];
 
@@ -158,27 +164,133 @@ app.get('/scrape', function(req, res){
 			for (i = 0; i < header_indices.length; i++) {
 				var header_index = header_indices[i];
 				var header_word = header_words[i];
+				var biz_hours, open, close, biz_hours_splitter;
 				if (header_index > -1) {
 					switch (header_word) {
 						case "Monday:":
+							// find out biz hours from address line
+							biz_hours = cell_pairs[header_index + 1];
+							biz_hours = biz_hours.split(", ");
+							biz_hours = biz_hours[biz_hours.length -1];
+							open = biz_hours.split(" ")[0];
+							close = biz_hours.split(" ")[2];
+							biz_hours_splitter = ", " + biz_hours;
+
+							// remove biz hours from address line
+							cell_pairs[header_index + 1] = cell_pairs[header_index + 1].replace(biz_hours_splitter, "");
+
+							// assign open and close times
+							json.schedule.monday.open = open;
+							json.schedule.monday.close = close;
+							// assign address
 							json.schedule.monday.address = cell_pairs[header_index + 1];
 							break;
 						case "Tuesday:":
+							// find out biz hours from address line
+							biz_hours = cell_pairs[header_index + 1];
+							biz_hours = biz_hours.split(", ");
+							biz_hours = biz_hours[biz_hours.length -1];
+							open = biz_hours.split(" ")[0];
+							close = biz_hours.split(" ")[2];
+							biz_hours_splitter = ", " + biz_hours;
+
+							// remove biz hours from address line
+							cell_pairs[header_index + 1] = cell_pairs[header_index + 1].replace(biz_hours_splitter, "");
+
+							// assign open and close times
+							json.schedule.tuesday.open = open;
+							json.schedule.tuesday.close = close;
+							// assign address
 							json.schedule.tuesday.address = cell_pairs[header_index + 1];
 							break;
 						case "Wednesday:":
+							// find out biz hours from address line
+							biz_hours = cell_pairs[header_index + 1];
+							biz_hours = biz_hours.split(", ");
+							biz_hours = biz_hours[biz_hours.length -1];
+							open = biz_hours.split(" ")[0];
+							close = biz_hours.split(" ")[2];
+							biz_hours_splitter = ", " + biz_hours;
+
+							// remove biz hours from address line
+							cell_pairs[header_index + 1] = cell_pairs[header_index + 1].replace(biz_hours_splitter, "");
+
+							// assign open and close times
+							json.schedule.wednesday.open = open;
+							json.schedule.wednesday.close = close;
+							// assign address
 							json.schedule.wednesday.address = cell_pairs[header_index + 1];
 							break;
 						case "Thursday:":
+							// find out biz hours from address line
+							biz_hours = cell_pairs[header_index + 1];
+							biz_hours = biz_hours.split(", ");
+							biz_hours = biz_hours[biz_hours.length -1];
+							open = biz_hours.split(" ")[0];
+							close = biz_hours.split(" ")[2];
+							biz_hours_splitter = ", " + biz_hours;
+
+							// remove biz hours from address line
+							cell_pairs[header_index + 1] = cell_pairs[header_index + 1].replace(biz_hours_splitter, "");
+
+							// assign open and close times
+							json.schedule.thursday.open = open;
+							json.schedule.thursday.close = close;
+							// assign address
 							json.schedule.thursday.address = cell_pairs[header_index + 1];
 							break;
 						case "Friday:":
+							// find out biz hours from address line
+							biz_hours = cell_pairs[header_index + 1];
+							biz_hours = biz_hours.split(", ");
+							biz_hours = biz_hours[biz_hours.length -1];
+							open = biz_hours.split(" ")[0];
+							close = biz_hours.split(" ")[2];
+							biz_hours_splitter = ", " + biz_hours;
+
+							// remove biz hours from address line
+							cell_pairs[header_index + 1] = cell_pairs[header_index + 1].replace(biz_hours_splitter, "");
+
+							// assign open and close times
+							json.schedule.friday.open = open;
+							json.schedule.friday.close = close;
+							// assign address
 							json.schedule.friday.address = cell_pairs[header_index + 1];
 							break;
 						case "Saturday:":
+							// find out biz hours from address line
+							biz_hours = cell_pairs[header_index + 1];
+							biz_hours = biz_hours.split(", ");
+							biz_hours = biz_hours[biz_hours.length -1];
+							open = biz_hours.split(" ")[0];
+							close = biz_hours.split(" ")[2];
+							biz_hours_splitter = ", " + biz_hours;
+
+							// remove biz hours from address line
+							cell_pairs[header_index + 1] = cell_pairs[header_index + 1].replace(biz_hours_splitter, "");
+
+							// assign open and close times
+							json.schedule.saturday.open = open;
+							json.schedule.saturday.close = close;
+							// assign address
 							json.schedule.saturday.address = cell_pairs[header_index + 1];
 							break;
 						case "Sunday:":
+							// find out biz hours from address line
+							biz_hours = cell_pairs[header_index + 1];
+							biz_hours = biz_hours.split(", ");
+							biz_hours = biz_hours[biz_hours.length -1];
+							open = biz_hours.split(" ")[0];
+							close = biz_hours.split(" ")[2];
+							biz_hours_splitter = ", " + biz_hours;
+
+							// remove biz hours from address line
+							cell_pairs[header_index + 1] = cell_pairs[header_index + 1].replace(biz_hours_splitter, "");
+
+							// assign open and close times
+							json.schedule.sunday.open = open;
+							json.schedule.sunday.close = close;
+							// assign address
 							json.schedule.sunday.address = cell_pairs[header_index + 1];
 							break;
 					}
