@@ -1,6 +1,63 @@
 {
     "food_trucks": [
         {
+            "name": "A Fire Inside Wood Fired Pizza",
+            "cuisine": "Pizza",
+            "payment": "Cash or Cards",
+            "description": "Neapolitan Thin Crust Wood Fired Pizza",
+            "schedule": {
+                "monday": {
+                    "address": "5th Ave and Union St",
+                    "coordinates": [],
+                    "open": "10:30am",
+                    "close": "14:00pm"
+                },
+                "tuesday": {
+                    "address": "83 King St S, Pioneer Square",
+                    "coordinates": [],
+                    "open": "10:30am",
+                    "close": "14:00pm"
+                },
+                "wednesday": {
+                    "address": "Park Ave and 6th St",
+                    "coordinates": [],
+                    "open": "10:30am",
+                    "close": "14:00pm"
+                },
+                "thursday": {
+                    "address": "83 King St S, Pioneer Square",
+                    "coordinates": [],
+                    "open": "10:30am",
+                    "close": "18:00pm"
+                },
+                "friday": {
+                    "address": "5th Ave and Union St",
+                    "coordinates": [],
+                    "open": "10:30am",
+                    "close": "14:00pm"
+                },
+                "saturday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "sunday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                }
+            },
+            "contact": {
+                "facebook": "https://www.facebook.com/AFireInsideWoodFiredPizza",
+                "twitter_link": "",
+                "twitter_id": "",
+                "twitter_name": "",
+                "website": ""
+            }
+        },
+        {
             "name": "314 PIE",
             "cuisine": "Sweet and Savory Pies",
             "payment": "Cash or Cards",
@@ -9,8 +66,8 @@
                 "monday": {
                     "address": "2401 Utah Ave S, Starbucks HQ",
                     "coordinates": [],
-                    "open": "11a",
-                    "close": "2p"
+                    "open": "11:00am",
+                    "close": "14:00pm"
                 },
                 "tuesday": {
                     "address": "",
@@ -21,14 +78,14 @@
                 "wednesday": {
                     "address": "333 Boren Ave N",
                     "coordinates": [],
-                    "open": "11a",
-                    "close": "2p"
+                    "open": "11:00am",
+                    "close": "14:00pm"
                 },
                 "thursday": {
                     "address": "Boren Ave N and Republican St",
                     "coordinates": [],
-                    "open": "11a",
-                    "close": "2p"
+                    "open": "11:00am",
+                    "close": "14:00pm"
                 },
                 "friday": {
                     "address": "",
@@ -56,63 +113,6 @@
                 "twitter_screen_name": "314PIESeattle",
                 "twitter_name": "",
                 "website": "http://www.314pieseattle.com/"
-            }
-        },
-        {
-            "name": "A Fire Inside Wood Fired Pizza",
-            "cuisine": "Pizza",
-            "payment": "Cash or Cards",
-            "description": "Neapolitan Thin Crust Wood Fired Pizza",
-            "schedule": {
-                "monday": {
-                    "address": "5th Ave and Union St",
-                    "coordinates": [],
-                    "open": "10:30a",
-                    "close": "2p"
-                },
-                "tuesday": {
-                    "address": "83 King St S, Pioneer Square",
-                    "coordinates": [],
-                    "open": "10:30a",
-                    "close": "2p"
-                },
-                "wednesday": {
-                    "address": "Park Ave and 6th St",
-                    "coordinates": [],
-                    "open": "10:30a",
-                    "close": "2p"
-                },
-                "thursday": {
-                    "address": "83 King St S, Pioneer Square",
-                    "coordinates": [],
-                    "open": "10:30a",
-                    "close": "6p"
-                },
-                "friday": {
-                    "address": "5th Ave and Union St",
-                    "coordinates": [],
-                    "open": "10:30a",
-                    "close": "2p"
-                },
-                "saturday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "sunday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                }
-            },
-            "contact": {
-                "facebook": "https://www.facebook.com/AFireInsideWoodFiredPizza",
-                "twitter_link": "",
-                "twitter_id": "",
-                "twitter_name": "",
-                "website": ""
             }
         }
     ]

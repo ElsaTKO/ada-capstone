@@ -7,6 +7,43 @@ var app     = express();
 
 var food_truck_json = {food_trucks: []};
 
+function convertTime(time) {
+	var ampm, hour, hour_with_min, min;
+	// add : ?
+	if (time.indexOf(":") == -1) { // 11a
+		ampm = time.slice(-1); // a
+		hour = time.replace(ampm, ""); // 11
+		hour_with_min = hour + ":00"; // 11:00
+		time = hour_with_min + ampm + "m"; // 11:00am
+	} else {
+		time = time + "m";
+	}
+	// am ?
+	if (time.indexOf("am") != -1) {
+		ampm = time.slice(-2); // am
+		hour_with_min = time.replace(ampm, ""); // 11:00
+		hour = hour_with_min.split(":")[0]; // 11
+		min = hour_with_min.split(":")[1]; // :00
+		if (hour == "12") {
+			hour = "0";
+		}
+		time = hour + ":" + min + ampm;
+	}
+	// pm ?
+	if (time.indexOf("pm") != -1) {
+		ampm = time.slice(-2); // am
+		hour_with_min = time.replace(ampm, ""); // 11:00
+		hour = hour_with_min.split(":")[0]; // 11
+		var hour_int = parseInt(hour);
+		min = hour_with_min.split(":")[1]; // :00
+		if (hour_int < 12) {
+			hour_int = hour_int + 12;
+		}
+		time = hour_int + ":" + min + ampm;
+	}
+	return time;
+}
+
 var two_trucks = ['http://www.seattlefoodtruck.com/index.php/trucks/314-pie/', 'http://www.seattlefoodtruck.com/index.php/trucks/a-fire-inside-wood-fired-pizza/'];
 
 app.get('/scrape', function(req, res) {
@@ -158,16 +195,16 @@ app.get('/scrape', function(req, res) {
 							biz_hours = cell_pairs[header_index + 1];
 							biz_hours = biz_hours.split(", ");
 							biz_hours = biz_hours[biz_hours.length -1];
-							open = biz_hours.split(" ")[0];
-							close = biz_hours.split(" ")[2];
+							open = biz_hours.split(" ")[0]; // 11a
+							close = biz_hours.split(" ")[2]; // 2p
 							biz_hours_splitter = ", " + biz_hours;
 
 							// remove biz hours from address line
 							cell_pairs[header_index + 1] = cell_pairs[header_index + 1].replace(biz_hours_splitter, "");
 
 							// assign open and close times
-							json.schedule.monday.open = open;
-							json.schedule.monday.close = close;
+							json.schedule.monday.open = convertTime(open);
+							json.schedule.monday.close = convertTime(close);
 							// assign address
 							json.schedule.monday.address = cell_pairs[header_index + 1];
 							break;
@@ -184,8 +221,8 @@ app.get('/scrape', function(req, res) {
 							cell_pairs[header_index + 1] = cell_pairs[header_index + 1].replace(biz_hours_splitter, "");
 
 							// assign open and close times
-							json.schedule.tuesday.open = open;
-							json.schedule.tuesday.close = close;
+							json.schedule.tuesday.open = convertTime(open);
+							json.schedule.tuesday.close = convertTime(close);
 							// assign address
 							json.schedule.tuesday.address = cell_pairs[header_index + 1];
 							break;
@@ -202,8 +239,8 @@ app.get('/scrape', function(req, res) {
 							cell_pairs[header_index + 1] = cell_pairs[header_index + 1].replace(biz_hours_splitter, "");
 
 							// assign open and close times
-							json.schedule.wednesday.open = open;
-							json.schedule.wednesday.close = close;
+							json.schedule.wednesday.open = convertTime(open);
+							json.schedule.wednesday.close = convertTime(close);
 							// assign address
 							json.schedule.wednesday.address = cell_pairs[header_index + 1];
 							break;
@@ -220,8 +257,8 @@ app.get('/scrape', function(req, res) {
 							cell_pairs[header_index + 1] = cell_pairs[header_index + 1].replace(biz_hours_splitter, "");
 
 							// assign open and close times
-							json.schedule.thursday.open = open;
-							json.schedule.thursday.close = close;
+							json.schedule.thursday.open = convertTime(open);
+							json.schedule.thursday.close = convertTime(close);
 							// assign address
 							json.schedule.thursday.address = cell_pairs[header_index + 1];
 							break;
@@ -238,8 +275,8 @@ app.get('/scrape', function(req, res) {
 							cell_pairs[header_index + 1] = cell_pairs[header_index + 1].replace(biz_hours_splitter, "");
 
 							// assign open and close times
-							json.schedule.friday.open = open;
-							json.schedule.friday.close = close;
+							json.schedule.friday.open = convertTime(open);
+							json.schedule.friday.close = convertTime(close);
 							// assign address
 							json.schedule.friday.address = cell_pairs[header_index + 1];
 							break;
@@ -256,8 +293,8 @@ app.get('/scrape', function(req, res) {
 							cell_pairs[header_index + 1] = cell_pairs[header_index + 1].replace(biz_hours_splitter, "");
 
 							// assign open and close times
-							json.schedule.saturday.open = open;
-							json.schedule.saturday.close = close;
+							json.schedule.saturday.open = convertTime(open);
+							json.schedule.saturday.close = convertTime(close);
 							// assign address
 							json.schedule.saturday.address = cell_pairs[header_index + 1];
 							break;
@@ -274,8 +311,8 @@ app.get('/scrape', function(req, res) {
 							cell_pairs[header_index + 1] = cell_pairs[header_index + 1].replace(biz_hours_splitter, "");
 
 							// assign open and close times
-							json.schedule.sunday.open = open;
-							json.schedule.sunday.close = close;
+							json.schedule.sunday.open = convertTime(open);
+							json.schedule.sunday.close = convertTime(close);
 							// assign address
 							json.schedule.sunday.address = cell_pairs[header_index + 1];
 							break;
@@ -307,7 +344,7 @@ app.get('/scrape', function(req, res) {
         });
 
         // res.send('Success!');
-	console.log("*** FOOD TRUCKS JSON: ", food_truck_json);
+	console.log("\n*** FOOD TRUCKS JSON: ", food_truck_json);
 }); // END REQUEST
 
 } // end for loop
