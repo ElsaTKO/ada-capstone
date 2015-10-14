@@ -7,6 +7,9 @@ var app     = express();
 
 var food_truck_json = {food_trucks: []};
 
+var new_date = new Date();
+var timestamp = new_date.toJSON();
+
 function convertTime(time) {
 	var ampm, hour, hour_with_min, min;
 	// add : ?
@@ -44,7 +47,7 @@ function convertTime(time) {
 	return time;
 }
 
-var two_trucks = ['http://www.seattlefoodtruck.com/index.php/trucks/314-pie/', 'http://www.seattlefoodtruck.com/index.php/trucks/a-fire-inside-wood-fired-pizza/'];
+// var two_trucks = ['http://www.seattlefoodtruck.com/index.php/trucks/314-pie/', 'http://www.seattlefoodtruck.com/index.php/trucks/a-fire-inside-wood-fired-pizza/'];
 
 app.get('/scrape', function(req, res) {
 	// url = 'http://www.seattlefoodtruck.com/index.php/trucks/314-pie/';
@@ -55,7 +58,7 @@ app.get('/scrape', function(req, res) {
 	request(this_truck, {timeout: 600000000}, function(error, response, html) {
 		if (error) {
 			console.log("\n*** REQUEST ERROR: ", error);
-			fs.writeFile('food_trucks_data.json', JSON.stringify(food_truck_json, null, 4), function(err) {
+			fs.writeFile('food_trucks_data_' + timestamp + '.json', JSON.stringify(food_truck_json, null, 4), function(err) {
 	      if (err) {
 	        console.log("Write file error: ", err);
 	      }
@@ -346,7 +349,7 @@ app.get('/scrape', function(req, res) {
 			food_truck_json.food_trucks.push(json);
 		}
 
-		fs.writeFile('food_trucks_data.json', JSON.stringify(food_truck_json, null, 4), function(err){
+		fs.writeFile('food_trucks_data_' + timestamp + '.json', JSON.stringify(food_truck_json, null, 4), function(err){
       if (err) {
         console.log("Write file error: ", err);
       }
