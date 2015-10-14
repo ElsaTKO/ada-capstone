@@ -11,40 +11,42 @@ var new_date = new Date();
 var timestamp = new_date.toJSON();
 
 function convertTime(time) {
+	// console.log("\n***TIME: ", time);
+	var new_time = time;
 	var ampm, hour, hour_with_min, min;
 	// add : ?
 	if (time.indexOf(":") == -1) { // 11a
-		ampm = time.slice(-1); // a
-		hour = time.replace(ampm, ""); // 11
+		ampm = new_time.slice(-1); // a
+		hour = new_time.replace(ampm, ""); // 11
 		hour_with_min = hour + ":00"; // 11:00
-		time = hour_with_min + ampm + "m"; // 11:00am
+		new_time = hour_with_min + ampm + "m"; // 11:00am
 	} else {
-		time = time + "m";
+		new_time = new_time + "m";
 	}
 	// am ?
-	if (time.indexOf("am") != -1) {
-		ampm = time.slice(-2); // am
-		hour_with_min = time.replace(ampm, ""); // 11:00
+	if (new_time.indexOf("am") != -1) {
+		ampm = new_time.slice(-2); // am
+		hour_with_min = new_time.replace(ampm, ""); // 11:00
 		hour = hour_with_min.split(":")[0]; // 11
 		min = hour_with_min.split(":")[1]; // :00
 		if (hour == "12") {
 			hour = "0";
 		}
-		time = hour + ":" + min + ampm;
+		new_time = hour + ":" + min + ampm;
 	}
 	// pm ?
-	if (time.indexOf("pm") != -1) {
-		ampm = time.slice(-2); // am
-		hour_with_min = time.replace(ampm, ""); // 11:00
+	if (new_time.indexOf("pm") != -1) {
+		ampm = new_time.slice(-2); // am
+		hour_with_min = new_time.replace(ampm, ""); // 11:00
 		hour = hour_with_min.split(":")[0]; // 11
 		var hour_int = parseInt(hour);
 		min = hour_with_min.split(":")[1]; // :00
 		if (hour_int < 12) {
 			hour_int = hour_int + 12;
 		}
-		time = hour_int + ":" + min + ampm;
+		new_time = hour_int + ":" + min + ampm;
 	}
-	return time;
+	return new_time;
 }
 
 // var two_trucks = ['http://www.seattlefoodtruck.com/index.php/trucks/314-pie/', 'http://www.seattlefoodtruck.com/index.php/trucks/a-fire-inside-wood-fired-pizza/'];
@@ -69,7 +71,7 @@ app.get('/scrape', function(req, res) {
 		if (!error) {
 			var $ = cheerio.load(html);
 
-			// sleep.usleep(250000);
+			// sleep.sleep(1);
 
 			var name, cuisine, payment, description, facebook, twitter, website;
 			var stuff;
@@ -207,17 +209,21 @@ app.get('/scrape', function(req, res) {
 							// find out biz hours from address line
 							biz_hours = cell_pairs[header_index + 1];
 							biz_hours = biz_hours.split(", ");
-							biz_hours = biz_hours[biz_hours.length -1];
-							open = biz_hours.split(" ")[0]; // 11a
-							close = biz_hours.split(" ")[2]; // 2p
-							biz_hours_splitter = ", " + biz_hours;
+							biz_hours = biz_hours[biz_hours.length -1]; // 11a - 2p
+							// does time actually contain any numbers?
+							if (biz_hours.search(/\d/) != -1) {
+								open = biz_hours.split(" ")[0]; // 11a
+								close = biz_hours.split(" ")[2]; // 2p
+								biz_hours_splitter = ", " + biz_hours;
 
-							// remove biz hours from address line
-							cell_pairs[header_index + 1] = cell_pairs[header_index + 1].replace(biz_hours_splitter, "");
+								// remove biz hours from address line
+								cell_pairs[header_index + 1] = cell_pairs[header_index + 1].replace(biz_hours_splitter, "");
 
-							// assign open and close times
-							json.schedule.monday.open = convertTime(open);
-							json.schedule.monday.close = convertTime(close);
+								// assign open and close times
+								json.schedule.monday.open = convertTime(open);
+								json.schedule.monday.close = convertTime(close);
+							}
+
 							// assign address
 							json.schedule.monday.address = cell_pairs[header_index + 1];
 							break;
@@ -226,16 +232,19 @@ app.get('/scrape', function(req, res) {
 							biz_hours = cell_pairs[header_index + 1];
 							biz_hours = biz_hours.split(", ");
 							biz_hours = biz_hours[biz_hours.length -1];
-							open = biz_hours.split(" ")[0];
-							close = biz_hours.split(" ")[2];
-							biz_hours_splitter = ", " + biz_hours;
+							// does time actually contain any numbers?
+							if (biz_hours.search(/\d/) != -1) {
+								open = biz_hours.split(" ")[0];
+								close = biz_hours.split(" ")[2];
+								biz_hours_splitter = ", " + biz_hours;
 
-							// remove biz hours from address line
-							cell_pairs[header_index + 1] = cell_pairs[header_index + 1].replace(biz_hours_splitter, "");
+								// remove biz hours from address line
+								cell_pairs[header_index + 1] = cell_pairs[header_index + 1].replace(biz_hours_splitter, "");
 
-							// assign open and close times
-							json.schedule.tuesday.open = convertTime(open);
-							json.schedule.tuesday.close = convertTime(close);
+								// assign open and close times
+								json.schedule.tuesday.open = convertTime(open);
+								json.schedule.tuesday.close = convertTime(close);
+							}
 							// assign address
 							json.schedule.tuesday.address = cell_pairs[header_index + 1];
 							break;
@@ -244,16 +253,19 @@ app.get('/scrape', function(req, res) {
 							biz_hours = cell_pairs[header_index + 1];
 							biz_hours = biz_hours.split(", ");
 							biz_hours = biz_hours[biz_hours.length -1];
-							open = biz_hours.split(" ")[0];
-							close = biz_hours.split(" ")[2];
-							biz_hours_splitter = ", " + biz_hours;
+							// does time actually contain any numbers?
+							if (biz_hours.search(/\d/) != -1) {
+								open = biz_hours.split(" ")[0];
+								close = biz_hours.split(" ")[2];
+								biz_hours_splitter = ", " + biz_hours;
 
-							// remove biz hours from address line
-							cell_pairs[header_index + 1] = cell_pairs[header_index + 1].replace(biz_hours_splitter, "");
+								// remove biz hours from address line
+								cell_pairs[header_index + 1] = cell_pairs[header_index + 1].replace(biz_hours_splitter, "");
 
-							// assign open and close times
-							json.schedule.wednesday.open = convertTime(open);
-							json.schedule.wednesday.close = convertTime(close);
+								// assign open and close times
+								json.schedule.wednesday.open = convertTime(open);
+								json.schedule.wednesday.close = convertTime(close);
+							}
 							// assign address
 							json.schedule.wednesday.address = cell_pairs[header_index + 1];
 							break;
@@ -262,16 +274,19 @@ app.get('/scrape', function(req, res) {
 							biz_hours = cell_pairs[header_index + 1];
 							biz_hours = biz_hours.split(", ");
 							biz_hours = biz_hours[biz_hours.length -1];
-							open = biz_hours.split(" ")[0];
-							close = biz_hours.split(" ")[2];
-							biz_hours_splitter = ", " + biz_hours;
+							// does time actually contain any numbers?
+							if (biz_hours.search(/\d/) != -1) {
+								open = biz_hours.split(" ")[0];
+								close = biz_hours.split(" ")[2];
+								biz_hours_splitter = ", " + biz_hours;
 
-							// remove biz hours from address line
-							cell_pairs[header_index + 1] = cell_pairs[header_index + 1].replace(biz_hours_splitter, "");
+								// remove biz hours from address line
+								cell_pairs[header_index + 1] = cell_pairs[header_index + 1].replace(biz_hours_splitter, "");
 
-							// assign open and close times
-							json.schedule.thursday.open = convertTime(open);
-							json.schedule.thursday.close = convertTime(close);
+								// assign open and close times
+								json.schedule.thursday.open = convertTime(open);
+								json.schedule.thursday.close = convertTime(close);
+							}
 							// assign address
 							json.schedule.thursday.address = cell_pairs[header_index + 1];
 							break;
@@ -280,16 +295,19 @@ app.get('/scrape', function(req, res) {
 							biz_hours = cell_pairs[header_index + 1];
 							biz_hours = biz_hours.split(", ");
 							biz_hours = biz_hours[biz_hours.length -1];
-							open = biz_hours.split(" ")[0];
-							close = biz_hours.split(" ")[2];
-							biz_hours_splitter = ", " + biz_hours;
+							// does time actually contain any numbers?
+							if (biz_hours.search(/\d/) != -1) {
+								open = biz_hours.split(" ")[0];
+								close = biz_hours.split(" ")[2];
+								biz_hours_splitter = ", " + biz_hours;
 
-							// remove biz hours from address line
-							cell_pairs[header_index + 1] = cell_pairs[header_index + 1].replace(biz_hours_splitter, "");
+								// remove biz hours from address line
+								cell_pairs[header_index + 1] = cell_pairs[header_index + 1].replace(biz_hours_splitter, "");
 
-							// assign open and close times
-							json.schedule.friday.open = convertTime(open);
-							json.schedule.friday.close = convertTime(close);
+								// assign open and close times
+								json.schedule.friday.open = convertTime(open);
+								json.schedule.friday.close = convertTime(close);
+							}
 							// assign address
 							json.schedule.friday.address = cell_pairs[header_index + 1];
 							break;
@@ -298,16 +316,19 @@ app.get('/scrape', function(req, res) {
 							biz_hours = cell_pairs[header_index + 1];
 							biz_hours = biz_hours.split(", ");
 							biz_hours = biz_hours[biz_hours.length -1];
-							open = biz_hours.split(" ")[0];
-							close = biz_hours.split(" ")[2];
-							biz_hours_splitter = ", " + biz_hours;
+							// does time actually contain any numbers?
+							if (biz_hours.search(/\d/gmi) != -1) {
+								open = biz_hours.split(" ")[0];
+								close = biz_hours.split(" ")[2];
+								biz_hours_splitter = ", " + biz_hours;
 
-							// remove biz hours from address line
-							cell_pairs[header_index + 1] = cell_pairs[header_index + 1].replace(biz_hours_splitter, "");
+								// remove biz hours from address line
+								cell_pairs[header_index + 1] = cell_pairs[header_index + 1].replace(biz_hours_splitter, "");
 
-							// assign open and close times
-							json.schedule.saturday.open = convertTime(open);
-							json.schedule.saturday.close = convertTime(close);
+								// assign open and close times
+								json.schedule.saturday.open = convertTime(open);
+								json.schedule.saturday.close = convertTime(close);
+							}
 							// assign address
 							json.schedule.saturday.address = cell_pairs[header_index + 1];
 							break;
@@ -316,16 +337,19 @@ app.get('/scrape', function(req, res) {
 							biz_hours = cell_pairs[header_index + 1];
 							biz_hours = biz_hours.split(", ");
 							biz_hours = biz_hours[biz_hours.length -1];
-							open = biz_hours.split(" ")[0];
-							close = biz_hours.split(" ")[2];
-							biz_hours_splitter = ", " + biz_hours;
+							// does time actually contain any numbers?
+							if (biz_hours.search(/\d/) != -1) {
+								open = biz_hours.split(" ")[0];
+								close = biz_hours.split(" ")[2];
+								biz_hours_splitter = ", " + biz_hours;
 
-							// remove biz hours from address line
-							cell_pairs[header_index + 1] = cell_pairs[header_index + 1].replace(biz_hours_splitter, "");
+								// remove biz hours from address line
+								cell_pairs[header_index + 1] = cell_pairs[header_index + 1].replace(biz_hours_splitter, "");
 
-							// assign open and close times
-							json.schedule.sunday.open = convertTime(open);
-							json.schedule.sunday.close = convertTime(close);
+								// assign open and close times
+								json.schedule.sunday.open = convertTime(open);
+								json.schedule.sunday.close = convertTime(close);
+							}
 							// assign address
 							json.schedule.sunday.address = cell_pairs[header_index + 1];
 							break;
@@ -345,7 +369,7 @@ app.get('/scrape', function(req, res) {
 			var website_index = cell_pairs.indexOf("Website:") + 1;
 			json.contact.website = cell_pairs[website_index];
 
-      console.log("\n*** JSON: \n", json);
+      // console.log("\n*** JSON: \n", json);
 			food_truck_json.food_trucks.push(json);
 		}
 
