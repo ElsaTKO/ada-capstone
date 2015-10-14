@@ -1,6 +1,180 @@
 {
     "food_trucks": [
         {
+            "name": "314 PIE",
+            "cuisine": "Sweet and Savory Pies",
+            "payment": "Cash or Cards",
+            "description": "We love pies — sweet and savory. We serve them up to the hungry people in Seattle in our fabulous food truck.",
+            "schedule": {
+                "monday": {
+                    "address": "2401 Utah Ave S, Starbucks HQ",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "14:00pm"
+                },
+                "tuesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "wednesday": {
+                    "address": "333 Boren Ave N",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "14:00pm"
+                },
+                "thursday": {
+                    "address": "Boren Ave N and Republican St",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "14:00pm"
+                },
+                "friday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "saturday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "sunday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                }
+            },
+            "contact": {
+                "facebook": "https://www.facebook.com/pages/314-PIE/341309415945288",
+                "twitter_link": "https://twitter.com/314PIESeattle",
+                "twitter_id": "",
+                "twitter_screen_name": "",
+                "twitter_name": "",
+                "website": "http://www.314pieseattle.com/"
+            }
+        },
+        {
+            "name": "Big Dog’s",
+            "cuisine": "Hot Dogs",
+            "payment": "Cash or Cards",
+            "description": "Biggest Weiner Around!",
+            "schedule": {
+                "monday": {
+                    "address": "UW Bothell Campus",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "14:00pm"
+                },
+                "tuesday": {
+                    "address": "19940 Old Owen Rd",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "16:30pm"
+                },
+                "wednesday": {
+                    "address": "Monroe Farmers Market",
+                    "coordinates": [],
+                    "open": "15:00pm",
+                    "close": "19:00pm"
+                },
+                "thursday": {
+                    "address": "19940 Old Owen Rd",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "16:30pm"
+                },
+                "friday": {
+                    "address": "19940 Old Owen Rd",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "16:30pm"
+                },
+                "saturday": {
+                    "address": "19940 Old Owen Rd",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "16:30pm"
+                },
+                "sunday": {
+                    "address": "19940 Old Owen Rd",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "16:30pm"
+                }
+            },
+            "contact": {
+                "facebook": "https://www.facebook.com/BigDogsTacos",
+                "twitter_link": "https://twitter.com/BigDogBuzz",
+                "twitter_id": "",
+                "twitter_screen_name": "",
+                "twitter_name": "",
+                "website": ""
+            }
+        },
+        {
+            "name": "Athena’s",
+            "cuisine": "Mediterranean",
+            "payment": "Cash or Cards",
+            "description": "Delicious Greek Style Street Food",
+            "schedule": {
+                "monday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "tuesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "wednesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "thursday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "friday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "saturday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "sunday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                }
+            },
+            "contact": {
+                "facebook": "https://www.facebook.com/Athenasgyros",
+                "twitter_link": "https://twitter.com/Eatwiththegods",
+                "twitter_id": "",
+                "twitter_screen_name": "",
+                "twitter_name": "",
+                "website": "http://feastwiththegods.com/"
+            }
+        },
+        {
             "name": "Absolut Hot Dog and Gyros",
             "cuisine": "Hot Dogs",
             "payment": "Cash or Cards",
@@ -53,9 +227,351 @@
                 "facebook": "https://www.facebook.com/pages/Absolut-HOT-DOG/146715428835785",
                 "twitter_link": "https://twitter.com/AbsoluteHotDog",
                 "twitter_id": "",
-                "twitter_screen_name": "AbsoluteHotDog",
+                "twitter_screen_name": "",
                 "twitter_name": "",
                 "website": ""
+            }
+        },
+        {
+            "name": "Not found, error 404",
+            "schedule": {
+                "monday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "tuesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "wednesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "thursday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "friday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "saturday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "sunday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                }
+            },
+            "contact": {
+                "twitter_id": "",
+                "twitter_screen_name": "",
+                "twitter_name": ""
+            }
+        },
+        {
+            "name": "Big Spoon",
+            "cuisine": "Sweets",
+            "payment": "Cash or Cards",
+            "description": "Hand made ice cream, ice cream sandwiches, and floats in the summer, hearty soups and stews in the cold, rainy months.",
+            "schedule": {
+                "monday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "tuesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "wednesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "thursday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "friday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "saturday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "sunday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                }
+            },
+            "contact": {
+                "facebook": "https://www.facebook.com/pages/Big-Spoon/458061400937758",
+                "twitter_link": "https://twitter.com/bigspoonseattle",
+                "twitter_id": "",
+                "twitter_screen_name": "",
+                "twitter_name": "",
+                "website": "http://bigspoonseattle.com/"
+            }
+        },
+        {
+            "name": "Barriga Llena",
+            "cuisine": "Mexican",
+            "payment": "Cash or Cards",
+            "description": "Barriga Llena was the first vendor to introduce traditional Mexican tortas to Seattle, just the way you have them in Mexico City.",
+            "schedule": {
+                "monday": {
+                    "address": "Boren Ave N and Harrison St, SLU Pods",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "14:00pm"
+                },
+                "tuesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "wednesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "thursday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "friday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "saturday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "sunday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                }
+            },
+            "contact": {
+                "facebook": "https://www.facebook.com/barrigallenaseattle",
+                "twitter_link": "https://twitter.com/barrigallena",
+                "twitter_id": "",
+                "twitter_screen_name": "",
+                "twitter_name": "",
+                "website": "http://www.labarrigallena.com"
+            }
+        },
+        {
+            "name": "Arnold’s Happy Days Food Truck",
+            "cuisine": "Burgers",
+            "payment": "Cash or Cards",
+            "description": "Old fashioned burgers, dogs, and fries!",
+            "schedule": {
+                "monday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "tuesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "wednesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "thursday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "friday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "saturday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "sunday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                }
+            },
+            "contact": {
+                "facebook": "https://www.facebook.com/daviddonna.arnold",
+                "twitter_link": "https://twitter.com/whatsuparnolds",
+                "twitter_id": "",
+                "twitter_screen_name": "",
+                "twitter_name": "",
+                "website": "http://arnoldshappydays.com/"
+            }
+        },
+        {
+            "name": "Big Ed’s Good Eats",
+            "cuisine": "Sandwiches",
+            "payment": "Cash or Cards",
+            "description": "Steak sandwiches, burgers, pulled pork, beignets, quesadillas, nachos",
+            "schedule": {
+                "monday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "tuesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "wednesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "thursday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "friday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "saturday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "sunday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                }
+            },
+            "contact": {
+                "facebook": "https://www.facebook.com/BigEdsGoodEats",
+                "twitter_link": "",
+                "twitter_id": "",
+                "twitter_screen_name": "",
+                "twitter_name": "",
+                "website": ""
+            }
+        },
+        {
+            "name": "Bite Me Cupcakes",
+            "cuisine": "Dessert",
+            "payment": "Cash or Cards",
+            "description": "Cupcakes, Gelato and Pastry Truck serving curbside throughout King, Snohomish, Skagit Counties in Wa.",
+            "schedule": {
+                "monday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "tuesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "wednesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "thursday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "friday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "saturday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "sunday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                }
+            },
+            "contact": {
+                "facebook": "https://www.facebook.com/pages/Bite-Me-Cupcakes-Eatery/210398125665053",
+                "twitter_link": "",
+                "twitter_id": "",
+                "twitter_screen_name": "",
+                "twitter_name": "",
+                "website": "http://www.Bitemecupcakes.us"
             }
         },
         {
@@ -111,6 +627,65 @@
                 "facebook": "https://www.facebook.com/AFireInsideWoodFiredPizza",
                 "twitter_link": "",
                 "twitter_id": "",
+                "twitter_screen_name": "",
+                "twitter_name": "",
+                "website": ""
+            }
+        },
+        {
+            "name": "Brazil on the Road",
+            "cuisine": "Brazilian",
+            "payment": "Cash or Cards",
+            "description": "First Brazilian style Food Truck in the Seattle area",
+            "schedule": {
+                "monday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "tuesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "wednesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "thursday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "friday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "saturday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "sunday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                }
+            },
+            "contact": {
+                "facebook": "",
+                "twitter_link": "",
+                "twitter_id": "",
+                "twitter_screen_name": "",
                 "twitter_name": "",
                 "website": ""
             }
@@ -168,758 +743,9 @@
                 "facebook": "https://www.facebook.com/bigboysfilipinofoodtruck",
                 "twitter_link": "https://twitter.com/NateVibez",
                 "twitter_id": "",
-                "twitter_screen_name": "NateVibez",
+                "twitter_screen_name": "",
                 "twitter_name": "",
                 "website": "http://www.bigboysfilipinofoodtruck.com/"
-            }
-        },
-        {
-            "name": "Arnold’s Happy Days Food Truck",
-            "cuisine": "Burgers",
-            "payment": "Cash or Cards",
-            "description": "Old fashioned burgers, dogs, and fries!",
-            "schedule": {
-                "monday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "tuesday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "wednesday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "thursday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "friday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "saturday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "sunday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                }
-            },
-            "contact": {
-                "facebook": "https://www.facebook.com/daviddonna.arnold",
-                "twitter_link": "https://twitter.com/whatsuparnolds",
-                "twitter_id": "",
-                "twitter_screen_name": "whatsuparnolds",
-                "twitter_name": "",
-                "website": "http://arnoldshappydays.com/"
-            }
-        },
-        {
-            "name": "Big Spoon",
-            "cuisine": "Sweets",
-            "payment": "Cash or Cards",
-            "description": "Hand made ice cream, ice cream sandwiches, and floats in the summer, hearty soups and stews in the cold, rainy months.",
-            "schedule": {
-                "monday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "tuesday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "wednesday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "thursday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "friday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "saturday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "sunday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                }
-            },
-            "contact": {
-                "facebook": "https://www.facebook.com/pages/Big-Spoon/458061400937758",
-                "twitter_link": "https://twitter.com/bigspoonseattle",
-                "twitter_id": "",
-                "twitter_screen_name": "bigspoonseattle",
-                "twitter_name": "",
-                "website": "http://bigspoonseattle.com/"
-            }
-        },
-        {
-            "name": "Beloved Mexico",
-            "cuisine": "Mexican",
-            "payment": "Cash or Cards",
-            "description": "Authentic Mexican cuisine made w/ natural, organic ingredients.",
-            "schedule": {
-                "monday": {
-                    "address": "4722 Fauntleroy Way SW, West Seattle Produce Co parking lot",
-                    "coordinates": [],
-                    "open": "10:00am",
-                    "close": "20:00pm"
-                },
-                "tuesday": {
-                    "address": "4722 Fauntleroy Way SW, West Seattle Produce Co parking lot",
-                    "coordinates": [],
-                    "open": "10:00am",
-                    "close": "20:00pm"
-                },
-                "wednesday": {
-                    "address": "4722 Fauntleroy Way SW, West Seattle Produce Co parking lot",
-                    "coordinates": [],
-                    "open": "10:00am",
-                    "close": "20:00pm"
-                },
-                "thursday": {
-                    "address": "4722 Fauntleroy Way SW, West Seattle Produce Co parking lot",
-                    "coordinates": [],
-                    "open": "10:00am",
-                    "close": "20:00pm"
-                },
-                "friday": {
-                    "address": "4722 Fauntleroy Way SW, West Seattle Produce Co parking lot",
-                    "coordinates": [],
-                    "open": "10:00am",
-                    "close": "20:00pm"
-                },
-                "saturday": {
-                    "address": "4722 Fauntleroy Way SW, West Seattle Produce Co parking lot",
-                    "coordinates": [],
-                    "open": "10:00am",
-                    "close": "20:00pm"
-                },
-                "sunday": {
-                    "address": "4722 Fauntleroy Way SW, West Seattle Produce Co parking lot",
-                    "coordinates": [],
-                    "open": "10:00am",
-                    "close": "20:00pm"
-                }
-            },
-            "contact": {
-                "facebook": "",
-                "twitter_link": "",
-                "twitter_id": "",
-                "twitter_name": "",
-                "website": "http://www.belovedmexico.com"
-            }
-        },
-        {
-            "name": "Barking Frog Mobile Kitchen",
-            "cuisine": "Northwest Cuisine",
-            "payment": "Cash or Cards",
-            "description": "Offsite catering from Barking Frog is hitting the road in style to satisfy your Grand Marnier Prawn craving by bringing (your favorite) gourmet eats to the streets!",
-            "schedule": {
-                "monday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "tuesday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "wednesday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "thursday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "friday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "saturday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "sunday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                }
-            },
-            "contact": {
-                "facebook": "https://www.facebook.com/BarkingFrogMobileKitchen",
-                "twitter_link": "https://twitter.com/BarkingFrogMK",
-                "twitter_id": "",
-                "twitter_screen_name": "BarkingFrogMK",
-                "twitter_name": "",
-                "website": "http://barkingfrogrestaurant.com"
-            }
-        },
-        {
-            "name": "Bumbu Truck",
-            "cuisine": "Indonesian",
-            "payment": "Cash or Cards",
-            "description": "Indonesian Street Food",
-            "schedule": {
-                "monday": {
-                    "address": "101 Elliot Ave W, Seattle PI",
-                    "coordinates": [],
-                    "open": "11:00am",
-                    "close": "14:00pm"
-                },
-                "tuesday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "wednesday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "thursday": {
-                    "address": "3100 Northup Way, UW Clinic",
-                    "coordinates": [],
-                    "open": "11:00am",
-                    "close": "14:00pm"
-                },
-                "friday": {
-                    "address": "5000-5020 148th Ave NE, Redmond Woods",
-                    "coordinates": [],
-                    "open": "11:00am",
-                    "close": "14:00pm"
-                },
-                "saturday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "sunday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                }
-            },
-            "contact": {
-                "facebook": "https://www.facebook.com/Bumbutruck",
-                "twitter_link": "https://twitter.com/bumbutruck",
-                "twitter_id": "",
-                "twitter_screen_name": "bumbutruck",
-                "twitter_name": "",
-                "website": "http://www.bumbutruck.com"
-            }
-        },
-        {
-            "name": "314 PIE",
-            "cuisine": "Sweet and Savory Pies",
-            "payment": "Cash or Cards",
-            "description": "We love pies — sweet and savory. We serve them up to the hungry people in Seattle in our fabulous food truck.",
-            "schedule": {
-                "monday": {
-                    "address": "2401 Utah Ave S, Starbucks HQ",
-                    "coordinates": [],
-                    "open": "11:00am",
-                    "close": "14:00pm"
-                },
-                "tuesday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "wednesday": {
-                    "address": "333 Boren Ave N",
-                    "coordinates": [],
-                    "open": "11:00am",
-                    "close": "14:00pm"
-                },
-                "thursday": {
-                    "address": "Boren Ave N and Republican St",
-                    "coordinates": [],
-                    "open": "11:00am",
-                    "close": "14:00pm"
-                },
-                "friday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "saturday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "sunday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                }
-            },
-            "contact": {
-                "facebook": "https://www.facebook.com/pages/314-PIE/341309415945288",
-                "twitter_link": "https://twitter.com/314PIESeattle",
-                "twitter_id": "",
-                "twitter_screen_name": "314PIESeattle",
-                "twitter_name": "",
-                "website": "http://www.314pieseattle.com/"
-            }
-        },
-        {
-            "name": "Bite Me Cupcakes",
-            "cuisine": "Dessert",
-            "payment": "Cash or Cards",
-            "description": "Cupcakes, Gelato and Pastry Truck serving curbside throughout King, Snohomish, Skagit Counties in Wa.",
-            "schedule": {
-                "monday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "tuesday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "wednesday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "thursday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "friday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "saturday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "sunday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                }
-            },
-            "contact": {
-                "facebook": "https://www.facebook.com/pages/Bite-Me-Cupcakes-Eatery/210398125665053",
-                "twitter_link": "",
-                "twitter_id": "",
-                "twitter_name": "",
-                "website": "http://www.Bitemecupcakes.us"
-            }
-        },
-        {
-            "name": "Athena’s",
-            "cuisine": "Mediterranean",
-            "payment": "Cash or Cards",
-            "description": "Delicious Greek Style Street Food",
-            "schedule": {
-                "monday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "tuesday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "wednesday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "thursday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "friday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "saturday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "sunday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                }
-            },
-            "contact": {
-                "facebook": "https://www.facebook.com/Athenasgyros",
-                "twitter_link": "https://twitter.com/Eatwiththegods",
-                "twitter_id": "",
-                "twitter_screen_name": "Eatwiththegods",
-                "twitter_name": "",
-                "website": "http://feastwiththegods.com/"
-            }
-        },
-        {
-            "name": "Cake Mobile",
-            "cuisine": "Sweets",
-            "payment": "Unknown",
-            "description": "Events and festivals, and parked at their building near the Tacoma Dome before and after concerts and Dome events.",
-            "schedule": {
-                "monday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "tuesday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "wednesday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "thursday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "friday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "saturday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "sunday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                }
-            },
-            "contact": {
-                "facebook": "https://www.facebook.com/celebritycakestudio",
-                "twitter_link": "",
-                "twitter_id": "",
-                "twitter_name": "",
-                "website": ""
-            }
-        },
-        {
-            "name": "Bread and Butter",
-            "cuisine": "Grilled Cheese",
-            "payment": "Cash or Cards",
-            "description": "Serving up Peace, Love, and Grilled Cheese.",
-            "schedule": {
-                "monday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "tuesday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "wednesday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "thursday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "friday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "saturday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "sunday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                }
-            },
-            "contact": {
-                "facebook": "https://www.facebook.com/BreadnButterGrilledCheeseMobileFood",
-                "twitter_link": "https://twitter.com/bbgrilledcheese",
-                "twitter_id": "",
-                "twitter_screen_name": "bbgrilledcheese",
-                "twitter_name": "",
-                "website": "http://www.bbgrilledcheese.com"
-            }
-        },
-        {
-            "name": "Brazil on the Road",
-            "cuisine": "Brazilian",
-            "payment": "Cash or Cards",
-            "description": "First Brazilian style Food Truck in the Seattle area",
-            "schedule": {
-                "monday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "tuesday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "wednesday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "thursday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "friday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "saturday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "sunday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                }
-            },
-            "contact": {
-                "facebook": "",
-                "twitter_link": "",
-                "twitter_id": "",
-                "twitter_name": "",
-                "website": ""
-            }
-        },
-        {
-            "name": "Ben & Jerry’s",
-            "cuisine": "Sweets",
-            "payment": "Cash or Cards",
-            "description": "(Two trucks, carts and the CowMobile!)",
-            "schedule": {
-                "monday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "tuesday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "wednesday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "thursday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "friday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "saturday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "sunday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                }
-            },
-            "contact": {
-                "facebook": "",
-                "twitter_link": "https://www.twitter.com/wabenjerry",
-                "twitter_id": "",
-                "twitter_screen_name": "wabenjerry",
-                "twitter_name": "",
-                "website": "http://www.wabenjerry.com"
-            }
-        },
-        {
-            "name": "Big Ed’s Good Eats",
-            "cuisine": "Sandwiches",
-            "payment": "Cash or Cards",
-            "description": "Steak sandwiches, burgers, pulled pork, beignets, quesadillas, nachos",
-            "schedule": {
-                "monday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "tuesday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "wednesday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "thursday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "friday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "saturday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                },
-                "sunday": {
-                    "address": "",
-                    "coordinates": [],
-                    "open": "",
-                    "close": ""
-                }
-            },
-            "contact": {
-                "facebook": "https://www.facebook.com/BigEdsGoodEats",
-                "twitter_link": "",
-                "twitter_id": "",
-                "twitter_name": "",
-                "website": ""
             }
         },
         {
@@ -975,67 +801,299 @@
                 "facebook": "https://www.facebook.com/bombafusion",
                 "twitter_link": "https://twitter.com/bombafusion",
                 "twitter_id": "",
-                "twitter_screen_name": "bombafusion",
+                "twitter_screen_name": "",
                 "twitter_name": "",
                 "website": "http://bombafusion.com/"
             }
         },
         {
-            "name": "Big Dog’s",
-            "cuisine": "Hot Dogs",
+            "name": "Barking Frog Mobile Kitchen",
+            "cuisine": "Northwest Cuisine",
             "payment": "Cash or Cards",
-            "description": "Biggest Weiner Around!",
+            "description": "Offsite catering from Barking Frog is hitting the road in style to satisfy your Grand Marnier Prawn craving by bringing (your favorite) gourmet eats to the streets!",
             "schedule": {
                 "monday": {
-                    "address": "UW Bothell Campus",
+                    "address": "",
                     "coordinates": [],
-                    "open": "11:00am",
-                    "close": "14:00pm"
+                    "open": "",
+                    "close": ""
                 },
                 "tuesday": {
-                    "address": "19940 Old Owen Rd",
+                    "address": "",
                     "coordinates": [],
-                    "open": "11:00am",
-                    "close": "16:30pm"
+                    "open": "",
+                    "close": ""
                 },
                 "wednesday": {
-                    "address": "Monroe Farmers Market",
+                    "address": "",
                     "coordinates": [],
-                    "open": "15:00pm",
-                    "close": "19:00pm"
+                    "open": "",
+                    "close": ""
                 },
                 "thursday": {
-                    "address": "19940 Old Owen Rd",
+                    "address": "",
                     "coordinates": [],
-                    "open": "11:00am",
-                    "close": "16:30pm"
+                    "open": "",
+                    "close": ""
                 },
                 "friday": {
-                    "address": "19940 Old Owen Rd",
+                    "address": "",
                     "coordinates": [],
-                    "open": "11:00am",
-                    "close": "16:30pm"
+                    "open": "",
+                    "close": ""
                 },
                 "saturday": {
-                    "address": "19940 Old Owen Rd",
+                    "address": "",
                     "coordinates": [],
-                    "open": "11:00am",
-                    "close": "16:30pm"
+                    "open": "",
+                    "close": ""
                 },
                 "sunday": {
-                    "address": "19940 Old Owen Rd",
+                    "address": "",
                     "coordinates": [],
-                    "open": "11:00am",
-                    "close": "16:30pm"
+                    "open": "",
+                    "close": ""
                 }
             },
             "contact": {
-                "facebook": "https://www.facebook.com/BigDogsTacos",
-                "twitter_link": "https://twitter.com/BigDogBuzz",
+                "facebook": "https://www.facebook.com/BarkingFrogMobileKitchen",
+                "twitter_link": "https://twitter.com/BarkingFrogMK",
                 "twitter_id": "",
-                "twitter_screen_name": "BigDogBuzz",
+                "twitter_screen_name": "",
                 "twitter_name": "",
-                "website": ""
+                "website": "http://barkingfrogrestaurant.com"
+            }
+        },
+        {
+            "name": "Big House BBQ",
+            "cuisine": "BBQ",
+            "payment": "Unknown",
+            "description": "All of Big House BBQ&#x2019;s meats are slow smoked using seasoned apple wood, and alder from the Great Northwest because LOW and SLOW is the only way to go.",
+            "schedule": {
+                "monday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "tuesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "wednesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "thursday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "friday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "saturday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "sunday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                }
+            },
+            "contact": {
+                "facebook": "",
+                "twitter_link": "",
+                "twitter_id": "",
+                "twitter_screen_name": "",
+                "twitter_name": "",
+                "website": "http://www.bighousebbq.net"
+            }
+        },
+        {
+            "name": "Beloved Mexico",
+            "cuisine": "Mexican",
+            "payment": "Cash or Cards",
+            "description": "Authentic Mexican cuisine made w/ natural, organic ingredients.",
+            "schedule": {
+                "monday": {
+                    "address": "4722 Fauntleroy Way SW, West Seattle Produce Co parking lot",
+                    "coordinates": [],
+                    "open": "10:00am",
+                    "close": "20:00pm"
+                },
+                "tuesday": {
+                    "address": "4722 Fauntleroy Way SW, West Seattle Produce Co parking lot",
+                    "coordinates": [],
+                    "open": "10:00am",
+                    "close": "20:00pm"
+                },
+                "wednesday": {
+                    "address": "4722 Fauntleroy Way SW, West Seattle Produce Co parking lot",
+                    "coordinates": [],
+                    "open": "10:00am",
+                    "close": "20:00pm"
+                },
+                "thursday": {
+                    "address": "4722 Fauntleroy Way SW, West Seattle Produce Co parking lot",
+                    "coordinates": [],
+                    "open": "10:00am",
+                    "close": "20:00pm"
+                },
+                "friday": {
+                    "address": "4722 Fauntleroy Way SW, West Seattle Produce Co parking lot",
+                    "coordinates": [],
+                    "open": "10:00am",
+                    "close": "20:00pm"
+                },
+                "saturday": {
+                    "address": "4722 Fauntleroy Way SW, West Seattle Produce Co parking lot",
+                    "coordinates": [],
+                    "open": "10:00am",
+                    "close": "20:00pm"
+                },
+                "sunday": {
+                    "address": "4722 Fauntleroy Way SW, West Seattle Produce Co parking lot",
+                    "coordinates": [],
+                    "open": "10:00am",
+                    "close": "20:00pm"
+                }
+            },
+            "contact": {
+                "facebook": "",
+                "twitter_link": "",
+                "twitter_id": "",
+                "twitter_screen_name": "",
+                "twitter_name": "",
+                "website": "http://www.belovedmexico.com"
+            }
+        },
+        {
+            "name": "Bread and Butter",
+            "cuisine": "Grilled Cheese",
+            "payment": "Cash or Cards",
+            "description": "Serving up Peace, Love, and Grilled Cheese.",
+            "schedule": {
+                "monday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "tuesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "wednesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "thursday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "friday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "saturday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "sunday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                }
+            },
+            "contact": {
+                "facebook": "https://www.facebook.com/BreadnButterGrilledCheeseMobileFood",
+                "twitter_link": "https://twitter.com/bbgrilledcheese",
+                "twitter_id": "",
+                "twitter_screen_name": "",
+                "twitter_name": "",
+                "website": "http://www.bbgrilledcheese.com"
+            }
+        },
+        {
+            "name": "Ben & Jerry’s",
+            "cuisine": "Sweets",
+            "payment": "Cash or Cards",
+            "description": "(Two trucks, carts and the CowMobile!)",
+            "schedule": {
+                "monday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "tuesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "wednesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "thursday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "friday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "saturday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "sunday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                }
+            },
+            "contact": {
+                "facebook": "",
+                "twitter_link": "https://www.twitter.com/wabenjerry",
+                "twitter_id": "",
+                "twitter_screen_name": "",
+                "twitter_name": "",
+                "website": "http://www.wabenjerry.com"
             }
         },
         {
@@ -1091,9 +1149,1557 @@
                 "facebook": "https://www.facebook.com/breadandcircusestruck",
                 "twitter_link": "https://twitter.com/circustruck",
                 "twitter_id": "",
-                "twitter_screen_name": "circustruck",
+                "twitter_screen_name": "",
                 "twitter_name": "",
                 "website": "http://www.eatbreadandcircuses.com/"
+            }
+        },
+        {
+            "name": "Campfire Chuck Wagon",
+            "cuisine": "BBQ",
+            "payment": "Cash or Cards",
+            "description": "Slow and low BBQ — our happy meats are sourced locally whenever possible and smoked on average an hour and a half per pound over a real wood fire.",
+            "schedule": {
+                "monday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "tuesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "wednesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "thursday": {
+                    "address": "2300 7th Ave, Downtown Spirits",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "don:00em"
+                },
+                "friday": {
+                    "address": "2300 7th Ave, Downtown Spirits",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "don:00em"
+                },
+                "saturday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "sunday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                }
+            },
+            "contact": {
+                "facebook": "https://www.facebook.com/campfireforyou",
+                "twitter_link": "https://twitter.com/campfireforyou",
+                "twitter_id": "",
+                "twitter_screen_name": "",
+                "twitter_name": "",
+                "website": "http://campfireforyou.com/"
+            }
+        },
+        {
+            "name": "Crisp Crêperie",
+            "cuisine": "French",
+            "payment": "Cash or Cards",
+            "description": "Locally sourced, in-season, top-shelf ingredients in exquisitely crafted cr&#xEA;pes",
+            "schedule": {
+                "monday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "tuesday": {
+                    "address": "2401 Utah Ave S, Starbucks HQ (starting Feb 17th)",
+                    "coordinates": [],
+                    "open": "11:30am",
+                    "close": "14:00pm"
+                },
+                "wednesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "thursday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "friday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "saturday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "sunday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                }
+            },
+            "contact": {
+                "facebook": "https://www.facebook.com/CrispSeattle",
+                "twitter_link": "https://twitter.com/CrispSeattle",
+                "twitter_id": "",
+                "twitter_screen_name": "",
+                "twitter_name": "",
+                "website": "http://www.crispseattle.com"
+            }
+        },
+        {
+            "name": "Budha Bear Bagels",
+            "cuisine": "Sandwiches",
+            "payment": "Cash or cards",
+            "description": "Gourmet Bagel Sandwiches",
+            "schedule": {
+                "monday": {
+                    "address": "UW Tacoma across from the Spaghetti Factory",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "14:00pm"
+                },
+                "tuesday": {
+                    "address": "UW Tacoma across from the Spaghetti Factory",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "14:00pm"
+                },
+                "wednesday": {
+                    "address": "UW Tacoma across from the Spaghetti Factory",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "14:00pm"
+                },
+                "thursday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "friday": {
+                    "address": "Sounder Station on the corner of Meridian and Stewart right across from Salon Ish",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "14:00pm"
+                },
+                "saturday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "sunday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                }
+            },
+            "contact": {
+                "facebook": "https://www.facebook.com/BudhaBearBagelsCafe",
+                "twitter_link": "https://twitter.com/BudhaBearBagels",
+                "twitter_id": "",
+                "twitter_screen_name": "",
+                "twitter_name": "",
+                "website": ""
+            }
+        },
+        {
+            "name": "Contigo",
+            "cuisine": "Mexican",
+            "payment": "Cash or Cards",
+            "description": "Modern Mexican — hand made tortillas and gorditas, all gluten-free!",
+            "schedule": {
+                "monday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "tuesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "wednesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "thursday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "friday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "saturday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "sunday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                }
+            },
+            "contact": {
+                "facebook": "https://www.facebook.com/contigoseattle",
+                "twitter_link": "https://twitter.com/ContigoSeattle",
+                "twitter_id": "",
+                "twitter_screen_name": "",
+                "twitter_name": "",
+                "website": "http://www.contigoseattle.com"
+            }
+        },
+        {
+            "name": "Not found, error 404",
+            "schedule": {
+                "monday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "tuesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "wednesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "thursday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "friday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "saturday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "sunday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                }
+            },
+            "contact": {
+                "twitter_id": "",
+                "twitter_screen_name": "",
+                "twitter_name": ""
+            }
+        },
+        {
+            "name": "Charlie’s",
+            "cuisine": "Burgers / Cheesesteaks",
+            "payment": "Cash or Cards",
+            "description": "A fresh take on American diner fare",
+            "schedule": {
+                "monday": {
+                    "address": "531 Stewart St, McGraw Square",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "14:00pm"
+                },
+                "tuesday": {
+                    "address": "Microsoft Campus",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "14:00pm"
+                },
+                "wednesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "thursday": {
+                    "address": "Microsoft Campus",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "14:00pm"
+                },
+                "friday": {
+                    "address": "Microsoft Campus",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "14:00pm"
+                },
+                "saturday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "sunday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                }
+            },
+            "contact": {
+                "facebook": "https://www.facebook.com/charliesbuns",
+                "twitter_link": "https://twitter.com/CharliesBuns",
+                "twitter_id": "",
+                "twitter_screen_name": "",
+                "twitter_name": "",
+                "website": "http://www.charliesbunsnstuff.com"
+            }
+        },
+        {
+            "name": "Carmelitos",
+            "cuisine": "Peruvian",
+            "payment": "Cash or Cards",
+            "description": "We are a Peruvian treat truck specializing in doughnuts, cakes, cookies, and ice creams. We also serve fresh juice as well as cold brew and pour over style coffee.",
+            "schedule": {
+                "monday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "tuesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "wednesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "thursday": {
+                    "address": "6300 Seaview Ave NW, Surf Ballard",
+                    "coordinates": [],
+                    "open": "10:00am",
+                    "close": "18:00pm"
+                },
+                "friday": {
+                    "address": "6300 Seaview Ave NW, Surf Ballard",
+                    "coordinates": [],
+                    "open": "10:00am",
+                    "close": "18:00pm"
+                },
+                "saturday": {
+                    "address": "6300 Seaview Ave NW, Surf Ballard",
+                    "coordinates": [],
+                    "open": "10:00am",
+                    "close": "18:00pm"
+                },
+                "sunday": {
+                    "address": "6300 Seaview Ave NW, Surf Ballard",
+                    "coordinates": [],
+                    "open": "10:00am",
+                    "close": "18:00pm"
+                }
+            },
+            "contact": {
+                "facebook": "https://www.facebook.com/carmelitosballard",
+                "twitter_link": "",
+                "twitter_id": "",
+                "twitter_screen_name": "",
+                "twitter_name": "",
+                "website": ""
+            }
+        },
+        {
+            "name": "Djung on Wheels",
+            "cuisine": "Thai",
+            "payment": "Cash or Cards",
+            "description": "Family-owned business offering great Thai food",
+            "schedule": {
+                "monday": {
+                    "address": "Boren Ave N and Harrison St, SLU Pods",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "14:00pm"
+                },
+                "tuesday": {
+                    "address": "9th Ave and Virginia St",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "14:00pm"
+                },
+                "wednesday": {
+                    "address": "Boren Ave N and Harrison St, SLU Pods",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "14:00pm"
+                },
+                "thursday": {
+                    "address": "9th Ave and Virginia St",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "14:00pm"
+                },
+                "friday": {
+                    "address": "Boren Ave N and Harrison St, SLU Pods",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "14:00pm"
+                },
+                "saturday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "sunday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                }
+            },
+            "contact": {
+                "facebook": "https://www.facebook.com/djungfood",
+                "twitter_link": "",
+                "twitter_id": "",
+                "twitter_screen_name": "",
+                "twitter_name": "",
+                "website": ""
+            }
+        },
+        {
+            "name": "Danielle’s Crêpes",
+            "cuisine": "French",
+            "payment": "Cash or Cards",
+            "description": "Savory and sweet crepes; breakfast, lunch and dinner; hot coffee and espresso drinks",
+            "schedule": {
+                "monday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "tuesday": {
+                    "address": "6100 4th Ave S, Pacific Market Center",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "14:00pm"
+                },
+                "wednesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "thursday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "friday": {
+                    "address": "860 Terry Ave N, MOHAI",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "15:00pm"
+                },
+                "saturday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "sunday": {
+                    "address": "7216 Aurora Ave N, Greenlake Vapor",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "16:00pm"
+                }
+            },
+            "contact": {
+                "facebook": "https://www.facebook.com/pages/Crema-Creperie-Espresso-Bar/303099846462139",
+                "twitter_link": "",
+                "twitter_id": "",
+                "twitter_screen_name": "",
+                "twitter_name": "",
+                "website": "http://cremacreperie.com/"
+            }
+        },
+        {
+            "name": "Curb Jumper Street Eats",
+            "cuisine": "Sandwiches / Burgers",
+            "payment": "Cash or Cards",
+            "description": "Gourmet Sliders and Specialty Sandwiches",
+            "schedule": {
+                "monday": {
+                    "address": "Microsoft Campus, varying locations",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "14:00pm"
+                },
+                "tuesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "wednesday": {
+                    "address": "Microsoft Campus, varying locations",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "14:00pm"
+                },
+                "thursday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "friday": {
+                    "address": "Microsoft Campus, varying locations",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "14:00pm"
+                },
+                "saturday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "sunday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                }
+            },
+            "contact": {
+                "facebook": "https://www.facebook.com/CurbJumperStreetEats",
+                "twitter_link": "https://twitter.com/CurbJumper206",
+                "twitter_id": "",
+                "twitter_screen_name": "",
+                "twitter_name": "",
+                "website": "http://www.curbjumperstreeteats.com"
+            }
+        },
+        {
+            "name": "Chick’n Fix",
+            "cuisine": "American / Filipino",
+            "payment": "Cash or Cards",
+            "description": "Serving up delicious chicken treats!",
+            "schedule": {
+                "monday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "tuesday": {
+                    "address": "Boren Ave N and Harrison St, SLU Pods (alternating)",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "14:00pm"
+                },
+                "wednesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "thursday": {
+                    "address": "Boren Ave N and Harrison St, SLU Pods",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "14:00pm"
+                },
+                "friday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "saturday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "sunday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                }
+            },
+            "contact": {
+                "facebook": "https://www.facebook.com/chickn.fix",
+                "twitter_link": "https://twitter.com/Chicknfix",
+                "twitter_id": "",
+                "twitter_screen_name": "",
+                "twitter_name": "",
+                "website": "http://www.chicknfix.com"
+            }
+        },
+        {
+            "name": "Dogfather Catering",
+            "cuisine": "Hot dogs, sausages, wood fired pizza",
+            "payment": "Cash or Cards",
+            "description": "Hot dogs, sausages and wood-fired pizza",
+            "schedule": {
+                "monday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "tuesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "wednesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "thursday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "friday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "saturday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "sunday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                }
+            },
+            "contact": {
+                "facebook": "https://www.facebook.com/dogfathercatering",
+                "twitter_link": "https://www.twitter.com/dogfathercater",
+                "twitter_id": "",
+                "twitter_screen_name": "",
+                "twitter_name": "",
+                "website": ""
+            }
+        },
+        {
+            "name": "Das Brat Wagen",
+            "cuisine": "Bratwurst",
+            "payment": "Cash or Cards",
+            "description": "German-Style mobile food cart",
+            "schedule": {
+                "monday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "tuesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "wednesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "thursday": {
+                    "address": "1550 NW 49th St, Hilliard&#x2019;s Beer",
+                    "coordinates": [],
+                    "open": "16:00pm",
+                    "close": "21:00pm"
+                },
+                "friday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "saturday": {
+                    "address": "503 6th St S, Chainline Brewing",
+                    "coordinates": [],
+                    "open": "12:00pm",
+                    "close": "20:00pm"
+                },
+                "sunday": {
+                    "address": "1550 NW 49th St, Hilliard&#x2019;s Beer",
+                    "coordinates": [],
+                    "open": "14:00pm",
+                    "close": "19:00pm"
+                }
+            },
+            "contact": {
+                "facebook": "https://www.facebook.com/dasbrat.wagen",
+                "twitter_link": "https://twitter.com/dasbrat",
+                "twitter_id": "",
+                "twitter_screen_name": "",
+                "twitter_name": "",
+                "website": "http://www.dasbratwagen.com/"
+            }
+        },
+        {
+            "name": "Dog Japon",
+            "cuisine": "Hot Dogs",
+            "payment": "Cash or Cards (for a fee)",
+            "description": "Hot dogs with a Japanese sensibility",
+            "schedule": {
+                "monday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "tuesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "wednesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "thursday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "friday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "saturday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "sunday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                }
+            },
+            "contact": {
+                "facebook": "",
+                "twitter_link": "",
+                "twitter_id": "",
+                "twitter_screen_name": "",
+                "twitter_name": "",
+                "website": ""
+            }
+        },
+        {
+            "name": "Cheese Wizards",
+            "cuisine": "Sandwiches",
+            "payment": "Cash, Cards, or Level Up",
+            "description": "Grilled Cheese Magic",
+            "schedule": {
+                "monday": {
+                    "address": "Westlake Ave N and Republican St, next to the Tesla dealership",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "14:00pm"
+                },
+                "tuesday": {
+                    "address": "144 Western Ave W, Marx Foods",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "14:00pm"
+                },
+                "wednesday": {
+                    "address": "106th Ave NE and NE 6th St, Barnes and Noble",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "14:00pm"
+                },
+                "thursday": {
+                    "address": "Westlake Ave N and Republican St, near Tesla",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "14:00pm"
+                },
+                "friday": {
+                    "address": "144 Western Ave W, Marx Foods",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "14:00pm"
+                },
+                "saturday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "sunday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                }
+            },
+            "contact": {
+                "facebook": "https://www.facebook.com/CheeseWizards",
+                "twitter_link": "https://twitter.com/CheeseWizards",
+                "twitter_id": "",
+                "twitter_screen_name": "",
+                "twitter_name": "",
+                "website": "http://wizardsofcheese.com"
+            }
+        },
+        {
+            "name": "Chopstix",
+            "cuisine": "Asian Fusion",
+            "payment": "Cash or Cards",
+            "description": "Asian Fusion, like the truck&#x2019;s name Chopstix. Our specialty is a little twist of Asian cuisine with western cuisine",
+            "schedule": {
+                "monday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "tuesday": {
+                    "address": "Pier 54",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "14:00pm"
+                },
+                "wednesday": {
+                    "address": "Terry Ave N and Republican St",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "14:00pm"
+                },
+                "thursday": {
+                    "address": "1st Ave S &amp; S King St",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "14:00pm"
+                },
+                "friday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "saturday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "sunday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                }
+            },
+            "contact": {
+                "facebook": "https://www.facebook.com/chopstixmobile",
+                "twitter_link": "https://twitter.com/ChopstixMobile",
+                "twitter_id": "",
+                "twitter_screen_name": "",
+                "twitter_name": "",
+                "website": "http://www.chopstixmobile.com"
+            }
+        },
+        {
+            "name": "Cake Mobile",
+            "cuisine": "Sweets",
+            "payment": "Unknown",
+            "description": "Events and festivals, and parked at their building near the Tacoma Dome before and after concerts and Dome events.",
+            "schedule": {
+                "monday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "tuesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "wednesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "thursday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "friday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "saturday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "sunday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                }
+            },
+            "contact": {
+                "facebook": "https://www.facebook.com/celebritycakestudio",
+                "twitter_link": "",
+                "twitter_id": "",
+                "twitter_screen_name": "",
+                "twitter_name": "",
+                "website": ""
+            }
+        },
+        {
+            "name": "BUNS",
+            "cuisine": "Burgers",
+            "payment": "Cash or Cards",
+            "description": "Gourmet burgers made from organic ingredients.",
+            "schedule": {
+                "monday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "tuesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "wednesday": {
+                    "address": "201 Terry Ave N",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "14:00pm"
+                },
+                "thursday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "friday": {
+                    "address": "2nd Ave and Union St",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "14:00pm"
+                },
+                "saturday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "sunday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                }
+            },
+            "contact": {
+                "facebook": "https://www.facebook.com/bunsburger",
+                "twitter_link": "https://twitter.com/BunsOnWheels",
+                "twitter_id": "",
+                "twitter_screen_name": "",
+                "twitter_name": "",
+                "website": "http://www.bunsonwheels.com"
+            }
+        },
+        {
+            "name": "Flair Taco",
+            "cuisine": "Mexican",
+            "payment": "Cash Only",
+            "description": "Regular taco truck in the Fremont neighborhood — open 7 days a week and late night.",
+            "schedule": {
+                "monday": {
+                    "address": "166 N 35th St",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "22:00pm"
+                },
+                "tuesday": {
+                    "address": "166 N 35th St",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "22:00pm"
+                },
+                "wednesday": {
+                    "address": "166 N 35th St",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "22:00pm"
+                },
+                "thursday": {
+                    "address": "166 N 35th St",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "23:00pm"
+                },
+                "friday": {
+                    "address": "166 N 35th St",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "4:00am"
+                },
+                "saturday": {
+                    "address": "166 N 35th St",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "4:00am"
+                },
+                "sunday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                }
+            },
+            "contact": {
+                "facebook": "https://www.facebook.com/pages/Flair-Taco/197832600252403",
+                "twitter_link": "",
+                "twitter_id": "",
+                "twitter_screen_name": "",
+                "twitter_name": "",
+                "website": ""
+            }
+        },
+        {
+            "name": "Curbside Urban Cuisine",
+            "cuisine": "Sandwiches",
+            "payment": "Cash or Cards",
+            "description": "",
+            "schedule": {
+                "monday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "tuesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "wednesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "thursday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "friday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "saturday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "sunday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                }
+            },
+            "contact": {
+                "facebook": "https://www.facebook.com/pages/Curbside-Urban-Cuisine/740252582724320",
+                "twitter_link": "",
+                "twitter_id": "",
+                "twitter_screen_name": "",
+                "twitter_name": "",
+                "website": "http://www.bates.ctc.edu/CulinaryArts"
+            }
+        },
+        {
+            "name": "Dante’s Inferno Dogs",
+            "schedule": {
+                "monday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "tuesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "wednesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "thursday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "friday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "saturday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "sunday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                }
+            },
+            "contact": {
+                "twitter_id": "",
+                "twitter_screen_name": "",
+                "twitter_name": ""
+            }
+        },
+        {
+            "name": "Dirty Dog",
+            "cuisine": "Hot Dogs",
+            "payment": "Cash or Cards",
+            "description": "Seattle&#x2019;s best hot dog, cream cheese and grilled onions. Try dirty dirty dog with bacon!",
+            "schedule": {
+                "monday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "tuesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "wednesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "thursday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "friday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "saturday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "sunday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                }
+            },
+            "contact": {
+                "facebook": "https://www.facebook.com/dirtydog",
+                "twitter_link": "https://twitter.com/seadirtyd",
+                "twitter_id": "",
+                "twitter_screen_name": "",
+                "twitter_name": "",
+                "website": "http://dirtydoghotdog.com/"
+            }
+        },
+        {
+            "name": "Don Lucho’s",
+            "cuisine": "Peruvian",
+            "payment": "Cash or Cards",
+            "description": "Latin sandwiches",
+            "schedule": {
+                "monday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "tuesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "wednesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "thursday": {
+                    "address": "Queen Anne Farmers Market",
+                    "coordinates": [],
+                    "open": "12:00pm",
+                    "close": "16:00pm"
+                },
+                "friday": {
+                    "address": "1550 NW 49th St, Hilliard&#x2019;s Beer",
+                    "coordinates": [],
+                    "open": "18:00pm",
+                    "close": "21:00pm"
+                },
+                "saturday": {
+                    "address": "Bellevue Farmers Market",
+                    "coordinates": [],
+                    "open": "7:00am",
+                    "close": "12:00pm"
+                },
+                "sunday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                }
+            },
+            "contact": {
+                "facebook": "https://www.facebook.com/donluchos206",
+                "twitter_link": "https://www.twitter.com/donluchos",
+                "twitter_id": "",
+                "twitter_screen_name": "",
+                "twitter_name": "",
+                "website": "http://www.donluchosinseattle.com"
+            }
+        },
+        {
+            "name": "Bumbu Truck",
+            "cuisine": "Indonesian",
+            "payment": "Cash or Cards",
+            "description": "Indonesian Street Food",
+            "schedule": {
+                "monday": {
+                    "address": "101 Elliot Ave W, Seattle PI",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "14:00pm"
+                },
+                "tuesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "wednesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "thursday": {
+                    "address": "3100 Northup Way, UW Clinic",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "14:00pm"
+                },
+                "friday": {
+                    "address": "5000-5020 148th Ave NE, Redmond Woods",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "14:00pm"
+                },
+                "saturday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "sunday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                }
+            },
+            "contact": {
+                "facebook": "https://www.facebook.com/Bumbutruck",
+                "twitter_link": "https://twitter.com/bumbutruck",
+                "twitter_id": "",
+                "twitter_screen_name": "",
+                "twitter_name": "",
+                "website": "http://www.bumbutruck.com"
+            }
+        },
+        {
+            "name": "Not found, error 404",
+            "schedule": {
+                "monday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "tuesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "wednesday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "thursday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "friday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "saturday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "sunday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                }
+            },
+            "contact": {
+                "twitter_id": "",
+                "twitter_screen_name": "",
+                "twitter_name": ""
+            }
+        },
+        {
+            "name": "Ezell’s Express",
+            "cuisine": "Southern",
+            "payment": "Cash or Cards",
+            "description": "Fresh, Good and Fast! Famous fried chicken",
+            "schedule": {
+                "monday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "tuesday": {
+                    "address": "Microsoft Campus",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "15:00pm"
+                },
+                "wednesday": {
+                    "address": "500 Yale Ave, WeWork",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "14:00pm"
+                },
+                "thursday": {
+                    "address": "2401 Utah Ave S, Starbucks HQ",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "14:00pm"
+                },
+                "friday": {
+                    "address": "101 Elliott Ave W, PI Building",
+                    "coordinates": [],
+                    "open": "11:00am",
+                    "close": "14:00pm"
+                },
+                "saturday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "sunday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                }
+            },
+            "contact": {
+                "facebook": "https://www.facebook.com/pages/Ezells-Express/119007364918927",
+                "twitter_link": "https://twitter.com/EzellsExpress1",
+                "twitter_id": "",
+                "twitter_screen_name": "",
+                "twitter_name": "",
+                "website": ""
+            }
+        },
+        {
+            "name": "Delicatessen Montanti",
+            "cuisine": "Sandwiches",
+            "payment": "Cash or Cards",
+            "description": "East Coast deli sandwiches to die for!",
+            "schedule": {
+                "monday": {
+                    "address": "2600 Airport Way S, Sanderson Safety",
+                    "coordinates": [],
+                    "open": "8:00am",
+                    "close": "14:00pm"
+                },
+                "tuesday": {
+                    "address": "1150  114th Ave SE, Bellefield Office Park, Conifer Building, mid-park",
+                    "coordinates": [],
+                    "open": "8:00am",
+                    "close": "14:00pm"
+                },
+                "wednesday": {
+                    "address": "2600 Airport Way S, Sanderson Safety",
+                    "coordinates": [],
+                    "open": "8:00am",
+                    "close": "14:00pm"
+                },
+                "thursday": {
+                    "address": "6100 4th Ave S, Pacific Market Center",
+                    "coordinates": [],
+                    "open": "8:00am",
+                    "close": "14:00pm"
+                },
+                "friday": {
+                    "address": "2600 Airport Way S, Sanderson Safety",
+                    "coordinates": [],
+                    "open": "8:00am",
+                    "close": "14:00pm"
+                },
+                "saturday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                },
+                "sunday": {
+                    "address": "",
+                    "coordinates": [],
+                    "open": "",
+                    "close": ""
+                }
+            },
+            "contact": {
+                "facebook": "https://www.facebook.com/pages/Delicatessen-Montanti/823352311016462",
+                "twitter_link": "",
+                "twitter_id": "",
+                "twitter_screen_name": "",
+                "twitter_name": "",
+                "website": "http://montanti.wix.com/delicatessenmontanti"
             }
         }
     ]

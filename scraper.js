@@ -52,7 +52,17 @@ app.get('/scrape', function(req, res) {
 		var this_truck = truck_links[counter];
 
 
-	request(this_truck, function(error, response, html) {
+	request(this_truck, {timeout: 600000000}, function(error, response, html) {
+		if (error) {
+			console.log("\n*** REQUEST ERROR: ", error);
+			fs.writeFile('food_trucks_data.json', JSON.stringify(food_truck_json, null, 4), function(err) {
+	      if (err) {
+	        console.log("Write file error: ", err);
+	      }
+	        	console.log('Success!');
+	        });
+		}
+
 		if (!error) {
 			var $ = cheerio.load(html);
 
@@ -160,7 +170,7 @@ app.get('/scrape', function(req, res) {
 				// console.log("*** this cell: ", cell_pairs[i]);
 			}
 
-			console.log("\n*** CELL PAIRS: \n", cell_pairs);
+			// console.log("\n*** CELL PAIRS: \n", cell_pairs);
 
 
 			// ASSIGN TO JSON
@@ -326,8 +336,8 @@ app.get('/scrape', function(req, res) {
 			var twitter_index = cell_pairs.indexOf("Twitter:") + 1;
 			json.contact.twitter_link = cell_pairs[twitter_index];
 
-			var twitter_screen_name = cell_pairs[twitter_index].split("twitter.com/")[1];
-			json.contact.twitter_screen_name = twitter_screen_name;
+			// var twitter_screen_name = cell_pairs[twitter_index].split("twitter.com/")[1];
+			// json.contact.twitter_screen_name = twitter_screen_name;
 
 			var website_index = cell_pairs.indexOf("Website:") + 1;
 			json.contact.website = cell_pairs[website_index];
