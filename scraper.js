@@ -48,15 +48,15 @@ var two_trucks = ['http://www.seattlefoodtruck.com/index.php/trucks/314-pie/', '
 
 app.get('/scrape', function(req, res) {
 	// url = 'http://www.seattlefoodtruck.com/index.php/trucks/314-pie/';
-	for (counter = 0; counter < two_trucks.length; counter++) {
-		var this_truck = two_trucks[counter];
+	for (counter = 0; counter < truck_links.length; counter++) {
+		var this_truck = truck_links[counter];
 
 
 	request(this_truck, function(error, response, html) {
 		if (!error) {
 			var $ = cheerio.load(html);
 
-			sleep.sleep(1);
+			// sleep.usleep(250000);
 
 			var name, cuisine, payment, description, facebook, twitter, website;
 			var stuff;
@@ -127,9 +127,9 @@ app.get('/scrape', function(req, res) {
 
 			var cell_pairs = [];
 			var cells = $(".entry-content td");
-			console.log("*** CELLS COUNT: ", cells.length);
+			// console.log("*** CELLS COUNT: ", cells.length);
 			cells.each(function(index, value) {
-				console.log("*** CELL[" + index + "]: ", $(this).html());
+				// console.log("*** CELL[" + index + "]: ", $(this).html());
 				var orig_html = $(this).html();
 				if (orig_html.indexOf("<br>") != -1) {
 					var cut_hood = orig_html.split("<br>")[1];
@@ -157,7 +157,7 @@ app.get('/scrape', function(req, res) {
 					cell_pairs[i] = cell_pairs[i].replace(" &#x2013; ", " — ").trim();
 				}
 
-				console.log("*** this cell: ", cell_pairs[i]);
+				// console.log("*** this cell: ", cell_pairs[i]);
 			}
 
 			console.log("\n*** CELL PAIRS: \n", cell_pairs);
@@ -344,7 +344,7 @@ app.get('/scrape', function(req, res) {
         });
 
         // res.send('Success!');
-	console.log("\n*** FOOD TRUCKS JSON: ", food_truck_json);
+	// console.log("\n*** FOOD TRUCKS JSON: ", food_truck_json);
 }); // END REQUEST
 
 } // end for loop
