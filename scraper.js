@@ -19,7 +19,7 @@ app.get('/scrape', function(req, res) {
 		if (!error) {
 			var $ = cheerio.load(html);
 
-			sleep.usleep(250000);
+			sleep.sleep(1);
 
 			var name, cuisine, payment, description, facebook, twitter, website;
 			var stuff;
@@ -32,64 +32,43 @@ app.get('/scrape', function(req, res) {
 					{
 						monday: {
 							address: "",
-							coordinates: [
-								null,
-								null
-							],
+							coordinates: [],
 							open: "",
 							close: ""
 						},
 						tuesday: {
 							address: "",
-							coordinates: [
-								null,
-								null
-							],
+							coordinates: [],
 							open: "",
 							close: ""
 						},
 						wednesday: {
 							address: "",
-							coordinates: [
-								null,
-								null
-							],
+							coordinates: [],
 							open: "",
 							close: ""
 						},
 						thursday: {
 							address: "",
-							coordinates: [
-								null,
-								null
-							],
+							coordinates: [],
 							open: "",
 							close: ""
 						},
 						friday: {
 							address: "",
-							coordinates: [
-								null,
-								null
-							],
+							coordinates: [],
 							open: "",
 							close: ""
 						},
 						saturday: {
 							address: "",
-							coordinates: [
-								null,
-								null
-							],
+							coordinates: [],
 							open: "",
 							close: ""
 						},
 						sunday: {
 							address: "",
-							coordinates: [
-								null,
-								null
-							],
+							coordinates: [],
 							open: "",
 							close: ""
 						}
@@ -310,33 +289,14 @@ app.get('/scrape', function(req, res) {
 			var twitter_index = cell_pairs.indexOf("Twitter:") + 1;
 			json.contact.twitter_link = cell_pairs[twitter_index];
 
+			var twitter_screen_name = cell_pairs[twitter_index].split("twitter.com/")[1];
+			json.contact.twitter_screen_name = twitter_screen_name;
+
 			var website_index = cell_pairs.indexOf("Website:") + 1;
 			json.contact.website = cell_pairs[website_index];
 
       console.log("\n*** JSON: \n", json);
 			food_truck_json.food_trucks.push(json);
-			// console.log("json.name: ", json.name);
-			// console.log("rows: \n", rows);
-
-
-			// links.each(function() {
-		  //       // var links = $(this);
-      //       var href = this.href;
-		  //       // title = links.children().first().text();
-		  //       // release = links.children().last().children().text();
-      //
-		  //       // json.title = title;
-		  //       // json.release = release;
-      //       truck_links.push(this.href);
-      //
-	    //     });
-
-	        // $('.star-box-giga-star').filter(function(){
-	        // 	var links = $(this);
-	        // 	rating = links.text();
-          //
-	        // 	json.rating = rating;
-	        // });
 		}
 
 		fs.writeFile('food_trucks_data.json', JSON.stringify(food_truck_json, null, 4), function(err){
@@ -350,7 +310,7 @@ app.get('/scrape', function(req, res) {
 	console.log("*** FOOD TRUCKS JSON: ", food_truck_json);
 }); // END REQUEST
 
-} // end for loop, move down after request
+} // end for loop
 
 
 
