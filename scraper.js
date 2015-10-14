@@ -377,7 +377,7 @@ app.get('/scrape', function(req, res) {
       if (err) {
         console.log("Write file error: ", err);
       }
-        	console.log('Success!');
+        	console.log("***Success! Truck #", counter+1);
         });
 
         // res.send('Success!');
