@@ -17,6 +17,7 @@
     "mongodb": "^2.0.45",
     "mongoose": "^4.1.10",
     "morgan": "~1.6.1",
+    "node-env-file": "^0.1.7",
     "nodemon": "^1.7.1",
     "request": "latest",
     "serve-favicon": "~2.3.0",
