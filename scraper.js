@@ -183,15 +183,6 @@ app.get('/scrape', function(req, res) {
 
 
 			// ASSIGN TO JSON
-			var cuisine_index = cell_pairs.indexOf("Food Type:") + 1;
-			json.cuisine = cell_pairs[cuisine_index];
-
-			var payment_index = cell_pairs.indexOf("Payment:") + 1;
-			json.payment = cell_pairs[payment_index];
-
-			var description_index = cell_pairs.indexOf("Description:") + 1;
-			json.description = cell_pairs[description_index];
-
 			var Monday_header_index = cell_pairs.indexOf("Monday:");
 			var Tuesday_header_index = cell_pairs.indexOf("Tuesday:");
 			var Wednesday_header_index = cell_pairs.indexOf("Wednesday:");
@@ -199,6 +190,10 @@ app.get('/scrape', function(req, res) {
 			var Friday_header_index = cell_pairs.indexOf("Friday:");
 			var Saturday_header_index = cell_pairs.indexOf("Saturday:");
 			var Sunday_header_index = cell_pairs.indexOf("Sunday:");
+
+			if (Monday_header_index == -1 && Tuesday_header_index == -1 && Wednesday_header_index == -1 && Thursday_header_index == -1 && Friday_header_index == -1 && Saturday_header_index == -1 && Sunday_header_index == -1 ) {
+				return;
+			}
 
 			var header_indices = [Monday_header_index, Tuesday_header_index, Wednesday_header_index, Thursday_header_index, Friday_header_index, Saturday_header_index, Sunday_header_index];
 			var header_words = ["Monday:", "Tuesday:", "Wednesday:", "Thursday:", "Friday:", "Saturday:", "Sunday:"];
@@ -360,6 +355,15 @@ app.get('/scrape', function(req, res) {
 					}
 				}
 			}
+
+			var cuisine_index = cell_pairs.indexOf("Food Type:") + 1;
+			json.cuisine = cell_pairs[cuisine_index];
+
+			var payment_index = cell_pairs.indexOf("Payment:") + 1;
+			json.payment = cell_pairs[payment_index];
+
+			var description_index = cell_pairs.indexOf("Description:") + 1;
+			json.description = cell_pairs[description_index];
 
 			var facebook_index = cell_pairs.indexOf("Facebook:");
 			json.contact.facebook = cell_pairs[facebook_index + 1];
