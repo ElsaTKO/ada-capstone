@@ -357,17 +357,19 @@ app.get('/scrape', function(req, res) {
 				}
 			}
 
-			var facebook_index = cell_pairs.indexOf("Facebook:") + 1;
-			json.contact.facebook = cell_pairs[facebook_index];
+			var facebook_index = cell_pairs.indexOf("Facebook:");
+			json.contact.facebook = cell_pairs[facebook_index + 1];
 
-			var twitter_index = cell_pairs.indexOf("Twitter:") + 1;
-			json.contact.twitter_link = cell_pairs[twitter_index];
+			var twitter_index = cell_pairs.indexOf("Twitter:");
+			json.contact.twitter_link = cell_pairs[twitter_index + 1];
 
-			// var twitter_screen_name = cell_pairs[twitter_index].split("twitter.com/")[1];
-			// json.contact.twitter_screen_name = twitter_screen_name;
+			if (twitter_index != -1) {
+				var twitter_screen_name = cell_pairs[twitter_index + 1].split("twitter.com/")[1];
+				json.contact.twitter_screen_name = twitter_screen_name;
+			}
 
-			var website_index = cell_pairs.indexOf("Website:") + 1;
-			json.contact.website = cell_pairs[website_index];
+			var website_index = cell_pairs.indexOf("Website:");
+			json.contact.website = cell_pairs[website_index + 1];
 
       // console.log("\n*** JSON: \n", json);
 			food_truck_json.food_trucks.push(json);
