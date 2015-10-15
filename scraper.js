@@ -56,8 +56,7 @@ app.get('/scrape', function(req, res) {
 	for (counter = 0; counter < truck_links.length; counter++) {
 		var this_truck = truck_links[counter];
 
-
-	request(this_truck, {timeout: 600000000}, function(error, response, html) {
+	request(this_truck, function(error, response, html) {
 		if (error) {
 			console.log("\n*** REQUEST ERROR: ", error);
 			fs.writeFile('food_trucks_data_' + timestamp + '.json', JSON.stringify(food_truck_json, null, 4), function(err) {
@@ -138,7 +137,12 @@ app.get('/scrape', function(req, res) {
 			};
 
 			name = $(".entry-title").text();
-      json.name = name;
+			// if page is dead, skip
+			if (name === "Not found, error 404") {
+				return;
+			} else {
+				json.name = name;
+			}
 
 			var cell_pairs = [];
 			var cells = $(".entry-content td");
@@ -379,7 +383,7 @@ app.get('/scrape', function(req, res) {
       if (err) {
         console.log("Write file error: ", err);
       }
-        	console.log("***Success! Truck #", counter+1);
+        	console.log("***Success!");
         });
 
         // res.send('Success!');
