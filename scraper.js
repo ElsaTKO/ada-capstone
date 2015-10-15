@@ -150,12 +150,13 @@ app.get('/scrape', function(req, res) {
 			cells.each(function(index, value) {
 				// console.log("*** CELL[" + index + "]: ", $(this).html());
 				var orig_html = $(this).html();
+				var cut_hood, scrubbed_html;
 				if (orig_html.indexOf("<br>") != -1) {
-					var cut_hood = orig_html.split("<br>")[1];
-					var scrubbed_html = cut_hood.replace(/(\r\n|\n|\r)/gm, "").trim();
+					cut_hood = orig_html.split("<br>")[1];
+					scrubbed_html = cut_hood.replace(/(\r\n|\n|\r)/gm, "").trim();
 					cell_pairs[index] = scrubbed_html;
 				} else {
-					var scrubbed_html = orig_html.replace(/(\r\n|\n|\r)/gm, "").trim();
+					scrubbed_html = orig_html.replace(/(\r\n|\n|\r)/gm, "").trim();
 					cell_pairs[index] = scrubbed_html;
 				}
 			});
