@@ -37,6 +37,9 @@ var truckSchema = new Schema({
     twitter_link: String,
     twitter_id: String,
     twitter_screen_name: String,
+    twitter_name: String,
     website: String
   }
 });
+
+module.exports = mongoose.model('FoodTruck', truckSchema);

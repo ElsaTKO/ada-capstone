@@ -1,5 +1,9 @@
 // http://stackoverflow.com/questions/30696946/how-to-import-json-into-mongodb-using-mongoose
 
+var mongoose = require('mongoose');
+var Schema = mongoose.Schema;
+var FoodTruck = require('./models/food_trucks_schema');
+
 
 // EXAMPLE 1
 // > var mongoose = require('mongoose')
