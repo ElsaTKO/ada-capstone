@@ -32,7 +32,7 @@ function convertTime(time) {
 		if (hour == "12") {
 			hour = "0";
 		}
-		new_time = hour + ":" + min + ampm;
+		new_time = hour + ":" + min;
 	}
 	// pm ?
 	if (new_time.indexOf("pm") != -1) {
@@ -44,7 +44,7 @@ function convertTime(time) {
 		if (hour_int < 12) {
 			hour_int = hour_int + 12;
 		}
-		new_time = hour_int + ":" + min + ampm;
+		new_time = hour_int + ":" + min;
 	}
 	return new_time;
 }
