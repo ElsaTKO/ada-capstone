@@ -1,0 +1,5803 @@
+[
+  {
+    "name": "A Fire Inside Wood Fired Pizza",
+    "cuisine": "Pizza",
+    "payment": "Cash or Cards",
+    "description": "Neapolitan Thin Crust Wood Fired Pizza",
+    "schedule": {
+      "monday": {
+        "address": "5th Ave and Union St",
+        "open": "10:30",
+        "close": "14:00"
+      },
+      "tuesday": {
+        "address": "83 King St S, Pioneer Square",
+        "open": "10:30",
+        "close": "14:00"
+      },
+      "wednesday": {
+        "address": "Park Ave and 6th St",
+        "open": "10:30",
+        "close": "14:00"
+      },
+      "thursday": {
+        "address": "83 King St S, Pioneer Square",
+        "open": "10:30",
+        "close": "18:00"
+      },
+      "friday": {
+        "address": "5th Ave and Union St",
+        "open": "10:30",
+        "close": "14:00"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/AFireInsideWoodFiredPizza",
+      "twitter_link": "",
+      "website": ""
+    }
+  },
+  {
+    "name": "Beloved Mexico",
+    "cuisine": "Mexican",
+    "payment": "Cash or Cards",
+    "description": "Authentic Mexican cuisine made w/ natural, organic ingredients.",
+    "schedule": {
+      "monday": {
+        "address": "4722 Fauntleroy Way SW, West Seattle Produce Co parking lot",
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "tuesday": {
+        "address": "4722 Fauntleroy Way SW, West Seattle Produce Co parking lot",
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "wednesday": {
+        "address": "4722 Fauntleroy Way SW, West Seattle Produce Co parking lot",
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "thursday": {
+        "address": "4722 Fauntleroy Way SW, West Seattle Produce Co parking lot",
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "friday": {
+        "address": "4722 Fauntleroy Way SW, West Seattle Produce Co parking lot",
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "saturday": {
+        "address": "4722 Fauntleroy Way SW, West Seattle Produce Co parking lot",
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "sunday": {
+        "address": "4722 Fauntleroy Way SW, West Seattle Produce Co parking lot",
+        "open": "10:00",
+        "close": "20:00"
+      }
+    },
+    "contact": {
+      "facebook": "",
+      "twitter_link": "",
+      "website": "http://www.belovedmexico.com"
+    }
+  },
+  {
+    "name": "Barriga Llena",
+    "cuisine": "Mexican",
+    "payment": "Cash or Cards",
+    "description": "Barriga Llena was the first vendor to introduce traditional Mexican tortas to Seattle, just the way you have them in Mexico City.",
+    "schedule": {
+      "monday": {
+        "address": "Boren Ave N and Harrison St, SLU Pods",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "tuesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "wednesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "thursday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "friday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/barrigallenaseattle",
+      "twitter_link": "https://twitter.com/barrigallena",
+      "twitter_screen_name": "barrigallena",
+      "website": "http://www.labarrigallena.com"
+    }
+  },
+  {
+    "name": "Big Boys Filipino Food Truck",
+    "cuisine": "Filipino / American",
+    "payment": "Cash or Cards",
+    "description": "Bring people together using their sense of Filipino cuisine in a unique and flavorful way.",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": "101 Elliott Ave W, PI Building",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "wednesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "thursday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "friday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/bigboysfilipinofoodtruck",
+      "twitter_link": "https://twitter.com/NateVibez",
+      "twitter_screen_name": "NateVibez",
+      "website": "http://www.bigboysfilipinofoodtruck.com/"
+    }
+  },
+  {
+    "name": "314 PIE",
+    "cuisine": "Sweet and Savory Pies",
+    "payment": "Cash or Cards",
+    "description": "We love pies – sweet and savory. We serve them up to the hungry people in Seattle in our fabulous food truck.",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "wednesday": {
+        "address": "333 Boren Ave N",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "thursday": {
+        "address": "Boren Ave N and Republican St",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "friday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/pages/314-PIE/341309415945288",
+      "twitter_link": "https://twitter.com/314PIESeattle",
+      "twitter_screen_name": "314PIESeattle",
+      "website": "http://www.314pieseattle.com/"
+    }
+  },
+  {
+    "name": "Bomba Fusion",
+    "cuisine": "Korean / Mexican Fusion",
+    "payment": "Cash or Cards",
+    "description": "",
+    "schedule": {
+      "monday": {
+        "address": "1120 Harrison St",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "tuesday": {
+        "address": "401 Pine St, Westlake Park",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "wednesday": {
+        "address": "1000 4th Ave, Seattle Pubic LIbrary",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "thursday": {
+        "address": "401 Pine St, Westlake Park",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "friday": {
+        "address": "Occidental Ave S and S Main St, Occidental Park",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/bombafusion",
+      "twitter_link": "https://twitter.com/bombafusion",
+      "twitter_screen_name": "bombafusion",
+      "website": "http://bombafusion.com/"
+    }
+  },
+  {
+    "name": "Big Dog’s",
+    "cuisine": "Hot Dogs",
+    "payment": "Cash or Cards",
+    "description": "Biggest Weiner Around!",
+    "schedule": {
+      "monday": {
+        "address": "UW Bothell Campus",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "tuesday": {
+        "address": "19940 Old Owen Rd",
+        "open": "11:00",
+        "close": "16:30"
+      },
+      "wednesday": {
+        "address": "Monroe Farmers Market",
+        "open": "15:00",
+        "close": "19:00"
+      },
+      "thursday": {
+        "address": "19940 Old Owen Rd",
+        "open": "11:00",
+        "close": "16:30"
+      },
+      "friday": {
+        "address": "19940 Old Owen Rd",
+        "open": "11:00",
+        "close": "16:30"
+      },
+      "saturday": {
+        "address": "19940 Old Owen Rd",
+        "open": "11:00",
+        "close": "16:30"
+      },
+      "sunday": {
+        "address": "19940 Old Owen Rd",
+        "open": "11:00",
+        "close": "16:30"
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/BigDogsTacos",
+      "twitter_link": "https://twitter.com/BigDogBuzz",
+      "twitter_screen_name": "BigDogBuzz",
+      "website": ""
+    }
+  },
+  {
+    "name": "Campfire Chuck Wagon",
+    "cuisine": "BBQ",
+    "payment": "Cash or Cards",
+    "description": "Slow and low BBQ – our happy meats are sourced locally whenever possible and smoked on average an hour and a half per pound over a real wood fire.",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "wednesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "thursday": {
+        "address": "2300 7th Ave, Downtown Spirits",
+        "open": "11:00",
+        "close": "don:00em"
+      },
+      "friday": {
+        "address": "2300 7th Ave, Downtown Spirits",
+        "open": "11:00",
+        "close": "don:00em"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/campfireforyou",
+      "twitter_link": "https://twitter.com/campfireforyou",
+      "twitter_screen_name": "campfireforyou",
+      "website": "http://campfireforyou.com/"
+    }
+  },
+  {
+    "name": "Bread and Circuses",
+    "cuisine": "Gastropub Style",
+    "payment": "Cash or Cards",
+    "description": "Gastropub",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "wednesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "thursday": {
+        "address": "106th Ave NE and NE 6th St, Barnes and Noble",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "friday": {
+        "address": "1150 114th Ave SE Suite 100, Bellefield Office Park (2nd & 4th Fridays)",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/breadandcircusestruck",
+      "twitter_link": "https://twitter.com/circustruck",
+      "twitter_screen_name": "circustruck",
+      "website": "http://www.eatbreadandcircuses.com/"
+    }
+  },
+  {
+    "name": "BUNS",
+    "cuisine": "Burgers",
+    "payment": "Cash or Cards",
+    "description": "Gourmet burgers made from organic ingredients.",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "wednesday": {
+        "address": "201 Terry Ave N",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "thursday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "friday": {
+        "address": "2nd Ave and Union St",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/bunsburger",
+      "twitter_link": "https://twitter.com/BunsOnWheels",
+      "twitter_screen_name": "BunsOnWheels",
+      "website": "http://www.bunsonwheels.com"
+    }
+  },
+  {
+    "name": "Bumbu Truck",
+    "cuisine": "Indonesian",
+    "payment": "Cash or Cards",
+    "description": "Indonesian Street Food",
+    "schedule": {
+      "monday": {
+        "address": "101 Elliot Ave W, Seattle PI",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "tuesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "wednesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "thursday": {
+        "address": "3100 Northup Way, UW Clinic",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "friday": {
+        "address": "5000-5020 148th Ave NE, Redmond Woods",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/Bumbutruck",
+      "twitter_link": "https://twitter.com/bumbutruck",
+      "twitter_screen_name": "bumbutruck",
+      "website": "http://www.bumbutruck.com"
+    }
+  },
+  {
+    "name": "Budha Bear Bagels",
+    "cuisine": "Sandwiches",
+    "payment": "Cash or cards",
+    "description": "Gourmet Bagel Sandwiches",
+    "schedule": {
+      "monday": {
+        "address": "UW Tacoma across from the Spaghetti Factory",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "tuesday": {
+        "address": "UW Tacoma across from the Spaghetti Factory",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "wednesday": {
+        "address": "UW Tacoma across from the Spaghetti Factory",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "thursday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "friday": {
+        "address": "Sounder Station on the corner of Meridian and Stewart right across from Salon Ish",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/BudhaBearBagelsCafe",
+      "twitter_link": "https://twitter.com/BudhaBearBagels",
+      "twitter_screen_name": "BudhaBearBagels",
+      "website": ""
+    }
+  },
+  {
+    "name": "Caravan Crêpes",
+    "cuisine": "French",
+    "payment": "Cash or Cards",
+    "description": "Sweet and Savory Crêpes",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": "Boren Ave N and Harrison St, SLU Pods,",
+        "open": null,
+        "close": null
+      },
+      "wednesday": {
+        "address": "5th Ave S and S Dearborn St",
+        "open": "11:00",
+        "close": "13:30"
+      },
+      "thursday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "friday": {
+        "address": "Westlake Ave N and Harrison St",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "saturday": {
+        "address": "Magnolia Farmers Market",
+        "open": "10:00",
+        "close": "14:00"
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "",
+      "twitter_link": "https://twitter.com/caravanseattle",
+      "twitter_screen_name": "caravanseattle",
+      "website": "http://www.caravanseattle.com"
+    }
+  },
+  {
+    "name": "Carmelitos",
+    "cuisine": "Peruvian",
+    "payment": "Cash or Cards",
+    "description": "We are a Peruvian treat truck specializing in doughnuts, cakes, cookies, and ice creams. We also serve fresh juice as well as cold brew and pour over style coffee.",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "wednesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "thursday": {
+        "address": "6300 Seaview Ave NW, Surf Ballard",
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "friday": {
+        "address": "6300 Seaview Ave NW, Surf Ballard",
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "saturday": {
+        "address": "6300 Seaview Ave NW, Surf Ballard",
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "sunday": {
+        "address": "6300 Seaview Ave NW, Surf Ballard",
+        "open": "10:00",
+        "close": "18:00"
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/carmelitosballard",
+      "twitter_link": "",
+      "website": ""
+    }
+  },
+  {
+    "name": "Cheese Wizards",
+    "cuisine": "Sandwiches",
+    "payment": "Cash, Cards, or Level Up",
+    "description": "Grilled Cheese Magic",
+    "schedule": {
+      "monday": {
+        "address": "Westlake Ave N and Republican St, next to the Tesla dealership",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "tuesday": {
+        "address": "144 Western Ave W, Marx Foods",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "wednesday": {
+        "address": "106th Ave NE and NE 6th St, Barnes and Noble",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "thursday": {
+        "address": "Westlake Ave N and Republican St, near Tesla",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "friday": {
+        "address": "144 Western Ave W, Marx Foods",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/CheeseWizards",
+      "twitter_link": "https://twitter.com/CheeseWizards",
+      "twitter_screen_name": "CheeseWizards",
+      "website": "http://wizardsofcheese.com"
+    }
+  },
+  {
+    "name": "Danielle’s Crêpes",
+    "cuisine": "French",
+    "payment": "Cash or Cards",
+    "description": "Savory and sweet crepes; breakfast, lunch and dinner; hot coffee and espresso drinks",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": "6100 4th Ave S, Pacific Market Center",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "wednesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "thursday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "friday": {
+        "address": "860 Terry Ave N, MOHAI",
+        "open": "11:00",
+        "close": "15:00"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": "7216 Aurora Ave N, Greenlake Vapor",
+        "open": "11:00",
+        "close": "16:00"
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/pages/Crema-Creperie-Espresso-Bar/303099846462139",
+      "twitter_link": "",
+      "website": "http://cremacreperie.com/"
+    }
+  },
+  {
+    "name": "Charlie’s",
+    "cuisine": "Burgers / Cheesesteaks",
+    "payment": "Cash or Cards",
+    "description": "A fresh take on American diner fare",
+    "schedule": {
+      "monday": {
+        "address": "531 Stewart St, McGraw Square",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "tuesday": {
+        "address": "Microsoft Campus",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "wednesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "thursday": {
+        "address": "Microsoft Campus",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "friday": {
+        "address": "Microsoft Campus",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/charliesbuns",
+      "twitter_link": "https://twitter.com/CharliesBuns",
+      "twitter_screen_name": "CharliesBuns",
+      "website": "http://www.charliesbunsnstuff.com"
+    }
+  },
+  {
+    "name": "Crisp Crêperie",
+    "cuisine": "French",
+    "payment": "Cash or Cards",
+    "description": "Locally sourced, in-season, top-shelf ingredients in exquisitely crafted crêpes",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "wednesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "thursday": {
+        "address": "2401 Utah Ave S, Starbucks HQ",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "friday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/CrispSeattle",
+      "twitter_link": "https://twitter.com/CrispSeattle",
+      "twitter_screen_name": "CrispSeattle",
+      "website": "http://www.crispseattle.com"
+    }
+  },
+  {
+    "name": "Chick’n Fix",
+    "cuisine": "American / Filipino",
+    "payment": "Cash or Cards",
+    "description": "Serving up delicious chicken treats!",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": "Boren Ave N and Harrison St, SLU Pods (alternating)",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "wednesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "thursday": {
+        "address": "Boren Ave N and Harrison St, SLU Pods",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "friday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/chickn.fix",
+      "twitter_link": "https://twitter.com/Chicknfix",
+      "twitter_screen_name": "Chicknfix",
+      "website": "http://www.chicknfix.com"
+    }
+  },
+  {
+    "name": "Delicatessen Montanti",
+    "cuisine": "Sandwiches",
+    "payment": "Cash or Cards",
+    "description": "East Coast deli sandwiches to die for!",
+    "schedule": {
+      "monday": {
+        "address": "2600 Airport Way S, Sanderson Safety",
+        "open": "8:00",
+        "close": "14:00"
+      },
+      "tuesday": {
+        "address": "1150  114th Ave SE, Bellefield Office Park, Conifer Building, mid-park",
+        "open": "8:00",
+        "close": "14:00"
+      },
+      "wednesday": {
+        "address": "2600 Airport Way S, Sanderson Safety",
+        "open": "8:00",
+        "close": "14:00"
+      },
+      "thursday": {
+        "address": "6100 4th Ave S, Pacific Market Center",
+        "open": "8:00",
+        "close": "14:00"
+      },
+      "friday": {
+        "address": "2600 Airport Way S, Sanderson Safety",
+        "open": "8:00",
+        "close": "14:00"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/pages/Delicatessen-Montanti/823352311016462",
+      "twitter_link": "",
+      "website": "http://montanti.wix.com/delicatessenmontanti"
+    }
+  },
+  {
+    "name": "El Camion",
+    "cuisine": "Mexican",
+    "payment": "Cash Only",
+    "description": "Bringing you the finest and most authentic of Mexican cuisine",
+    "schedule": {
+      "monday": {
+        "address": "11728 Aurora Ave N, by the Home Depot",
+        "open": "8:30",
+        "close": "21:00"
+      },
+      "tuesday": {
+        "address": "11728 Aurora Ave N, by the Home Depot",
+        "open": "8:30",
+        "close": "21:00"
+      },
+      "wednesday": {
+        "address": "11728 Aurora Ave N, by the Home Depot",
+        "open": "8:30",
+        "close": "21:00"
+      },
+      "thursday": {
+        "address": "11728 Aurora Ave N, by the Home Depot",
+        "open": "8:30",
+        "close": "21:00"
+      },
+      "friday": {
+        "address": "11728 Aurora Ave N, by the Home Depot",
+        "open": "8:30",
+        "close": "21:00"
+      },
+      "saturday": {
+        "address": "11728 Aurora Ave N, by the Home Depot",
+        "open": "8:30",
+        "close": "21:00"
+      },
+      "sunday": {
+        "address": "11728 Aurora Ave N, by the Home Depot",
+        "open": "8:30",
+        "close": "21:00"
+      }
+    },
+    "contact": {
+      "facebook": "",
+      "twitter_link": "https://twitter.com/elcamionseattle",
+      "twitter_screen_name": "elcamionseattle",
+      "website": "http://www.elcamionseattle.com"
+    }
+  },
+  {
+    "name": "Don Lucho’s",
+    "cuisine": "Peruvian",
+    "payment": "Cash or Cards",
+    "description": "Latin sandwiches",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "wednesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "thursday": {
+        "address": "Queen Anne Farmers Market",
+        "open": "12:00",
+        "close": "16:00"
+      },
+      "friday": {
+        "address": "1550 NW 49th St, Hilliard’s Beer",
+        "open": "18:00",
+        "close": "21:00"
+      },
+      "saturday": {
+        "address": "Bellevue Farmers Market",
+        "open": "7:00",
+        "close": "12:00"
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/donluchos206",
+      "twitter_link": "https://www.twitter.com/donluchos",
+      "twitter_screen_name": "donluchos",
+      "website": "http://www.donluchosinseattle.com"
+    }
+  },
+  {
+    "name": "Djung on Wheels",
+    "cuisine": "Thai",
+    "payment": "Cash or Cards",
+    "description": "Family-owned business offering great Thai food",
+    "schedule": {
+      "monday": {
+        "address": "Boren Ave N and Harrison St, SLU Pods",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "tuesday": {
+        "address": "9th Ave and Virginia St",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "wednesday": {
+        "address": "Boren Ave N and Harrison St, SLU Pods",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "thursday": {
+        "address": "9th Ave and Virginia St",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "friday": {
+        "address": "Boren Ave N and Harrison St, SLU Pods",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/djungfood",
+      "twitter_link": "",
+      "website": ""
+    }
+  },
+  {
+    "name": "Falafel Salam",
+    "cuisine": "Middle Eastern",
+    "payment": "Cash or Cards",
+    "description": "Gourmet, authentic falafel & shawarma",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": "401 Pine St, Westlake Park",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "wednesday": {
+        "address": "Boren Ave N and Harrison St, SLU Pods",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "thursday": {
+        "address": "Boren Ave N and Harrison St, SLU Pods",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "friday": {
+        "address": "Broadway Ave and Pike St",
+        "open": "20:00",
+        "close": "2:30"
+      },
+      "saturday": {
+        "address": "Broadway and Pike",
+        "open": "20:00",
+        "close": "2:30"
+      },
+      "sunday": {
+        "address": "Fremont Sunday Market (cart, not the truck)",
+        "open": "10:00",
+        "close": "16:00"
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/FalafelSalam",
+      "twitter_link": "https://twitter.com/FalafelSalam",
+      "twitter_screen_name": "FalafelSalam",
+      "website": "http://falafelsalam.com"
+    }
+  },
+  {
+    "name": "Curb Jumper Street Eats",
+    "cuisine": "Sandwiches / Burgers",
+    "payment": "Cash or Cards",
+    "description": "Gourmet Sliders and Specialty Sandwiches",
+    "schedule": {
+      "monday": {
+        "address": "Microsoft Campus, varying locations",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "tuesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "wednesday": {
+        "address": "Microsoft Campus, varying locations",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "thursday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "friday": {
+        "address": "Microsoft Campus, varying locations",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/CurbJumperStreetEats",
+      "twitter_link": "https://twitter.com/CurbJumper206",
+      "twitter_screen_name": "CurbJumper206",
+      "website": "http://www.curbjumperstreeteats.com"
+    }
+  },
+  {
+    "name": "El Sabroso de Seattle",
+    "cuisine": "Mexican",
+    "payment": "Cash or Cards",
+    "description": "Specializing in Gourmet Tortas, Tacos, Tamales (on green bannana leaf) and  Quesadillas.",
+    "schedule": {
+      "monday": {
+        "address": "2524 16th Ave S, El Centro de la Raza",
+        "open": "9:00",
+        "close": "18:00"
+      },
+      "tuesday": {
+        "address": "2524 16th Ave S, El Centro de la Raza",
+        "open": "9:00",
+        "close": "18:00"
+      },
+      "wednesday": {
+        "address": "2524 16th Ave S, El Centro de la Raza",
+        "open": "9:00",
+        "close": "18:00"
+      },
+      "thursday": {
+        "address": "2524 16th Ave S, El Centro de la Raza",
+        "open": "9:00",
+        "close": "18:00"
+      },
+      "friday": {
+        "address": "2524 16th Ave S, El Centro de la Raza",
+        "open": "9:00",
+        "close": "18:00"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/elsabrosobeaconhill",
+      "twitter_link": "",
+      "website": "http://www.elsabrosodeseattle.com"
+    }
+  },
+  {
+    "name": "Hallava Falafel",
+    "cuisine": "Mediterranean",
+    "payment": "Cash or Cards",
+    "description": "Falafel and shwarma sandwiches",
+    "schedule": {
+      "monday": {
+        "address": "5825 Airport Way S",
+        "open": "11:00",
+        "close": "15:00"
+      },
+      "tuesday": {
+        "address": "5825 Airport Way S",
+        "open": "11:00",
+        "close": "15:00"
+      },
+      "wednesday": {
+        "address": "2401 Utah Ave S, Starbucks HQ",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "thursday": {
+        "address": "5825 Airport Way S",
+        "open": "11:00",
+        "close": "15:00"
+      },
+      "friday": {
+        "address": "5825 Airport Way S",
+        "open": "11:00",
+        "close": "15:00"
+      },
+      "saturday": {
+        "address": "5825 Airport Way S",
+        "open": "11:00",
+        "close": "15:00"
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/pages/Hallava-Falafel/143082672399060",
+      "twitter_link": "https://twitter.com/seattle_falafel",
+      "twitter_screen_name": "seattle_falafel",
+      "website": "http://www.hallavafalafel.com"
+    }
+  },
+  {
+    "name": "Ezell’s Express",
+    "cuisine": "Southern",
+    "payment": "Cash or Cards",
+    "description": "Fresh, Good and Fast! Famous fried chicken",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": "Microsoft Campus",
+        "open": "11:00",
+        "close": "15:00"
+      },
+      "wednesday": {
+        "address": "500 Yale Ave, WeWork",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "thursday": {
+        "address": "2401 Utah Ave S, Starbucks HQ",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "friday": {
+        "address": "101 Elliott Ave W, PI Building",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/pages/Ezells-Express/119007364918927",
+      "twitter_link": "https://twitter.com/EzellsExpress1",
+      "twitter_screen_name": "EzellsExpress1",
+      "website": ""
+    }
+  },
+  {
+    "name": "HamHock Jones Soul Shack",
+    "cuisine": "BBQ",
+    "payment": "Cash or Cards",
+    "description": "Specializing in Southern Soul Food & BBQ",
+    "schedule": {
+      "monday": {
+        "address": "9202 Washington Blvd SW",
+        "open": "11:00",
+        "close": "19:00"
+      },
+      "tuesday": {
+        "address": "9202 Washington Blvd SW",
+        "open": "11:00",
+        "close": "19:00"
+      },
+      "wednesday": {
+        "address": "9202 Washington Blvd SW",
+        "open": "11:00",
+        "close": "19:00"
+      },
+      "thursday": {
+        "address": "9202 Washington Blvd SW",
+        "open": "11:00",
+        "close": "19:00"
+      },
+      "friday": {
+        "address": "9202 Washington Blvd SW",
+        "open": "11:00",
+        "close": "19:00"
+      },
+      "saturday": {
+        "address": "9202 Washington Blvd SW",
+        "open": "12:00",
+        "close": "19:00"
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/hamhockjonesbbq",
+      "twitter_link": "",
+      "website": ""
+    }
+  },
+  {
+    "name": "El Cabrito",
+    "cuisine": "Mexican",
+    "payment": "Cash or Cards",
+    "description": "Traditional Oaxacan Mexican",
+    "schedule": {
+      "monday": {
+        "address": "828 Rainier Ave S",
+        "open": "11:00",
+        "close": "20:00"
+      },
+      "tuesday": {
+        "address": "828 Rainier Ave S",
+        "open": "11:00",
+        "close": "20:00"
+      },
+      "wednesday": {
+        "address": "828 Rainier Ave S",
+        "open": "11:00",
+        "close": "20:00"
+      },
+      "thursday": {
+        "address": "828 Rainier Ave S",
+        "open": "11:00",
+        "close": "20:00"
+      },
+      "friday": {
+        "address": "828 Rainier Ave S",
+        "open": "11:00",
+        "close": "20:00"
+      },
+      "saturday": {
+        "address": "828 Rainier Ave S",
+        "open": "11:00",
+        "close": "20:00"
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "",
+      "twitter_link": "",
+      "website": ""
+    }
+  },
+  {
+    "name": "Das Brat Wagen",
+    "cuisine": "Bratwurst",
+    "payment": "Cash or Cards",
+    "description": "German-Style mobile food cart",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "wednesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "thursday": {
+        "address": "1550 NW 49th St, Hilliard’s Beer",
+        "open": "16:00",
+        "close": "21:00"
+      },
+      "friday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "saturday": {
+        "address": "503 6th St S, Chainline Brewing",
+        "open": "12:00",
+        "close": "20:00"
+      },
+      "sunday": {
+        "address": "1550 NW 49th St, Hilliard’s Beer",
+        "open": "14:00",
+        "close": "19:00"
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/dasbrat.wagen",
+      "twitter_link": "https://twitter.com/dasbrat",
+      "twitter_screen_name": "dasbrat",
+      "website": "http://www.dasbratwagen.com/"
+    }
+  },
+  {
+    "name": "Chopstix",
+    "cuisine": "Asian Fusion",
+    "payment": "Cash or Cards",
+    "description": "Asian Fusion, like the truck’s name Chopstix. Our specialty is a little twist of Asian cuisine with western cuisine",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": "Pier 54",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "wednesday": {
+        "address": "Terry Ave N and Republican St",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "thursday": {
+        "address": "1st Ave S & S King St",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "friday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/chopstixmobile",
+      "twitter_link": "https://twitter.com/ChopstixMobile",
+      "twitter_screen_name": "ChopstixMobile",
+      "website": "http://www.chopstixmobile.com"
+    }
+  },
+  {
+    "name": "Fez!",
+    "cuisine": "Mediterranean",
+    "payment": "Cash or Cards",
+    "description": "Modern Middle Eastern street food (and drink)!",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": "106th Ave NE and NE 6th St, Barnes and Noble",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "wednesday": {
+        "address": "6100 4th Ave, Pacific Market Center",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "thursday": {
+        "address": "106th Ave NE and NE 6th St",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "friday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/FezOnWheels/info",
+      "twitter_link": "https://twitter.com/fezonwheels",
+      "twitter_screen_name": "fezonwheels",
+      "website": "http://www.fezonwheels.com"
+    }
+  },
+  {
+    "name": "I Love My GFF",
+    "cuisine": "Gluten-Free / Vegetarian",
+    "payment": "Cash or Cards",
+    "description": "Healthy Food With Street Smarts. We serve up sprouted organic quinoa bowls loaded with layers of tangy sauces, veggies, and spice rubbed Draper Valley chicken. It’s mostly organic and 100% gluten free. Vegan options are available.",
+    "schedule": {
+      "monday": {
+        "address": "1000 Minor Ave, Coppins Well",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "tuesday": {
+        "address": "1001 Mercer Ave",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "wednesday": {
+        "address": "1000 Minor Ave, Coppins Well",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "thursday": {
+        "address": "1001 Mercer Ave",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "friday": {
+        "address": "2401 Utah Ave S, Starbucks HQ",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": "Mercer Island Farmers Market",
+        "open": "10:00",
+        "close": "15:00"
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/pages/I-Love-My-GFF-Mobile-Food/318304551534655",
+      "twitter_link": "https://twitter.com/healthyfoodcart",
+      "twitter_screen_name": "healthyfoodcart",
+      "website": "http://www.ilovemygff.com"
+    }
+  },
+  {
+    "name": "Hungry Me",
+    "cuisine": "Mixed East Asian",
+    "payment": "Cash or Cards",
+    "description": "Mixed fast Asian cuisine featuring Singaporean (Hainan) chicken rice, Japanese and Chinese beef brisket, Thai peanut sauce curry",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": "Boren Ave N and Thomas St",
+        "open": "11:00",
+        "close": "13:30"
+      },
+      "wednesday": {
+        "address": "401 Elliott Ave W, F5 Networks",
+        "open": "11:00",
+        "close": "13:30"
+      },
+      "thursday": {
+        "address": "Boren Ave N and Republican St",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "friday": {
+        "address": "Boren Ave N and Thomas St",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/hungrymeseattle",
+      "twitter_link": "https://twitter.com/HungryMeSeattle",
+      "twitter_screen_name": "HungryMeSeattle",
+      "website": "http://www.hungrymeseattle.com/"
+    }
+  },
+  {
+    "name": "Flair Taco",
+    "cuisine": "Mexican",
+    "payment": "Cash Only",
+    "description": "Regular taco truck in the Fremont neighborhood – open 7 days a week and late night.",
+    "schedule": {
+      "monday": {
+        "address": "166 N 35th St",
+        "open": "11:00",
+        "close": "22:00"
+      },
+      "tuesday": {
+        "address": "166 N 35th St",
+        "open": "11:00",
+        "close": "22:00"
+      },
+      "wednesday": {
+        "address": "166 N 35th St",
+        "open": "11:00",
+        "close": "22:00"
+      },
+      "thursday": {
+        "address": "166 N 35th St",
+        "open": "11:00",
+        "close": "23:00"
+      },
+      "friday": {
+        "address": "166 N 35th St",
+        "open": "11:00",
+        "close": "4:00"
+      },
+      "saturday": {
+        "address": "166 N 35th St",
+        "open": "11:00",
+        "close": "4:00"
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/pages/Flair-Taco/197832600252403",
+      "twitter_link": "",
+      "website": ""
+    }
+  },
+  {
+    "name": "Hot Dog King",
+    "cuisine": "Hot Dogs",
+    "payment": "Cash or Cards",
+    "description": "35 toppings to choose from, including 20 different mustards.  From the locally sourced half pound Jalapeño & Cheese Brat to the best Vegan sausage around, The Hot Dog King has got you covered.",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": "400 Westlake Ave N,  in front of the Firestone",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "wednesday": {
+        "address": "400 Westlake Ave N,  in front of the Firestone",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "thursday": {
+        "address": "400 Westlake Ave N,  in front of the Firestone",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "friday": {
+        "address": "400 Westlake Ave N,  in front of the Firestone",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/thehotdogking",
+      "twitter_link": "",
+      "website": ""
+    }
+  },
+  {
+    "name": "Fruit Chatter Box",
+    "cuisine": "Sweets",
+    "payment": "Cash or Cards",
+    "description": "Fruit Chatter Box provides fresh, seasonal fresh fruit in cups or on a stick at local festivals and street fairs.",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "wednesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "thursday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "friday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": "Fremont Sunday Market",
+        "open": "10:00",
+        "close": "15:00"
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/fruitchatterbox",
+      "twitter_link": "https://twitter.com/fruitchatterbox",
+      "twitter_screen_name": "fruitchatterbox",
+      "website": "http://fruitchatterbox.squarespace.com/"
+    }
+  },
+  {
+    "name": "Kerry’s Caribbean Takeout",
+    "cuisine": "Caribbean",
+    "payment": "Cash or Cards",
+    "description": "Exciting New Caribbean Theme Mobile Food Truck, operating in Tacoma and Lakewood",
+    "schedule": {
+      "monday": {
+        "address": "Fort Lewis, Outdoor Food Court next to Firestone and Shur Clean Car Wash",
+        "open": "10:30",
+        "close": "14:00"
+      },
+      "tuesday": {
+        "address": "Fort Lewis, Outdoor Food Court next to Firestone and Shur Clean Car Wash",
+        "open": "10:30",
+        "close": "14:00"
+      },
+      "wednesday": {
+        "address": "Fort Lewis, Outdoor Food Court next to Firestone and Shur Clean Car Wash",
+        "open": "10:30",
+        "close": "14:00"
+      },
+      "thursday": {
+        "address": "Fort Lewis, Outdoor Food Court next to Firestone and Shur Clean Car Wash",
+        "open": "10:30",
+        "close": "14:00"
+      },
+      "friday": {
+        "address": "Fort Lewis, Outdoor Food Court next to Firestone and Shur Clean Car Wash",
+        "open": "10:30",
+        "close": "14:00"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/kerryscaribbean.takeout",
+      "twitter_link": "https://twitter.com/InfoKerrys",
+      "twitter_screen_name": "InfoKerrys",
+      "website": "http://www.kerryscaribbean.com/"
+    }
+  },
+  {
+    "name": "Jemil’s Big Easy",
+    "cuisine": "Cajun / Creole",
+    "payment": "Cash or Cards",
+    "description": "Down home cajun soul food",
+    "schedule": {
+      "monday": {
+        "address": "Terry Ave N and Republican St",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "tuesday": {
+        "address": "7th Ave and Pine St",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "wednesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "thursday": {
+        "address": "401 Pine St, Westlake Park",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "friday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "saturday": {
+        "address": "Des Moines Farmers Market",
+        "open": "10:00",
+        "close": "14:00"
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/jemilsbigeasy",
+      "twitter_link": "https://twitter.com/JemilsBigEasy",
+      "twitter_screen_name": "JemilsBigEasy",
+      "website": "http://jemilsbigeasy.com"
+    }
+  },
+  {
+    "name": "Hot Dog Stop",
+    "cuisine": "Hot Dogs",
+    "payment": "Unknown",
+    "description": "Authentic New York Style hot dog cart",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": "11915 Hwy 99, Home Depot parking lot",
+        "open": "11:00",
+        "close": "16:00"
+      },
+      "wednesday": {
+        "address": "11915 Hwy 99, Home Depot parking lot",
+        "open": "11:00",
+        "close": "16:00"
+      },
+      "thursday": {
+        "address": "11915 Hwy 99, Home Depot parking lot",
+        "open": "11:00",
+        "close": "16:00"
+      },
+      "friday": {
+        "address": "11915 Hwy 99, Home Depot parking lot",
+        "open": "11:00",
+        "close": "16:00"
+      },
+      "saturday": {
+        "address": "11915 Hwy 99, Home Depot parking lot",
+        "open": "11:00",
+        "close": "16:00"
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "",
+      "twitter_link": "",
+      "website": "http://hotdogstop.net/"
+    }
+  },
+  {
+    "name": "Kaosamai Thai Cook Truck",
+    "cuisine": "Thai",
+    "payment": "Cash only",
+    "description": "Phad Thai, noodles, fried rice and curries",
+    "schedule": {
+      "monday": {
+        "address": "Boren Ave N and Harrison St, SLU Pods",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "tuesday": {
+        "address": "Westlake Ave N and John St",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "wednesday": {
+        "address": "2401 Utah Ave S, Starbucks HQ",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "thursday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "friday": {
+        "address": "Westlake Ave N and John St",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/Kaosamai",
+      "twitter_link": "https://twitter.com/Thaifoodtruck",
+      "twitter_screen_name": "Thaifoodtruck",
+      "website": "http://www.kaosamai.com"
+    }
+  },
+  {
+    "name": "Kiss My Grits",
+    "cuisine": "Grits-Themed Cuisine",
+    "payment": "Cash or Cards",
+    "description": "Grits-Themed Cuisine",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": "Varies, check social media!,",
+        "open": null,
+        "close": null
+      },
+      "wednesday": {
+        "address": "2401 Utah Ave S, Starbucks HQ",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "thursday": {
+        "address": "Queen Anne Farmers Market (alternating)",
+        "open": "15:00",
+        "close": "19:30"
+      },
+      "friday": {
+        "address": "Varies, check social media!,",
+        "open": null,
+        "close": null
+      },
+      "saturday": {
+        "address": "826b NW 49th St, Populuxe Brewing (alternating)",
+        "open": "15:00",
+        "close": "20:00"
+      },
+      "sunday": {
+        "address": "Mercer Island Farmers Market",
+        "open": "10:00",
+        "close": "15:00"
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/kissmygritstruck",
+      "twitter_link": "https://twitter.com/kmgtruck",
+      "twitter_screen_name": "kmgtruck",
+      "website": "http://www.kmgtruck.com"
+    }
+  },
+  {
+    "name": "Goreeng",
+    "cuisine": "Indonesian / Thai",
+    "payment": "Cash or Cards",
+    "description": "",
+    "schedule": {
+      "monday": {
+        "address": "35th Ave NE and NE 86th St",
+        "open": "16:00",
+        "close": "21:00"
+      },
+      "tuesday": {
+        "address": "35th Ave NE and NE 86th St",
+        "open": "16:00",
+        "close": "21:00"
+      },
+      "wednesday": {
+        "address": "35th Ave NE and NE 86th St",
+        "open": "16:00",
+        "close": "21:00"
+      },
+      "thursday": {
+        "address": "2401 Utah Ave S, Starbucks HQ",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "friday": {
+        "address": "35th Ave NE and NE 86th St",
+        "open": "16:00",
+        "close": "21:00"
+      },
+      "saturday": {
+        "address": "10515 35th Ave NE, Meadowbrook Swimming Pool,",
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/goreengfood",
+      "twitter_link": "https://twitter.com/goreengfood",
+      "twitter_screen_name": "goreengfood",
+      "website": ""
+    }
+  },
+  {
+    "name": "It’s Bao Time",
+    "cuisine": "Taiwanese",
+    "payment": "Cash or Cards",
+    "description": "Homage to the original Taiwanese night market foods.",
+    "schedule": {
+      "monday": {
+        "address": "333 Boren Ave N",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "tuesday": {
+        "address": "Westlake Ave N and Harrison St",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "wednesday": {
+        "address": "2401 Utah Ave S, Starbucks HQ",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "thursday": {
+        "address": "Westlake Ave N and Harrison St",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "friday": {
+        "address": "333 Boren Ave  N",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/itsbaotime/",
+      "twitter_link": "https://twitter.com/baotime206",
+      "twitter_screen_name": "baotime206",
+      "website": ""
+    }
+  },
+  {
+    "name": "Kurbside Kitchen",
+    "cuisine": "Waffles",
+    "payment": "Cash or Cards",
+    "description": "Sweet and savory waffles",
+    "schedule": {
+      "monday": {
+        "address": "Thomas St, near the base of the Space Needle",
+        "open": "11:00",
+        "close": "18:00"
+      },
+      "tuesday": {
+        "address": "Thomas St, near the base of the Space Needle",
+        "open": "11:00",
+        "close": "18:00"
+      },
+      "wednesday": {
+        "address": "Thomas St, near the base of the Space Needle",
+        "open": "11:00",
+        "close": "18:00"
+      },
+      "thursday": {
+        "address": "Thomas St, near the base of the Space Needle",
+        "open": "11:00",
+        "close": "18:00"
+      },
+      "friday": {
+        "address": "Thomas St, near the base of the Space Needle",
+        "open": "11:00",
+        "close": "18:00"
+      },
+      "saturday": {
+        "address": "Thomas St, near the base of the Space Needle",
+        "open": "11:00",
+        "close": "18:00"
+      },
+      "sunday": {
+        "address": "Thomas St, near the base of the Space Needle",
+        "open": "11:00",
+        "close": "18:00"
+      }
+    },
+    "contact": {
+      "facebook": "",
+      "twitter_link": "https://twitter.com/kurbkitchen",
+      "twitter_screen_name": "kurbkitchen",
+      "website": "http://www.yelp.com/biz/kurbside-kitchen-seattle"
+    }
+  },
+  {
+    "name": "Gibson’s Frozen Yogurt Truck",
+    "cuisine": "Dessert",
+    "payment": "Cash or Cards",
+    "description": "Light, creamy, self serve frozen yogurt with a multitude of toppings, all from a truck",
+    "schedule": {
+      "monday": {
+        "address": "1102 A St, Old Post Office Bldg",
+        "open": "11:30",
+        "close": "15:30"
+      },
+      "tuesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "wednesday": {
+        "address": "1102 A St, Old Post Office Bldg",
+        "open": "11:30",
+        "close": "15:30"
+      },
+      "thursday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "friday": {
+        "address": "1102 A St, Old Post Office Bldg",
+        "open": "11:30",
+        "close": "15:30"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/GibsonsFrozenYogurtTruck",
+      "twitter_link": "https://twitter.com/gibsonsyotruck",
+      "twitter_screen_name": "gibsonsyotruck",
+      "website": "http://www.gibsonsyogurt.com/truckeventcalendar.html"
+    }
+  },
+  {
+    "name": "Luchador Taco Co",
+    "cuisine": "Mexican",
+    "payment": "Cash or Cards",
+    "description": "Vegan tacos, burritos, tortas and tamales",
+    "schedule": {
+      "monday": {
+        "address": "Occidental Ave S and S Main St, Occidental Park",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "tuesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "wednesday": {
+        "address": "6100 4th Ave S, Pacific Market Center",
+        "open": "11:30",
+        "close": "14:00"
+      },
+      "thursday": {
+        "address": "1514 NW Leary Way, Peddler Brewing",
+        "open": "18:30",
+        "close": "22:00"
+      },
+      "friday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": "826B NW 49th St, Populuxe Brewing",
+        "open": "13:00",
+        "close": "18:00"
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/luchadortaco",
+      "twitter_link": "https://twitter.com/luchadortaco",
+      "twitter_screen_name": "luchadortaco",
+      "website": ""
+    }
+  },
+  {
+    "name": "Made in Taiwan Food Trailer",
+    "cuisine": "Taiwanese",
+    "payment": "Cash or Cards",
+    "description": "Taiwanese street food",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": "503 6th St S, Chainline Brewing",
+        "open": "17:00",
+        "close": "21:00"
+      },
+      "wednesday": {
+        "address": "503 6th St S, Chainline Brewing",
+        "open": "17:00",
+        "close": "21:00"
+      },
+      "thursday": {
+        "address": "503 6th St S, Chainline Brewing",
+        "open": "17:00",
+        "close": "21:00"
+      },
+      "friday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "saturday": {
+        "address": "17625 NE 65th St, Ste 100, Postdoc Brewing",
+        "open": "15:00",
+        "close": "21:00"
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/mitfoodtrailer",
+      "twitter_link": "https://twitter.com/mittrailerfood",
+      "twitter_screen_name": "mittrailerfood",
+      "website": "http://mitfoodtrailer.com/"
+    }
+  },
+  {
+    "name": "Napkin Friends",
+    "cuisine": "Jewish",
+    "payment": "Cash or Cards",
+    "description": "Sandwiches where the bread is removed and replaced by two crispy, delectable latkes (potato cakes).",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": "2401 Utah Ave S, Starbucks HQ",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "wednesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "thursday": {
+        "address": "144 Western Ave W, Marx Foods",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "friday": {
+        "address": "106th Ave NE and NE 6th St, Barnes and Noble",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/pages/Napkin-Friends/662800733750219",
+      "twitter_link": "http://www.twitter.com/napkinfriends",
+      "twitter_screen_name": "napkinfriends",
+      "website": "http://www.napkinfriends.com"
+    }
+  },
+  {
+    "name": "HP’s Smokehouse BBQ",
+    "cuisine": "BBQ",
+    "payment": "Cash or Cards",
+    "description": "Wood smoked bbq and downhome sides.",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "wednesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "thursday": {
+        "address": "9703 NE Juanita Dr, Juanita Beach Park, west end of lot",
+        "open": "12:00",
+        "close": "19:00"
+      },
+      "friday": {
+        "address": "9703 NE Juanita Dr, Juanita Beach Park, west end of lot",
+        "open": "12:00",
+        "close": "19:00"
+      },
+      "saturday": {
+        "address": "9703 NE Juanita Dr, Juanita Beach Park, west end of lot",
+        "open": "12:00",
+        "close": "19:00"
+      },
+      "sunday": {
+        "address": "9703 NE Juanita Dr, Juanita Beach Park, west end of lot",
+        "open": "12:00",
+        "close": "17:00"
+      }
+    },
+    "contact": {
+      "facebook": "",
+      "twitter_link": "",
+      "website": ""
+    }
+  },
+  {
+    "name": "Lumpia World",
+    "cuisine": "Filipino",
+    "payment": "Cash or Cards",
+    "description": "Lumpia, katsu sliders & steamy soup served up with love",
+    "schedule": {
+      "monday": {
+        "address": "401 Pine St, Westlake Park",
+        "open": "11:30",
+        "close": "14:00"
+      },
+      "tuesday": {
+        "address": "Westlake Ave N and Harrison St",
+        "open": "11:00",
+        "close": "13:30"
+      },
+      "wednesday": {
+        "address": "401 Pine St, Westlake Park",
+        "open": "11:30",
+        "close": "14:00"
+      },
+      "thursday": {
+        "address": "Tacoma Broadway Farmers Market",
+        "open": "10:30",
+        "close": "15:00"
+      },
+      "friday": {
+        "address": "401 Pine St, Westlake Park",
+        "open": "11:30",
+        "close": "14:00"
+      },
+      "saturday": {
+        "address": "Home Depot on 352nd (or at special events)",
+        "open": "12:00",
+        "close": "16:00"
+      },
+      "sunday": {
+        "address": "Home Depot on 352nd (or at special events)",
+        "open": "12:00",
+        "close": "16:00"
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/pages/Lumpia-World/173390752107",
+      "twitter_link": "https://twitter.com/LumpiaWorld",
+      "twitter_screen_name": "LumpiaWorld",
+      "website": "http://www.lumpiaworld.com"
+    }
+  },
+  {
+    "name": "Moreno Mexican Food",
+    "cuisine": "Mexican",
+    "payment": "Cash or Cards",
+    "description": "Tortas Tacos Burritos Quesadillas And Catrachan Food",
+    "schedule": {
+      "monday": {
+        "address": "551 S Michigan St",
+        "open": "6:00",
+        "close": "21:00"
+      },
+      "tuesday": {
+        "address": "551 S Michigan St",
+        "open": "6:00",
+        "close": "21:00"
+      },
+      "wednesday": {
+        "address": "551 S Michigan St",
+        "open": "6:00",
+        "close": "21:00"
+      },
+      "thursday": {
+        "address": "551 S Michigan St",
+        "open": "6:00",
+        "close": "21:00"
+      },
+      "friday": {
+        "address": "551 S Michigan St",
+        "open": "6:00",
+        "close": "21:00"
+      },
+      "saturday": {
+        "address": "551 S Michigan St",
+        "open": "6:00",
+        "close": "21:00"
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/morenomexicatrachan.aguilar",
+      "twitter_link": "",
+      "website": ""
+    }
+  },
+  {
+    "name": "Mini … The Dough-Nut",
+    "cuisine": "Sweets",
+    "payment": "Cash or Cards",
+    "description": "",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "wednesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "thursday": {
+        "address": "23rd Ave and Union St, Uncle Ike’s",
+        "open": "16:00",
+        "close": "22:00"
+      },
+      "friday": {
+        "address": "Black Diamond Farmers Market",
+        "open": "15:00",
+        "close": "19:00"
+      },
+      "saturday": {
+        "address": "Des Moines Farmers Market",
+        "open": "10:00",
+        "close": "14:00"
+      },
+      "sunday": {
+        "address": "23rd Ave and Union St, Uncle Ike’s",
+        "open": "11:00",
+        "close": "19:00"
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/pages/Mini-the-dough-nut/544243405716866",
+      "twitter_link": "https://twitter.com/MiniTheDoughNut",
+      "twitter_screen_name": "MiniTheDoughNut",
+      "website": "http://www.minithedough-nut.com"
+    }
+  },
+  {
+    "name": "My Chef Lynn",
+    "cuisine": "BBQ / Comfort Food",
+    "payment": "Cash or Cards",
+    "description": "Soups, Salads and Sliders!",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "wednesday": {
+        "address": "Exit 15 I-90 Issaquah, Issaquah Ford",
+        "open": "11:00",
+        "close": "13:30"
+      },
+      "thursday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "friday": {
+        "address": "2864 77th Ave SE, by Terra Bella across from Albertsons",
+        "open": "11:00",
+        "close": "13:30"
+      },
+      "saturday": {
+        "address": "2864 77th Ave SE, by Terra Bella across from Albertsons",
+        "open": "11:00",
+        "close": "13:30"
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/www.mycheflynn",
+      "twitter_link": "https://twitter.com/mycheflynn",
+      "twitter_screen_name": "mycheflynn",
+      "website": "http://www.mycheflynn.com"
+    }
+  },
+  {
+    "name": "My Sweet Lil’ Cakes",
+    "cuisine": "Sweet & Savory",
+    "payment": "Cash or Cards",
+    "description": "Sweet & savory piping hotcakes on a stick.",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "wednesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "thursday": {
+        "address": "W Crockett St at Queen Anne Ave N, Queen Anne Farmers Market",
+        "open": "15:00",
+        "close": "19:30"
+      },
+      "friday": {
+        "address": "401 Pine St, Westlake Park",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "saturday": {
+        "address": "5031 University Way NE, University Farmers Market",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/MySweetLilCakes",
+      "twitter_link": "https://twitter.com/mysweetlilcakes",
+      "twitter_screen_name": "mysweetlilcakes",
+      "website": ""
+    }
+  },
+  {
+    "name": "Mesob at the Curb",
+    "cuisine": "Ethiopian",
+    "payment": "Cash or Cards",
+    "description": "Ethiopian cuisine",
+    "schedule": {
+      "monday": {
+        "address": "2401 Utah Ave S, Starbucks HQ,",
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": "106th Ave NE and NE 6th St",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "wednesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "thursday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "friday": {
+        "address": "Boren Ave N and Harrison St, SLU Pods",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/mesobatthecurb",
+      "twitter_link": "https://twitter.com/mesobat",
+      "twitter_screen_name": "mesobat",
+      "website": "http://www.mesobatthecurb.com"
+    }
+  },
+  {
+    "name": "Off the Rez",
+    "cuisine": "Native American",
+    "payment": "Cash or Cards",
+    "description": "Native American inspired cuisine including Indian tacos and fry bread",
+    "schedule": {
+      "monday": {
+        "address": "2401 Utah Ave S, Starbucks HQ",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "tuesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "wednesday": {
+        "address": "Boren Ave N and Harrison St, SLU Pods",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "thursday": {
+        "address": "401 Pine St, Westlake Park",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "friday": {
+        "address": "620 106th Ave. NE, Bellevue Pod",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/pages/Off-The-Rez/222926891074111",
+      "twitter_link": "https://twitter.com/OffTheRezTruck",
+      "twitter_screen_name": "OffTheRezTruck",
+      "website": "http://www.offthereztruck.com/"
+    }
+  },
+  {
+    "name": "Papa’s Place Food Truck",
+    "cuisine": "Chamorro / Pacific Island Cuisine",
+    "payment": "Cash or Cards",
+    "description": "A taste of Guam fused with the likings of the Mariana and Pacific Islands",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "wednesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "thursday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "friday": {
+        "address": "1325 Lloyd Parkway, Port Orchard Industrial Park",
+        "open": "11:00",
+        "close": "15:00"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/PapasPlaceFoodTruck",
+      "twitter_link": "http://www.twitter.com/papasfoodtruck",
+      "twitter_screen_name": "papasfoodtruck",
+      "website": "http://www.papasplace671.com"
+    }
+  },
+  {
+    "name": "Los Chilangos",
+    "cuisine": "Mexican",
+    "payment": "Cash or Cards",
+    "description": "Tacos, tamales and meat served off an upright spit",
+    "schedule": {
+      "monday": {
+        "address": "14008 NE 8th St",
+        "open": "8:00",
+        "close": "16:00"
+      },
+      "tuesday": {
+        "address": "14008 NE 8th St",
+        "open": "8:00",
+        "close": "16:00"
+      },
+      "wednesday": {
+        "address": "14008 NE 8th St",
+        "open": "8:00",
+        "close": "16:00"
+      },
+      "thursday": {
+        "address": "14008 NE 8th St",
+        "open": "8:00",
+        "close": "16:00"
+      },
+      "friday": {
+        "address": "14008 NE 8th St",
+        "open": "8:00",
+        "close": "16:00"
+      },
+      "saturday": {
+        "address": "14008 NE 8th St",
+        "open": "8:00",
+        "close": "16:00"
+      },
+      "sunday": {
+        "address": "Ballard Farmers Market",
+        "open": "11:00",
+        "close": "15:00"
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/chilangoswa",
+      "twitter_link": "https://twitter.com/LosChilangos",
+      "twitter_screen_name": "LosChilangos",
+      "website": "http://wwwloschilangos.com"
+    }
+  },
+  {
+    "name": "KC Deez BBQ",
+    "cuisine": "Kansas City Style Barbecue",
+    "payment": "Cash or Cards",
+    "description": "KC Deez BBQ will bring Kansas City Style Barbecue to the Pacific Northwest. Please enjoy the nice smooth Jazz and Blues while you order from our menu.",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "wednesday": {
+        "address": "707 S Grady Way, Triton Towers #3",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "thursday": {
+        "address": "34834 Weyerhaeuser Way S, World Vision",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "friday": {
+        "address": "12833 MLK Way S, Have a Heart",
+        "open": "12:00",
+        "close": "19:00"
+      },
+      "saturday": {
+        "address": "Federal Way Farmers Market, Sea-Tac Mall/ The Commons",
+        "open": "9:00",
+        "close": "15:00"
+      },
+      "sunday": {
+        "address": "5718 Rainier Ave S, Spinnaker Bay Brewing",
+        "open": "13:00",
+        "close": "18:00"
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/pages/KC-Deez-BBQ/260845727373783",
+      "twitter_link": "https://twitter.com/KCDeezBBQ",
+      "twitter_screen_name": "KCDeezBBQ",
+      "website": ""
+    }
+  },
+  {
+    "name": "Macho Burgers",
+    "cuisine": "Burgers",
+    "payment": "Cash or Cards",
+    "description": "Tex-Mex Hamburgers, sandwiches, fries & o-rings",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": "7758 15th Ave NW",
+        "open": "11:00",
+        "close": "22:00"
+      },
+      "wednesday": {
+        "address": "7758 15th Ave NW",
+        "open": "11:00",
+        "close": "22:00"
+      },
+      "thursday": {
+        "address": "7758 15th Ave NW",
+        "open": "11:00",
+        "close": "22:00"
+      },
+      "friday": {
+        "address": "7758 15th Ave NW",
+        "open": "11:00",
+        "close": "22:00"
+      },
+      "saturday": {
+        "address": "7758 15th Ave NW",
+        "open": "11:00",
+        "close": "22:00"
+      },
+      "sunday": {
+        "address": "7758 15th Ave NW",
+        "open": "11:00",
+        "close": "16:00"
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/pages/Macho-Burgers/688330601235921",
+      "twitter_link": "",
+      "website": ""
+    }
+  },
+  {
+    "name": "Here and There Grill",
+    "cuisine": "Sandwiches",
+    "payment": "Cash or Cards",
+    "description": "Hearty sandwiches, salads and soups",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "wednesday": {
+        "address": "4th Ave and Dayton St",
+        "open": "11:00",
+        "close": "19:00"
+      },
+      "thursday": {
+        "address": "23110 Highway 99, Les Schwab",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "friday": {
+        "address": "180 W Dayton St, American Brewing Co",
+        "open": "17:00",
+        "close": "20:00"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/hereandtheregrill",
+      "twitter_link": "https://twitter.com/heretheregrill",
+      "twitter_screen_name": "heretheregrill",
+      "website": "http://hereandtheregrill.com"
+    }
+  },
+  {
+    "name": "Now Make Me A Sandwich",
+    "cuisine": "Sandwiches",
+    "payment": "Cash or Cards",
+    "description": "",
+    "schedule": {
+      "monday": {
+        "address": "Terry Ave N and Thomas St",
+        "open": "11:00",
+        "close": "13:45"
+      },
+      "tuesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "wednesday": {
+        "address": "Terry Ave N and Thomas St",
+        "open": "11:00",
+        "close": "13:45"
+      },
+      "thursday": {
+        "address": "8763 and 8809 148th Ave NE, West Willows Technology Center",
+        "open": "11:00",
+        "close": "13:45"
+      },
+      "friday": {
+        "address": "Terry Ave N and Thomas St",
+        "open": "11:00",
+        "close": "13:45"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/pages/Now-Make-Me-A-Sandwich-Food-Truck/232337393559185",
+      "twitter_link": "https://twitter.com/me_sandwich",
+      "twitter_screen_name": "me_sandwich",
+      "website": "http://www.nowmakemeasandwich.com/"
+    }
+  },
+  {
+    "name": "Garden Sushi",
+    "cuisine": "Japanese",
+    "payment": "Cash or Cards",
+    "description": "Seattle’s first sushi truck",
+    "schedule": {
+      "monday": {
+        "address": "17th Ave NW and 54th St, across from Swedish Hospital",
+        "open": "11:00",
+        "close": "21:00"
+      },
+      "tuesday": {
+        "address": "17th Ave NW and 54th St, across from Swedish Hospital",
+        "open": "11:00",
+        "close": "21:00"
+      },
+      "wednesday": {
+        "address": "17th Ave NW and 54th St, across from Swedish Hospital",
+        "open": "11:00",
+        "close": "21:00"
+      },
+      "thursday": {
+        "address": "17th Ave NW and 54th St, across from Swedish Hospital",
+        "open": "11:00",
+        "close": "21:00"
+      },
+      "friday": {
+        "address": "17th Ave NW and 54th St, across from Swedish Hospital",
+        "open": "11:00",
+        "close": "21:00"
+      },
+      "saturday": {
+        "address": "17th Ave NW and 54th St, across from Swedish Hospital",
+        "open": "12:00",
+        "close": "21:00"
+      },
+      "sunday": {
+        "address": "17th Ave NW and 54th St, across from Swedish Hospital",
+        "open": "17:00",
+        "close": "21:00"
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/GardenSushi",
+      "twitter_link": "",
+      "website": "http://lauraellis.marketecturehosting.com"
+    }
+  },
+  {
+    "name": "Mr. Gyros",
+    "cuisine": "Mediterranean",
+    "payment": "Cash or Cards",
+    "description": "Gyros, falafel,  Greek salad, humumus just to name a few",
+    "schedule": {
+      "monday": {
+        "address": "Microsoft Redmond Campus, rotating locations",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "tuesday": {
+        "address": "Microsoft Redmond Campus, rotating locations",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "wednesday": {
+        "address": "Microsoft Redmond Campus, rotating locations",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "thursday": {
+        "address": "Microsoft Redmond Campus, rotating locations",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "friday": {
+        "address": "Microsoft Redmond Campus, rotating locations",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/pages/Mr-Gyros/338624269488239",
+      "twitter_link": "http://www.twitter.com/Mrgyroseattle",
+      "twitter_screen_name": "Mrgyroseattle",
+      "website": "http://www.mrgyroseattle.com"
+    }
+  },
+  {
+    "name": "No Bones About It",
+    "cuisine": "Vegan",
+    "payment": "Cash or Cards",
+    "description": "Vegan",
+    "schedule": {
+      "monday": {
+        "address": "13035 Lake City Way NE, Hellbent Brewing",
+        "open": "17:00",
+        "close": "20:00"
+      },
+      "tuesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "wednesday": {
+        "address": "5010 14th Ave NW, Reuben’s Brews",
+        "open": "16:00",
+        "close": "19:00"
+      },
+      "thursday": {
+        "address": "826B NW 49th St, Populuxe Brewing",
+        "open": "16:30",
+        "close": "20:30"
+      },
+      "friday": {
+        "address": "907 NW Ballard Way, Trupanion",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/pages/No-Bones-About-It-Food-Truck/766800043343739",
+      "twitter_link": "https://twitter.com/NoBonesTruck",
+      "twitter_screen_name": "NoBonesTruck",
+      "website": ""
+    }
+  },
+  {
+    "name": "Pioneer Grill Hot Dogs",
+    "cuisine": "Hot Dogs",
+    "payment": "Cash Only",
+    "description": "Hot Dog Cart",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "wednesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "thursday": {
+        "address": "next door to the Central Saloon on Kirkland Ave, late night",
+        "open": null,
+        "close": null
+      },
+      "friday": {
+        "address": "next door to the Central Saloon on Kirkland Ave, late night",
+        "open": null,
+        "close": null
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/pioneergrillhotdogs",
+      "twitter_link": "https://twitter.com/pioneergrill",
+      "twitter_screen_name": "pioneergrill",
+      "website": "http://www.pioneergrillhotdogs.com"
+    }
+  },
+  {
+    "name": "Saffron Spice",
+    "cuisine": "Indian",
+    "payment": "Cash or Cards",
+    "description": "Indian inspired wraps and bowls",
+    "schedule": {
+      "monday": {
+        "address": "2116 Westlake Ave",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "tuesday": {
+        "address": "2116 Westlake Ave",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "wednesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "thursday": {
+        "address": "2116 Westlake Ave",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "friday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/SaffronSpiceSeattle",
+      "twitter_link": "",
+      "website": "http://saffronspice.weebly.com"
+    }
+  },
+  {
+    "name": "Richard’s Hot Dogs",
+    "cuisine": "Hot Dogs",
+    "payment": "Cash or Cards",
+    "description": "Bacon Wrapped Hot Dog on a stick. Deep fried bacon.",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "wednesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "thursday": {
+        "address": "4700 Ohio Ave S, Two Beers Brewing",
+        "open": "17:00",
+        "close": "clos:00em"
+      },
+      "friday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/richardshotdogs",
+      "twitter_link": "",
+      "website": "http://www.richardshotdogs.com/"
+    }
+  },
+  {
+    "name": "Seattle Biscuit Co.",
+    "cuisine": "Sandwiches / Breakfast",
+    "payment": "Cash or Cards",
+    "description": "Handmade Southern-style biscuits (biscuits and gravy, huge biscuit sandwiches, etc.)  with amazing locally sourced ingredients.",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "wednesday": {
+        "address": "1406 NW 53rd Street, Suite 1A",
+        "open": "17:00",
+        "close": "20:00"
+      },
+      "thursday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "friday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/SeattleBiscuitCompany",
+      "twitter_link": "https://twitter.com/SeattleBisCo",
+      "twitter_screen_name": "SeattleBisCo",
+      "website": "http://www.seattlebiscuitcompany.com"
+    }
+  },
+  {
+    "name": "Parfait",
+    "cuisine": "Sweets",
+    "payment": "Cash Only",
+    "description": "From-scratch organic ice cream",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "wednesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "thursday": {
+        "address": "W Crockett St at Queen Anne Ave N, Queen Anne Farmers Market",
+        "open": "15:00",
+        "close": "19:30"
+      },
+      "friday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": "Mercer Island Farmers Market",
+        "open": "10:00",
+        "close": "15:00"
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/pages/Parfait-Ice-Cream/107944135740",
+      "twitter_link": "https://twitter.com/ParfaitIceCream",
+      "twitter_screen_name": "ParfaitIceCream",
+      "website": "http://parfaiticecream.com"
+    }
+  },
+  {
+    "name": "Papa Bois",
+    "cuisine": "Caribbean Fusion",
+    "payment": "Unknown",
+    "description": "A mash up of Caribbean and Southeast Asian flavors",
+    "schedule": {
+      "monday": {
+        "address": "12770 Gateway Dr, BECU Financial Center",
+        "open": "11:30",
+        "close": "13:30"
+      },
+      "tuesday": {
+        "address": "101 Elliott Ave W, PI Building",
+        "open": "11:30",
+        "close": "13:30"
+      },
+      "wednesday": {
+        "address": "5303 Shilshole Ave NW",
+        "open": "11:30",
+        "close": "14:00"
+      },
+      "thursday": {
+        "address": "4100 Carillon Point",
+        "open": "11:30",
+        "close": "13:30"
+      },
+      "friday": {
+        "address": "10900 NE 4th St, Skyline Towers",
+        "open": "11:30",
+        "close": "13:30"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": "6413 California Ave SW, Beveridge Place Pub",
+        "open": "17:00",
+        "close": "20:00"
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/PapaBoisFood",
+      "twitter_link": "https://twitter.com/PapaBois_Food",
+      "twitter_screen_name": "PapaBois_Food",
+      "website": "http://www.papaboisfood.com/"
+    }
+  },
+  {
+    "name": "Seattle Cookie Counter",
+    "cuisine": "Sweets",
+    "payment": "Cash or Cards",
+    "description": "We serve 100% vegan ice cream sandwiches – we make the ice cream and the cookies by hand and pre-package the sandwiches at our kitchen space.",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "wednesday": {
+        "address": "401 Pine St, Westlake Park",
+        "open": "15:00",
+        "close": "19:00"
+      },
+      "thursday": {
+        "address": "800 NE 65th St, Bus Stop Espresso",
+        "open": "16:00",
+        "close": "21:00"
+      },
+      "friday": {
+        "address": "401 15th Ave E, Station 7 Capitol Hill",
+        "open": "15:00",
+        "close": "21:00"
+      },
+      "saturday": {
+        "address": "800 NE 65th St, Bus Stop Espresso",
+        "open": "12:00",
+        "close": "18:00"
+      },
+      "sunday": {
+        "address": "4440 California Ave SW, Greentree Animal Hospital",
+        "open": "11:00",
+        "close": "16:00"
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/SeattleCookieCounter",
+      "twitter_link": "https://twitter.com/seattlecookie",
+      "twitter_screen_name": "seattlecookie",
+      "website": "http://www.seattlecookiecounter.com/"
+    }
+  },
+  {
+    "name": "Sizzle Dogs",
+    "cuisine": "Hot Dogs",
+    "payment": "Cash or Cards",
+    "description": "",
+    "schedule": {
+      "monday": {
+        "address": "4701 Brooklyn Ave NE",
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "tuesday": {
+        "address": "4701 Brooklyn Ave NE",
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "wednesday": {
+        "address": "4701 Brooklyn Ave NE",
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "thursday": {
+        "address": "4701 Brooklyn Ave NE",
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "friday": {
+        "address": "4701 Brooklyn Ave NE",
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/SizzleDogs",
+      "twitter_link": "",
+      "website": "http://www.sizzledogs.com/"
+    }
+  },
+  {
+    "name": "Secret Sausage",
+    "cuisine": "Hot Dogs",
+    "payment": "Unknown",
+    "description": "Serving our own take on “Pioneer Square”, Seattle style hot dogs. CREAM CHEESE!",
+    "schedule": {
+      "monday": {
+        "address": "Microsoft Campus",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "tuesday": {
+        "address": "Microsoft Campus",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "wednesday": {
+        "address": "Microsoft Campus",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "thursday": {
+        "address": "Microsoft Campus",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "friday": {
+        "address": "1475 120th Ave NE, Clearwire HQ",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": "Fremont Sunday Market",
+        "open": "10:00",
+        "close": "16:00"
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/pages/Secret-Sausage/140307463178",
+      "twitter_link": "https://twitter.com/secretsausages",
+      "twitter_screen_name": "secretsausages",
+      "website": "http://www.secretsausageseattle.com/"
+    }
+  },
+  {
+    "name": "Seattle Pops",
+    "cuisine": "Sweets",
+    "payment": "Cash or Cards",
+    "description": "We are a family run business, having fun bringing Seattle the best frozen treats on a stick!",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "wednesday": {
+        "address": "Columbia City Farmers Market",
+        "open": "15:00",
+        "close": "19:00"
+      },
+      "thursday": {
+        "address": "Bellevue Farmers Market",
+        "open": "15:00",
+        "close": "19:00"
+      },
+      "friday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "saturday": {
+        "address": "University District Farmers Market",
+        "open": "9:00",
+        "close": "14:00"
+      },
+      "sunday": {
+        "address": "Fremont Sunday Market",
+        "open": "10:00",
+        "close": "17:00"
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/SeattlePops",
+      "twitter_link": "https://twitter.com/TheSeattlePops",
+      "twitter_screen_name": "TheSeattlePops",
+      "website": "http://seattlepops.com/"
+    }
+  },
+  {
+    "name": "Plum Vegan Burgers + More",
+    "cuisine": "Vegan burgers, sandwiches, salads",
+    "payment": "Cash or Cards",
+    "description": "Vegan burgers, sandwiches, salads",
+    "schedule": {
+      "monday": {
+        "address": "3720 159th Ave NE, Building 34 on Microsoft Redmond Campus",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "tuesday": {
+        "address": "333 Boren Ave N",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "wednesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "thursday": {
+        "address": "333 Boren Ave N",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "friday": {
+        "address": "Uncle Ike’s Pot Shop, 2310 E Union St",
+        "open": "16:00",
+        "close": "22:00"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": "Uncle Ike’s Pot Shop, 2310 E Union St (some Sundays)",
+        "open": "16:00",
+        "close": "22:00"
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/PlumBistro",
+      "twitter_link": "https://twitter.com/plumbistro",
+      "twitter_screen_name": "plumbistro",
+      "website": "http://www.plumbistro.com"
+    }
+  },
+  {
+    "name": "Raney Brothers BBQ",
+    "cuisine": "BBQ",
+    "payment": "Cash or Cards",
+    "description": "Pulled pork, grinders and more",
+    "schedule": {
+      "monday": {
+        "address": "Westlake Ave N and Harrison St",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "tuesday": {
+        "address": "Terry Ave and Madison St",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "wednesday": {
+        "address": "5th Ave and Union St",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "thursday": {
+        "address": "101 Elliott Ave W, PI Building",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "friday": {
+        "address": "Terry Ave and Madison St",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/RaneyBrosBBQ",
+      "twitter_link": "https://twitter.com/RBBBQnet",
+      "twitter_screen_name": "RBBBQnet",
+      "website": "http://www.raneybrothersseattle.com"
+    }
+  },
+  {
+    "name": "Tat’s Truck",
+    "cuisine": "Sandwiches",
+    "payment": "Cash or Cards",
+    "description": "East Coast style deli sandwiches",
+    "schedule": {
+      "monday": {
+        "address": "Boren Ave N and Thomas St",
+        "open": "10:30",
+        "close": "14:00"
+      },
+      "tuesday": {
+        "address": "Alternating between Skyline Tower (110th Ave and NE 4th) in Bellevue AND T-Mobile HQ in Factoria (see tatstruck.com for current location)",
+        "open": "10:30",
+        "close": "14:00"
+      },
+      "wednesday": {
+        "address": "6th Ave and Olive Way",
+        "open": "10:30",
+        "close": "14:00"
+      },
+      "thursday": {
+        "address": "5th and Union",
+        "open": "10:30",
+        "close": "14:00"
+      },
+      "friday": {
+        "address": "2401 Utah Ave S, Starbucks HQ",
+        "open": "10:30",
+        "close": "14:00"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/tatstruck",
+      "twitter_link": "https://twitter.com/tatstruck",
+      "twitter_screen_name": "tatstruck",
+      "website": "http://www.tatstruck.com"
+    }
+  },
+  {
+    "name": "Stacks",
+    "cuisine": "Burgers",
+    "payment": "Cash or Cards",
+    "description": "At STACKS, our “Burger Architects” are passionate about providing a chef-driven dining experience with imaginative, great-tasting gourmet burgers along side our hand cut fries and custom shakes crafted with only the freshest all-natural ingredients from the northwest.",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "wednesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "thursday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "friday": {
+        "address": "3600 South 344th Street #210, Xerox",
+        "open": "10:00",
+        "close": "14:00"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/stacks.burgers",
+      "twitter_link": "https://twitter.com/StacksBurgers1",
+      "twitter_screen_name": "StacksBurgers1",
+      "website": "http://stacksburgers.com/"
+    }
+  },
+  {
+    "name": "Pie Mobile",
+    "cuisine": "Sweet & Savory Pie",
+    "payment": "Cash or Cards",
+    "description": "Sweet & Savory Pie",
+    "schedule": {
+      "monday": {
+        "address": "Occidental Ave S and S Main St, Occidental Park",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "tuesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "wednesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "thursday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "friday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/PieMobile",
+      "twitter_link": "https://twitter.com/sweetnsavorypie",
+      "twitter_screen_name": "sweetnsavorypie",
+      "website": "http://www.sweetandsavorypie.com"
+    }
+  },
+  {
+    "name": "The People’s Burger",
+    "cuisine": "Burgers",
+    "payment": "Cash or Cards",
+    "description": "Handmade burgers, fries and tots",
+    "schedule": {
+      "monday": {
+        "address": "Boren Ave N and Harrison St, SLU Pods",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "tuesday": {
+        "address": "401 Pine St, Westlake Park",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "wednesday": {
+        "address": "922 Occidental Ave S",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "thursday": {
+        "address": "922 Occidental Ave S",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "friday": {
+        "address": "922 Occidental Ave S",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/thepeoplesburger",
+      "twitter_link": "https://twitter.com/pplsbrgrtrk",
+      "twitter_screen_name": "pplsbrgrtrk",
+      "website": "http://www.thepeoplesburgertruck.com"
+    }
+  },
+  {
+    "name": "Snout & Co.",
+    "cuisine": "Cuban",
+    "payment": "Cash or Cards",
+    "description": "Cubans, rice and beans, tostones – Soul food from Cuba to South Carolina, just like grandma used to make.",
+    "schedule": {
+      "monday": {
+        "address": "106th Ave NE and NE 6th St, Barnes and Noble",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "tuesday": {
+        "address": "Occidental Ave S and S Main St, Occidental Park",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "wednesday": {
+        "address": "101 Elliot Ave W, PI Building",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "thursday": {
+        "address": "106th Ave NE and NE 6th St, Barnes and Noble",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "friday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/snoutandco",
+      "twitter_link": "https://twitter.com/SnoutAndCo",
+      "twitter_screen_name": "SnoutAndCo",
+      "website": "http://www.snoutandco.com"
+    }
+  },
+  {
+    "name": "Seattle Chicken Over Rice",
+    "cuisine": "Mediterranean",
+    "payment": "Cash or Cards",
+    "description": "Stop by and try Seattle’s version of New York’s classic street food!",
+    "schedule": {
+      "monday": {
+        "address": "401 Pine St, Westlake Park",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "tuesday": {
+        "address": "Occidental Ave S and S Main St, Occidental Park",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "wednesday": {
+        "address": "106th Ave NE and NE 6th St, Barnes and Noble",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "thursday": {
+        "address": "Occidental Ave S and S Main St, Occidental Park",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "friday": {
+        "address": "Boren Ave N and Republican St",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/seattlechicken",
+      "twitter_link": "https://twitter.com/seattle_chicken",
+      "twitter_screen_name": "seattle_chicken",
+      "website": "http://www.seattlechickenoverrice.com/"
+    }
+  },
+  {
+    "name": "Poke to the Max",
+    "cuisine": "Poke / Hawaiian",
+    "payment": "Cash or Cards",
+    "description": "Loco Moco, Kalua Pork, lots of Poke and other great Hawaiian dishes",
+    "schedule": {
+      "monday": {
+        "address": "101 Elliott Ave W, PI Building",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "tuesday": {
+        "address": "531 Stewart St, McGraw Square",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "wednesday": {
+        "address": "106th Ave NE and NE 6th St (every other week)",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "thursday": {
+        "address": "2770 Gateway Drive, BECU Financial Center",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "friday": {
+        "address": "106th Ave NE and NE 6th St",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "saturday": {
+        "address": "Bellevue Farmers Market",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "sunday": {
+        "address": "531 Stewart St, McGraw Square",
+        "open": "11:00",
+        "close": "14:00"
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/samchoyspoke",
+      "twitter_link": "https://twitter.com/samchoyspoke",
+      "twitter_screen_name": "samchoyspoke",
+      "website": "http://www.samchoyspoke.com/"
+    }
+  },
+  {
+    "name": "T and A Gourmet Steamed Cheeseburgers",
+    "cuisine": "Steamed Cheeseburgers",
+    "payment": "Cash or Cards",
+    "description": "Bringing a Connecticut favorite to the West Coast",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "wednesday": {
+        "address": "Mukilteo Farmers Market",
+        "open": "15:00",
+        "close": "19:00"
+      },
+      "thursday": {
+        "address": "116 E 5th St, Whiskey Ridge Brewing",
+        "open": "15:00",
+        "close": "20:00"
+      },
+      "friday": {
+        "address": "8415 Paine Field Blvd, Future of Flight Aviation Center",
+        "open": "13:00",
+        "close": "20:00"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/pages/TAs-gourmet-steamed-cheeseburgers/176750095739175",
+      "twitter_link": "",
+      "website": "http://www.tandasteamedcheeseburgers.com/"
+    }
+  },
+  {
+    "name": "NOSH",
+    "cuisine": "British",
+    "payment": "Cash or Cards",
+    "description": "From hand pulled mozzarella to hand rolled all butter pastry for our pies and we grind all of our own meat. There is a little of something for everybody.",
+    "schedule": {
+      "monday": {
+        "address": "106th Ave NE and NE 6th St, Barnes and Noble",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "tuesday": {
+        "address": "2401 Utah Ave S, Starbucks HQ",
+        "open": "11:00",
+        "close": "13:30"
+      },
+      "wednesday": {
+        "address": "Occidental Ave S and S Main St, Occidental Park",
+        "open": "11:00",
+        "close": "13:30"
+      },
+      "thursday": {
+        "address": "101 Elliot Ave W, PI Building",
+        "open": "11:00",
+        "close": "13:45"
+      },
+      "friday": {
+        "address": "401 Pine St, Westlake Park",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": "3401 Evanston Ave N, Fremont Sunday Market",
+        "open": "11:00",
+        "close": "16:00"
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/noshthetruck",
+      "twitter_link": "https://twitter.com/noshthetruck",
+      "twitter_screen_name": "noshthetruck",
+      "website": "http://www.noshthetruck.­com"
+    }
+  },
+  {
+    "name": "The Box",
+    "cuisine": "Asian Fusion",
+    "payment": "Cash or Cards",
+    "description": "Asian meets French at this Kirkland-based truck",
+    "schedule": {
+      "monday": {
+        "address": "15050 NE 36th St (at building 110-Studio X on Microsoft Redmond Campus)",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "tuesday": {
+        "address": "103 110th Ave NE (in the back lot of Toys R Us under their building signage)",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "wednesday": {
+        "address": "12000 115th Ave NE (in the parking lot of NetAcquire Corporation, across the street from NWMLS)",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "thursday": {
+        "address": "1756 114th Ave SE (in front of Edifecs building at the back of Bellefield Office Park)",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "friday": {
+        "address": "15120 NE 40th St (on the Microsoft Redmond Campus at Building 122)",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/theboxonwheels",
+      "twitter_link": "https://twitter.com/theboxonwheels",
+      "twitter_screen_name": "theboxonwheels",
+      "website": "http://www.theboxonwheels.com"
+    }
+  },
+  {
+    "name": "Soda Jerk",
+    "cuisine": "Soda/Drinks",
+    "payment": "Cash or Cards",
+    "description": "Handcrafted sodas and drinks",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "wednesday": {
+        "address": "Wallingford Farmers Market",
+        "open": "15:30",
+        "close": "19:00"
+      },
+      "thursday": {
+        "address": "W Crockett St at Queen Anne Ave N, Queen Anne Farmers Market",
+        "open": "15:00",
+        "close": "19:30"
+      },
+      "friday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": "Ballard Farmers Market",
+        "open": "10:00",
+        "close": "15:00"
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/sodajerksoda",
+      "twitter_link": "https://twitter.com/sodajerksoda",
+      "twitter_screen_name": "sodajerksoda",
+      "website": "http://www.sodajerksoda.com"
+    }
+  },
+  {
+    "name": "Stella Fiore Wood Fired Pizza",
+    "cuisine": "Pizza",
+    "payment": "Cash or Cards",
+    "description": "Wood filred pizza with fresh & local ingredients, made to order!",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": "Westlake Ave N and Republican St",
+        "open": "11:00",
+        "close": "13:30"
+      },
+      "wednesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "thursday": {
+        "address": "Westlake Ave N and Republican St",
+        "open": "11:00",
+        "close": "13:30"
+      },
+      "friday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/pages/Stella-Rossa-Wood-Fired-Pizza/466841566694455",
+      "twitter_link": "",
+      "website": ""
+    }
+  },
+  {
+    "name": "Seoul Kitchen",
+    "cuisine": "Korean",
+    "payment": "Cash or Cards",
+    "description": "Korean",
+    "schedule": {
+      "monday": {
+        "address": "Occidental Ave S and S Main St, Occidental Park",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "tuesday": {
+        "address": "401 Pine St, Westlake Park",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "wednesday": {
+        "address": "Occidental Ave S and S Main St, Occidental Park",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "thursday": {
+        "address": "401 Pine St, Westlake Park",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "friday": {
+        "address": "401 Pine St, Westlake Park",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/seoulkitchensea/",
+      "twitter_link": "",
+      "website": "http://seoulkitchenseattle.com/"
+    }
+  },
+  {
+    "name": "Seattle Wood Fired Pizza",
+    "cuisine": "Pizza",
+    "payment": "Cash or Cards",
+    "description": "Applewood fired, fresh ingredients, cooks in 90 seconds. Homemade crust fresh every day.",
+    "schedule": {
+      "monday": {
+        "address": "1300 Elliot Ave W",
+        "open": "11:00",
+        "close": ":008m"
+      },
+      "tuesday": {
+        "address": "1300 Elliot Ave W",
+        "open": "11:00",
+        "close": "20:00"
+      },
+      "wednesday": {
+        "address": "1300 Elliot Ave W",
+        "open": "11:00",
+        "close": "20:00"
+      },
+      "thursday": {
+        "address": "1300 Elliot Ave W",
+        "open": "11:00",
+        "close": "20:00"
+      },
+      "friday": {
+        "address": "1300 Elliot Ave W",
+        "open": "11:00",
+        "close": "20:00"
+      },
+      "saturday": {
+        "address": "1300 Elliot Ave W",
+        "open": "11:00",
+        "close": "20:00"
+      },
+      "sunday": {
+        "address": "1300 Elliot Ave W",
+        "open": "11:00",
+        "close": "20:00"
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/pages/Seattle-Wood-Fired-Pizza/160549947427401",
+      "twitter_link": "",
+      "website": "http://seattlewoodfiredpizza.com"
+    }
+  },
+  {
+    "name": "Tasty Vibes",
+    "cuisine": "Burgers",
+    "payment": "Cash or Cards",
+    "description": "We construct high quality burgers and sandwiches using quality ingredients. We have fun and our customer service is the best in the business!",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": "Fairview Ave N and Republican St",
+        "open": "10:00",
+        "close": "15:00"
+      },
+      "wednesday": {
+        "address": "Occidental Ave S and S Main St, Occidental Park,",
+        "open": null,
+        "close": null
+      },
+      "thursday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "friday": {
+        "address": "Fairview Ave N and Republican St",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/tastyvibe",
+      "twitter_link": "https://twitter.com/tastyvibestruck",
+      "twitter_screen_name": "tastyvibestruck",
+      "website": "http://www.tastyvibes.net/"
+    }
+  },
+  {
+    "name": "The Ultimate Melt",
+    "cuisine": "Gourmet Grilled Cheese",
+    "payment": "Cash or Cards",
+    "description": "Gourmet grilled cheese",
+    "schedule": {
+      "monday": {
+        "address": "108th Ave NE and NE 4th St, Washington Federal, walkup only",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "tuesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "wednesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "thursday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "friday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/theultimatemelt",
+      "twitter_link": "https://www.twitter.com/theultimatemelt",
+      "twitter_screen_name": "theultimatemelt",
+      "website": "http://www.theultimatemelt.com"
+    }
+  },
+  {
+    "name": "The Brick Wood-Fired Pizza",
+    "cuisine": "Pizza",
+    "payment": "Cash or Cards",
+    "description": "Wood-Fired Pizza",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "wednesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "thursday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "friday": {
+        "address": "19501 144th Ave NE, Suite #D-900 or nearby",
+        "open": "18:00",
+        "close": "21:00"
+      },
+      "saturday": {
+        "address": "19501 144th Ave NE, Suite #D-900 or nearby",
+        "open": "13:00",
+        "close": "17:00"
+      },
+      "sunday": {
+        "address": "19501 144th Ave NE, Suite #D-900 or nearby",
+        "open": "13:00",
+        "close": "17:00"
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/thebrickwoodfiredpizza",
+      "twitter_link": "https://twitter.com/BrickPizzaWA",
+      "twitter_screen_name": "BrickPizzaWA",
+      "website": "http://www.thebrickwood-firedpizza.com/"
+    }
+  },
+  {
+    "name": "Skillet",
+    "cuisine": "Sandwiches",
+    "payment": "Cash or Cards",
+    "description": "Dishing up gourmet burgers and fries, along with their famous bacon jam, from a sleek, silver airstream.",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "wednesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "thursday": {
+        "address": "106th Ave NE and NE 6th St",
+        "open": "12:00",
+        "close": "14:00"
+      },
+      "friday": {
+        "address": "531 Stewart St, McGraw Square",
+        "open": "11:30",
+        "close": "14:00"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/SkilletStreetFood",
+      "twitter_link": "https://twitter.com/skilletstfood",
+      "twitter_screen_name": "skilletstfood",
+      "website": "http://skilletstreetfood.com"
+    }
+  },
+  {
+    "name": "Sir Chef Pinoy Rice Bowl",
+    "cuisine": "Filipino",
+    "payment": "Cash or Cards",
+    "description": "Filipino Authentic Crispy Chicken Adobo, Lumpia- Hawaiian, Pork, Beef, Chumi Noodles, Pork BBQ, Chicken and Pork Tocino",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "wednesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "thursday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "friday": {
+        "address": "500 Yale St, WeWork",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": "1220 W Nickerson St, Rooftop Brew Co",
+        "open": "15:00",
+        "close": "20:00"
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/profile.php?id=100009847711906",
+      "twitter_link": "",
+      "website": ""
+    }
+  },
+  {
+    "name": "Tacos El Tajin",
+    "cuisine": "Mexican",
+    "payment": "Cash or Cards",
+    "description": "Taco Truck",
+    "schedule": {
+      "monday": {
+        "address": "1041 Mercer Street",
+        "open": "10:00",
+        "close": "14:00"
+      },
+      "tuesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "wednesday": {
+        "address": "Harrison St, between Westlake Ave N and 9th Ave N",
+        "open": "10:00",
+        "close": "14:00"
+      },
+      "thursday": {
+        "address": "1041 Mercer Street",
+        "open": "10:00",
+        "close": "14:00"
+      },
+      "friday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/pages/Tacos-El-Tajin/156034444429798",
+      "twitter_link": "",
+      "website": ""
+    }
+  },
+  {
+    "name": "Spicy Papaya",
+    "cuisine": "Lao and Thai",
+    "payment": "Cash or cards",
+    "description": "Authentic Laotian dishes. Famous Papaya Salad, Lao-Style Noodles, Grilled Lemongrass Wings, Spicy Basil Chicken and Sticky Rice.  Made from fresh ingredients with love from our culture to yours.",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": "618 Park Ave N, Eurosport Park Avenue",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "wednesday": {
+        "address": "707 Lind Ave SW",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "thursday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "friday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "saturday": {
+        "address": "330 South Meridian, Puyallup Farmers Market, Pioneer Park",
+        "open": "9:00",
+        "close": "14:00"
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/spicypapayaft",
+      "twitter_link": "https://twitter.com/spicypapaya",
+      "twitter_screen_name": "spicypapaya",
+      "website": ""
+    }
+  },
+  {
+    "name": "Wicked Pies",
+    "cuisine": "Pizza",
+    "payment": "Cash or Cards",
+    "description": "Pizza & Gelato + Focaccia Sandwiches & Salads. Our menu is made with nothing but the best of Mother Nature’s finest. All products are made with natural, organic, and GMO free ingredients, with a hint of Twin Peaks",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": "907 NW Ballard Way, Trupanion",
+        "open": "11:00",
+        "close": "15:00"
+      },
+      "wednesday": {
+        "address": "6100 4th Ave, Pacific Market Center",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "thursday": {
+        "address": "500 Yale Ave, WeWork",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "friday": {
+        "address": "860 Terry Ave N, South Lake Union Park",
+        "open": "11:00",
+        "close": "15:00"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/wickedpies",
+      "twitter_link": "https://twitter.com/wicked_pies",
+      "twitter_screen_name": "wicked_pies",
+      "website": "http://www.wickedpies.com/"
+    }
+  },
+  {
+    "name": "Where Ya At",
+    "cuisine": "Cajun / Creole",
+    "payment": "Cash or Cards (50 cent charge for cards)",
+    "description": "Bringing New Orleans street food to the curbs of Seattle",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": "2401 Utah Ave S, Starbucks HQ",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "wednesday": {
+        "address": "106th Ave NE and NE 6th St",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "thursday": {
+        "address": "5805 Airport Way, Doris and Hamer, Georgetown Trailer Park",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "friday": {
+        "address": "101 Elliot Ave W, PI Building",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/whereyaatmatt",
+      "twitter_link": "https://twitter.com/WhereYaAtMatt",
+      "twitter_screen_name": "WhereYaAtMatt",
+      "website": "http://www.whereyaatmatt.com/"
+    }
+  },
+  {
+    "name": "Xplosive Truck",
+    "cuisine": "Filipino-Vietnamese Fusion",
+    "payment": "Cash Only",
+    "description": "Delicious banh mi and spicy fusion tacos",
+    "schedule": {
+      "monday": {
+        "address": "Boren Ave N and Republican St",
+        "open": "11:00",
+        "close": "13:30"
+      },
+      "tuesday": {
+        "address": "425 Terry Ave N, south side of RepublicanSt, next to Northeastern University",
+        "open": "11:00",
+        "close": "13:30"
+      },
+      "wednesday": {
+        "address": "Boren Ave N and Republican St",
+        "open": "11:00",
+        "close": "13:30"
+      },
+      "thursday": {
+        "address": "Boren Ave N and Thomas St",
+        "open": "11:00",
+        "close": "13:30"
+      },
+      "friday": {
+        "address": "425 Terry Ave N, south side of Republican St, next to Northeastern University",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/xplosivemobilefoodtruck",
+      "twitter_link": "https://twitter.com/XplosiveFoodTrk",
+      "twitter_screen_name": "XplosiveFoodTrk",
+      "website": "http://www.xplosivemobilefoodtruck.com/"
+    }
+  },
+  {
+    "name": "Yummy Box",
+    "cuisine": "Asian",
+    "payment": "Cash or Cards",
+    "description": "Serving favorite Asian street foods incorporating fresh locally sourced ingredients",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": "14679 NE 95th St, Black Raven Brewing",
+        "open": "16:00",
+        "close": "20:00"
+      },
+      "wednesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "thursday": {
+        "address": "17625 NE 65th St #100, Postdoc Brewing",
+        "open": "16:00",
+        "close": "20:00"
+      },
+      "friday": {
+        "address": "14679 NE 95th St, Black Raven Brewing",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/pages/yummy-box/1516836118530658",
+      "twitter_link": "",
+      "website": "http://yummyboxfoodtruck.com/"
+    }
+  },
+  {
+    "name": "Woodshop BBQ",
+    "cuisine": "BBQ",
+    "payment": "Cash or Cards",
+    "description": "BBQ",
+    "schedule": {
+      "monday": {
+        "address": "2401 Utah Ave S, Starbucks HQ",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "tuesday": {
+        "address": "106th Ave NE and NE 6th St",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "wednesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "thursday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "friday": {
+        "address": "106th Ave NE and NE 6th St",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/woodshopbbq",
+      "twitter_link": "",
+      "website": ""
+    }
+  },
+  {
+    "name": "Tokyo Dog",
+    "cuisine": "Hot Dogs",
+    "payment": "Cash Only",
+    "description": "Japanese-style hot dogs (and fries)",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": "500 Yale Ave, WeWork",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "wednesday": {
+        "address": "Microsoft Campus",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "thursday": {
+        "address": "2401 Utah Ave S, Starbucks HQ",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "friday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/tokyodogfanpage",
+      "twitter_link": "https://twitter.com/tokyodogtweets",
+      "twitter_screen_name": "tokyodogtweets",
+      "website": "http://www.tokyodog.com"
+    }
+  },
+  {
+    "name": "The Frying Dutchman",
+    "cuisine": "Seafood",
+    "payment": "Cash or Cards",
+    "description": "Mobile Fish, Chips, and Tacos",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": "1203 Porter Way, Milton Trailhead",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "wednesday": {
+        "address": "Tacoma Eastside Farmers Market, 1728 E 44th St",
+        "open": "11:00",
+        "close": "15:00"
+      },
+      "thursday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "friday": {
+        "address": "1607 45th St E, Dillanos Coffee Roasters",
+        "open": "10:30",
+        "close": "13:30"
+      },
+      "saturday": {
+        "address": "Federal Way Farmers Market, 1701 S 320th St",
+        "open": "10:00",
+        "close": "15:00"
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/EatTheDutch",
+      "twitter_link": "https://twitter.com/eatthedutch",
+      "twitter_screen_name": "eatthedutch",
+      "website": "http://www.eatthedutch.com/"
+    }
+  },
+  {
+    "name": "Veraci Pizza",
+    "cuisine": "Pizza",
+    "payment": "Cash Only",
+    "description": "Seattle’s original traveling wood-fired pizza company",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "wednesday": {
+        "address": "Kirkland Farmers Market",
+        "open": "14:00",
+        "close": "19:00"
+      },
+      "thursday": {
+        "address": "W Crockett St at Queen Anne Ave N, Queen Anne Farmers Market",
+        "open": "15:00",
+        "close": "19:30"
+      },
+      "friday": {
+        "address": "N 67th St and Phinney Ave N, Phinney Ridge Farmers Market",
+        "open": "15:00",
+        "close": "19:00"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": "Mercer Island Farmers Market",
+        "open": "10:00",
+        "close": "15:00"
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/veracipizza",
+      "twitter_link": "https://twitter.com/veraciseattle",
+      "twitter_screen_name": "veraciseattle",
+      "website": "http://www.veracipizza.com/"
+    }
+  },
+  {
+    "name": "Sugars Gelato",
+    "cuisine": "Sweets",
+    "payment": "Cash or Cards",
+    "description": "All natural gelato – rich, delicious, Italian style ice cream!",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "wednesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "thursday": {
+        "address": "22307 Dock Ave S, Des Moines Marina,",
+        "open": null,
+        "close": null
+      },
+      "friday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/SugarsGelato",
+      "twitter_link": "https://twitter.com/sugarsgelato",
+      "twitter_screen_name": "sugarsgelato",
+      "website": "http://www.sugarsgelato.com"
+    }
+  },
+  {
+    "name": "BeezNeez Gourmet Sausages",
+    "cuisine": "Hot Dogs",
+    "payment": "Cash or Cards",
+    "description": "Alaskan Reindeer Sausages & other gourmet and exotic Sausages and hotdogs",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": "Occidental Ave S and S Main St, Occidental Park",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "wednesday": {
+        "address": "Occidental Ave S and S Main St, Occidental Park",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "thursday": {
+        "address": "Occidental Ave S and S Main St, Occidental Park",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "friday": {
+        "address": "24th Ave and NW Market St, Spirit Gas Station",
+        "open": "21:00",
+        "close": "2:30"
+      },
+      "saturday": {
+        "address": "24th Ave and NW Market St, Spirit Gas Station",
+        "open": "21:00",
+        "close": "2:30"
+      },
+      "sunday": {
+        "address": "Occidental Ave S and S Main St, on Seahawks Sundays",
+        "open": "11:00",
+        "close": "14:00"
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/BeezNeezSausageSeattle",
+      "twitter_link": "https://twitter.com/BeezNeezSeattle",
+      "twitter_screen_name": "BeezNeezSeattle",
+      "website": "http://beezneezsausages.com/"
+    }
+  },
+  {
+    "name": "Buddha Bruddah",
+    "cuisine": "Asian",
+    "payment": "Cash or Cards",
+    "description": "Gourmet Asian mixed plates",
+    "schedule": {
+      "monday": {
+        "address": "Westlake Ave N and Harrison St",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "tuesday": {
+        "address": "964 Republican St",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "wednesday": {
+        "address": "McGraw Park, 5th Ave and Stewart St",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "thursday": {
+        "address": "200 Boren Ave N",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "friday": {
+        "address": "Corner of Westlake Ave and Harrison St",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/BuddhaBruddah",
+      "twitter_link": "",
+      "website": "http://www.buddhabruddah.com"
+    }
+  },
+  {
+    "name": "Convoy Coffee",
+    "cuisine": "Coffee",
+    "payment": "Cash or Cards",
+    "description": "A bike-driven mobile coffee stand bringing manually-brewed specialty coffee to Seattle streets, previously Handlebar Coffee.",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "wednesday": {
+        "address": "Wallingford Farmers Market",
+        "open": "15:30",
+        "close": "19:00"
+      },
+      "thursday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "friday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "saturday": {
+        "address": "4252 Fremont Ave N, Coyle’s Bakeshop at The Book Larder",
+        "open": "9:00",
+        "close": "11:00"
+      },
+      "sunday": {
+        "address": "Ballard Farmers Market",
+        "open": "10:00",
+        "close": "15:00"
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/convoycoffee",
+      "twitter_link": "https://twitter.com/convoycoffee",
+      "twitter_screen_name": "convoycoffee",
+      "website": "http://instagram.com/convoycoffee"
+    }
+  },
+  {
+    "name": "Frank’s Franks",
+    "cuisine": "Hot Dogs",
+    "payment": "Cash or Cards",
+    "description": "Gourmet hot dogs, weiners, sausages, hot links and more, contact at 425.761.9447 or franksfranks3@gmail.com",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "wednesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "thursday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "friday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": "Auburn Farmers Market",
+        "open": "10:00",
+        "close": "15:00"
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/franksfrankshotdogs",
+      "twitter_link": "",
+      "website": ""
+    }
+  },
+  {
+    "name": "Hot Revolution Donuts",
+    "cuisine": "Dessert",
+    "payment": "Cash or Cards",
+    "description": "We feature hot mini-donuts made to order with a variety of spice coatings, great icing and sauces and toppings. We also feature Fonte F2 Coffee.",
+    "schedule": {
+      "monday": {
+        "address": "905 Dexter Ave N",
+        "open": "7:00",
+        "close": "13:00"
+      },
+      "tuesday": {
+        "address": "905 Dexter Ave N",
+        "open": "7:00",
+        "close": "13:00"
+      },
+      "wednesday": {
+        "address": "905 Dexter Ave N",
+        "open": "7:00",
+        "close": "13:00"
+      },
+      "thursday": {
+        "address": "905 Dexter Ave N",
+        "open": "7:00",
+        "close": "13:00"
+      },
+      "friday": {
+        "address": "905 Dexter Ave N",
+        "open": "7:00",
+        "close": "13:00"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/HotRevolutionDonuts",
+      "twitter_link": "https://twitter.com/HotRevDonuts",
+      "twitter_screen_name": "HotRevDonuts",
+      "website": "http://www.hotrevolutiondonuts.com/"
+    }
+  },
+  {
+    "name": "NaanSense",
+    "cuisine": "Indian",
+    "payment": "Cash or Cards",
+    "description": "Seattle’s only truck with an on-board Tandoori Oven serving fresh Naan to order!",
+    "schedule": {
+      "monday": {
+        "address": "Microsoft Campus",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "tuesday": {
+        "address": "106th Ave NE and NE 6th St, Barnes and Noble",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "wednesday": {
+        "address": "Boren Ave N and Republican St",
+        "open": "11:00",
+        "close": "13:30"
+      },
+      "thursday": {
+        "address": "1st Ave and King St, Isilon",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "friday": {
+        "address": "Boren Ave N and Republican St",
+        "open": "11:00",
+        "close": "13:30"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/SeattleNaanSense",
+      "twitter_link": "https://twitter.com/NaanSenseMobile",
+      "twitter_screen_name": "NaanSenseMobile",
+      "website": "http://www.naansenseseattle.com/"
+    }
+  },
+  {
+    "name": "Peasant Food Manifesto",
+    "cuisine": "Global Fusion",
+    "payment": "Cash or Cards",
+    "description": "Global Fusion Comfort Foods!",
+    "schedule": {
+      "monday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "tuesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "wednesday": {
+        "address": "106th Ave NE and NE 6th St",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "thursday": {
+        "address": "Terry Ave N and Thomas St",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "friday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "saturday": {
+        "address": "826B NW 49th St, Populuxe Brewing",
+        "open": "14:00",
+        "close": "17:00"
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/peasantfoodmanifesto",
+      "twitter_link": "https://twitter.com/EatLikeAPeasant",
+      "twitter_screen_name": "EatLikeAPeasant",
+      "website": "http://www.peasantfoodmanifesto.com"
+    }
+  },
+  {
+    "name": "Roll OK Please",
+    "cuisine": "Indian Kathi Rolls",
+    "payment": "Cash or Cards",
+    "description": "Indian street food, featuring Kathi Rolls",
+    "schedule": {
+      "monday": {
+        "address": "106th Ave NE and NE 6th St",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "tuesday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "wednesday": {
+        "address": "999 Lake Dr",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "thursday": {
+        "address": "16331 NE 72nd Way, AT&T",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "friday": {
+        "address": "Microsoft, Willows Campus",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/rollokplease",
+      "twitter_link": "https://twitter.com/RollOKPlease",
+      "twitter_screen_name": "RollOKPlease",
+      "website": "http://www.rollokplease.com"
+    }
+  },
+  {
+    "name": "Tuscan Stone Pizza",
+    "cuisine": "Pizza",
+    "payment": "Cash or Cards",
+    "description": "Offering superior quality, affordable prices and great taste!",
+    "schedule": {
+      "monday": {
+        "address": "2885 78th Ave SE",
+        "open": "11:00",
+        "close": "20:00"
+      },
+      "tuesday": {
+        "address": "2885 78th Ave SE",
+        "open": "11:00",
+        "close": "20:00"
+      },
+      "wednesday": {
+        "address": "2885 78th Ave SE",
+        "open": "11:00",
+        "close": "20:00"
+      },
+      "thursday": {
+        "address": "2885 78th Ave SE",
+        "open": "11:00",
+        "close": "20:00"
+      },
+      "friday": {
+        "address": "2885 78th Ave SE",
+        "open": "11:00",
+        "close": "20:00"
+      },
+      "saturday": {
+        "address": "2885 78th Ave SE",
+        "open": "11:00",
+        "close": "20:00"
+      },
+      "sunday": {
+        "address": "2885 78th Ave SE",
+        "open": "0:00",
+        "close": "20:00"
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/TuscanStonePizza",
+      "twitter_link": "https://twitter.com/TuscanPizza",
+      "twitter_screen_name": "TuscanPizza",
+      "website": "http://www.tuscanstonepizza.com/"
+    }
+  },
+  {
+    "name": "Yumbit Food Truck",
+    "cuisine": "Taiwanese Bento",
+    "payment": "Cash or Cards",
+    "description": "Yumbit Food Truck offers the authentic Taiwanese Bento, appetizers, fresh fruit juice, and many other Asian desserts, side dishes, etc.",
+    "schedule": {
+      "monday": {
+        "address": "2000 9th Ave",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "tuesday": {
+        "address": "10827 NE 8th St",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "wednesday": {
+        "address": "2000 9th Ave",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "thursday": {
+        "address": "10827 NE 8th St",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "friday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "saturday": {
+        "address": null,
+        "open": null,
+        "close": null
+      },
+      "sunday": {
+        "address": null,
+        "open": null,
+        "close": null
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/yumbit",
+      "twitter_link": "",
+      "website": "http://foodtruck.yumb.it/"
+    }
+  }
+]

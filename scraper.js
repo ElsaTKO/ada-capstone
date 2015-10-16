@@ -78,7 +78,6 @@ app.get('/scrape', function(req, res) {
 			var name, cuisine, payment, description, facebook, twitter, website;
 			var stuff;
 			var json = {
-				establishment: "food_truck",
 				name: null,
 				cuisine: null,
 				payment: null,
