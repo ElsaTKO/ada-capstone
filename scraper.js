@@ -2,7 +2,7 @@ var express = require('express');
 var fs      = require('fs');
 var request = require('request');
 var cheerio = require('cheerio');
-var sleep 	= require('sleep');
+var he = require('he');
 var app     = express();
 
 var food_truck_json = [];
@@ -50,6 +50,9 @@ function convertTime(time) {
 }
 
 // var two_trucks = ['http://www.seattlefoodtruck.com/index.php/trucks/314-pie/', 'http://www.seattlefoodtruck.com/index.php/trucks/a-fire-inside-wood-fired-pizza/'];
+
+// THIS CURRENTLY WRITES THE OUTPUT FILE HUNDREDS OF TIMES...
+// FIX LATER
 
 app.get('/scrape', function(req, res) {
 	// url = 'http://www.seattlefoodtruck.com/index.php/trucks/314-pie/';
@@ -121,9 +124,7 @@ app.get('/scrape', function(req, res) {
 					{
 						facebook: "",
 						twitter_link: "",
-						twitter_id: "",
 						twitter_screen_name: "",
-						twitter_name: "",
 						website: ""
 					}
 
@@ -145,8 +146,8 @@ app.get('/scrape', function(req, res) {
 				var orig_html = $(this).html();
 				var cut_hood, scrubbed_html;
 				if (orig_html.indexOf("<br>") != -1) {
-					cut_hood = orig_html.split("<br>")[1];
-					scrubbed_html = cut_hood.replace(/(\r\n|\n|\r)/gm, "").trim();
+					cut_hood = orig_html.split("<br>")[1]; // chop off neighborhood indicator
+					scrubbed_html = cut_hood.replace(/(\r\n|\n|\r)/gm, "").trim(); // remove new lines, etc
 					cell_pairs[index] = scrubbed_html;
 				} else {
 					scrubbed_html = orig_html.replace(/(\r\n|\n|\r)/gm, "").trim();
@@ -165,10 +166,9 @@ app.get('/scrape', function(req, res) {
 				if (cell_pairs[i].indexOf("<a href") != -1) {
 					cell_pairs[i] = cell_pairs[i].replace(/(<([^>]+)>)/gm, "").trim();
 				}
-				// &#x2013; — dash
-				if (cell_pairs[i].indexOf("&#x2013;") != -1) {
-					cell_pairs[i] = cell_pairs[i].replace(" &#x2013; ", " — ").trim();
-				}
+
+				// replace all else, like &amp; or unicode hex
+				cell_pairs[i] = he.decode(cell_pairs[i]);
 
 				// console.log("*** this cell: ", cell_pairs[i]);
 			}
@@ -350,14 +350,14 @@ app.get('/scrape', function(req, res) {
 				}
 			}
 
-			var cuisine_index = cell_pairs.indexOf("Food Type:") + 1;
-			json.cuisine = cell_pairs[cuisine_index];
+			var cuisine_index = cell_pairs.indexOf("Food Type:");
+			json.cuisine = cell_pairs[cuisine_index + 1];
 
-			var payment_index = cell_pairs.indexOf("Payment:") + 1;
-			json.payment = cell_pairs[payment_index];
+			var payment_index = cell_pairs.indexOf("Payment:");
+			json.payment = cell_pairs[payment_index + 1];
 
-			var description_index = cell_pairs.indexOf("Description:") + 1;
-			json.description = cell_pairs[description_index];
+			var description_index = cell_pairs.indexOf("Description:");
+			json.description = cell_pairs[description_index + 1];
 
 			var facebook_index = cell_pairs.indexOf("Facebook:");
 			json.contact.facebook = cell_pairs[facebook_index + 1];
@@ -377,7 +377,7 @@ app.get('/scrape', function(req, res) {
 			food_truck_json.push(json);
 		}
 
-		fs.writeFile('food_trucks_data_' + timestamp + '.json', JSON.stringify(food_truck_json, null, 4), function(err){
+		fs.writeFile('food_trucks_data_' + timestamp + '.json', JSON.stringify(food_truck_json, null, 2), function(err){
       if (err) {
         console.log("Write file error: ", err);
       }
@@ -390,17 +390,15 @@ app.get('/scrape', function(req, res) {
 
 } // end for loop
 
-
-
 });
 
+// at script startup
 app.listen('8181');
 console.log('*** Scraper port open');
 exports = module.exports = app;
 
 
-
-
+// list of all food truck urls previously scraped
 var truck_links = [ 'http://www.seattlefoodtruck.com/index.php/trucks/314-pie/',
   'http://www.seattlefoodtruck.com/index.php/trucks/a-fire-inside-wood-fired-pizza/',
   'http://www.seattlefoodtruck.com/index.php/trucks/absolut-hot-dog-and-gyros/',
