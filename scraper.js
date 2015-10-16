@@ -5,7 +5,7 @@ var cheerio = require('cheerio');
 var sleep 	= require('sleep');
 var app     = express();
 
-var food_truck_json = {food_trucks: []};
+var food_truck_json = [];
 
 var new_date = new Date();
 var timestamp = new_date.toJSON();
@@ -83,43 +83,36 @@ app.get('/scrape', function(req, res) {
 					{
 						monday: {
 							address: "",
-							coordinates: [],
 							open: "",
 							close: ""
 						},
 						tuesday: {
 							address: "",
-							coordinates: [],
 							open: "",
 							close: ""
 						},
 						wednesday: {
 							address: "",
-							coordinates: [],
 							open: "",
 							close: ""
 						},
 						thursday: {
 							address: "",
-							coordinates: [],
 							open: "",
 							close: ""
 						},
 						friday: {
 							address: "",
-							coordinates: [],
 							open: "",
 							close: ""
 						},
 						saturday: {
 							address: "",
-							coordinates: [],
 							open: "",
 							close: ""
 						},
 						sunday: {
 							address: "",
-							coordinates: [],
 							open: "",
 							close: ""
 						}
@@ -381,7 +374,7 @@ app.get('/scrape', function(req, res) {
 			json.contact.website = cell_pairs[website_index + 1];
 
       // console.log("\n*** JSON: \n", json);
-			food_truck_json.food_trucks.push(json);
+			food_truck_json.push(json);
 		}
 
 		fs.writeFile('food_trucks_data_' + timestamp + '.json', JSON.stringify(food_truck_json, null, 4), function(err){
