@@ -2,25 +2,35 @@ var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 var db = mongoose.connection;
 var assert = require('assert');
-var food_trucks = require('./food_trucks_data_2015-10-16T21:09:32.428Z');
+var food_trucks = require('./food_trucks_data_2015-10-16T23:33:01.747Z');
 // var breweries = require('./BREWERY_DATA.JSON');
 // var distilleries = require ('./DISTILLERY_DATA.JSON');
 
-
-// db.on('error', console.error.bind(console, 'connection error:'));
-// db.once('open', function (callback) {
-//   // yay!
-// });
-
 mongoose.connect('mongodb://localhost/boozeybites');
 console.log('Connected to database.');
-mongoose.connection.db.dropDatabase(function (err) {
+db.collection("foodtrucks").drop(function(err) {
   if (err) {
-    console.log("*** Error dropping datatabse: ", err);
+    console.log("Collection drop error: ", err);
   } else {
-    console.log('Database dropped.');
+    console.log("foodtrucks collection dropped.");
   }
-}); // end db drop
+});
+
+// db.collection("breweries").drop(function(err) {
+//   if (err) {
+//     console.log("Collection drop error: ", err);
+//   } else {
+//     console.log("breweries collection dropped.");
+//   }
+// });
+
+// db.collection("distilleries").drop(function(err) {
+//   if (err) {
+//     console.log("Collection drop error: ", err);
+//   } else {
+//     console.log("distilleries collection dropped.");
+//   }
+// });
 
 var scheduleSchema = new Schema({
   address: String,

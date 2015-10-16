@@ -78,54 +78,54 @@ app.get('/scrape', function(req, res) {
 			var name, cuisine, payment, description, facebook, twitter, website;
 			var stuff;
 			var json = {
-				name: null,
-				cuisine: null,
-				payment: null,
-				description: null,
+				name: undefined,
+				cuisine: undefined,
+				payment: undefined,
+				description: undefined,
 				schedule:
 					{
 						monday: {
-							address: null,
-							open: null,
-							close: null
+							address: undefined,
+							open: undefined,
+							close: undefined
 						},
 						tuesday: {
-							address: null,
-							open: null,
-							close: null
+							address: undefined,
+							open: undefined,
+							close: undefined
 						},
 						wednesday: {
-							address: null,
-							open: null,
-							close: null
+							address: undefined,
+							open: undefined,
+							close: undefined
 						},
 						thursday: {
-							address: null,
-							open: null,
-							close: null
+							address: undefined,
+							open: undefined,
+							close: undefined
 						},
 						friday: {
-							address: null,
-							open: null,
-							close: null
+							address: undefined,
+							open: undefined,
+							close: undefined
 						},
 						saturday: {
-							address: null,
-							open: null,
-							close: null
+							address: undefined,
+							open: undefined,
+							close: undefined
 						},
 						sunday: {
-							address: null,
-							open: null,
-							close: null
+							address: undefined,
+							open: undefined,
+							close: undefined
 						}
 					},
 				contact:
 					{
-						facebook: null,
-						twitter_link: null,
-						twitter_screen_name: null,
-						website: null
+						facebook: undefined,
+						twitter_link: undefined,
+						twitter_screen_name: undefined,
+						website: undefined
 					}
 
 			};
