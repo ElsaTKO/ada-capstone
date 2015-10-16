@@ -1,8 +1,14 @@
 // http://stackoverflow.com/questions/30696946/how-to-import-json-into-mongodb-using-mongoose
 
 var mongoose = require('mongoose');
+var assert = require('assert');
 var Schema = mongoose.Schema;
 var FoodTruck = require('./models/food_trucks_schema');
+
+// define data
+
+// FoodTruck.collection.insertMany
+
 
 
 // EXAMPLE 1
