@@ -1,0 +1,3554 @@
+<bmp_locations>
+  <location>
+    <id>137</id>
+    <name>Big Time Brewery and Alehouse</name>
+    <status>Brewpub</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid137</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid137d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid137d1typenorm</blogmap>
+    <street>4133 University Way NE</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98105</zip>
+    <country>United States</country>
+    <phone>(206) 545-4509</phone>
+    <overall>78.66675</overall>
+    <imagecount>5</imagecount>
+  </location>
+  <location>
+    <id>407</id>
+    <name>Elliott Bay Brewery Pub - West Seattle</name>
+    <status>Brewpub</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid407</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid407d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid407d1typenorm</blogmap>
+    <street>4720 California Ave. SW</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98116</zip>
+    <country>United States</country>
+    <phone>206-932-8695</phone>
+    <overall>90.00005</overall>
+    <imagecount>6</imagecount>
+  </location>
+  <location>
+    <id>411</id>
+    <name>Elysian Brewing Company</name>
+    <status>Brewpub</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid411</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid411d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid411d1typenorm</blogmap>
+    <street>1221 E Pike St</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98122</zip>
+    <country>United States</country>
+    <phone>(206) 860-1920</phone>
+    <overall>82.2917625</overall>
+    <imagecount>15</imagecount>
+  </location>
+  <location>
+    <id>412</id>
+    <name>Elysian Tangletown</name>
+    <status>Brewpub</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid412</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid412d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid412d1typenorm</blogmap>
+    <street>2106 N 55th St</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98103</zip>
+    <country>United States</country>
+    <phone>(206) 547-5929</phone>
+    <overall>93.3333625</overall>
+    <imagecount>5</imagecount>
+  </location>
+  <location>
+    <id>487</id>
+    <name>Georgetown Brewing Company</name>
+    <status>Brewery</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid487</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid487d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid487d1typenorm</blogmap>
+    <street>5840 Airport Way S #201</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98108</zip>
+    <country>United States</country>
+    <phone>(206) 766-8085</phone>
+    <overall>91.666633333334</overall>
+    <imagecount>3</imagecount>
+  </location>
+  <location>
+    <id>516</id>
+    <name>Gordon Biersch - Seattle</name>
+    <status>Brewpub</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid516</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid516d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid516d1typenorm</blogmap>
+    <street>600 Pine Street</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98101</zip>
+    <country>United States</country>
+    <phone>(206) 405-4205</phone>
+    <overall>60.555516666666</overall>
+    <imagecount>4</imagecount>
+  </location>
+  <location>
+    <id>564</id>
+    <name>Hale's Ales Brewery and Pub</name>
+    <status>Brewpub</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid564</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid564d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid564d1typenorm</blogmap>
+    <street>4301 Leary Way NW</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98107</zip>
+    <country>United States</country>
+    <phone>(206) 782-0737</phone>
+    <overall>79.761914285714</overall>
+    <imagecount>12</imagecount>
+  </location>
+  <location>
+    <id>812</id>
+    <name>Maritime Pacific Brewing Company</name>
+    <status>Brewery</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid812</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid812d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid812d1typenorm</blogmap>
+    <street>1514 NW Leary Way</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98107</zip>
+    <country>United States</country>
+    <phone>(206) 782-6181</phone>
+    <overall>81.33339</overall>
+    <imagecount>9</imagecount>
+  </location>
+  <location>
+    <id>836</id>
+    <name>McMenamins Queen Anne</name>
+    <status>Brewpub</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid836</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid836d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid836d1typenorm</blogmap>
+    <street>200 Roy Street</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98109</zip>
+    <country>United States</country>
+    <phone>(206) 285-4722</phone>
+    <overall>70.0001</overall>
+    <imagecount>4</imagecount>
+  </location>
+  <location>
+    <id>837</id>
+    <name>Six Arms (McMenamins)</name>
+    <status>Brewpub</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid837</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid837d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid837d1typenorm</blogmap>
+    <street>300 E Pike St.</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98122</zip>
+    <country>United States</country>
+    <phone>(206) 223-1689</phone>
+    <overall>88.3333</overall>
+    <imagecount>4</imagecount>
+  </location>
+  <location>
+    <id>1001</id>
+    <name>Pike Pub and Brewery, The</name>
+    <status>Brewpub</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid1001</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid1001d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid1001d1typenorm</blogmap>
+    <street>1415 First Ave.</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98101</zip>
+    <country>United States</country>
+    <phone>(206) 622-6044</phone>
+    <overall>83.461584615384</overall>
+    <imagecount>7</imagecount>
+  </location>
+  <location>
+    <id>1030</id>
+    <name>Pyramid Brewing Co. - Seattle Alehouse</name>
+    <status>Brewpub</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid1030</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid1030d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid1030d1typenorm</blogmap>
+    <street>1201 1st Ave S</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98134</zip>
+    <country>United States</country>
+    <phone>(206) 682-3377</phone>
+    <overall>75.625</overall>
+    <imagecount>7</imagecount>
+  </location>
+  <location>
+    <id>1050</id>
+    <name>Ram Restaurant and Brewery - Seattle</name>
+    <status>Brewpub</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid1050</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid1050d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid1050d1typenorm</blogmap>
+    <street>4730 University Village Pl NE</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98105</zip>
+    <country>United States</country>
+    <phone>(206) 525-3565</phone>
+    <overall>47.50005</overall>
+    <imagecount>6</imagecount>
+  </location>
+  <location>
+    <id>1113</id>
+    <name>Rock Bottom - Seattle</name>
+    <status>Brewpub</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid1113</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid1113d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid1113d1typenorm</blogmap>
+    <street>1333 5th Avenue</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98101</zip>
+    <country>United States</country>
+    <phone>(206) 623-3070</phone>
+    <overall>81.66665</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>2331</id>
+    <name>74th St Ale House</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2331</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2331d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2331d1typenorm</blogmap>
+    <street>7401 Greenwood Ave N</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98103</zip>
+    <country>United States</country>
+    <phone>(206) 784-2955</phone>
+    <overall>91.66665</overall>
+    <imagecount>3</imagecount>
+  </location>
+  <location>
+    <id>2332</id>
+    <name>Alibi Room</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2332</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2332d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2332d1typenorm</blogmap>
+    <street>85 Pike St Unit 410</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98101</zip>
+    <country>United States</country>
+    <phone>(206) 623-3180</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>2333</id>
+    <name>Bad Albert's Tap And Grill</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2333</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2333d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2333d1typenorm</blogmap>
+    <street>5100 Ballard Avenue NW</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98107</zip>
+    <country>United States</country>
+    <phone>(206) 782-9623</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>2334</id>
+    <name>Barking Dog Alehouse</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2334</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2334d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2334d1typenorm</blogmap>
+    <street>705 NW 70th St</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98117</zip>
+    <country>United States</country>
+    <phone>(206) 782-2974</phone>
+    <overall>90.000025</overall>
+    <imagecount>3</imagecount>
+  </location>
+  <location>
+    <id>2335</id>
+    <name>Belltown Pub</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2335</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2335d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2335d1typenorm</blogmap>
+    <street>2322 1st Avenue</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98121</zip>
+    <country>United States</country>
+    <phone>(206) 728-4311</phone>
+    <overall>88.3333</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>2336</id>
+    <name>Beveridge Place Pub</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2336</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2336d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2336d1typenorm</blogmap>
+    <street>6451 California Ave SW</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98136</zip>
+    <country>United States</country>
+    <phone>(206) 932-9906</phone>
+    <overall>100</overall>
+    <imagecount>4</imagecount>
+  </location>
+  <location>
+    <id>2337</id>
+    <name>Bick's Broadview Grill</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2337</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2337d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2337d1typenorm</blogmap>
+    <street>10555 Greenwood Ave. N</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98133</zip>
+    <country>United States</country>
+    <phone>(206) 367-8481</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>2338</id>
+    <name>Blue Star Cafe And Pub Eggs Ceteras</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2338</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2338d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2338d1typenorm</blogmap>
+    <street>4512 Stone Way North</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98103</zip>
+    <country>United States</country>
+    <phone>(206) 548-0345</phone>
+    <overall>0</overall>
+    <imagecount>2</imagecount>
+  </location>
+  <location>
+    <id>2339</id>
+    <name>Brooklyn Seafood, Steak and Oyster House</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2339</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2339d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2339d1typenorm</blogmap>
+    <street>1212 2nd Ave</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98101</zip>
+    <country>United States</country>
+    <phone>(206) 224-7000</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>2340</id>
+    <name>Brouwer's Cafe</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2340</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2340d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2340d1typenorm</blogmap>
+    <street>400 N 35th Street</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98103</zip>
+    <country>United States</country>
+    <phone>(206) 267-2437</phone>
+    <overall>85.00015</overall>
+    <imagecount>6</imagecount>
+  </location>
+  <location>
+    <id>2343</id>
+    <name>Central Saloon</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2343</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2343d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2343d1typenorm</blogmap>
+    <street>207 1st Ave S</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98104</zip>
+    <country>United States</country>
+    <phone>(206) 622-0209</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>2345</id>
+    <name>College Inn Pub, The</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2345</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2345d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2345d1typenorm</blogmap>
+    <street>4006 University Way NE</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98105</zip>
+    <country>United States</country>
+    <phone>(206) 634-2307</phone>
+    <overall>81.6666</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>2346</id>
+    <name>Collins Pub</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2346</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2346d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2346d1typenorm</blogmap>
+    <street>526 2nd Avenue</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98104</zip>
+    <country>United States</country>
+    <phone>(206) 623-1016</phone>
+    <overall>86.666725</overall>
+    <imagecount>3</imagecount>
+  </location>
+  <location>
+    <id>2347</id>
+    <name>Columbia City Ale House</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2347</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2347d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2347d1typenorm</blogmap>
+    <street>4914 Rainier Ave S</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98118</zip>
+    <country>United States</country>
+    <phone>(206) 723-5123</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>2348</id>
+    <name>Conor Byrne's Pub</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2348</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2348d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2348d1typenorm</blogmap>
+    <street>5140 Ballard Ave NW</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98107</zip>
+    <country>United States</country>
+    <phone>(206) 784-3640</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>2349</id>
+    <name>Cooper's Alehouse</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2349</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2349d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2349d1typenorm</blogmap>
+    <street>8065 Lake City Way NE</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98115</zip>
+    <country>United States</country>
+    <phone>(206) 522-2923</phone>
+    <overall>87.500125</overall>
+    <imagecount>6</imagecount>
+  </location>
+  <location>
+    <id>2350</id>
+    <name>Cutter's Bayhouse</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2350</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2350d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2350d1typenorm</blogmap>
+    <street>2001 Western Ave</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98121</zip>
+    <country>United States</country>
+    <phone>(206) 448-4804</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>2351</id>
+    <name>Dante's Steak and Grog</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2351</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2351d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2351d1typenorm</blogmap>
+    <street>5300 Roosevelt Ave. NE</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98105</zip>
+    <country>United States</country>
+    <phone>(206) 525-1300</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>2352</id>
+    <name>Deluxe Bar And Grill</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2352</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2352d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2352d1typenorm</blogmap>
+    <street>625 Broadway Ave. E</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98102</zip>
+    <country>United States</country>
+    <phone>(206) 324-9697</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>2353</id>
+    <name>Dexter and Hayes Public House</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2353</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2353d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2353d1typenorm</blogmap>
+    <street>1628 Dexter Avenue N.</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98109</zip>
+    <country>United States</country>
+    <phone>(206) 283-7786</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>2354</id>
+    <name>Die Bierstube</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2354</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2354d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2354d1typenorm</blogmap>
+    <street>6106 Roosevelt Way NE</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98115</zip>
+    <country>United States</country>
+    <phone>(206) 527-7019</phone>
+    <overall>91.666725</overall>
+    <imagecount>1</imagecount>
+  </location>
+  <location>
+    <id>2356</id>
+    <name>Dubliner</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2356</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2356d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2356d1typenorm</blogmap>
+    <street>3405 Fremont Ave N</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98103</zip>
+    <country>United States</country>
+    <phone>(206) 548-1508</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>2357</id>
+    <name>Duck Island Saloon</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2357</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2357d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2357d1typenorm</blogmap>
+    <street>7317 Aurora Ave N</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98103</zip>
+    <country>United States</country>
+    <phone>(206) 783-3360</phone>
+    <overall>88.33345</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>2358</id>
+    <name>Elephant and Castle</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2358</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2358d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2358d1typenorm</blogmap>
+    <street>1415 Fifth Avenue</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98101</zip>
+    <country>United States</country>
+    <phone>(206) 624-9977</phone>
+    <overall>75</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>2359</id>
+    <name>F.X. McRory's Steak, Chop and Oyster House</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2359</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2359d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2359d1typenorm</blogmap>
+    <street>419 Occidental Avenue South</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98104</zip>
+    <country>United States</country>
+    <phone>(206) 623-4800</phone>
+    <overall>76.6666</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>2360</id>
+    <name>Fiddler's Inn</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2360</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2360d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2360d1typenorm</blogmap>
+    <street>9219 35th Ave NE</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98106</zip>
+    <country>United States</country>
+    <phone>(206) 525-0752</phone>
+    <overall>95.833325</overall>
+    <imagecount>4</imagecount>
+  </location>
+  <location>
+    <id>2361</id>
+    <name>Floyd's Place</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2361</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2361d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2361d1typenorm</blogmap>
+    <street>521 1st Avenue N</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98105</zip>
+    <country>United States</country>
+    <phone>(206) 522-4454</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>2362</id>
+    <name>George and Dragon Pub</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2362</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2362d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2362d1typenorm</blogmap>
+    <street>206 North 36th Street</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98103</zip>
+    <country>United States</country>
+    <phone>(206) 545-6864</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>2364</id>
+    <name>Hilltop Ale House</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2364</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2364d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2364d1typenorm</blogmap>
+    <street>2129 Queen Anne Ave. N</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98109</zip>
+    <country>United States</country>
+    <phone>(206) 285-3877</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>2365</id>
+    <name>Hopvine Pub</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2365</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2365d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2365d1typenorm</blogmap>
+    <street>507 15th Avenue E</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98112</zip>
+    <country>United States</country>
+    <phone>(206) 328-3120</phone>
+    <overall>100</overall>
+    <imagecount>3</imagecount>
+  </location>
+  <location>
+    <id>2366</id>
+    <name>Hoyt's Pub</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2366</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2366d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2366d1typenorm</blogmap>
+    <street>1527 Queen Anne Avenue N.</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98109</zip>
+    <country>United States</country>
+    <phone>(206) 284-2656</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>2368</id>
+    <name>Kell's Irish Restaurant And Pub</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2368</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2368d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2368d1typenorm</blogmap>
+    <street>1916 Post Alley, Pike Place Market</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98101</zip>
+    <country>United States</country>
+    <phone>(206) 728-1916</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>2369</id>
+    <name>Latona by Greenlake, The</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2369</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2369d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2369d1typenorm</blogmap>
+    <street>6423 Latona Avenue NE</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98115</zip>
+    <country>United States</country>
+    <phone>(206) 525-2238</phone>
+    <overall>100</overall>
+    <imagecount>5</imagecount>
+  </location>
+  <location>
+    <id>2370</id>
+    <name>Leschi Lakecafe and G.B.B Bar</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2370</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2370d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2370d1typenorm</blogmap>
+    <street>102 Lakeside Avenue</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98122</zip>
+    <country>United States</country>
+    <phone>(206) 328-2233</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>2371</id>
+    <name>Linda's Tavern</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2371</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2371d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2371d1typenorm</blogmap>
+    <street>707 East Pine St</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98122</zip>
+    <country>United States</country>
+    <phone>(206) 325-1220</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>2372</id>
+    <name>Lock And Keel</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2372</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2372d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2372d1typenorm</blogmap>
+    <street>5144 Ballard Ave NW</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98107</zip>
+    <country>United States</country>
+    <phone>(206) 781-9092</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>2373</id>
+    <name>Madrona Eatery and Ale House</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2373</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2373d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2373d1typenorm</blogmap>
+    <street>1138 34th Ave</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98122</zip>
+    <country>United States</country>
+    <phone>(206) 323-7807</phone>
+    <overall>63.3334</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>2377</id>
+    <name>McCormick and Schmick</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2377</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2377d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2377d1typenorm</blogmap>
+    <street>1103 First Avenue</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98101</zip>
+    <country>United States</country>
+    <phone>(206) 623-5150</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>2378</id>
+    <name>Monkey Pub, The</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2378</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2378d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2378d1typenorm</blogmap>
+    <street>5305 Roosevelt Way NE</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98105</zip>
+    <country>United States</country>
+    <phone>(206) 523-6457</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>2379</id>
+    <name>Murphy's Pub</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2379</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2379d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2379d1typenorm</blogmap>
+    <street>1928 N. 45th Street</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98103</zip>
+    <country>United States</country>
+    <phone>(206) 634-2110</phone>
+    <overall>88.3333</overall>
+    <imagecount>4</imagecount>
+  </location>
+  <location>
+    <id>2380</id>
+    <name>Nickerson Street Saloon</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2380</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2380d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2380d1typenorm</blogmap>
+    <street>318 Nickerson Street</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98109</zip>
+    <country>United States</country>
+    <phone>(206) 284-8819</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>2381</id>
+    <name>Norm's Eatery and Ale House</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2381</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2381d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2381d1typenorm</blogmap>
+    <street>460 N 36th Street</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98103</zip>
+    <country>United States</country>
+    <phone>(206) 547-1417</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>2382</id>
+    <name>Northlake Tavern And Pizza</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2382</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2382d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2382d1typenorm</blogmap>
+    <street>660 NE Northlake Way</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98105</zip>
+    <country>United States</country>
+    <phone>(206) 633-5317</phone>
+    <overall>0</overall>
+    <imagecount>1</imagecount>
+  </location>
+  <location>
+    <id>2384</id>
+    <name>Old Pequliar, The</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2384</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2384d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2384d1typenorm</blogmap>
+    <street>1722 NW Market St</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98107</zip>
+    <country>United States</country>
+    <phone>(206) 782-8886</phone>
+    <overall>98.3333</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>2385</id>
+    <name>Old Town Alehouse</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2385</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2385d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2385d1typenorm</blogmap>
+    <street>5233 Ballard Ave. NW</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98107</zip>
+    <country>United States</country>
+    <phone>(206) 782-8323</phone>
+    <overall>83.3335</overall>
+    <imagecount>8</imagecount>
+  </location>
+  <location>
+    <id>2386</id>
+    <name>Owl N' Thistle, The</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2386</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2386d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2386d1typenorm</blogmap>
+    <street>808 Post Ave</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98101</zip>
+    <country>United States</country>
+    <phone>(206) 621-7777</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>2387</id>
+    <name>Pacific Inn Pub</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2387</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2387d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2387d1typenorm</blogmap>
+    <street>3501 Stone Way N</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98103</zip>
+    <country>United States</country>
+    <phone>(206) 547-2967</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>2388</id>
+    <name>Park Pub, The</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2388</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2388d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2388d1typenorm</blogmap>
+    <street>6114 Phinney Ave N</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98103</zip>
+    <country>United States</country>
+    <phone>(206) 789-8187</phone>
+    <overall>0</overall>
+    <imagecount>1</imagecount>
+  </location>
+  <location>
+    <id>2389</id>
+    <name>Pike Place Bar and Grill</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2389</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2389d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2389d1typenorm</blogmap>
+    <street>90 Pike St.</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98101</zip>
+    <country>United States</country>
+    <phone>(206) 624-1365</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>2391</id>
+    <name>Prost!</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2391</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2391d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2391d1typenorm</blogmap>
+    <street>7311 Greenwood Ave N</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98103</zip>
+    <country>United States</country>
+    <phone>(206) 706-5430</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>2394</id>
+    <name>Reading GAOL Pub and Grill</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2394</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2394d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2394d1typenorm</blogmap>
+    <street>418 N.W. 65th</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98117</zip>
+    <country>United States</country>
+    <phone>(206) 783-3002</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>2395</id>
+    <name>Red Door Ale House, The</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2395</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2395d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2395d1typenorm</blogmap>
+    <street>3401 Evanston Avenue N.</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98103</zip>
+    <country>United States</country>
+    <phone>(206) 547-7521</phone>
+    <overall>91.66665</overall>
+    <imagecount>3</imagecount>
+  </location>
+  <location>
+    <id>2399</id>
+    <name>Sharp's Roaster and Ale</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2399</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2399d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2399d1typenorm</blogmap>
+    <street>18427 Pacific Highway South</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98188</zip>
+    <country>United States</country>
+    <phone>(206) 241-5744</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>2400</id>
+    <name>Shultzy's Sausage</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2400</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2400d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2400d1typenorm</blogmap>
+    <street>4114 University Way NE</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98105</zip>
+    <country>United States</country>
+    <phone>(206) 548-9461</phone>
+    <overall>79.9998</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>2401</id>
+    <name>Stumbling Monk, The</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2401</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2401d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2401d1typenorm</blogmap>
+    <street>1635 E. Olive Way</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98102</zip>
+    <country>United States</country>
+    <phone>(206) 860-0916</phone>
+    <overall>91.66675</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>2402</id>
+    <name>Sully's Snow Goose Saloon</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2402</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2402d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2402d1typenorm</blogmap>
+    <street>6119 Phinney Ave. N</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98103</zip>
+    <country>United States</country>
+    <phone>(206) 782-9231</phone>
+    <overall>0</overall>
+    <imagecount>1</imagecount>
+  </location>
+  <location>
+    <id>2403</id>
+    <name>T.S. McHugh's</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2403</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2403d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2403d1typenorm</blogmap>
+    <street>21 Mercer St</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98109</zip>
+    <country>United States</country>
+    <phone>(206) 282-1910</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>2405</id>
+    <name>Triangle Tavern</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2405</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2405d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2405d1typenorm</blogmap>
+    <street>3507 Fremont Place N.</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98103</zip>
+    <country>United States</country>
+    <phone>(206) 632-0880</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>2406</id>
+    <name>Two Bells</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2406</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2406d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2406d1typenorm</blogmap>
+    <street>2313 4th Ave</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98121</zip>
+    <country>United States</country>
+    <phone>(206) 441-3050</phone>
+    <overall>84.99995</overall>
+    <imagecount>4</imagecount>
+  </location>
+  <location>
+    <id>2407</id>
+    <name>Village Pub</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2407</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2407d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2407d1typenorm</blogmap>
+    <street>3221 W McGraw St</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98199</zip>
+    <country>United States</country>
+    <phone>(206) 285-9756</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>2408</id>
+    <name>Virginia Inn Tavern, The</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2408</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2408d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2408d1typenorm</blogmap>
+    <street>1937 1st Ave</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98101</zip>
+    <country>United States</country>
+    <phone>(206) 728-1937</phone>
+    <overall>84.166575</overall>
+    <imagecount>3</imagecount>
+  </location>
+  <location>
+    <id>2409</id>
+    <name>Wedgwood Ale House and Cafe</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2409</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2409d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2409d1typenorm</blogmap>
+    <street>8515 35th Avenue NE</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98115</zip>
+    <country>United States</country>
+    <phone>(206) 527-2676</phone>
+    <overall>88.33335</overall>
+    <imagecount>1</imagecount>
+  </location>
+  <location>
+    <id>2760</id>
+    <name>Bottleworks</name>
+    <status>Beer Store</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2760</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2760d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2760d1typenorm</blogmap>
+    <street>1710 N. 45th</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98103</zip>
+    <country>United States</country>
+    <phone>(206) 633-2437</phone>
+    <overall>100</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>2763</id>
+    <name>Cost Plus World Market - Seattle</name>
+    <status>Beer Store</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2763</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2763d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2763d1typenorm</blogmap>
+    <street>2103 Western Avenue</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98121</zip>
+    <country>United States</country>
+    <phone>(206) 443-1055</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>2774</id>
+    <name>Pete's Wine Shop (Lake Union)</name>
+    <status>Beer Store</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2774</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2774d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2774d1typenorm</blogmap>
+    <street>58 E. Lynn St</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98102</zip>
+    <country>United States</country>
+    <phone>(206) 322-2660</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>2775</id>
+    <name>QFC (University Village)</name>
+    <status>Beer Store</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2775</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2775d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2775d1typenorm</blogmap>
+    <street>2746 NE 45th St.</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98105</zip>
+    <country>United States</country>
+    <phone>(206) 523-5160</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>2778</id>
+    <name>Town and Country Markets (Ballard)</name>
+    <status>Beer Store</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2778</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2778d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2778d1typenorm</blogmap>
+    <street>1400 NW 56th Street</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98107</zip>
+    <country>United States</country>
+    <phone>(206) 783-7922</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>2780</id>
+    <name>Trader Joe's - Capitol Hill</name>
+    <status>Beer Store</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2780</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2780d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2780d1typenorm</blogmap>
+    <street>1700 Madison Street</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98122</zip>
+    <country>United States</country>
+    <phone>(206) 322-7268</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>2781</id>
+    <name>Trader Joe's - Upper Queen Anne Hill</name>
+    <status>Beer Store</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2781</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2781d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2781d1typenorm</blogmap>
+    <street>112 Galer Street</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98119</zip>
+    <country>United States</country>
+    <phone>(206) 378-5536</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>2785</id>
+    <name>Whole Foods Market - Roosevelt Square</name>
+    <status>Beer Store</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2785</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2785d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2785d1typenorm</blogmap>
+    <street>1026 NE 64th. St.</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98115</zip>
+    <country>United States</country>
+    <phone>(206) 985-1500</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>2874</id>
+    <name>Duchess, The</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid2874</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid2874d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid2874d1typenorm</blogmap>
+    <street>2827 NE 55th</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98105</zip>
+    <country>United States</country>
+    <phone>(206) 527-8606</phone>
+    <overall>0</overall>
+    <imagecount>1</imagecount>
+  </location>
+  <location>
+    <id>3158</id>
+    <name>Galway Arms</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid3158</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid3158d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid3158d1typenorm</blogmap>
+    <street>5257 University Way NE</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98105</zip>
+    <country>United States</country>
+    <phone>(206) 527-0404</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>3160</id>
+    <name>Pies and Pints</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid3160</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid3160d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid3160d1typenorm</blogmap>
+    <street>1215 NE 65th Street</street>
+    <city>Seattle</city>
+    <state>Wa</state>
+    <zip>98115</zip>
+    <country>United States</country>
+    <phone>206.524.7082</phone>
+    <overall>73.3333</overall>
+    <imagecount>5</imagecount>
+  </location>
+  <location>
+    <id>3169</id>
+    <name>Buckley's on Queen Anne</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid3169</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid3169d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid3169d1typenorm</blogmap>
+    <street>232 1st Ave W</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98119</zip>
+    <country>United States</country>
+    <phone>(206) 691-0232</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>3216</id>
+    <name>Mulleady's Irish Pub</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid3216</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid3216d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid3216d1typenorm</blogmap>
+    <street>3055 21st Ave W</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98199</zip>
+    <country>United States</country>
+    <phone>(206) 283-8843</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>3482</id>
+    <name>JaBu's Pub</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid3482</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid3482d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid3482d1typenorm</blogmap>
+    <street>Warren Ave and Roy St</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98109</zip>
+    <country>United States</country>
+    <phone>(206) 284-9093</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>3513</id>
+    <name>Pub at Third Place, The</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid3513</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid3513d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid3513d1typenorm</blogmap>
+    <street>6504 20th Ave NE</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98115</zip>
+    <country>United States</country>
+    <phone>(206) 523-0217</phone>
+    <overall>88.3333</overall>
+    <imagecount>2</imagecount>
+  </location>
+  <location>
+    <id>3522</id>
+    <name>St. Andrew's Bar and Grill</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid3522</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid3522d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid3522d1typenorm</blogmap>
+    <street>7406 Aurora Ave N</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98103</zip>
+    <country>United States</country>
+    <phone>(206) 523-1193</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>3675</id>
+    <name>Celtic Swell</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid3675</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid3675d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid3675d1typenorm</blogmap>
+    <street>2722 Alki Ave SW</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98116</zip>
+    <country>United States</country>
+    <phone>206-932-7935</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>3744</id>
+    <name>Montlake Ale House</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid3744</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid3744d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid3744d1typenorm</blogmap>
+    <street>2307 24th Ave E</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98112</zip>
+    <country>United States</country>
+    <phone>(206) 726-5968</phone>
+    <overall>75</overall>
+    <imagecount>4</imagecount>
+  </location>
+  <location>
+    <id>3711</id>
+    <name>Bob's Homebrew Supply</name>
+    <status>Homebrew</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid3711</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid3711d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid3711d1typenorm</blogmap>
+    <street>2821 NE 55th Street</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98105</zip>
+    <country>United States</country>
+    <phone>(206) 527-9283</phone>
+    <overall>0</overall>
+    <imagecount>1</imagecount>
+  </location>
+  <location>
+    <id>3708</id>
+    <name>Elysian Fields</name>
+    <status>Brewpub</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid3708</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid3708d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid3708d1typenorm</blogmap>
+    <street>542 1st Avenue South</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98104</zip>
+    <country>United States</country>
+    <phone>(206) 382-4498</phone>
+    <overall>85.00009</overall>
+    <imagecount>2</imagecount>
+  </location>
+  <location>
+    <id>3710</id>
+    <name>Summit Public House</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid3710</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid3710d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid3710d1typenorm</blogmap>
+    <street>601 Summit Ave East</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98102</zip>
+    <country>United States</country>
+    <phone>(206) 324-7611</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>3725</id>
+    <name>Uber Tavern</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid3725</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid3725d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid3725d1typenorm</blogmap>
+    <street>7517 Aurora Avenue N</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98103</zip>
+    <country>United States</country>
+    <phone>(206) 782-BEER</phone>
+    <overall>100</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>3767</id>
+    <name>PCC Natural Markets - Greenlake</name>
+    <status>Beer Store</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid3767</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid3767d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid3767d1typenorm</blogmap>
+    <street>7504 Aurora Ave N</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98103</zip>
+    <country>United States</country>
+    <phone>(206) 525-3586</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>3837</id>
+    <name>Fado Irish Pub - Seattle</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid3837</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid3837d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid3837d1typenorm</blogmap>
+    <street>801 1st Ave</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98104</zip>
+    <country>United States</country>
+    <phone>(206) 264-2700</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>3838</id>
+    <name>White Horse Trading Co.</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid3838</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid3838d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid3838d1typenorm</blogmap>
+    <street>1908 Post Aly</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98101</zip>
+    <country>United States</country>
+    <phone>(206) 441-7767</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>3928</id>
+    <name>Targy's Tavern</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid3928</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid3928d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid3928d1typenorm</blogmap>
+    <street>600 W. Crockett St.</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98119</zip>
+    <country>United States</country>
+    <phone>2063528885</phone>
+    <overall>78.33325</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>3982</id>
+    <name>Cyclops Cafe and Lounge</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid3982</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid3982d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid3982d1typenorm</blogmap>
+    <street>2421 1st Avenue</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98121</zip>
+    <country>United States</country>
+    <phone>206-441-1677</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>5165</id>
+    <name>Cellar Homebrew, The</name>
+    <status>Homebrew</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid5165</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid5165d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid5165d1typenorm</blogmap>
+    <street>14320 Greenwood Avenue N.</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98133</zip>
+    <country>United States</country>
+    <phone>(206) 365-7660</phone>
+    <overall>85.0001</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>5314</id>
+    <name>Ken's Market</name>
+    <status>Beer Store</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid5314</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid5314d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid5314d1typenorm</blogmap>
+    <street>7231 Greenwood Ave N</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98103</zip>
+    <country>United States</country>
+    <phone>(206) 784-3470</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>5886</id>
+    <name>Hooverville</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid5886</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid5886d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid5886d1typenorm</blogmap>
+    <street>1721 1st Ave S</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98134</zip>
+    <country>United States</country>
+    <phone>(206) 264-2428</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>6238</id>
+    <name>Pike St. Beer and Wine</name>
+    <status>Beer Store</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid6238</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid6238d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid6238d1typenorm</blogmap>
+    <street>518 East Pike St.</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98122</zip>
+    <country>United States</country>
+    <phone>206-778-1086</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>6246</id>
+    <name>Sake Nomi</name>
+    <status>Beer Store</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid6246</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid6246d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid6246d1typenorm</blogmap>
+    <street>76 S Washington St</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98104</zip>
+    <country>United States</country>
+    <phone>206-467-7253</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>7076</id>
+    <name>Metropolitan Market - Admiral</name>
+    <status>Beer Store</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid7076</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid7076d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid7076d1typenorm</blogmap>
+    <street>2320 42nd Ave SW</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98116</zip>
+    <country>United States</country>
+    <phone>206.923.5380</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>7278</id>
+    <name>9 lb. Hammer</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid7278</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid7278d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid7278d1typenorm</blogmap>
+    <street>6009 Airport Way S</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98108</zip>
+    <country>United States</country>
+    <phone>(206) 762-3373</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>7341</id>
+    <name>Tap House Grill - Seattle</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid7341</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid7341d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid7341d1typenorm</blogmap>
+    <street>1506 Sixth Avenue</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98101</zip>
+    <country>United States</country>
+    <phone/>
+    <overall>81.111233333334</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>7342</id>
+    <name>Full Throttle Bottles</name>
+    <status>Beer Store</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid7342</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid7342d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid7342d1typenorm</blogmap>
+    <street>5909 Airport Way S</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98108</zip>
+    <country>United States</country>
+    <phone>206-763-2079</phone>
+    <overall>88.3333</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>7446</id>
+    <name>Ravenna Alehouse</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid7446</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid7446d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid7446d1typenorm</blogmap>
+    <street>2258 NE 65th St.</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98115</zip>
+    <country>United States</country>
+    <phone>(206) 729-9083</phone>
+    <overall>73.3333</overall>
+    <imagecount>2</imagecount>
+  </location>
+  <location>
+    <id>7447</id>
+    <name>Ram Restaurant and Brewery - Northgate</name>
+    <status>Brewpub</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid7447</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid7447d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid7447d1typenorm</blogmap>
+    <street>401 NE Northgate Way, Ste. 1102</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98125</zip>
+    <country>United States</country>
+    <phone>(206) 364-8000</phone>
+    <overall>71.00004</overall>
+    <imagecount>6</imagecount>
+  </location>
+  <location>
+    <id>7448</id>
+    <name>Pied Piper Alehouse</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid7448</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid7448d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid7448d1typenorm</blogmap>
+    <street>2404 NE 65th St.</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98115</zip>
+    <country>United States</country>
+    <phone>(206) 729-0603</phone>
+    <overall>86.66655</overall>
+    <imagecount>1</imagecount>
+  </location>
+  <location>
+    <id>7480</id>
+    <name>Teddy's Tavern</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid7480</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid7480d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid7480d1typenorm</blogmap>
+    <street>1012 NE 65th St</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98115</zip>
+    <country>United States</country>
+    <phone>(206) 522-4950</phone>
+    <overall>0</overall>
+    <imagecount>1</imagecount>
+  </location>
+  <location>
+    <id>7491</id>
+    <name>Feierabend</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid7491</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid7491d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid7491d1typenorm</blogmap>
+    <street>422 Yale Ave. N</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98109</zip>
+    <country>United States</country>
+    <phone>(206) 340-2528</phone>
+    <overall>91.6667</overall>
+    <imagecount>2</imagecount>
+  </location>
+  <location>
+    <id>7933</id>
+    <name>Dray, The</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid7933</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid7933d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid7933d1typenorm</blogmap>
+    <street>708 NW 65th Steet</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98107</zip>
+    <country>United States</country>
+    <phone>(206) 453-4527</phone>
+    <overall>98.33335</overall>
+    <imagecount>2</imagecount>
+  </location>
+  <location>
+    <id>7968</id>
+    <name>Maple Leaf Grill</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid7968</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid7968d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid7968d1typenorm</blogmap>
+    <street>8929 Roosevelt Way</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98115</zip>
+    <country>United States</country>
+    <phone>206-523-8449</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>8665</id>
+    <name>Big Al Brewing</name>
+    <status>Brewery</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid8665</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid8665d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid8665d1typenorm</blogmap>
+    <street>9832 14th Ave SW</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98106</zip>
+    <country>United States</country>
+    <phone/>
+    <overall>85.555533333334</overall>
+    <imagecount>3</imagecount>
+  </location>
+  <location>
+    <id>8862</id>
+    <name>Kate's Pub</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid8862</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid8862d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid8862d1typenorm</blogmap>
+    <street>309 NE 45th St</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98105</zip>
+    <country>United States</country>
+    <phone>(206) 547-6832</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>8959</id>
+    <name>Blue Moon</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid8959</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid8959d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid8959d1typenorm</blogmap>
+    <street>712 NE 45th Street</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98105</zip>
+    <country>United States</country>
+    <phone>(206) 675-9116</phone>
+    <overall>0</overall>
+    <imagecount>3</imagecount>
+  </location>
+  <location>
+    <id>8983</id>
+    <name>Barca</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid8983</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid8983d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid8983d1typenorm</blogmap>
+    <street>1510 11th Ave</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98122</zip>
+    <country>United States</country>
+    <phone>(206) 325-8263</phone>
+    <overall>90</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>9024</id>
+    <name>Naked City Brewery and Taphouse</name>
+    <status>Brewpub</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid9024</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid9024d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid9024d1typenorm</blogmap>
+    <street>8564 Greenwood Ave N</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98103</zip>
+    <country>United States</country>
+    <phone/>
+    <overall>88.0556</overall>
+    <imagecount>5</imagecount>
+  </location>
+  <location>
+    <id>9025</id>
+    <name>Eastlake Zoo Tavern</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid9025</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid9025d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid9025d1typenorm</blogmap>
+    <street>2301 Eastlake Avenue E</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98102</zip>
+    <country>United States</country>
+    <phone>(206) 329-3277</phone>
+    <overall>81.66655</overall>
+    <imagecount>2</imagecount>
+  </location>
+  <location>
+    <id>9525</id>
+    <name>Alaska Lodge - SEA airport</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid9525</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid9525d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid9525d1typenorm</blogmap>
+    <street>Concourse C near security</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98158</zip>
+    <country>United States</country>
+    <phone>(206) 433-5388</phone>
+    <overall>20</overall>
+    <imagecount>1</imagecount>
+  </location>
+  <location>
+    <id>9526</id>
+    <name>Seattle Taproom - SEA airport</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid9526</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid9526d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid9526d1typenorm</blogmap>
+    <street>Concourse B near security</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98158</zip>
+    <country>United States</country>
+    <phone>(206) 433-5388</phone>
+    <overall>66.6666</overall>
+    <imagecount>2</imagecount>
+  </location>
+  <location>
+    <id>9997</id>
+    <name>Greenwood Market (TandC Markets)</name>
+    <status>Beer Store</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid9997</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid9997d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid9997d1typenorm</blogmap>
+    <street>8500 3rd Ave NW</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98117</zip>
+    <country>United States</country>
+    <phone>(206) 782-1610</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>10018</id>
+    <name>Fremont Brewing Company</name>
+    <status>Brewery</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid10018</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid10018d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid10018d1typenorm</blogmap>
+    <street>3409 Woodland Park Avenue North</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98103</zip>
+    <country>United States</country>
+    <phone>(206) 420-2407</phone>
+    <overall>79.9999</overall>
+    <imagecount>5</imagecount>
+  </location>
+  <location>
+    <id>10198</id>
+    <name>Skylark Cafe and Club</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid10198</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid10198d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid10198d1typenorm</blogmap>
+    <street>3803 Delridge Way SW</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98106</zip>
+    <country>United States</country>
+    <phone>(206) 935-2111</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>10280</id>
+    <name>Beer Authority, The</name>
+    <status>Beer Store</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid10280</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid10280d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid10280d1typenorm</blogmap>
+    <street>12716 Lake City Way NE Sutie A</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98125</zip>
+    <country>United States</country>
+    <phone>(206) 417-9629</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>10359</id>
+    <name>Hudson Public House</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid10359</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid10359d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid10359d1typenorm</blogmap>
+    <street>8014 15th Ave. NE</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98115</zip>
+    <country>United States</country>
+    <phone/>
+    <overall>83.3335</overall>
+    <imagecount>4</imagecount>
+  </location>
+  <location>
+    <id>11109</id>
+    <name>Roosevelt Ale House</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid11109</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid11109d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid11109d1typenorm</blogmap>
+    <street>8824 Roosevelt Way NE</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98115</zip>
+    <country>United States</country>
+    <phone>(206) 527-5480</phone>
+    <overall>86.6667</overall>
+    <imagecount>4</imagecount>
+  </location>
+  <location>
+    <id>11165</id>
+    <name>Mountain Room Bar - SEA airport</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid11165</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid11165d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid11165d1typenorm</blogmap>
+    <street>Concourse A near gate A14</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98158</zip>
+    <country>United States</country>
+    <phone/>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>11166</id>
+    <name>Edge Sports Bar, The - SEA airport</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid11166</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid11166d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid11166d1typenorm</blogmap>
+    <street>North Satellite</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98158</zip>
+    <country>United States</country>
+    <phone/>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>11195</id>
+    <name>Africa Lounge - SEA airport</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid11195</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid11195d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid11195d1typenorm</blogmap>
+    <street>Concourse A Food Court near gate A5</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98158</zip>
+    <country>United States</country>
+    <phone/>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>11196</id>
+    <name>Anthony's - SEA airport</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid11196</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid11196d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid11196d1typenorm</blogmap>
+    <street>Central Terminal</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98158</zip>
+    <country>United States</country>
+    <phone/>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>11997</id>
+    <name>Odin Brewing</name>
+    <status>Brewery</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid11997</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid11997d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid11997d1typenorm</blogmap>
+    <street>9130 15th Pl. S.</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98108</zip>
+    <country>United States</country>
+    <phone>(206) 762-3909</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>12176</id>
+    <name>Noble Fir, The</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid12176</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid12176d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid12176d1typenorm</blogmap>
+    <street>5316 Ballard Ave. NW</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98119</zip>
+    <country>United States</country>
+    <phone/>
+    <overall>91.66665</overall>
+    <imagecount>4</imagecount>
+  </location>
+  <location>
+    <id>12177</id>
+    <name>Pub at Piper's Creek</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid12177</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid12177d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid12177d1typenorm</blogmap>
+    <street>10527 Greenwood Ave N</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98133</zip>
+    <country>United States</country>
+    <phone>(206) 417-5734</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>12179</id>
+    <name>Leary Traveler, The</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid12179</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid12179d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid12179d1typenorm</blogmap>
+    <street>4354 Leary Way NW</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98107</zip>
+    <country>United States</country>
+    <phone>(206) 783-4805</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>12181</id>
+    <name>Porterhouse West Seattle</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid12181</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid12181d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid12181d1typenorm</blogmap>
+    <street>2329 California Ave SW</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98116</zip>
+    <country>United States</country>
+    <phone>(206) 932-2575</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>12182</id>
+    <name>Prost! West Seattle</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid12182</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid12182d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid12182d1typenorm</blogmap>
+    <street>3407 California Ave SW</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98116</zip>
+    <country>United States</country>
+    <phone>(206) 420-7174</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>12183</id>
+    <name>EPIC Ales</name>
+    <status>Brewery</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid12183</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid12183d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid12183d1typenorm</blogmap>
+    <street>3201 First Ave South, #104</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98134</zip>
+    <country>United States</country>
+    <phone>(206) 351-3637</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>12940</id>
+    <name>Northwest Peaks Brewery</name>
+    <status>Brewery</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid12940</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid12940d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid12940d1typenorm</blogmap>
+    <street>4912 17th Avenue NW Ste B</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98107</zip>
+    <country>United States</country>
+    <phone/>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>12974</id>
+    <name>Chuck's 85th Market</name>
+    <status>Beer Store</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid12974</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid12974d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid12974d1typenorm</blogmap>
+    <street>656 NW 85th ST</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98117</zip>
+    <country>United States</country>
+    <phone>(206) 297-6212</phone>
+    <overall>96.6667</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>13337</id>
+    <name>Attic Alehouse, The</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid13337</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid13337d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid13337d1typenorm</blogmap>
+    <street>4226 East Madison Street</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98112</zip>
+    <country>United States</country>
+    <phone>(206) 323-3131</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>13345</id>
+    <name>Pioneer Square Saloon</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid13345</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid13345d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid13345d1typenorm</blogmap>
+    <street>77 Yesler Way</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98104</zip>
+    <country>United States</country>
+    <phone>(206) 628-6444</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>13432</id>
+    <name>The Last Drop</name>
+    <status>Beer Store</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid13432</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid13432d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid13432d1typenorm</blogmap>
+    <street>8016 15th Ave NE</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98115</zip>
+    <country>United States</country>
+    <phone>(206) 524-5070</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>13738</id>
+    <name>Metropolitan Market - Queen Anne</name>
+    <status>Beer Store</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid13738</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid13738d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid13738d1typenorm</blogmap>
+    <street>1908 Queen Anne Avenue N</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98109</zip>
+    <country>United States</country>
+    <phone>(206) 284-2530</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>13737</id>
+    <name>Beer Junction, The</name>
+    <status>Beer Store</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid13737</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid13737d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid13737d1typenorm</blogmap>
+    <street>4707 42nd Avenue SW</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98116</zip>
+    <country>United States</country>
+    <phone>(206) 938-2337</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>13739</id>
+    <name>Metropolitan Market - Sand Point</name>
+    <status>Beer Store</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid13739</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid13739d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid13739d1typenorm</blogmap>
+    <street>5250 40th Avenue NE</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98105</zip>
+    <country>United States</country>
+    <phone>(206) 938-6600</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>13740</id>
+    <name>Metropolitan Market - Uptown</name>
+    <status>Beer Store</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid13740</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid13740d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid13740d1typenorm</blogmap>
+    <street>100 Mercer Street</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98109</zip>
+    <country>United States</country>
+    <phone>(206) 213-0778</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>13742</id>
+    <name>Whole Foods Market - Westlake</name>
+    <status>Beer Store</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid13742</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid13742d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid13742d1typenorm</blogmap>
+    <street>2210 Westlake Avenue</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98121</zip>
+    <country>United States</country>
+    <phone>(206) 621-9700</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>13747</id>
+    <name>Fred Meyer - Ballard</name>
+    <status>Beer Store</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid13747</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid13747d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid13747d1typenorm</blogmap>
+    <street>915 NW 45th Street</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98107</zip>
+    <country>United States</country>
+    <phone>(206) 297-4300</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>13748</id>
+    <name>QFC (Ballard)</name>
+    <status>Beer Store</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid13748</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid13748d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid13748d1typenorm</blogmap>
+    <street>5700 24th Avenue NW</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98107</zip>
+    <country>United States</country>
+    <phone>(206) 297-2150</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>13759</id>
+    <name>Marketime Foods</name>
+    <status>Beer Store</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid13759</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid13759d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid13759d1typenorm</blogmap>
+    <street>4416 Fremont Avenue North</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98103</zip>
+    <country>United States</country>
+    <phone>(206) 632-8958</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>13760</id>
+    <name>Saleh's Delicatessen</name>
+    <status>Beer Store</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid13760</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid13760d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid13760d1typenorm</blogmap>
+    <street>2401 NW 80th Street</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98117</zip>
+    <country>United States</country>
+    <phone>(206) 789-8022</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>13761</id>
+    <name>PCC Natural Markets - Fremont</name>
+    <status>Beer Store</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid13761</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid13761d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid13761d1typenorm</blogmap>
+    <street>600 N 34th Street</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98103</zip>
+    <country>United States</country>
+    <phone>(206) 632-6811</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>13762</id>
+    <name>PCC Natural Markets - View Ridge</name>
+    <status>Beer Store</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid13762</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid13762d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid13762d1typenorm</blogmap>
+    <street>6514 40th Avenue NE</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98115</zip>
+    <country>United States</country>
+    <phone>(206) 526-7661</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>13763</id>
+    <name>PCC Natural Markets - West Seattle</name>
+    <status>Beer Store</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid13763</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid13763d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid13763d1typenorm</blogmap>
+    <street>2749 California Avenue SW</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98116</zip>
+    <country>United States</country>
+    <phone>(206) 937-8481</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>13764</id>
+    <name>PCC Natural Markets - Seward Park</name>
+    <status>Beer Store</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid13764</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid13764d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid13764d1typenorm</blogmap>
+    <street>5041 Wilson Avenue S</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98118</zip>
+    <country>United States</country>
+    <phone>(206) 723-2720</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>14101</id>
+    <name>Yard Cafe, The</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid14101</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid14101d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid14101d1typenorm</blogmap>
+    <street>8313 Greenwood Ave N</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98103</zip>
+    <country>United States</country>
+    <phone>(206) 588-1746</phone>
+    <overall>93.333275</overall>
+    <imagecount>4</imagecount>
+  </location>
+  <location>
+    <id>14105</id>
+    <name>Emerald City Beer Co.</name>
+    <status>Brewery</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid14105</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid14105d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid14105d1typenorm</blogmap>
+    <street>3100 Airport Way S</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98134</zip>
+    <country>United States</country>
+    <phone>(206) 351-8250</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>14144</id>
+    <name>People's Pub, The</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid14144</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid14144d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid14144d1typenorm</blogmap>
+    <street>5429 Ballard Ave NW</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98107</zip>
+    <country>United States</country>
+    <phone>(206) 783-6521</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>14204</id>
+    <name>Endolyne Joe's</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid14204</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid14204d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid14204d1typenorm</blogmap>
+    <street>9261 45th Avenue Southwest</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98136</zip>
+    <country>United States</country>
+    <phone>(206) 937-5637</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>14382</id>
+    <name>Nabob</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid14382</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid14382d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid14382d1typenorm</blogmap>
+    <street>819 5th Avenue North</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98109</zip>
+    <country>United States</country>
+    <phone>(206) 281-9850</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>14393</id>
+    <name>Sound Homebrew Supply</name>
+    <status>Homebrew</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid14393</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid14393d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid14393d1typenorm</blogmap>
+    <street>6505 5th Place S</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98108</zip>
+    <country>United States</country>
+    <phone>(206) 743-8074</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>14653</id>
+    <name>Hilliard's Brewing</name>
+    <status>Brewery</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid14653</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid14653d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid14653d1typenorm</blogmap>
+    <street>1550 NW 49th Street</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98107</zip>
+    <country>United States</country>
+    <phone>(206) 706-4899</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>14654</id>
+    <name>King's Hardware</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid14654</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid14654d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid14654d1typenorm</blogmap>
+    <street>5225 Ballard Ave NW</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98107</zip>
+    <country>United States</country>
+    <phone>(206) 782-0027</phone>
+    <overall>48.33355</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>14831</id>
+    <name>Schooner Exact</name>
+    <status>Brewery</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid14831</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid14831d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid14831d1typenorm</blogmap>
+    <street>3901 1st Avenue South</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98134</zip>
+    <country>United States</country>
+    <phone>(206) 432-9734</phone>
+    <overall>89.166675</overall>
+    <imagecount>4</imagecount>
+  </location>
+  <location>
+    <id>14967</id>
+    <name>Publican, The</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid14967</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid14967d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid14967d1typenorm</blogmap>
+    <street>2253 North 56th Street</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98103</zip>
+    <country>United States</country>
+    <phone>(206) 279-2437</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>14991</id>
+    <name>Paratii Craft Bar</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid14991</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid14991d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid14991d1typenorm</blogmap>
+    <street>5463 Leary Ave NW</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98107</zip>
+    <country>United States</country>
+    <phone>(206) 420-7406</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>14990</id>
+    <name>Super Deli Mart</name>
+    <status>Beer Store</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid14990</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid14990d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid14990d1typenorm</blogmap>
+    <street>9051 35th Ave SW</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98126</zip>
+    <country>United States</country>
+    <phone>(206) 937-1442</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>15280</id>
+    <name>Elliott Bay Public House and Brewery - Lake City</name>
+    <status>Brewpub</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid15280</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid15280d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid15280d1typenorm</blogmap>
+    <street>12537 Lake City Way NE</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98125</zip>
+    <country>United States</country>
+    <phone/>
+    <overall>91.66675</overall>
+    <imagecount>4</imagecount>
+  </location>
+  <location>
+    <id>15356</id>
+    <name>Brave Horse Tavern</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid15356</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid15356d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid15356d1typenorm</blogmap>
+    <street>310 Terry Avenue North</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98109</zip>
+    <country>United States</country>
+    <phone>(206) 971-0717</phone>
+    <overall>94.1667</overall>
+    <imagecount>4</imagecount>
+  </location>
+  <location>
+    <id>15529</id>
+    <name>Pine Box, The</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid15529</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid15529d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid15529d1typenorm</blogmap>
+    <street>1600 Melrose Ave</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98122</zip>
+    <country>United States</country>
+    <phone>(206) 588-0375</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>15530</id>
+    <name>Bambino's Pizzeria</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid15530</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid15530d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid15530d1typenorm</blogmap>
+    <street>401 Cedar Street</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98121</zip>
+    <country>United States</country>
+    <phone>(206) 269-2222</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>15620</id>
+    <name>Two Beers Brewing Co.</name>
+    <status>Brewery</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid15620</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid15620d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid15620d1typenorm</blogmap>
+    <street>4700 Ohio Ave. S., Unit A</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98134</zip>
+    <country>United States</country>
+    <phone>(206) 762-0490</phone>
+    <overall>95.00005</overall>
+    <imagecount>4</imagecount>
+  </location>
+  <location>
+    <id>16091</id>
+    <name>Outlander Brewery and Pub</name>
+    <status>Brewpub</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid16091</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid16091d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid16091d1typenorm</blogmap>
+    <street>225 N 36th ST</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98103</zip>
+    <country>United States</country>
+    <phone>206-486-4088</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>16127</id>
+    <name>Reuben's Brews</name>
+    <status>Brewery</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid16127</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid16127d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid16127d1typenorm</blogmap>
+    <street>1406 NW 53rd Street, Suite 1A</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98107</zip>
+    <country>United States</country>
+    <phone/>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>16349</id>
+    <name>Pear Delicatessen and Shoppe</name>
+    <status>Beer Store</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid16349</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid16349d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid16349d1typenorm</blogmap>
+    <street>1926 Pike Place</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98101</zip>
+    <country>United States</country>
+    <phone>(206) 443-1926</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>16861</id>
+    <name>Urban Family Public House and Brewery</name>
+    <status>Brewpub</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid16861</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid16861d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid16861d1typenorm</blogmap>
+    <street>5329 Ballard Ave NW</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98107</zip>
+    <country>United States</country>
+    <phone>(206) 861-6769</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>16889</id>
+    <name>Copper Coin</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid16889</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid16889d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid16889d1typenorm</blogmap>
+    <street>2329 California Ave SW</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98116</zip>
+    <country>United States</country>
+    <phone>(206) 420-3608</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>16890</id>
+    <name>Tippe and Drague</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid16890</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid16890d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid16890d1typenorm</blogmap>
+    <street>3315 Beacon Ave. South</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98144</zip>
+    <country>United States</country>
+    <phone>(206) 538-0094</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>16892</id>
+    <name>Burgundian</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid16892</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid16892d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid16892d1typenorm</blogmap>
+    <street>2253 North 56th Street</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98103</zip>
+    <country>United States</country>
+    <phone>(206) 420-8943</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>16894</id>
+    <name>Mutiny Hall</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid16894</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid16894d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid16894d1typenorm</blogmap>
+    <street>1205 NE 65th, Seattle, WA.</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98105</zip>
+    <country>United States</country>
+    <phone>(206) 524-5020</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>16895</id>
+    <name>Wurst Place, The</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid16895</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid16895d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid16895d1typenorm</blogmap>
+    <street>510 Westlake Ave N</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98102</zip>
+    <country>United States</country>
+    <phone>(206) 623-3548</phone>
+    <overall>95</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>17075</id>
+    <name>Machine House Brewing</name>
+    <status>Brewery</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid17075</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid17075d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid17075d1typenorm</blogmap>
+    <street>5840 Airport Way S</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98108</zip>
+    <country>United States</country>
+    <phone/>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>17196</id>
+    <name>Downtown Spirits</name>
+    <status>Beer Store</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid17196</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid17196d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid17196d1typenorm</blogmap>
+    <street>2300 7th Avenue</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98121</zip>
+    <country>United States</country>
+    <phone>(206) 812-6591</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>17312</id>
+    <name>Peddler Brewing Company</name>
+    <status>Brewery</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid17312</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid17312d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid17312d1typenorm</blogmap>
+    <street>1514 NW Leary Way</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98107</zip>
+    <country>United States</country>
+    <phone>(360) 362-0002</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>17313</id>
+    <name>Populuxe Brewing</name>
+    <status>Brewery</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid17313</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid17313d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid17313d1typenorm</blogmap>
+    <street>826B NW 49th St</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98107</zip>
+    <country>United States</country>
+    <phone>(206) 706-3400</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>17321</id>
+    <name>West Seattle Brewing Company</name>
+    <status>Brewery</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid17321</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid17321d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid17321d1typenorm</blogmap>
+    <street>4415 Fauntleroy Way SW</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98126</zip>
+    <country>United States</country>
+    <phone>(206) 405-0972</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>17348</id>
+    <name>Ballard Station Public House, The</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid17348</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid17348d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid17348d1typenorm</blogmap>
+    <street>2236 NW Market Street</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98107</zip>
+    <country>United States</country>
+    <phone>(206) 906-9040</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>17358</id>
+    <name>Standard Brewing</name>
+    <status>Brewery</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid17358</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid17358d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid17358d1typenorm</blogmap>
+    <street>2504 S Jackson St</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98144</zip>
+    <country>United States</country>
+    <phone>(206) 535-1584</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>17414</id>
+    <name>Buckley's in Belltown</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid17414</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid17414d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid17414d1typenorm</blogmap>
+    <street>2331 2nd Ave</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98121</zip>
+    <country>United States</country>
+    <phone>(206) 588-8879</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>17417</id>
+    <name>Sixgill, The</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid17417</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid17417d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid17417d1typenorm</blogmap>
+    <street>3417 Evanston Ave N</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98103</zip>
+    <country>United States</country>
+    <phone>(206) 466-2846</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>17508</id>
+    <name>Vine St. Market</name>
+    <status>Beer Store</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid17508</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid17508d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid17508d1typenorm</blogmap>
+    <street>425 Vine St</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98121</zip>
+    <country>United States</country>
+    <phone/>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>17684</id>
+    <name>Rooftop Brewing Company</name>
+    <status>Brewery</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid17684</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid17684d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid17684d1typenorm</blogmap>
+    <street>6 Dravus St</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98109</zip>
+    <country>United States</country>
+    <phone>(206) 276-4091</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>17685</id>
+    <name>Seapine Brewing Company</name>
+    <status>Brewery</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid17685</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid17685d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid17685d1typenorm</blogmap>
+    <street>3828 4th Ave S Ste 2</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98134</zip>
+    <country>United States</country>
+    <phone>(206) 682-7985</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>17686</id>
+    <name>Asgard Tavern</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid17686</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid17686d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid17686d1typenorm</blogmap>
+    <street>1300 N. Northlake Way</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98103</zip>
+    <country>United States</country>
+    <phone>(206) 404-4704</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>17779</id>
+    <name>Oak</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid17779</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid17779d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid17779d1typenorm</blogmap>
+    <street>3019 Beacon Ave S</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98144</zip>
+    <country>United States</country>
+    <phone>(206) 535-7070</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>17921</id>
+    <name>Esquin Wine and Spirits</name>
+    <status>Beer Store</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid17921</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid17921d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid17921d1typenorm</blogmap>
+    <street>2700 4th Ave South</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98134</zip>
+    <country>United States</country>
+    <phone>(206) 682-7374</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>17999</id>
+    <name>Jimmy's on Broadway</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid17999</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid17999d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid17999d1typenorm</blogmap>
+    <street>1100 Broadway</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98122</zip>
+    <country>United States</country>
+    <phone>206-204-1188</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>18104</id>
+    <name>Tin Dog Brewing</name>
+    <status>Brewery</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid18104</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid18104d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid18104d1typenorm</blogmap>
+    <street>309 S Cloverdale St. Unit A2</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98108</zip>
+    <country>United States</country>
+    <phone/>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>18184</id>
+    <name>Rocco's</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid18184</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid18184d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid18184d1typenorm</blogmap>
+    <street>2228 Second Ave</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98121</zip>
+    <country>United States</country>
+    <phone>206-448-2625</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>18229</id>
+    <name>Bounty, The - Stone Way</name>
+    <status>Beer Bar</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid18229</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid18229d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid18229d1typenorm</blogmap>
+    <street>1218 N 45th St</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98103</zip>
+    <country>United States</country>
+    <phone>206-549-9149</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>18252</id>
+    <name>Stoup Brewing</name>
+    <status>Brewery</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid18252</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid18252d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid18252d1typenorm</blogmap>
+    <street>1108 NW 52nd St.</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98107</zip>
+    <country>United States</country>
+    <phone>(206) 457-5524</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>18377</id>
+    <name>Burdick Brewery</name>
+    <status>Brewery</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid18377</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid18377d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid18377d1typenorm</blogmap>
+    <street>783 S Elmgrove St</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98108</zip>
+    <country>United States</country>
+    <phone/>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>18520</id>
+    <name>Lowercase Brewing</name>
+    <status>Brewery</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid18520</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid18520d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid18520d1typenorm</blogmap>
+    <street>8103 8th Ave S.</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98108</zip>
+    <country>United States</country>
+    <phone>(206) 258-4987</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>18562</id>
+    <name>Spinnaker Bay Brewing</name>
+    <status>Brewery</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid18562</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid18562d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid18562d1typenorm</blogmap>
+    <street>5718 Rainier Ave S</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98118</zip>
+    <country>United States</country>
+    <phone>(206) 725-2337</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>18685</id>
+    <name>Bluebird Microcreamery and Brewery</name>
+    <status>Brewery</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid18685</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid18685d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid18685d1typenorm</blogmap>
+    <street>7400 Greenwood Ave N</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98103</zip>
+    <country>United States</country>
+    <phone>(206) 588-6419</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>18867</id>
+    <name>Bad Jimmy's Brewing Co.</name>
+    <status>Brewery</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid18867</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid18867d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid18867d1typenorm</blogmap>
+    <street>4358 B Leary Way NW</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98107</zip>
+    <country>United States</country>
+    <phone>(206) 789-1548</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>19137</id>
+    <name>Bob's Liquors</name>
+    <status>Beer Store</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid19137</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid19137d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid19137d1typenorm</blogmap>
+    <street>9824 Lake City Way NE</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98115</zip>
+    <country>United States</country>
+    <phone>(206) 522-5899</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>19304</id>
+    <name>Flying Lion Brewing</name>
+    <status>Brewery</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid19304</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid19304d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid19304d1typenorm</blogmap>
+    <street>5041 Rainier Avenue S</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98118</zip>
+    <country>United States</country>
+    <phone>206-659-9912</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>19613</id>
+    <name>Urban Family Brewing</name>
+    <status>Brewery</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid19613</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid19613d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid19613d1typenorm</blogmap>
+    <street>4441 26th Ave W</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98199</zip>
+    <country>United States</country>
+    <phone/>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>19617</id>
+    <name>Counterbalance Brewing Co.</name>
+    <status>Brewery</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid19617</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid19617d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid19617d1typenorm</blogmap>
+    <street>503 South Michigan Street, Suite B</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98108</zip>
+    <country>United States</country>
+    <phone>(206) 453-3615</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>19977</id>
+    <name>Holy Mountain Brewing</name>
+    <status>Brewery</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid19977</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid19977d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid19977d1typenorm</blogmap>
+    <street>1421 Elliott Ave W.</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98119</zip>
+    <country>United States</country>
+    <phone/>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>19978</id>
+    <name>Hellbent Brewing Co.</name>
+    <status>Brewery</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid19978</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid19978d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid19978d1typenorm</blogmap>
+    <street>13035 Lake City Way NE</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98125</zip>
+    <country>United States</country>
+    <phone/>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>19979</id>
+    <name>Lantern Brewing Co.</name>
+    <status>Brewery</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid19979</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid19979d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid19979d1typenorm</blogmap>
+    <street>938 N 95TH ST</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98103</zip>
+    <country>United States</country>
+    <phone/>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>19980</id>
+    <name>Ghostfish Brewing Co.</name>
+    <status>Brewery</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid19980</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid19980d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid19980d1typenorm</blogmap>
+    <street>2942 1st Ave. S.</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98134</zip>
+    <country>United States</country>
+    <phone/>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+  <location>
+    <id>19984</id>
+    <name>Lucky Envelope Brewing</name>
+    <status>Brewery</status>
+    <reviewlink>http://beermapping.com/maps/reviews/reviews.phplocid19984</reviewlink>
+    <proxylink>http://beermapping.com/maps/proxymaps.phplocid19984d5</proxylink>
+    <blogmap>http://beermapping.com/maps/blogproxy.phplocid19984d1typenorm</blogmap>
+    <street>907 NW 50th St</street>
+    <city>Seattle</city>
+    <state>WA</state>
+    <zip>98107</zip>
+    <country>United States</country>
+    <phone>2066594075</phone>
+    <overall>0</overall>
+    <imagecount>0</imagecount>
+  </location>
+</bmp_locations>
