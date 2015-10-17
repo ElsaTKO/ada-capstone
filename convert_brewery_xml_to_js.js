@@ -14,8 +14,10 @@ fs.readFile('./breweries_from_api_chars.xml', function(err, data) {
       if (err) {
         console.log(err);
       } else {
-        // console.dir(result);
         all_beer = (result.bmp_locations.location);
+
+        // create address key
+        all_beer["address"] = undefined;
 
         for (i = 0; i < all_beer.length; i++) {
           // strip arrays wrapping each value
@@ -25,19 +27,24 @@ fs.readFile('./breweries_from_api_chars.xml', function(err, data) {
           all_beer[i].city = all_beer[i].city[0];
           all_beer[i].state = all_beer[i].state[0];
           all_beer[i].zip = all_beer[i].zip[0];
-          all_beer[i].country = all_beer[i].country[0];
 
           // remove unwanted keys
           delete all_beer[i].id;
           delete all_beer[i].reviewlink;
           delete all_beer[i].proxylink;
           delete all_beer[i].blogmap;
+          delete all_beer[i].country;
           delete all_beer[i].phone;
           delete all_beer[i].overall;
           delete all_beer[i].imagecount;
 
           // remove non-breweries
           if (all_beer[i].status === "Brewery") {
+            delete all_beer[i].status;
+
+            // compile address
+            all_beer[i].address = all_beer[i].street + ", " + all_beer[i].city + ", " + all_beer[i].state + " " + all_beer[i].zip;
+
             breweries.push(all_beer[i]);
           }
         }
@@ -45,7 +52,7 @@ fs.readFile('./breweries_from_api_chars.xml', function(err, data) {
         console.log(breweries.length);
         console.log(breweries[0]);
 
-        fs.writeFile('breweries.json', JSON.stringify(breweries, null, 2), function(err) {
+        fs.writeFile('breweries_and_loc.json', JSON.stringify(breweries, null, 2), function(err) {
           if (err) {
             console.log(err);
           } else {

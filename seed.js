@@ -45,6 +45,11 @@ var scheduleSchema = new Schema({
   close: String
 });
 
+var opencloseSchema = new Schema({
+  open: String,
+  close: String
+});
+
 var foodtruckSchema = new Schema({
   establishment: String,
   name: String,
@@ -72,34 +77,46 @@ var foodtruckSchema = new Schema({
 
  var brewerySchema = new Schema({
    name: String,
-   schedule: {
-     monday: [scheduleSchema],
-     tuesday: [scheduleSchema],
-     wednesday: [scheduleSchema],
-     thursday: [scheduleSchema],
-     friday: [scheduleSchema],
-     saturday: [scheduleSchema],
-     sunday: [scheduleSchema]
+   address: String,
+   geometry: { // GeoJSON
+     type: { type: String, default: "Point" },
+     coordinates: {
+       lat: Number,
+       lng: Number
+     }
    },
-   contact: {
-     website: String
-   }
+   schedule: {
+     monday: [opencloseSchema],
+     tuesday: [opencloseSchema],
+     wednesday: [opencloseSchema],
+     thursday: [opencloseSchema],
+     friday: [opencloseSchema],
+     saturday: [opencloseSchema],
+     sunday: [opencloseSchema]
+   },
+    website: String
   });
 
   var distillerySchema = new Schema({
     name: String,
-    schedule: {
-      monday: [scheduleSchema],
-      tuesday: [scheduleSchema],
-      wednesday: [scheduleSchema],
-      thursday: [scheduleSchema],
-      friday: [scheduleSchema],
-      saturday: [scheduleSchema],
-      sunday: [scheduleSchema]
+    address: String,
+    geometry: { // GeoJSON
+      type: { type: String, default: "Point" },
+      coordinates: {
+        lat: Number,
+        lng: Number
+      }
     },
-    contact: {
-      website: String
-    }
+    schedule: {
+      monday: [opencloseSchema],
+      tuesday: [opencloseSchema],
+      wednesday: [opencloseSchema],
+      thursday: [opencloseSchema],
+      friday: [opencloseSchema],
+      saturday: [opencloseSchema],
+      sunday: [opencloseSchema]
+    },
+     website: String
    });
 
 var FoodTruck = mongoose.model('foodtruck', foodtruckSchema);
