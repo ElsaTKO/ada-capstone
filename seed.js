@@ -36,10 +36,7 @@ var scheduleSchema = new Schema({
   address: String,
   geometry: { // GeoJSON
     type: { type: String, default: "Point" },
-    coordinates: {
-      lat: Number,
-      lng: Number
-    }
+    coordinates: [Number]
   },
   open: String,
   close: String
@@ -80,10 +77,7 @@ var foodtruckSchema = new Schema({
    address: String,
    geometry: { // GeoJSON
      type: { type: String, default: "Point" },
-     coordinates: {
-       lat: Number,
-       lng: Number
-     }
+     coordinates: [Number]
    },
    schedule: {
      monday: [opencloseSchema],
@@ -102,10 +96,7 @@ var foodtruckSchema = new Schema({
     address: String,
     geometry: { // GeoJSON
       type: { type: String, default: "Point" },
-      coordinates: {
-        lat: Number,
-        lng: Number
-      }
+      coordinates: [Number]
     },
     schedule: {
       monday: [opencloseSchema],
