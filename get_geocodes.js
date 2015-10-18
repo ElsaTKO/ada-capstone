@@ -113,6 +113,10 @@ app.get('/google', function(req, res) {
       if (map_old_new_addresses["" + new_food_trucks[i].schedule.monday.address + ""] === undefined) {
         // set url address (for address_replaced)
         address = new_food_trucks[i].schedule.monday.address;
+        // extra info at end of address? if so, cut it off
+        if (address.slice(-2) !== " N" && address.slice(-2) !== " S" && address.slice(-2) !== " E" && address.slice(-2) !== " W" && address.slice(-2) !== "NE" && address.slice(-2) !== "NW" && address.slice(-2) !== "SE" && address.slice(-2) !== "SW"  && address.slice(-2) !== "St" && address.slice(-2) !== "ve" && (address.indexOf(", ") !== -1)) {
+          address = address.split(", ")[0];
+        }
         // address_replaced = address.replace(/\s/g, "+");
         // query google api
 
@@ -144,8 +148,14 @@ app.get('/google', function(req, res) {
             new_food_trucks[i].schedule.monday.address = data.formatted_address;
           } else {
             console.log("\n***There's more than one result! Or an error...\n");
-            console.log("\n*Results: \n", parsed_response.results);
-            throw "\n***There's more than one result! Or an error...";
+            console.log("\n*Response: \n", parsed_response);
+            if (parsed_response.status === "ZERO_RESULTS") {
+              console.log("\n***ZERO RESULTS.");
+              return;
+            } else {
+              throw "\n***There's more than one result! Or an error...";
+            }
+
           } // end assignments
           // console.log("*Done.");
         }); // end api request
