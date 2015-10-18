@@ -13,8 +13,9 @@ var GOOGLE_KEY = process.env.GOOGLE_KEY;
 // http://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&key=GOOGLE_KEY
 
 // test truck
-var address = "5th Ave and Union St";
-var address_replaced = address.replace(/\s/g, "+"); // "5th+Ave+and+Union+St"
+// var address = "5th Ave and Union St";
+// var address_replaced = address.replace(/\s/g, "+"); // "5th+Ave+and+Union+St"
+
 
 // The latitudes and longitudes of southwest and northeast corners of Colorado, respectively.
     //  .setBounds(36.998166, -109.045486, 41.001666,-102.052002)
@@ -53,16 +54,20 @@ var address_replaced = address.replace(/\s/g, "+"); // "5th+Ave+and+Union+St"
 // Seattel bounds
 // &bounds=47.4955511,-122.4359085|47.734145,-122.2359031
 
-var url = 'https://maps.googleapis.com/maps/api/geocode/json?address=' + address_replaced + '&bounds=47.4955511,-122.4359085|47.734145,-122.2359031&key=' + GOOGLE_KEY;
+var address, address_replaced, url;
+
+// var url = 'https://maps.googleapis.com/maps/api/geocode/json?address=' + address_replaced + '&bounds=47.4955511,-122.4359085|47.734145,-122.2359031&key=' + GOOGLE_KEY;
 
 function requestGeocode(address, callback) {
-  sleep.usleep(150000);
+  address_replaced = address.replace(/\s/g, "+");
+  url = 'https://maps.googleapis.com/maps/api/geocode/json?address=' + address_replaced + '&bounds=47.4955511,-122.4359085|47.734145,-122.2359031&key=' + GOOGLE_KEY;
+
   request(url, function(error, response) {
 		if (error) {
-			console.log("***REQUEST ERROR: ", error);
+			console.log("\n***REQUEST ERROR: ", error);
 		} else {
-      console.log("*REQUESTED URL: ", url);
-      console.log("*Requested geocode.");
+      console.log("\n*REQUESTED URL: ", url);
+      console.log("\n*REQUESTED GEOCODE: ");
       callback(response.body);
     }
   });
@@ -88,22 +93,34 @@ app.get('/google', function(req, res) {
   for (i = 0; i < old_food_trucks.length; i++) {
 
     // DEBUG
+    if (i === 1) {
+      continue;
+    }
     if (i === 2) {
       break;
     }
 
+    // console.log("i = ", i);
+    // continue;
+
     // add each old truck object to new object collection
-    new_food_trucks.push(old_food_trucks[i]);
+    new_food_trucks[i] = old_food_trucks[i];
+    console.log(new_food_trucks[i].schedule.monday.address);
 
     // for each truck, check each weekday schedule
     if (new_food_trucks[i].schedule.monday.address !== undefined) {
       // has the address been queried already?
-      if (map_old_new_addresses["" + new_food_trucks[i].schedule.monday.address] === undefined) {
+      if (map_old_new_addresses["" + new_food_trucks[i].schedule.monday.address + ""] === undefined) {
         // set url address (for address_replaced)
         address = new_food_trucks[i].schedule.monday.address;
-        address_replaced = address.replace(/\s/g, "+");
+        // address_replaced = address.replace(/\s/g, "+");
         // query google api
-        requestGeocode(address_replaced, function(response) {
+
+        if (address === undefined) {
+          throw "***UNDEFINED ADDRESS";
+        }
+
+        requestGeocode(address, function(response) {
           var parsed_response = JSON.parse(response);
           // just one good result?
           if (parsed_response.results.length === 1 && parsed_response.status === "OK") {
@@ -117,7 +134,8 @@ app.get('/google', function(req, res) {
             // "old address" = ["new address", [lng, lat]]
             // "new address": [0][0];
             // coordinates: [0][1];
-            map_old_new_addresses["" + new_food_trucks[i].schedule.monday.address] = [data.formatted_address, [lng, lat]];
+            map_old_new_addresses["" + new_food_trucks[i].schedule.monday.address + ""] = [ data.formatted_address, [lng, lat] ];
+            console.log("*CREATED MAP: ", map_old_new_addresses);
 
             // assign geojson lng and lat to new truck
             new_food_trucks[i].schedule.monday["geometry"]["coordinates"] = [lng, lat];
@@ -125,7 +143,8 @@ app.get('/google', function(req, res) {
             // assign formatted address to new truck
             new_food_trucks[i].schedule.monday.address = data.formatted_address;
           } else {
-            console.log("\n***There's more than one result! Or an error...");
+            console.log("\n***There's more than one result! Or an error...\n");
+            console.log("\n*Results: \n", parsed_response.results);
             throw "\n***There's more than one result! Or an error...";
           } // end assignments
           // console.log("*Done.");
@@ -137,39 +156,46 @@ app.get('/google', function(req, res) {
         // coordinates: [0][1];
         new_food_trucks[i].schedule.monday["geometry"]["coordinates"] = map_old_new_addresses["" + new_food_trucks[i].schedule.monday.address][0][1];
         new_food_trucks[i].schedule.monday["geometry"]["type"] = "Point";
-        new_food_trucks[i].schedule.monday.address = map_old_new_addresses["" + new_food_trucks[i].schedule.monday.address][0][0];
-      } // end query vs pull assignment from map
+        new_food_trucks[i].schedule.monday.address = map_old_new_addresses["" + new_food_trucks[i].schedule.monday.address + ""][0][0];
+      } // end query vs map assignment
     } // end monday
 
-    if (new_food_trucks[i].schedule.tuesday.address !== undefined) {
-
-    } // end tuesday
-    if (new_food_trucks[i].schedule.wednesday.address !== undefined) {
-
-    } // end wednesday
-    if (new_food_trucks[i].schedule.thursday.address !== undefined) {
-
-    } // end thursday
-    if (new_food_trucks[i].schedule.friday.address !== undefined) {
-
-    } // end friday
-    if (new_food_trucks[i].schedule.saturday.address !== undefined) {
-
-    } // end saturday
-    if (new_food_trucks[i].schedule.sunday.address !== undefined) {
-
-    } // end sunday
 
 
-    console.log("NEW TRUCK " + i +": ", new_food_trucks[i]);
+    // if (new_food_trucks[i].schedule.tuesday.address !== undefined) {
+    //
+    // } // end tuesday
+    // if (new_food_trucks[i].schedule.wednesday.address !== undefined) {
+    //
+    // } // end wednesday
+    // if (new_food_trucks[i].schedule.thursday.address !== undefined) {
+    //
+    // } // end thursday
+    // if (new_food_trucks[i].schedule.friday.address !== undefined) {
+    //
+    // } // end friday
+    // if (new_food_trucks[i].schedule.saturday.address !== undefined) {
+    //
+    // } // end saturday
+    // if (new_food_trucks[i].schedule.sunday.address !== undefined) {
+    //
+    // } // end sunday
 
+    console.log("\n*NEW TRUCK " + i +" (after weekdays): \n", new_food_trucks[i]);
 
   } // end for loop
 
-
+  sleep.sleep(3);
+  console.log("*MAP: \n", map_old_new_addresses);
 
   // write file
-  console.log("ALL TRUCKS: ", new_food_trucks);
+  console.log("\n*END OF LOOP.");
+  fs.writeFile('foood_geo.json', JSON.stringify(new_food_trucks, null, 2), function(err){
+    if (err) {
+      console.log("\n***WRITE FILE ERROR: ", err);
+    }
+      console.log("\n*WRITE FILE SUCCESS.");
+    });
 
 });
 
