@@ -5,7 +5,7 @@
   "scripts": {
     "start": "nodemon ./bin/www",
     "test": "",
-    "etc": ""
+    "seed": "node seed.js"
   },
   "dependencies": {
     "body-parser": "~1.13.2",
