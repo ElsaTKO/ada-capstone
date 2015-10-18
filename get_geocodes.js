@@ -56,28 +56,47 @@ var address_replaced = address.replace(/\s/g, "+");
 var url = 'https://maps.googleapis.com/maps/api/geocode/json?address=' + address_replaced + '&bounds=47.4955511,-122.4359085|47.734145,-122.2359031&key=' + GOOGLE_KEY;
 
 function requestGeocode(address, callback) {
-  sleep.sleep(1);
+  sleep.usleep(250000);
   request(url, function(error, response) {
 		if (error) {
-			console.log("REQUEST ERROR: ", error);
+			console.log("***REQUEST ERROR: ", error);
 		} else {
-      console.log(url);
-      console.log("Requested geocode.");
+      console.log("*REQUESTED URL: ", url);
+      console.log("*Requested geocode.");
       callback(response.body);
     }
   });
 }
 
+var json = {};
+
 app.get('/google', function(req, res) {
 
   requestGeocode(address_replaced, function(response) {
-    console.log(response);
-    console.log("Done.");
+
+    var parsed_response = JSON.parse(response);
+
+    if (parsed_response.results.length === 1 && parsed_response.status === "OK") {
+      console.log(response);
+      var data = parsed_response.results[0];
+
+      json["address"] = data.formatted_address;
+      json["lat"] = data.geometry.location.lat;
+      json["lng"] = data.geometry.location.lng;
+
+      console.log("\n*JSON: ", json);
+
+
+    } else {
+      console.log("\n***There's more than one result! Or an error...");
+    }
+
+    console.log("*Done.");
   });
 });
 
 app.listen('3000');
-console.log('Google API port open.');
+console.log('*Google API port open.');
 exports = module.exports = app;
 
 // RESPONSE
