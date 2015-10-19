@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Barriga Llena",
+    "cuisine": "Mexican",
+    "payment": "Cash or Cards",
+    "description": "Barriga Llena was the first vendor to introduce traditional Mexican tortas to Seattle, just the way you have them in Mexico City.",
+    "schedule": {
+      "monday": {
+        "address": "Boren Ave N and Harrison St, SLU Pods",
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "tuesday": {},
+      "wednesday": {},
+      "thursday": {},
+      "friday": {},
+      "saturday": {},
+      "sunday": {}
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/barrigallenaseattle",
+      "twitter_link": "https://twitter.com/barrigallena",
+      "twitter_screen_name": "barrigallena",
+      "website": "http://www.labarrigallena.com"
+    }
+  }
+]

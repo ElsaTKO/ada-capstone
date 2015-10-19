@@ -2,6 +2,7 @@ var express = require('express');
 var fs      = require('fs');
 var request = require('request');
 var sleep   = require('sleep');
+var async   = require('async');
 var app     = express();
 var dotenv  = require('dotenv');
 dotenv.load();
@@ -58,7 +59,7 @@ var address, address_replaced, url;
 
 // var url = 'https://maps.googleapis.com/maps/api/geocode/json?address=' + address_replaced + '&bounds=47.4955511,-122.4359085|47.734145,-122.2359031&key=' + GOOGLE_KEY;
 
-function requestGeocode(index, address, callback) {
+function requestGeocode(food_truck, address, callback) {
   address_replaced = address.replace(/\s/g, "+");
   url = 'https://maps.googleapis.com/maps/api/geocode/json?address=' + address_replaced + '&bounds=47.4955511,-122.4359085|47.734145,-122.2359031&key=' + GOOGLE_KEY;
 
@@ -110,7 +111,7 @@ app.get('/google', function(req, res) {
     // for each truck, check each weekday schedule
     if (new_food_trucks[i].schedule.monday.address !== undefined) {
       // has the address been queried already?
-      if (map_old_new_addresses["" + new_food_trucks[i].schedule.monday.address + ""] === undefined) {
+      if (map_old_new_addresses["" + new_food_trucks[i].schedule.monday.address + ""] === undefined && new_food_trucks[i] !== undefined) {
         // set url address (for address_replaced)
         address = new_food_trucks[i].schedule.monday.address;
         // extra info at end of address? if so, cut it off
@@ -124,7 +125,10 @@ app.get('/google', function(req, res) {
           throw "***UNDEFINED ADDRESS";
         }
 
-        requestGeocode(i, address, function(response) {
+        requestGeocode(new_food_trucks[i], address, function(response) {
+          if (new_food_trucks[i] === undefined) {
+            throw "***UNDEFINED FOOD TRUCK";
+          }
           var parsed_response = JSON.parse(response);
           // just one good result?
           if (parsed_response.results.length === 1 && parsed_response.status === "OK") {
@@ -138,6 +142,7 @@ app.get('/google', function(req, res) {
             // "old address" = ["new address", [lng, lat]]
             // "new address": [0][0];
             // coordinates: [0][1];
+            sleep.sleep(1);
             map_old_new_addresses["" + new_food_trucks[i].schedule.monday.address + ""] = [ data.formatted_address, [lng, lat] ];
             console.log("*CREATED MAP: ", map_old_new_addresses);
 
@@ -195,7 +200,6 @@ app.get('/google', function(req, res) {
 
   } // end for loop
 
-  sleep.sleep(3);
   console.log("*MAP: \n", map_old_new_addresses);
 
   // write file
