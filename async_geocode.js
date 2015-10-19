@@ -29,22 +29,18 @@ function requestGeocode(address, callback) {
 
 app.get('/google', function openConnection(req, res) {
 
-  async.forEachOfSeries(old_food_trucks, function iterator(truck_json, index, callback) {
+  async.forEachOfSeries(old_food_trucks, function iterator(truck_json, index, iteratorCallback) {
 
-
-    if (index >= 4) {
-      return callback();
+    if (index >= 3) {
+      return iteratorCallback();
     }
 
     // create new food truck object
     new_food_trucks[index] = truck_json;
     console.log("\n*NEW FOOD TRUCK " + index + "\n", new_food_trucks[index]);
 
-
     var lng, lat;
     var old_address, new_address;
-
-    // NOTE: MOVE ALL THAT SHIT HERE
 
     // for each truck, check each weekday schedule
     // monday
@@ -115,7 +111,7 @@ app.get('/google', function openConnection(req, res) {
       // if (err) return callback(err);
 
     // done with iteration
-      callback();
+      iteratorCallback();
   }, function doneLooping(err) {
     if (err) console.error(err);
 
