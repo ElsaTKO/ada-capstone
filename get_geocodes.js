@@ -58,7 +58,7 @@ var address, address_replaced, url;
 
 // var url = 'https://maps.googleapis.com/maps/api/geocode/json?address=' + address_replaced + '&bounds=47.4955511,-122.4359085|47.734145,-122.2359031&key=' + GOOGLE_KEY;
 
-function requestGeocode(address, callback) {
+function requestGeocode(index, address, callback) {
   address_replaced = address.replace(/\s/g, "+");
   url = 'https://maps.googleapis.com/maps/api/geocode/json?address=' + address_replaced + '&bounds=47.4955511,-122.4359085|47.734145,-122.2359031&key=' + GOOGLE_KEY;
 
@@ -124,7 +124,7 @@ app.get('/google', function(req, res) {
           throw "***UNDEFINED ADDRESS";
         }
 
-        requestGeocode(address, function(response) {
+        requestGeocode(i, address, function(response) {
           var parsed_response = JSON.parse(response);
           // just one good result?
           if (parsed_response.results.length === 1 && parsed_response.status === "OK") {
