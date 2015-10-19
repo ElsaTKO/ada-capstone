@@ -12,25 +12,13 @@ var old_food_trucks = require('./food_trucks_data_2015-10-16T23:33:01.747Z');
 var map_old_new_addresses = {};
 var new_food_trucks = [];
 
+function wrapper(do_stuff, wrapperCallback) {
+  wrapperCallback();
+}
 
-
-async.series([
-    function monday(mondayCallback){
-        // do some stuff ...
-        mondayCallback();
-    }//,
-    // function tuesday(tuesdayCallback) {
-    //   // do stuff
-    //   tuesdayCallback();
-    // }
-],
-// weekday callback
-function doneWeekdays(){
-
-});
-
-
-
+function monday(do_stuff, mondayCallback) {
+  mondayCallback();
+}
 
 function requestGeocode(address, callback) {
   address_replaced = address.replace(/\s/g, "+");
@@ -56,7 +44,7 @@ app.get('/google', function openConnection(req, res) {
 
     // create new food truck object
     new_food_trucks[index] = truck_json;
-    // console.log("\n*NEW FOOD TRUCK " + index + "\n", new_food_trucks[index]);
+    console.log("\n*NEW FOOD TRUCK " + index + "\n", new_food_trucks[index].name);
 
     var lng, lat;
     var old_address, new_address;
@@ -77,7 +65,7 @@ app.get('/google', function openConnection(req, res) {
         }
         // wait a bit to not overload api limit
         sleep.usleep(150000);
-        requestGeocode(new_address, function(response) {
+        monday(requestGeocode(new_address, function(response) {
           var parsed_response = JSON.parse(response);
           // just one good result?
           if (parsed_response.results.length === 1 && parsed_response.status === "OK") {
@@ -100,7 +88,7 @@ app.get('/google', function openConnection(req, res) {
             new_food_trucks[index].schedule.monday["geometry"]["type"] = "Point";
             // assign formatted address to new truck
             new_food_trucks[index].schedule.monday.address = data.formatted_address;
-
+            console.log("*Formatted address? ", new_food_trucks[index].schedule.monday.address);
           } else {
             console.log("\n***There's more than one result! Or an error...\n");
             console.log("\n*Response: \n", parsed_response);
@@ -110,7 +98,10 @@ app.get('/google', function openConnection(req, res) {
               throw "\n***There's more than one result! Or an error...";
             }
           } // end assignments
-        }); // end api request
+        }), function(){
+          console.log("*End Monday");
+        });
+
       } else {
         // the address has already been queried
         // assign formatted address and [lng, lat] based on map's key value
@@ -131,8 +122,7 @@ app.get('/google', function openConnection(req, res) {
 
     // done with iteration
       iteratorCallback();
-  }, function doneLooping(err) {
-    if (err) console.error(err);
+  }, function() {
 
     console.log("\n*CREATED MAP: \n", map_old_new_addresses);
 
