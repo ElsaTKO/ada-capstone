@@ -12,6 +12,26 @@ var old_food_trucks = require('./food_trucks_data_2015-10-16T23:33:01.747Z');
 var map_old_new_addresses = {};
 var new_food_trucks = [];
 
+
+
+async.series([
+    function monday(mondayCallback){
+        // do some stuff ...
+        mondayCallback();
+    }//,
+    // function tuesday(tuesdayCallback) {
+    //   // do stuff
+    //   tuesdayCallback();
+    // }
+],
+// weekday callback
+function doneWeekdays(){
+
+});
+
+
+
+
 function requestGeocode(address, callback) {
   address_replaced = address.replace(/\s/g, "+");
   url = 'https://maps.googleapis.com/maps/api/geocode/json?address=' + address_replaced + '&bounds=47.4955511,-122.4359085|47.734145,-122.2359031&key=' + GOOGLE_KEY;
@@ -21,7 +41,6 @@ function requestGeocode(address, callback) {
 			console.log("\n***REQUEST ERROR: ", error);
 		} else {
       console.log("\n*REQUESTED URL: ", url);
-      console.log("\n*REQUESTED GEOCODE: ");
       callback(response.body);
     }
   });
@@ -37,7 +56,7 @@ app.get('/google', function openConnection(req, res) {
 
     // create new food truck object
     new_food_trucks[index] = truck_json;
-    console.log("\n*NEW FOOD TRUCK " + index + "\n", new_food_trucks[index]);
+    // console.log("\n*NEW FOOD TRUCK " + index + "\n", new_food_trucks[index]);
 
     var lng, lat;
     var old_address, new_address;
@@ -62,7 +81,7 @@ app.get('/google', function openConnection(req, res) {
           var parsed_response = JSON.parse(response);
           // just one good result?
           if (parsed_response.results.length === 1 && parsed_response.status === "OK") {
-            console.log("\n*RESPONSE: \n", response);
+            // console.log("\n*RESPONSE: \n", response);
             // get the returned data
             var data = parsed_response.results[0];
             lng = data.geometry.location.lng;
