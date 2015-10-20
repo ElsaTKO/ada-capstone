@@ -1,0 +1,98 @@
+{
+  "name": "El Camion",
+  "cuisine": "Mexican",
+  "payment": "Cash Only",
+  "description": "Bringing you the finest and most authentic of Mexican cuisine",
+  "schedule": {
+    "monday": {
+      "address": "11728 Aurora Ave N, Seattle, WA 98133, USA",
+      "open": "8:30",
+      "close": "21:00",
+      "geometry": {
+        "coordinates": [
+          -122.3444236,
+          47.7150371
+        ],
+        "type": "Point"
+      }
+    },
+    "tuesday": {
+      "address": "11728 Aurora Ave N, Seattle, WA 98133, USA",
+      "open": "8:30",
+      "close": "21:00",
+      "geometry": {
+        "coordinates": [
+          -122.3444236,
+          47.7150371
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {
+      "address": "11728 Aurora Ave N, Seattle, WA 98133, USA",
+      "open": "8:30",
+      "close": "21:00",
+      "geometry": {
+        "coordinates": [
+          -122.3444236,
+          47.7150371
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "11728 Aurora Ave N, Seattle, WA 98133, USA",
+      "open": "8:30",
+      "close": "21:00",
+      "geometry": {
+        "coordinates": [
+          -122.3444236,
+          47.7150371
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "11728 Aurora Ave N, Seattle, WA 98133, USA",
+      "open": "8:30",
+      "close": "21:00",
+      "geometry": {
+        "coordinates": [
+          -122.3444236,
+          47.7150371
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {
+      "address": "11728 Aurora Ave N, Seattle, WA 98133, USA",
+      "open": "8:30",
+      "close": "21:00",
+      "geometry": {
+        "coordinates": [
+          -122.3444236,
+          47.7150371
+        ],
+        "type": "Point"
+      }
+    },
+    "sunday": {
+      "address": "11728 Aurora Ave N, Seattle, WA 98133, USA",
+      "open": "8:30",
+      "close": "21:00",
+      "geometry": {
+        "coordinates": [
+          -122.3444236,
+          47.7150371
+        ],
+        "type": "Point"
+      }
+    }
+  },
+  "contact": {
+    "facebook": "",
+    "twitter_link": "https://twitter.com/elcamionseattle",
+    "twitter_screen_name": "elcamionseattle",
+    "website": "http://www.elcamionseattle.com"
+  }
+}

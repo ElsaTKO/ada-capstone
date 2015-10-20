@@ -1,0 +1,65 @@
+{
+  "name": "Ezell’s Express",
+  "cuisine": "Southern",
+  "payment": "Cash or Cards",
+  "description": "Fresh, Good and Fast! Famous fried chicken",
+  "schedule": {
+    "monday": {},
+    "tuesday": {
+      "address": "Microsoft W Campus Access Rd, Redmond, WA 98052, USA",
+      "open": "11:00",
+      "close": "15:00",
+      "geometry": {
+        "coordinates": [
+          -122.1405316,
+          47.66032999999999
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {
+      "address": "500 Yale Ave N, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3301121,
+          47.6233544
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "2401 Utah Ave S, Seattle, WA 98134, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3358992,
+          47.5810044
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "101 Elliott Ave W, Seattle, WA 98119, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.359573,
+          47.619075
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/pages/Ezells-Express/119007364918927",
+    "twitter_link": "https://twitter.com/EzellsExpress1",
+    "twitter_screen_name": "EzellsExpress1",
+    "website": ""
+  }
+}

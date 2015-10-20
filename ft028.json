@@ -1,0 +1,54 @@
+{
+  "name": "Don Lucho’s",
+  "cuisine": "Peruvian",
+  "payment": "Cash or Cards",
+  "description": "Latin sandwiches",
+  "schedule": {
+    "monday": {},
+    "tuesday": {},
+    "wednesday": {},
+    "thursday": {
+      "address": "Queen Anne, Seattle, WA, USA",
+      "open": "12:00",
+      "close": "16:00",
+      "geometry": {
+        "coordinates": [
+          -122.3568641,
+          47.6323268
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "1550 NW 49th St, Seattle, WA 98107, USA",
+      "open": "18:00",
+      "close": "21:00",
+      "geometry": {
+        "coordinates": [
+          -122.3780509,
+          47.664623
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {
+      "address": "Bellevue, WA, USA",
+      "open": "7:00",
+      "close": "12:00",
+      "geometry": {
+        "coordinates": [
+          -122.2006786,
+          47.610377
+        ],
+        "type": "Point"
+      }
+    },
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/donluchos206",
+    "twitter_link": "https://www.twitter.com/donluchos",
+    "twitter_screen_name": "donluchos",
+    "website": "http://www.donluchosinseattle.com"
+  }
+}

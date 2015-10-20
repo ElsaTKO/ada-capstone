@@ -1,0 +1,54 @@
+{
+  "name": "Chopstix",
+  "cuisine": "Asian Fusion",
+  "payment": "Cash or Cards",
+  "description": "Asian Fusion, like the truck’s name Chopstix. Our specialty is a little twist of Asian cuisine with western cuisine",
+  "schedule": {
+    "monday": {},
+    "tuesday": {
+      "address": "Pier 54, Seattle, WA 98104, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3392243,
+          47.6042926
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {
+      "address": "Republican St & Terry Ave N, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3371371,
+          47.6232018
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "1st Avenue South, Washington, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3336476,
+          47.5049191
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {},
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/chopstixmobile",
+    "twitter_link": "https://twitter.com/ChopstixMobile",
+    "twitter_screen_name": "ChopstixMobile",
+    "website": "http://www.chopstixmobile.com"
+  }
+}

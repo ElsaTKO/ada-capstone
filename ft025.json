@@ -1,0 +1,86 @@
+{
+  "name": "El Cabrito",
+  "cuisine": "Mexican",
+  "payment": "Cash or Cards",
+  "description": "Traditional Oaxacan Mexican",
+  "schedule": {
+    "monday": {
+      "address": "828 Rainier Ave S, Seattle, WA 98144, USA",
+      "open": "11:00",
+      "close": "20:00",
+      "geometry": {
+        "coordinates": [
+          -122.310442,
+          47.594987
+        ],
+        "type": "Point"
+      }
+    },
+    "tuesday": {
+      "address": "828 Rainier Ave S, Seattle, WA 98144, USA",
+      "open": "11:00",
+      "close": "20:00",
+      "geometry": {
+        "coordinates": [
+          -122.310442,
+          47.594987
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {
+      "address": "828 Rainier Ave S, Seattle, WA 98144, USA",
+      "open": "11:00",
+      "close": "20:00",
+      "geometry": {
+        "coordinates": [
+          -122.310442,
+          47.594987
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "828 Rainier Ave S, Seattle, WA 98144, USA",
+      "open": "11:00",
+      "close": "20:00",
+      "geometry": {
+        "coordinates": [
+          -122.310442,
+          47.594987
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "828 Rainier Ave S, Seattle, WA 98144, USA",
+      "open": "11:00",
+      "close": "20:00",
+      "geometry": {
+        "coordinates": [
+          -122.310442,
+          47.594987
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {
+      "address": "828 Rainier Ave S, Seattle, WA 98144, USA",
+      "open": "11:00",
+      "close": "20:00",
+      "geometry": {
+        "coordinates": [
+          -122.310442,
+          47.594987
+        ],
+        "type": "Point"
+      }
+    },
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "",
+    "twitter_link": "",
+    "website": ""
+  }
+}

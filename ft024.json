@@ -1,0 +1,86 @@
+{
+  "name": "HamHock Jones Soul Shack",
+  "cuisine": "BBQ",
+  "payment": "Cash or Cards",
+  "description": "Specializing in Southern Soul Food & BBQ",
+  "schedule": {
+    "monday": {
+      "address": "9202 Washington Blvd SW, Tacoma, WA 98498, USA",
+      "open": "11:00",
+      "close": "19:00",
+      "geometry": {
+        "coordinates": [
+          -122.5599875,
+          47.148398
+        ],
+        "type": "Point"
+      }
+    },
+    "tuesday": {
+      "address": "9202 Washington Blvd SW, Tacoma, WA 98498, USA",
+      "open": "11:00",
+      "close": "19:00",
+      "geometry": {
+        "coordinates": [
+          -122.5599875,
+          47.148398
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {
+      "address": "9202 Washington Blvd SW, Tacoma, WA 98498, USA",
+      "open": "11:00",
+      "close": "19:00",
+      "geometry": {
+        "coordinates": [
+          -122.5599875,
+          47.148398
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "9202 Washington Blvd SW, Tacoma, WA 98498, USA",
+      "open": "11:00",
+      "close": "19:00",
+      "geometry": {
+        "coordinates": [
+          -122.5599875,
+          47.148398
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "9202 Washington Blvd SW, Tacoma, WA 98498, USA",
+      "open": "11:00",
+      "close": "19:00",
+      "geometry": {
+        "coordinates": [
+          -122.5599875,
+          47.148398
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {
+      "address": "9202 Washington Blvd SW, Tacoma, WA 98498, USA",
+      "open": "12:00",
+      "close": "19:00",
+      "geometry": {
+        "coordinates": [
+          -122.5599875,
+          47.148398
+        ],
+        "type": "Point"
+      }
+    },
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/hamhockjonesbbq",
+    "twitter_link": "",
+    "website": ""
+  }
+}

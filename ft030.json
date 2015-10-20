@@ -1,0 +1,75 @@
+{
+  "name": "Djung on Wheels",
+  "cuisine": "Thai",
+  "payment": "Cash or Cards",
+  "description": "Family-owned business offering great Thai food",
+  "schedule": {
+    "monday": {
+      "address": "Harrison St & Boren Ave N, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3358359,
+          47.6220217
+        ],
+        "type": "Point"
+      }
+    },
+    "tuesday": {
+      "address": "9th Ave & Virginia St, Seattle, WA 98121, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3357254,
+          47.6163959
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {
+      "address": "Harrison St & Boren Ave N, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3358359,
+          47.6220217
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "9th Ave & Virginia St, Seattle, WA 98121, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3357254,
+          47.6163959
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "Harrison St & Boren Ave N, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3358359,
+          47.6220217
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/djungfood",
+    "twitter_link": "",
+    "website": ""
+  }
+}

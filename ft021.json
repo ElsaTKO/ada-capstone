@@ -1,0 +1,87 @@
+{
+  "name": "Hallava Falafel",
+  "cuisine": "Mediterranean",
+  "payment": "Cash or Cards",
+  "description": "Falafel and shwarma sandwiches",
+  "schedule": {
+    "monday": {
+      "address": "5825 Airport Way S, Seattle, WA 98108, USA",
+      "open": "11:00",
+      "close": "15:00",
+      "geometry": {
+        "coordinates": [
+          -122.318022,
+          47.55016639999999
+        ],
+        "type": "Point"
+      }
+    },
+    "tuesday": {
+      "address": "5825 Airport Way S, Seattle, WA 98108, USA",
+      "open": "11:00",
+      "close": "15:00",
+      "geometry": {
+        "coordinates": [
+          -122.318022,
+          47.55016639999999
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {
+      "address": "2401 Utah Ave S, Seattle, WA 98134, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3358992,
+          47.5810044
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "5825 Airport Way S, Seattle, WA 98108, USA",
+      "open": "11:00",
+      "close": "15:00",
+      "geometry": {
+        "coordinates": [
+          -122.318022,
+          47.55016639999999
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "5825 Airport Way S, Seattle, WA 98108, USA",
+      "open": "11:00",
+      "close": "15:00",
+      "geometry": {
+        "coordinates": [
+          -122.318022,
+          47.55016639999999
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {
+      "address": "5825 Airport Way S, Seattle, WA 98108, USA",
+      "open": "11:00",
+      "close": "15:00",
+      "geometry": {
+        "coordinates": [
+          -122.318022,
+          47.55016639999999
+        ],
+        "type": "Point"
+      }
+    },
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/pages/Hallava-Falafel/143082672399060",
+    "twitter_link": "https://twitter.com/seattle_falafel",
+    "twitter_screen_name": "seattle_falafel",
+    "website": "http://www.hallavafalafel.com"
+  }
+}

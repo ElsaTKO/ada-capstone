@@ -1,0 +1,43 @@
+{
+  "name": "BUNS",
+  "cuisine": "Burgers",
+  "payment": "Cash or Cards",
+  "description": "Gourmet burgers made from organic ingredients.",
+  "schedule": {
+    "monday": {},
+    "tuesday": {},
+    "wednesday": {
+      "address": "201 Terry Ave N, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3374314,
+          47.6198737
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {},
+    "friday": {
+      "address": "2nd Ave & Union St, Seattle, WA 98101, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.337997,
+          47.6082899
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/bunsburger",
+    "twitter_link": "https://twitter.com/BunsOnWheels",
+    "twitter_screen_name": "BunsOnWheels",
+    "website": "http://www.bunsonwheels.com"
+  }
+}
