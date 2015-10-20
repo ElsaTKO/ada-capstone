@@ -1,0 +1,65 @@
+{
+  "name": "Now Make Me A Sandwich",
+  "cuisine": "Sandwiches",
+  "payment": "Cash or Cards",
+  "description": "",
+  "schedule": {
+    "monday": {
+      "address": "Thomas St & Terry Ave N, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "13:45",
+      "geometry": {
+        "coordinates": [
+          -122.3371547,
+          47.6208669
+        ],
+        "type": "Point"
+      }
+    },
+    "tuesday": {},
+    "wednesday": {
+      "address": "Thomas St & Terry Ave N, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "13:45",
+      "geometry": {
+        "coordinates": [
+          -122.3371547,
+          47.6208669
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "8763 148th Ave NE, Redmond, WA 98052, USA",
+      "open": "11:00",
+      "close": "13:45",
+      "geometry": {
+        "coordinates": [
+          -122.1454517,
+          47.68123079999999
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "Thomas St & Terry Ave N, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "13:45",
+      "geometry": {
+        "coordinates": [
+          -122.3371547,
+          47.6208669
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/pages/Now-Make-Me-A-Sandwich-Food-Truck/232337393559185",
+    "twitter_link": "https://twitter.com/me_sandwich",
+    "twitter_screen_name": "me_sandwich",
+    "website": "http://www.nowmakemeasandwich.com/"
+  }
+}

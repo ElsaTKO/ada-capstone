@@ -1,0 +1,43 @@
+{
+  "name": "Parfait",
+  "cuisine": "Sweets",
+  "payment": "Cash Only",
+  "description": "From-scratch organic ice cream",
+  "schedule": {
+    "monday": {},
+    "tuesday": {},
+    "wednesday": {},
+    "thursday": {
+      "address": "Queen Anne Ave N & W Crockett St, Seattle, WA 98109, USA",
+      "open": "15:00",
+      "close": "19:30",
+      "geometry": {
+        "coordinates": [
+          -122.3569199,
+          47.6371671
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {},
+    "saturday": {},
+    "sunday": {
+      "address": "Mercer Island, WA, USA",
+      "open": "10:00",
+      "close": "15:00",
+      "geometry": {
+        "coordinates": [
+          -122.2220673,
+          47.5706548
+        ],
+        "type": "Point"
+      }
+    }
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/pages/Parfait-Ice-Cream/107944135740",
+    "twitter_link": "https://twitter.com/ParfaitIceCream",
+    "twitter_screen_name": "ParfaitIceCream",
+    "website": "http://parfaiticecream.com"
+  }
+}

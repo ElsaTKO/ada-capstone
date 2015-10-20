@@ -1,0 +1,65 @@
+{
+  "name": "No Bones About It",
+  "cuisine": "Vegan",
+  "payment": "Cash or Cards",
+  "description": "Vegan",
+  "schedule": {
+    "monday": {
+      "address": "13035 Lake City Way NE, Seattle, WA 98125, USA",
+      "open": "17:00",
+      "close": "20:00",
+      "geometry": {
+        "coordinates": [
+          -122.293177,
+          47.7239727
+        ],
+        "type": "Point"
+      }
+    },
+    "tuesday": {},
+    "wednesday": {
+      "address": "5010 14th Ave NW, Seattle, WA 98107, USA",
+      "open": "16:00",
+      "close": "19:00",
+      "geometry": {
+        "coordinates": [
+          -122.3730986,
+          47.66539789999999
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "826 NW 49th St, Seattle, WA 98107, USA",
+      "open": "16:30",
+      "close": "20:30",
+      "geometry": {
+        "coordinates": [
+          -122.367549,
+          47.6645826
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "907 NW Ballard Way, Seattle, WA 98107, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3695287,
+          47.6624875
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/pages/No-Bones-About-It-Food-Truck/766800043343739",
+    "twitter_link": "https://twitter.com/NoBonesTruck",
+    "twitter_screen_name": "NoBonesTruck",
+    "website": ""
+  }
+}

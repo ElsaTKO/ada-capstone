@@ -1,0 +1,98 @@
+{
+  "name": "Los Chilangos",
+  "cuisine": "Mexican",
+  "payment": "Cash or Cards",
+  "description": "Tacos, tamales and meat served off an upright spit",
+  "schedule": {
+    "monday": {
+      "address": "14008 NE 8th St, Bellevue, WA 98007, USA",
+      "open": "8:00",
+      "close": "16:00",
+      "geometry": {
+        "coordinates": [
+          -122.15328,
+          47.6175382
+        ],
+        "type": "Point"
+      }
+    },
+    "tuesday": {
+      "address": "14008 NE 8th St, Bellevue, WA 98007, USA",
+      "open": "8:00",
+      "close": "16:00",
+      "geometry": {
+        "coordinates": [
+          -122.15328,
+          47.6175382
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {
+      "address": "14008 NE 8th St, Bellevue, WA 98007, USA",
+      "open": "8:00",
+      "close": "16:00",
+      "geometry": {
+        "coordinates": [
+          -122.15328,
+          47.6175382
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "14008 NE 8th St, Bellevue, WA 98007, USA",
+      "open": "8:00",
+      "close": "16:00",
+      "geometry": {
+        "coordinates": [
+          -122.15328,
+          47.6175382
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "14008 NE 8th St, Bellevue, WA 98007, USA",
+      "open": "8:00",
+      "close": "16:00",
+      "geometry": {
+        "coordinates": [
+          -122.15328,
+          47.6175382
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {
+      "address": "14008 NE 8th St, Bellevue, WA 98007, USA",
+      "open": "8:00",
+      "close": "16:00",
+      "geometry": {
+        "coordinates": [
+          -122.15328,
+          47.6175382
+        ],
+        "type": "Point"
+      }
+    },
+    "sunday": {
+      "address": "Ballard, Seattle, WA, USA",
+      "open": "11:00",
+      "close": "15:00",
+      "geometry": {
+        "coordinates": [
+          -122.3860312,
+          47.6792172
+        ],
+        "type": "Point"
+      }
+    }
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/chilangoswa",
+    "twitter_link": "https://twitter.com/LosChilangos",
+    "twitter_screen_name": "LosChilangos",
+    "website": "http://wwwloschilangos.com"
+  }
+}

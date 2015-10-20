@@ -1,0 +1,54 @@
+{
+  "name": "Napkin Friends",
+  "cuisine": "Jewish",
+  "payment": "Cash or Cards",
+  "description": "Sandwiches where the bread is removed and replaced by two crispy, delectable latkes (potato cakes).",
+  "schedule": {
+    "monday": {},
+    "tuesday": {
+      "address": "2401 Utah Ave S, Seattle, WA 98134, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3358992,
+          47.5810044
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {},
+    "thursday": {
+      "address": "144 Western Ave W, Seattle, WA 98119, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.358627,
+          47.6195956
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "106th Ave NE & NE 6th St, Bellevue, WA 98004, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.1989522,
+          47.6155745
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/pages/Napkin-Friends/662800733750219",
+    "twitter_link": "http://www.twitter.com/napkinfriends",
+    "twitter_screen_name": "napkinfriends",
+    "website": "http://www.napkinfriends.com"
+  }
+}

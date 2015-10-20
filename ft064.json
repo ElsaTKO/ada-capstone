@@ -1,0 +1,98 @@
+{
+  "name": "Poke to the Max",
+  "cuisine": "Poke / Hawaiian",
+  "payment": "Cash or Cards",
+  "description": "Loco Moco, Kalua Pork, lots of Poke and other great Hawaiian dishes",
+  "schedule": {
+    "monday": {
+      "address": "101 Elliott Ave W, Seattle, WA 98119, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.359573,
+          47.619075
+        ],
+        "type": "Point"
+      }
+    },
+    "tuesday": {
+      "address": "531 Stewart St, Seattle, WA 98101, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3376094,
+          47.61316679999999
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {
+      "address": "106th Ave NE & NE 6th St, Bellevue, WA 98004, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.1989522,
+          47.6155745
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "2770 Gateway Pl, Mountlake Terrace, WA 98043, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3141459,
+          47.779891
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "106th Ave NE & NE 6th St, Bellevue, WA 98004, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.1989522,
+          47.6155745
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {
+      "address": "Bellevue, WA, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.2006786,
+          47.610377
+        ],
+        "type": "Point"
+      }
+    },
+    "sunday": {
+      "address": "531 Stewart St, Seattle, WA 98101, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3376094,
+          47.61316679999999
+        ],
+        "type": "Point"
+      }
+    }
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/samchoyspoke",
+    "twitter_link": "https://twitter.com/samchoyspoke",
+    "twitter_screen_name": "samchoyspoke",
+    "website": "http://www.samchoyspoke.com/"
+  }
+}

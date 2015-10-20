@@ -1,0 +1,54 @@
+{
+  "name": "My Sweet Lil’ Cakes",
+  "cuisine": "Sweet & Savory",
+  "payment": "Cash or Cards",
+  "description": "Sweet & savory piping hotcakes on a stick.",
+  "schedule": {
+    "monday": {},
+    "tuesday": {},
+    "wednesday": {},
+    "thursday": {
+      "address": "Queen Anne Ave N & W Crockett St, Seattle, WA 98109, USA",
+      "open": "15:00",
+      "close": "19:30",
+      "geometry": {
+        "coordinates": [
+          -122.3569199,
+          47.6371671
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "401 Pine St, Seattle, WA 98101, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry" : {
+        "coordinates" : [
+          -122.3369905,
+          47.6118256
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {
+      "address": "5031 University Way NE, Seattle, WA 98105, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.313587,
+          47.665772
+        ],
+        "type": "Point"
+      }
+    },
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/MySweetLilCakes",
+    "twitter_link": "https://twitter.com/mysweetlilcakes",
+    "twitter_screen_name": "mysweetlilcakes",
+    "website": ""
+  }
+}

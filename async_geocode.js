@@ -70,10 +70,10 @@ app.get('/google', function openConnection(req, res) {
 
   async.forEachOfSeries(old_food_trucks, function iterator(truck_json, index, iteratorCallback) {
 
-    if (index < 60) { // for truck at this index
+    if (index < 70) { // for truck at this index
       return iteratorCallback();
     }
-    if (index > 60) {
+    if (index > 70) {
       return iteratorCallback();
     }
 
