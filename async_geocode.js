@@ -55,12 +55,13 @@ function requestGeocode(address, callback) {
   address_replaced = address.replace(/\s/g, "+");
   url = 'https://maps.googleapis.com/maps/api/geocode/json?address=' + address_replaced + '&bounds=47.4955511,-122.4359085|47.734145,-122.2359031&key=' + GOOGLE_KEY;
   // wait a bit to not overload api limit
-  sleep.usleep(250000);
+
   request(url, function hitGoogleApi(error, response) {
 		if (error) {
 			console.error("\n***REQUEST ERROR: ", error);
 		} else {
       // console.log("\n*REQUESTED URL: ", url);
+      sleep.usleep(250000);
       callback(response.body);
     }
   });
@@ -69,8 +70,8 @@ function requestGeocode(address, callback) {
 app.get('/google', function openConnection(req, res) {
 
   async.forEachOfSeries(old_food_trucks, function iterator(truck_json, index, iteratorCallback) {
-
-    if (index == 119 ) {
+    console.log("INDEX ", index);
+    if (index == old_food_trucks.length-1 ) {
       return iteratorCallback();
     }
 
