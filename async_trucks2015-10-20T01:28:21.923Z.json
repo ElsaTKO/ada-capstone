@@ -1,0 +1,86 @@
+{
+  "name": "Beloved Mexico",
+  "cuisine": "Mexican",
+  "payment": "Cash or Cards",
+  "description": "Authentic Mexican cuisine made w/ natural, organic ingredients.",
+  "schedule": {
+    "monday": {
+      "address": "4722 Fauntleroy Way SW, Seattle, WA 98116, USA",
+      "open": "10:00",
+      "close": "20:00",
+      "geometry": {
+        "coordinates": [
+          -122.3809729,
+          47.56032630000001
+        ],
+        "type": "Point"
+      }
+    },
+    "tuesday": {
+      "address": "4722 Fauntleroy Way SW, West Seattle Produce Co parking lot",
+      "open": "10:00",
+      "close": "20:00"
+    },
+    "wednesday": {
+      "address": "4722 Fauntleroy Way SW, West Seattle Produce Co parking lot",
+      "open": "10:00",
+      "close": "20:00"
+    },
+    "thursday": {
+      "address": "4722 Fauntleroy Way SW, West Seattle Produce Co parking lot",
+      "open": "10:00",
+      "close": "20:00"
+    },
+    "friday": {
+      "address": "4722 Fauntleroy Way SW, West Seattle Produce Co parking lot",
+      "open": "10:00",
+      "close": "20:00"
+    },
+    "saturday": {
+      "address": "4722 Fauntleroy Way SW, West Seattle Produce Co parking lot",
+      "open": "10:00",
+      "close": "20:00"
+    },
+    "sunday": {
+      "address": "4722 Fauntleroy Way SW, West Seattle Produce Co parking lot",
+      "open": "10:00",
+      "close": "20:00"
+    }
+  },
+  "contact": {
+    "facebook": "",
+    "twitter_link": "",
+    "website": "http://www.belovedmexico.com"
+  }
+}{
+  "name": "Barriga Llena",
+  "cuisine": "Mexican",
+  "payment": "Cash or Cards",
+  "description": "Barriga Llena was the first vendor to introduce traditional Mexican tortas to Seattle, just the way you have them in Mexico City.",
+  "schedule": {
+    "monday": {
+      "address": "Harrison St & Boren Ave N, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3358359,
+          47.6220217
+        ],
+        "type": "Point"
+      }
+    },
+    "tuesday": {},
+    "wednesday": {},
+    "thursday": {},
+    "friday": {},
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/barrigallenaseattle",
+    "twitter_link": "https://twitter.com/barrigallena",
+    "twitter_screen_name": "barrigallena",
+    "website": "http://www.labarrigallena.com"
+  }
+}

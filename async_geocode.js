@@ -8,6 +8,10 @@ var dotenv  = require('dotenv');
 dotenv.load();
 
 var GOOGLE_KEY = process.env.GOOGLE_KEY;
+
+var new_date = new Date();
+var timestamp = new_date.toJSON();
+
 var old_food_trucks = require('./food_trucks_data_2015-10-16T23:33:01.747Z');
 var map_old_new_addresses = {};
 var new_food_trucks = [];
@@ -98,6 +102,13 @@ app.get('/google', function openConnection(req, res) {
               throw "\n***There's more than one result! Or an error...";
             }
           } // end assignments
+
+          // append file
+          fs.appendFile('async_trucks'+timestamp+'.json', JSON.stringify(new_food_trucks[index], null, 2), function (err) {
+            if (err) throw err;
+          });
+
+
         }), function(){
           console.log("*End Monday");
         });
@@ -124,16 +135,16 @@ app.get('/google', function openConnection(req, res) {
       iteratorCallback();
   }, function() {
 
-    console.log("\n*CREATED MAP: \n", map_old_new_addresses);
-
-    // console.log(new_food_trucks);
-    fs.writeFile('async_trucks.json', JSON.stringify(new_food_trucks, null, 2), function writingFile(err) {
-      if (err) {
-        console.error(err);
-      } else {
-        console.log("\n*WRITE FILE SUCCESS.");
-      }
-    }); // end write file
+    // console.log("\n*CREATED MAP: \n", map_old_new_addresses);
+    //
+    // // console.log(new_food_trucks);
+    // fs.writeFile('async_trucks.json', JSON.stringify(new_food_trucks, null, 2), function writingFile(err) {
+    //   if (err) {
+    //     console.error(err);
+    //   } else {
+    //     console.log("\n*WRITE FILE SUCCESS.");
+    //   }
+    // }); // end write file
   }); // end forEachOfSeries doneLooping
 });
 
