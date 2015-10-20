@@ -1,0 +1,76 @@
+{
+  "name": "Kerry’s Caribbean Takeout",
+  "cuisine": "Caribbean",
+  "payment": "Cash or Cards",
+  "description": "Exciting New Caribbean Theme Mobile Food Truck, operating in Tacoma and Lakewood",
+  "schedule": {
+    "monday": {
+      "address": "Fort Lewis, 2202 Liggett Ave, Lewis Mcchord, WA 98433, USA",
+      "open": "10:30",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.6024836,
+          47.0888109
+        ],
+        "type": "Point"
+      }
+    },
+    "tuesday": {
+      "address": "Fort Lewis, 2202 Liggett Ave, Lewis Mcchord, WA 98433, USA",
+      "open": "10:30",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.6024836,
+          47.0888109
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {
+      "address": "Fort Lewis, 2202 Liggett Ave, Lewis Mcchord, WA 98433, USA",
+      "open": "10:30",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.6024836,
+          47.0888109
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "Fort Lewis, 2202 Liggett Ave, Lewis Mcchord, WA 98433, USA",
+      "open": "10:30",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.6024836,
+          47.0888109
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "Fort Lewis, 2202 Liggett Ave, Lewis Mcchord, WA 98433, USA",
+      "open": "10:30",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.6024836,
+          47.0888109
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/kerryscaribbean.takeout",
+    "twitter_link": "https://twitter.com/InfoKerrys",
+    "twitter_screen_name": "InfoKerrys",
+    "website": "http://www.kerryscaribbean.com/"
+  }
+}

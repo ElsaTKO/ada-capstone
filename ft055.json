@@ -1,0 +1,54 @@
+{
+  "name": "Here and There Grill",
+  "cuisine": "Sandwiches",
+  "payment": "Cash or Cards",
+  "description": "Hearty sandwiches, salads and soups",
+  "schedule": {
+    "monday": {},
+    "tuesday": {},
+    "wednesday": {
+      "address": "Dayton St & 4th Ave S, Edmonds, WA 98020, USA",
+      "open": "11:00",
+      "close": "19:00",
+      "geometry": {
+        "coordinates": [
+          -122.3788736,
+          47.8097098
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "23110 WA-99, Edmonds, WA 98026, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3391578,
+          47.789376
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "180 W Dayton St, Edmonds, WA 98020, USA",
+      "open": "17:00",
+      "close": "20:00",
+      "geometry": {
+        "coordinates": [
+          -122.386851,
+          47.808782
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/hereandtheregrill",
+    "twitter_link": "https://twitter.com/heretheregrill",
+    "twitter_screen_name": "heretheregrill",
+    "website": "http://hereandtheregrill.com"
+  }
+}

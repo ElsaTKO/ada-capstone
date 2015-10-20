@@ -1,0 +1,87 @@
+{
+  "name": "Papa Bois",
+  "cuisine": "Caribbean Fusion",
+  "payment": "Unknown",
+  "description": "A mash up of Caribbean and Southeast Asian flavors",
+  "schedule": {
+    "monday": {
+      "address": "12770 Gateway Dr, Tukwila, WA 98168, USA",
+      "open": "11:30",
+      "close": "13:30",
+      "geometry": {
+        "coordinates": [
+          -122.2721837,
+          47.4899981
+        ],
+        "type": "Point"
+      }
+    },
+    "tuesday": {
+      "address": "101 Elliott Ave W, Seattle, WA 98119, USA",
+      "open": "11:30",
+      "close": "13:30",
+      "geometry": {
+        "coordinates": [
+          -122.359573,
+          47.619075
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {
+      "address": "5303 Shilshole Ave NW, Seattle, WA 98107, USA",
+      "open": "11:30",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3844947,
+          47.6658762
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "4100 Carillon Point, Kirkland, WA 98033, USA",
+      "open": "11:30",
+      "close": "13:30",
+      "geometry": {
+        "coordinates": [
+          -122.2062427,
+          47.6562795
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "Skyline Tower, 10900 NE 4th St, Bellevue, WA 98004, USA",
+      "open": "11:30",
+      "close": "13:30",
+      "geometry": {
+        "coordinates": [
+          -122.1944737,
+          47.6141163
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {},
+    "sunday": {
+      "address": "6413 California Ave SW, Seattle, WA 98136, USA",
+      "open": "17:00",
+      "close": "20:00",
+      "geometry": {
+        "coordinates": [
+          -122.3875492,
+          47.5454455
+        ],
+        "type": "Point"
+      }
+    }
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/PapaBoisFood",
+    "twitter_link": "https://twitter.com/PapaBois_Food",
+    "twitter_screen_name": "PapaBois_Food",
+    "website": "http://www.papaboisfood.com/"
+  }
+}

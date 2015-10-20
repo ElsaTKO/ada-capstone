@@ -1,0 +1,53 @@
+{
+  "name": "Danielle’s Crêpes",
+  "cuisine": "French",
+  "payment": "Cash or Cards",
+  "description": "Savory and sweet crepes; breakfast, lunch and dinner; hot coffee and espresso drinks",
+  "schedule": {
+    "monday": {},
+    "tuesday": {
+      "address": "6100 4th Ave S, Seattle, WA 98108, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3288835,
+          47.54714329999999
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {},
+    "thursday": {},
+    "friday": {
+      "address": "Naval Reserve Armory, 860 Terry Ave N, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "15:00",
+      "geometry": {
+        "coordinates": [
+          -122.3366394,
+          47.62758640000001
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {},
+    "sunday": {
+      "address": "7216 Aurora Ave N, Seattle, WA 98103, USA",
+      "open": "11:00",
+      "close": "16:00",
+      "geometry": {
+        "coordinates": [
+          -122.34403,
+          47.6820809
+        ],
+        "type": "Point"
+      }
+    }
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/pages/Crema-Creperie-Espresso-Bar/303099846462139",
+    "twitter_link": "",
+    "website": "http://cremacreperie.com/"
+  }
+}

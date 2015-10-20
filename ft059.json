@@ -1,0 +1,64 @@
+{
+  "name": "HP’s Smokehouse BBQ",
+  "cuisine": "BBQ",
+  "payment": "Cash or Cards",
+  "description": "Wood smoked bbq and downhome sides.",
+  "schedule": {
+    "monday": {},
+    "tuesday": {},
+    "wednesday": {},
+    "thursday": {
+      "address": "9703 NE Juanita Dr, Kirkland, WA 98034, USA",
+      "open": "12:00",
+      "close": "19:00",
+      "geometry": {
+        "coordinates": [
+          -122.2152432,
+          47.7053825
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "9703 NE Juanita Dr, Kirkland, WA 98034, USA",
+      "open": "12:00",
+      "close": "19:00",
+      "geometry": {
+        "coordinates": [
+          -122.2152432,
+          47.7053825
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {
+      "address": "9703 NE Juanita Dr, Kirkland, WA 98034, USA",
+      "open": "12:00",
+      "close": "19:00",
+      "geometry": {
+        "coordinates": [
+          -122.2152432,
+          47.7053825
+        ],
+        "type": "Point"
+      }
+    },
+    "sunday": {
+      "address": "9703 NE Juanita Dr, Kirkland, WA 98034, USA",
+      "open": "12:00",
+      "close": "17:00",
+      "geometry": {
+        "coordinates": [
+          -122.2152432,
+          47.7053825
+        ],
+        "type": "Point"
+      }
+    }
+  },
+  "contact": {
+    "facebook": "",
+    "twitter_link": "",
+    "website": ""
+  }
+}

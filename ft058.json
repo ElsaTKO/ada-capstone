@@ -1,0 +1,52 @@
+{
+  "name": "Mesob at the Curb",
+  "cuisine": "Ethiopian",
+  "payment": "Cash or Cards",
+  "description": "Ethiopian cuisine",
+  "schedule": {
+    "monday": {
+      "address": "2401 Utah Ave S, Seattle, WA 98134, USA",
+      "geometry": {
+        "coordinates": [
+          -122.3358992,
+          47.5810044
+        ],
+        "type": "Point"
+      }
+    },
+    "tuesday": {
+      "address": "106th Ave NE & NE 6th St, Bellevue, WA 98004, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.1989522,
+          47.6155745
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {},
+    "thursday": {},
+    "friday": {
+      "address": "Harrison St & Boren Ave N, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3358359,
+          47.6220217
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/mesobatthecurb",
+    "twitter_link": "https://twitter.com/mesobat",
+    "twitter_screen_name": "mesobat",
+    "website": "http://www.mesobatthecurb.com"
+  }
+}

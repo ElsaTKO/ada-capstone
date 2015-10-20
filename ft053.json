@@ -1,0 +1,54 @@
+{
+  "name": "Fez!",
+  "cuisine": "Mediterranean",
+  "payment": "Cash or Cards",
+  "description": "Modern Middle Eastern street food (and drink)!",
+  "schedule": {
+    "monday": {},
+    "tuesday": {
+      "address": "106th Ave NE & NE 6th St, Bellevue, WA 98004, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.1989522,
+          47.6155745
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {
+      "address": "6100 4th Ave S, Seattle, WA 98108, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3288835,
+          47.54714329999999
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "106th Ave NE & NE 6th St, Bellevue, WA 98004, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.1989522,
+          47.6155745
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {},
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/FezOnWheels/info",
+    "twitter_link": "https://twitter.com/fezonwheels",
+    "twitter_screen_name": "fezonwheels",
+    "website": "http://www.fezonwheels.com"
+  }
+}

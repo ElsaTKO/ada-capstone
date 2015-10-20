@@ -1,0 +1,76 @@
+{
+  "name": "Lumpia World",
+  "cuisine": "Filipino",
+  "payment": "Cash or Cards",
+  "description": "Lumpia, katsu sliders & steamy soup served up with love",
+  "schedule": {
+    "monday": {
+      "address": "401 Pine St, Seattle, WA 98101, USA",
+      "open": "11:30",
+      "close": "14:00",
+      "geometry" : {
+        "coordinates" : [
+          -122.3369905,
+          47.6118256
+        ],
+        "type": "Point"
+      }
+    },
+    "tuesday": {
+      "address": "Westlake Ave N & Harrison St, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "13:30",
+      "geometry": {
+        "coordinates": [
+          -122.3384426,
+          47.6220467
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {
+      "address": "401 Pine St, Seattle, WA 98101, USA",
+      "open": "11:30",
+      "close": "14:00",
+      "geometry" : {
+        "coordinates" : [
+          -122.3369905,
+          47.6118256
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "Broadway, Tacoma, WA 98402, USA",
+      "open": "10:30",
+      "close": "15:00",
+      "geometry": {
+        "coordinates": [
+          -122.4408326,
+          47.2552529
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "401 Pine St, Seattle, WA 98101, USA",
+      "open": "11:30",
+      "close": "14:00",
+      "geometry" : {
+        "coordinates" : [
+          -122.3369905,
+          47.6118256
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/pages/Lumpia-World/173390752107",
+    "twitter_link": "https://twitter.com/LumpiaWorld",
+    "twitter_screen_name": "LumpiaWorld",
+    "website": "http://www.lumpiaworld.com"
+  }
+}

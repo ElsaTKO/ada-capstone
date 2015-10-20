@@ -1,0 +1,65 @@
+{
+  "name": "Kaosamai Thai Cook Truck",
+  "cuisine": "Thai",
+  "payment": "Cash only",
+  "description": "Phad Thai, noodles, fried rice and curries",
+  "schedule": {
+    "monday": {
+      "address": "Harrison St & Boren Ave N, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3358359,
+          47.6220217
+        ],
+        "type": "Point"
+      }
+    },
+    "tuesday": {
+      "address": "Westlake Ave N & John St, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3384703,
+          47.619713
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {
+      "address": "2401 Utah Ave S, Seattle, WA 98134, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3358992,
+          47.5810044
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {},
+    "friday": {
+      "address": "Westlake Ave N & John St, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3384703,
+          47.619713
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/Kaosamai",
+    "twitter_link": "https://twitter.com/Thaifoodtruck",
+    "twitter_screen_name": "Thaifoodtruck",
+    "website": "http://www.kaosamai.com"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Hot Dog King",
+  "cuisine": "Hot Dogs",
+  "payment": "Cash or Cards",
+  "description": "35 toppings to choose from, including 20 different mustards.  From the locally sourced half pound Jalapeño & Cheese Brat to the best Vegan sausage around, The Hot Dog King has got you covered.",
+  "schedule": {
+    "monday": {},
+    "tuesday": {
+      "address": "400 Westlake Ave N, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3381453,
+          47.6223094
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {
+      "address": "400 Westlake Ave N, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3381453,
+          47.6223094
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "400 Westlake Ave N, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3381453,
+          47.6223094
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "400 Westlake Ave N, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3381453,
+          47.6223094
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/thehotdogking",
+    "twitter_link": "",
+    "website": ""
+  }
+}
