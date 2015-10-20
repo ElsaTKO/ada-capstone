@@ -55,7 +55,7 @@ function requestGeocode(address, callback) {
   address_replaced = address.replace(/\s/g, "+");
   url = 'https://maps.googleapis.com/maps/api/geocode/json?address=' + address_replaced + '&bounds=47.4955511,-122.4359085|47.734145,-122.2359031&key=' + GOOGLE_KEY;
   // wait a bit to not overload api limit
-  sleep.usleep(150000);
+  sleep.usleep(250000);
   request(url, function hitGoogleApi(error, response) {
 		if (error) {
 			console.error("\n***REQUEST ERROR: ", error);
@@ -70,9 +70,9 @@ app.get('/google', function openConnection(req, res) {
 
   async.forEachOfSeries(old_food_trucks, function iterator(truck_json, index, iteratorCallback) {
 
-    if (index >= 3) {
-      return iteratorCallback();
-    }
+    // if (index >= 51) {
+    //   return iteratorCallback();
+    // }
 
     // create new food truck object
     new_food_trucks[index] = truck_json;
@@ -127,7 +127,7 @@ app.get('/google', function openConnection(req, res) {
               zero_results.push([ new_food_trucks[index].name, new_address ]);
               console.log("***ZERO RESULTS: \n", zero_results);
             } else {
-              many_or_error_results.push([ new_food_trucks[index].name, new_address ]);
+              many_or_error_results.push([ new_food_trucks[index].name, new_address, parsed_response ]);
               console.log("***MANY OR ERROR RESULTS: \n", many_or_error_results);
             }
           } // end assignments
@@ -191,7 +191,7 @@ app.get('/google', function openConnection(req, res) {
             // console.log("*Formatted address? ", new_food_trucks[index].schedule.tuesday.address);
           } else {
             console.log("\n***There's more than one result! Or an error...\n");
-            console.log("\n*Response: \n", parsed_response);
+            // console.log("\n*Response: \n", parsed_response);
             if (parsed_response.status === "ZERO_RESULTS") {
               zero_results.push([ new_food_trucks[index].name, new_address ]);
               console.log("***ZERO RESULTS: \n", zero_results);
@@ -260,7 +260,7 @@ app.get('/google', function openConnection(req, res) {
             // console.log("*Formatted address? ", new_food_trucks[index].schedule.wednesday.address);
           } else {
             console.log("\n***There's more than one result! Or an error...\n");
-            console.log("\n*Response: \n", parsed_response);
+            // console.log("\n*Response: \n", parsed_response);
             if (parsed_response.status === "ZERO_RESULTS") {
               zero_results.push([ new_food_trucks[index].name, new_address ]);
               console.log("***ZERO RESULTS: \n", zero_results);
@@ -329,7 +329,7 @@ app.get('/google', function openConnection(req, res) {
             // console.log("*Formatted address? ", new_food_trucks[index].schedule.thursday.address);
           } else {
             console.log("\n***There's more than one result! Or an error...\n");
-            console.log("\n*Response: \n", parsed_response);
+            // console.log("\n*Response: \n", parsed_response);
             if (parsed_response.status === "ZERO_RESULTS") {
               zero_results.push([ new_food_trucks[index].name, new_address ]);
               console.log("***ZERO RESULTS: \n", zero_results);
@@ -398,7 +398,7 @@ app.get('/google', function openConnection(req, res) {
             // console.log("*Formatted address? ", new_food_trucks[index].schedule.friday.address);
           } else {
             console.log("\n***There's more than one result! Or an error...\n");
-            console.log("\n*Response: \n", parsed_response);
+            // console.log("\n*Response: \n", parsed_response);
             if (parsed_response.status === "ZERO_RESULTS") {
               zero_results.push([ new_food_trucks[index].name, new_address ]);
               console.log("***ZERO RESULTS: \n", zero_results);
@@ -467,7 +467,7 @@ app.get('/google', function openConnection(req, res) {
             // console.log("*Formatted address? ", new_food_trucks[index].schedule.saturday.address);
           } else {
             console.log("\n***There's more than one result! Or an error...\n");
-            console.log("\n*Response: \n", parsed_response);
+            // console.log("\n*Response: \n", parsed_response);
             if (parsed_response.status === "ZERO_RESULTS") {
               zero_results.push([ new_food_trucks[index].name, new_address ]);
               console.log("***ZERO RESULTS: \n", zero_results);
@@ -536,7 +536,7 @@ app.get('/google', function openConnection(req, res) {
             // console.log("*Formatted address? ", new_food_trucks[index].schedule.sunday.address);
           } else {
             console.log("\n***There's more than one result! Or an error...\n");
-            console.log("\n*Response: \n", parsed_response);
+            // console.log("\n*Response: \n", parsed_response);
             if (parsed_response.status === "ZERO_RESULTS") {
               zero_results.push([ new_food_trucks[index].name, new_address ]);
               console.log("***ZERO RESULTS: \n", zero_results);
