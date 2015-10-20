@@ -70,9 +70,9 @@ app.get('/google', function openConnection(req, res) {
 
   async.forEachOfSeries(old_food_trucks, function iterator(truck_json, index, iteratorCallback) {
 
-    // if (index >= 51) {
-    //   return iteratorCallback();
-    // }
+    if (index == 119 ) {
+      return iteratorCallback();
+    }
 
     // create new food truck object
     new_food_trucks[index] = truck_json;
