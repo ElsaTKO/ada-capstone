@@ -24,10 +24,35 @@ function monday(do_stuff, mondayCallback) {
   mondayCallback();
 }
 
+function tuesday(do_stuff, tuesdayCallback) {
+  tuesdayCallback();
+}
+
+function wednesday(do_stuff, wednesdayCallback) {
+  wednesdayCallback();
+}
+
+function thursday(do_stuff, thursdayCallback) {
+  thursdayCallback();
+}
+
+function friday(do_stuff, fridayCallback) {
+  fridayCallback();
+}
+
+function saturday(do_stuff, saturdayCallback) {
+  saturdayCallback();
+}
+
+function sunday(do_stuff, sundayCallback) {
+  sundayCallback();
+}
+
 function requestGeocode(address, callback) {
   address_replaced = address.replace(/\s/g, "+");
   url = 'https://maps.googleapis.com/maps/api/geocode/json?address=' + address_replaced + '&bounds=47.4955511,-122.4359085|47.734145,-122.2359031&key=' + GOOGLE_KEY;
-
+  // wait a bit to not overload api limit
+  sleep.usleep(150000);
   request(url, function hitGoogleApi(error, response) {
 		if (error) {
 			console.log("\n***REQUEST ERROR: ", error);
@@ -54,7 +79,7 @@ app.get('/google', function openConnection(req, res) {
     var old_address, new_address;
 
     // for each truck, check each weekday schedule
-    // monday
+    // MONDAY
     if (new_food_trucks[index].schedule.monday.address !== undefined) {
       // has the address been queried already?
       if (map_old_new_addresses["" + new_food_trucks[index].schedule.monday.address + ""] === undefined) {
@@ -67,8 +92,8 @@ app.get('/google', function openConnection(req, res) {
         } else {
           new_address = old_address;
         }
-        // wait a bit to not overload api limit
-        sleep.usleep(150000);
+
+
         monday(requestGeocode(new_address, function(response) {
           var parsed_response = JSON.parse(response);
           // just one good result?
@@ -84,7 +109,6 @@ app.get('/google', function openConnection(req, res) {
             // "new address": [0][0];
             // coordinates: [0][1];
             map_old_new_addresses["" + old_address + ""] = [ data.formatted_address, [lng, lat] ];
-
 
             // assign geojson lng and lat to new truck
             new_food_trucks[index].schedule.monday["geometry"] = {};
@@ -102,16 +126,16 @@ app.get('/google', function openConnection(req, res) {
               throw "\n***There's more than one result! Or an error...";
             }
           } // end assignments
-
           // append file
-          fs.appendFile('async_trucks'+timestamp+'.json', JSON.stringify(new_food_trucks[index], null, 2), function (err) {
+          fs.writeFile('async_trucks'+timestamp+'.json', JSON.stringify(new_food_trucks, null, 2), function (err) {
             if (err) throw err;
           });
-
-
         }), function(){
-          console.log("*End Monday");
+          console.log("*monday");
         });
+
+
+
 
       } else {
         // the address has already been queried
@@ -125,6 +149,77 @@ app.get('/google', function openConnection(req, res) {
         new_food_trucks[index].schedule.monday.address = map_old_new_addresses["" + new_food_trucks[index].schedule.monday.address + ""][0][0];
       } // end query vs map assignment
     } // end monday
+
+    // TUESDAY
+    if (new_food_trucks[index].schedule.tuesday.address !== undefined) {
+      // has the address been queried already?
+      if (map_old_new_addresses["" + new_food_trucks[index].schedule.tuesday.address + ""] === undefined) {
+        // set url address
+        old_address = new_food_trucks[index].schedule.tuesday.address;
+        // extra info at end of address? if so, cut it off
+        if (old_address.slice(-2) !== " N" && old_address.slice(-2) !== " S" && old_address.slice(-2) !== " E" && old_address.slice(-2) !== " W" && old_address.slice(-2) !== "NE" && old_address.slice(-2) !== "NW" && old_address.slice(-2) !== "SE" && old_address.slice(-2) !== "SW"  && old_address.slice(-2) !== "St" && old_address.slice(-2) !== "ve" && (old_address.indexOf(", ") !== -1)) {
+          // format address for passing to requestGeocode
+          new_address = old_address.split(", ")[0];
+        } else {
+          new_address = old_address;
+        }
+
+
+        tuesday(requestGeocode(new_address, function(response) {
+          var parsed_response = JSON.parse(response);
+          // just one good result?
+          if (parsed_response.results.length === 1 && parsed_response.status === "OK") {
+            // console.log("\n*RESPONSE: \n", response);
+            // get the returned data
+            var data = parsed_response.results[0];
+            lng = data.geometry.location.lng;
+            lat = data.geometry.location.lat;
+
+            // create map for old and new address, to avoid redundant api calls
+            // "old address" = ["new address", [lng, lat]]
+            // "new address": [0][0];
+            // coordinates: [0][1];
+            map_old_new_addresses["" + old_address + ""] = [ data.formatted_address, [lng, lat] ];
+
+            // assign geojson lng and lat to new truck
+            new_food_trucks[index].schedule.tuesday["geometry"] = {};
+            new_food_trucks[index].schedule.tuesday["geometry"]["coordinates"] = [lng, lat];
+            new_food_trucks[index].schedule.tuesday["geometry"]["type"] = "Point";
+            // assign formatted address to new truck
+            new_food_trucks[index].schedule.tuesday.address = data.formatted_address;
+            console.log("*Formatted address? ", new_food_trucks[index].schedule.tuesday.address);
+          } else {
+            console.log("\n***There's more than one result! Or an error...\n");
+            console.log("\n*Response: \n", parsed_response);
+            if (parsed_response.status === "ZERO_RESULTS") {
+              throw "ZERO_RESULTS";
+            } else {
+              throw "\n***There's more than one result! Or an error...";
+            }
+          } // end assignments
+          // append file
+          fs.writeFile('async_trucks'+timestamp+'.json', JSON.stringify(new_food_trucks, null, 2), function (err) {
+            if (err) throw err;
+          });
+        }), function(){
+          console.log("*tuesday");
+        });
+
+
+
+
+      } else {
+        // the address has already been queried
+        // assign formatted address and [lng, lat] based on map's key value
+        // "old address" = ["new address", [lng, lat]]
+        // "new address": [0][0];
+        // coordinates: [0][1];
+        new_food_trucks[index].schedule.tuesday["geometry"] = {};
+        new_food_trucks[index].schedule.tuesday["geometry"]["coordinates"] = map_old_new_addresses["" + new_food_trucks[index].schedule.tuesday.address + ""][0][1];
+        new_food_trucks[index].schedule.tuesday["geometry"]["type"] = "Point";
+        new_food_trucks[index].schedule.tuesday.address = map_old_new_addresses["" + new_food_trucks[index].schedule.tuesday.address + ""][0][0];
+      } // end query vs map assignment
+    } // end tuesday
 
 
 
