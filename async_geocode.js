@@ -54,14 +54,13 @@ function sunday(do_stuff, sundayCallback) {
 function requestGeocode(address, callback) {
   address_replaced = address.replace(/\s/g, "+");
   url = 'https://maps.googleapis.com/maps/api/geocode/json?address=' + address_replaced + '&bounds=47.4955511,-122.4359085|47.734145,-122.2359031&key=' + GOOGLE_KEY;
-  // wait a bit to not overload api limit
 
   request(url, function hitGoogleApi(error, response) {
+    sleep.sleep(1);
 		if (error) {
 			console.error("\n***REQUEST ERROR: ", error);
 		} else {
       // console.log("\n*REQUESTED URL: ", url);
-      sleep.usleep(250000);
       callback(response.body);
     }
   });
@@ -70,11 +69,15 @@ function requestGeocode(address, callback) {
 app.get('/google', function openConnection(req, res) {
 
   async.forEachOfSeries(old_food_trucks, function iterator(truck_json, index, iteratorCallback) {
-    console.log("INDEX ", index);
-    if (index == old_food_trucks.length-1 ) {
+
+    if (index < 1) { // for truck at this index
+      iteratorCallback();
+    }
+    if (index >= 2) {
       return iteratorCallback();
     }
-
+    console.log("INDEX ", index);
+    sleep.usleep(250000);
     // create new food truck object
     new_food_trucks[index] = truck_json;
     console.log("\n*NEW FOOD TRUCK " + index + "\n", new_food_trucks[index].name);
@@ -119,7 +122,7 @@ app.get('/google', function openConnection(req, res) {
             new_food_trucks[index].schedule.monday["geometry"]["type"] = "Point";
             // assign formatted address to new truck
             new_food_trucks[index].schedule.monday.address = data.formatted_address;
-            console.log("*API call");
+            console.log("*API call " + index + " monday");
             // console.log("*Formatted address? ", new_food_trucks[index].schedule.monday.address);
           } else {
             console.log("\n***There's more than one result! Or an error...\n");
@@ -188,7 +191,7 @@ app.get('/google', function openConnection(req, res) {
             new_food_trucks[index].schedule.tuesday["geometry"]["type"] = "Point";
             // assign formatted address to new truck
             new_food_trucks[index].schedule.tuesday.address = data.formatted_address;
-            console.log("*API call");
+            console.log("*API call " + index + " tuesday");
             // console.log("*Formatted address? ", new_food_trucks[index].schedule.tuesday.address);
           } else {
             console.log("\n***There's more than one result! Or an error...\n");
@@ -257,7 +260,7 @@ app.get('/google', function openConnection(req, res) {
             new_food_trucks[index].schedule.wednesday["geometry"]["type"] = "Point";
             // assign formatted address to new truck
             new_food_trucks[index].schedule.wednesday.address = data.formatted_address;
-            console.log("*API call");
+            console.log("*API call " + index + " wednesday");
             // console.log("*Formatted address? ", new_food_trucks[index].schedule.wednesday.address);
           } else {
             console.log("\n***There's more than one result! Or an error...\n");
@@ -326,7 +329,7 @@ app.get('/google', function openConnection(req, res) {
             new_food_trucks[index].schedule.thursday["geometry"]["type"] = "Point";
             // assign formatted address to new truck
             new_food_trucks[index].schedule.thursday.address = data.formatted_address;
-            console.log("*API call");
+            console.log("*API call " + index + " thursday");
             // console.log("*Formatted address? ", new_food_trucks[index].schedule.thursday.address);
           } else {
             console.log("\n***There's more than one result! Or an error...\n");
@@ -395,7 +398,7 @@ app.get('/google', function openConnection(req, res) {
             new_food_trucks[index].schedule.friday["geometry"]["type"] = "Point";
             // assign formatted address to new truck
             new_food_trucks[index].schedule.friday.address = data.formatted_address;
-            console.log("*API call");
+            console.log("*API call " + index + " friday");
             // console.log("*Formatted address? ", new_food_trucks[index].schedule.friday.address);
           } else {
             console.log("\n***There's more than one result! Or an error...\n");
@@ -464,7 +467,7 @@ app.get('/google', function openConnection(req, res) {
             new_food_trucks[index].schedule.saturday["geometry"]["type"] = "Point";
             // assign formatted address to new truck
             new_food_trucks[index].schedule.saturday.address = data.formatted_address;
-            console.log("*API call");
+            console.log("*API call " + index + " saturday");
             // console.log("*Formatted address? ", new_food_trucks[index].schedule.saturday.address);
           } else {
             console.log("\n***There's more than one result! Or an error...\n");
@@ -533,7 +536,7 @@ app.get('/google', function openConnection(req, res) {
             new_food_trucks[index].schedule.sunday["geometry"]["type"] = "Point";
             // assign formatted address to new truck
             new_food_trucks[index].schedule.sunday.address = data.formatted_address;
-            console.log("*API call");
+            console.log("*API call " + index + " sunday");
             // console.log("*Formatted address? ", new_food_trucks[index].schedule.sunday.address);
           } else {
             console.log("\n***There's more than one result! Or an error...\n");
