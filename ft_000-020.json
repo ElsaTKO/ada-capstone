@@ -654,5 +654,587 @@
       "website": ""
     }
   },
+  {
+    "name": "Big Dog’s",
+    "cuisine": "Hot Dogs",
+    "payment": "Cash or Cards",
+    "description": "Biggest Weiner Around!",
+    "schedule": {
+      "monday": {
+        "address": "University of Washington Bothell, 18115 Campus Way NE, Bothell, WA 98011, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.1907054,
+            47.7590975
+          ],
+          "type": "Point"
+        }
+      },
+      "tuesday": {
+        "address": "19940 Old Owen Rd, Monroe, WA 98272, USA",
+        "open": "11:00",
+        "close": "16:30",
+        "geometry": {
+          "coordinates": [
+            -121.9638701,
+            47.8580377
+          ],
+          "type": "Point"
+        }
+      },
+      "wednesday": {},
+      "thursday": {
+        "address": "19940 Old Owen Rd, Monroe, WA 98272, USA",
+        "open": "11:00",
+        "close": "16:30",
+        "geometry": {
+          "coordinates": [
+            -121.9638701,
+            47.8580377
+          ],
+          "type": "Point"
+        }
+      },
+      "friday": {
+        "address": "19940 Old Owen Rd, Monroe, WA 98272, USA",
+        "open": "11:00",
+        "close": "16:30",
+        "geometry": {
+          "coordinates": [
+            -121.9638701,
+            47.8580377
+          ],
+          "type": "Point"
+        }
+      },
+      "saturday": {
+        "address": "19940 Old Owen Rd, Monroe, WA 98272, USA",
+        "open": "11:00",
+        "close": "16:30",
+        "geometry": {
+          "coordinates": [
+            -121.9638701,
+            47.8580377
+          ],
+          "type": "Point"
+        }
+      },
+      "sunday": {
+        "address": "19940 Old Owen Rd, Monroe, WA 98272, USA",
+        "open": "11:00",
+        "close": "16:30",
+        "geometry": {
+          "coordinates": [
+            -121.9638701,
+            47.8580377
+          ],
+          "type": "Point"
+        }
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/BigDogsTacos",
+      "twitter_link": "https://twitter.com/BigDogBuzz",
+      "twitter_screen_name": "BigDogBuzz",
+      "website": ""
+    }
+  },
+  {
+    "name": "Charlie’s",
+    "cuisine": "Burgers / Cheesesteaks",
+    "payment": "Cash or Cards",
+    "description": "A fresh take on American diner fare",
+    "schedule": {
+      "monday": {
+        "address": "531 Stewart St, Seattle, WA 98101, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.3376094,
+            47.61316679999999
+          ],
+          "type": "Point"
+        }
+      },
+      "tuesday": {
+        "address": "Microsoft W Campus Access Rd, Redmond, WA 98052, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.1405316,
+            47.66032999999999
+          ],
+          "type": "Point"
+        }
+      },
+      "wednesday": {},
+      "thursday": {
+        "address": "Microsoft W Campus Access Rd, Redmond, WA 98052, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.1405316,
+            47.66032999999999
+          ],
+          "type": "Point"
+        }
+      },
+      "friday": {
+        "address": "Microsoft W Campus Access Rd, Redmond, WA 98052, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.1405316,
+            47.66032999999999
+          ],
+          "type": "Point"
+        }
+      },
+      "saturday": {},
+      "sunday": {}
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/charliesbuns",
+      "twitter_link": "https://twitter.com/CharliesBuns",
+      "twitter_screen_name": "CharliesBuns",
+      "website": "http://www.charliesbunsnstuff.com"
+    }
+  },
+  {
+    "name": "Big Boys Filipino Food Truck",
+    "cuisine": "Filipino / American",
+    "payment": "Cash or Cards",
+    "description": "Bring people together using their sense of Filipino cuisine in a unique and flavorful way.",
+    "schedule": {
+      "monday": {},
+      "tuesday": {
+        "address": "101 Elliott Ave W, Seattle, WA 98119, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.359573,
+            47.619075
+          ],
+          "type": "Point"
+        }
+      },
+      "wednesday": {},
+      "thursday": {},
+      "friday": {},
+      "saturday": {},
+      "sunday": {}
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/bigboysfilipinofoodtruck",
+      "twitter_link": "https://twitter.com/NateVibez",
+      "twitter_screen_name": "NateVibez",
+      "website": "http://www.bigboysfilipinofoodtruck.com/"
+    }
+  },
+  {
+    "name": "Bumbu Truck",
+    "cuisine": "Indonesian",
+    "payment": "Cash or Cards",
+    "description": "Indonesian Street Food",
+    "schedule": {
+      "monday": {
+        "address": "101 Elliott Ave W, Seattle, WA 98119, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.359573,
+            47.619075
+          ],
+          "type": "Point"
+        }
+      },
+      "tuesday": {},
+      "wednesday": {},
+      "thursday": {
+        "address": "3100 Northup Way, Bellevue, WA 98004, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.191326,
+            47.638197
+          ],
+          "type": "Point"
+        }
+      },
+      "friday": {
+        "address": "5000-5020 148th Ave SE, Redmond, WA 98052, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.1422241,
+            47.6525117
+          ],
+          "type": "Point"
+        }
+      },
+      "saturday": {},
+      "sunday": {}
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/Bumbutruck",
+      "twitter_link": "https://twitter.com/bumbutruck",
+      "twitter_screen_name": "bumbutruck",
+      "website": "http://www.bumbutruck.com"
+    }
+  },
+  {
+    "name": "Delicatessen Montanti",
+    "cuisine": "Sandwiches",
+    "payment": "Cash or Cards",
+    "description": "East Coast deli sandwiches to die for!",
+    "schedule": {
+      "monday": {
+        "address": "2600 Airport Way S, Seattle, WA 98134, USA",
+        "open": "8:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.3209287,
+            47.5798259
+          ],
+          "type": "Point"
+        }
+      },
+      "tuesday": {
+        "address": "Bellefield Office Park Conference Center, 1150 114th Ave SE, Bellevue, WA 98004, USA",
+        "open": "8:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.1870081,
+            47.60039039999999
+          ],
+          "type": "Point"
+        }
+      },
+      "wednesday": {
+        "address": "2600 Airport Way S, Seattle, WA 98134, USA",
+        "open": "8:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.3209287,
+            47.5798259
+          ],
+          "type": "Point"
+        }
+      },
+      "thursday": {
+        "address": "6100 4th Ave S, Seattle, WA 98108, USA",
+        "open": "8:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.3288835,
+            47.54714329999999
+          ],
+          "type": "Point"
+        }
+      },
+      "friday": {
+        "address": "2600 Airport Way S, Seattle, WA 98134, USA",
+        "open": "8:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.3209287,
+            47.5798259
+          ],
+          "type": "Point"
+        }
+      },
+      "saturday": {},
+      "sunday": {}
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/pages/Delicatessen-Montanti/823352311016462",
+      "twitter_link": "",
+      "website": "http://montanti.wix.com/delicatessenmontanti"
+    }
+  },
+  {
+    "name": "Crisp Crêperie",
+    "cuisine": "French",
+    "payment": "Cash or Cards",
+    "description": "Locally sourced, in-season, top-shelf ingredients in exquisitely crafted crêpes",
+    "schedule": {
+      "monday": {},
+      "tuesday": {},
+      "wednesday": {},
+      "thursday": {
+        "address": "2401 Utah Ave S, Seattle, WA 98134, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.3358992,
+            47.5810044
+          ],
+          "type": "Point"
+        }
+      },
+      "friday": {},
+      "saturday": {},
+      "sunday": {}
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/CrispSeattle",
+      "twitter_link": "https://twitter.com/CrispSeattle",
+      "twitter_screen_name": "CrispSeattle",
+      "website": "http://www.crispseattle.com"
+    }
+  },
+  {
+    "name": "Fruit Chatter Box",
+    "cuisine": "Sweets",
+    "payment": "Cash or Cards",
+    "description": "Fruit Chatter Box provides fresh, seasonal fresh fruit in cups or on a stick at local festivals and street fairs.",
+    "schedule": {
+      "monday": {},
+      "tuesday": {},
+      "wednesday": {},
+      "thursday": {},
+      "friday": {},
+      "saturday": {},
+      "sunday": {
+        "address": "3401 Evanston Ave N, Seattle, WA 98103, USA",
+        "open": "10:00",
+        "close": "15:00",
+        "geometry": {
+          "coordinates": [
+            -122.3516227,
+            47.65011399999999
+          ],
+          "type": "Point"
+        }
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/fruitchatterbox",
+      "twitter_link": "https://twitter.com/fruitchatterbox",
+      "twitter_screen_name": "fruitchatterbox",
+      "website": "http://fruitchatterbox.squarespace.com/"
+    }
+  },
+  {
+    "name": "Curb Jumper Street Eats",
+    "cuisine": "Sandwiches / Burgers",
+    "payment": "Cash or Cards",
+    "description": "Gourmet Sliders and Specialty Sandwiches",
+    "schedule": {
+      "monday": {
+        "address": "Microsoft W Campus Access Rd, Redmond, WA 98052, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.1405316,
+            47.66032999999999
+          ],
+          "type": "Point"
+        }
+      },
+      "tuesday": {},
+      "wednesday": {
+        "address": "Microsoft W Campus Access Rd, Redmond, WA 98052, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.1405316,
+            47.66032999999999
+          ],
+          "type": "Point"
+        }
+      },
+      "thursday": {},
+      "friday": {
+        "address": "Microsoft W Campus Access Rd, Redmond, WA 98052, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.1405316,
+            47.66032999999999
+          ],
+          "type": "Point"
+        }
+      },
+      "saturday": {},
+      "sunday": {}
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/CurbJumperStreetEats",
+      "twitter_link": "https://twitter.com/CurbJumper206",
+      "twitter_screen_name": "CurbJumper206",
+      "website": "http://www.curbjumperstreeteats.com"
+    }
+  },
+  {
+    "name": "Flair Taco",
+    "cuisine": "Mexican",
+    "payment": "Cash Only",
+    "description": "Regular taco truck in the Fremont neighborhood – open 7 days a week and late night.",
+    "schedule": {
+      "monday": {
+        "address": "166 N 35th St, Seattle, WA 98103, USA",
+        "open": "11:00",
+        "close": "22:00",
+        "geometry": {
+          "coordinates": [
+            -122.3553652,
+            47.6516285
+          ],
+          "type": "Point"
+        }
+      },
+      "tuesday": {
+        "address": "166 N 35th St, Seattle, WA 98103, USA",
+        "open": "11:00",
+        "close": "22:00",
+        "geometry": {
+          "coordinates": [
+            -122.3553652,
+            47.6516285
+          ],
+          "type": "Point"
+        }
+      },
+      "wednesday": {
+        "address": "166 N 35th St, Seattle, WA 98103, USA",
+        "open": "11:00",
+        "close": "22:00",
+        "geometry": {
+          "coordinates": [
+            -122.3553652,
+            47.6516285
+          ],
+          "type": "Point"
+        }
+      },
+      "thursday": {
+        "address": "166 N 35th St, Seattle, WA 98103, USA",
+        "open": "11:00",
+        "close": "23:00",
+        "geometry": {
+          "coordinates": [
+            -122.3553652,
+            47.6516285
+          ],
+          "type": "Point"
+        }
+      },
+      "friday": {
+        "address": "166 N 35th St, Seattle, WA 98103, USA",
+        "open": "11:00",
+        "close": "4:00",
+        "geometry": {
+          "coordinates": [
+            -122.3553652,
+            47.6516285
+          ],
+          "type": "Point"
+        }
+      },
+      "saturday": {
+        "address": "166 N 35th St, Seattle, WA 98103, USA",
+        "open": "11:00",
+        "close": "4:00",
+        "geometry": {
+          "coordinates": [
+            -122.3553652,
+            47.6516285
+          ],
+          "type": "Point"
+        }
+      },
+      "sunday": {}
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/pages/Flair-Taco/197832600252403",
+      "twitter_link": "",
+      "website": ""
+    }
+  },
+  {
+    "name": "Budha Bear Bagels",
+    "cuisine": "Sandwiches",
+    "payment": "Cash or cards",
+    "description": "Gourmet Bagel Sandwiches",
+    "schedule": {
+      "monday": {
+        "address": "1735 Jefferson Ave, Tacoma, WA 98402, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.4382339,
+            47.2458914
+          ],
+          "type": "Point"
+        }
+      },
+      "tuesday": {
+        "address": "1735 Jefferson Ave, Tacoma, WA 98402, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.4382339,
+            47.2458914
+          ],
+          "type": "Point"
+        }
+      },
+      "wednesday": {
+        "address": "1735 Jefferson Ave, Tacoma, WA 98402, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.4382339,
+            47.2458914
+          ],
+          "type": "Point"
+        }
+      },
+      "thursday": {},
+      "friday": {
+        "address": "107 W Stewart Ave, Puyallup, WA 98371, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.294234,
+            47.193229
+          ],
+          "type": "Point"
+        }
+      },
+      "saturday": {},
+      "sunday": {}
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/BudhaBearBagelsCafe",
+      "twitter_link": "https://twitter.com/BudhaBearBagels",
+      "twitter_screen_name": "BudhaBearBagels",
+      "website": ""
+    }
+  },
   
 ]

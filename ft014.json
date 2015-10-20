@@ -1,0 +1,54 @@
+{
+  "name": "Bumbu Truck",
+  "cuisine": "Indonesian",
+  "payment": "Cash or Cards",
+  "description": "Indonesian Street Food",
+  "schedule": {
+    "monday": {
+      "address": "101 Elliott Ave W, Seattle, WA 98119, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.359573,
+          47.619075
+        ],
+        "type": "Point"
+      }
+    },
+    "tuesday": {},
+    "wednesday": {},
+    "thursday": {
+      "address": "3100 Northup Way, Bellevue, WA 98004, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.191326,
+          47.638197
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "5000-5020 148th Ave SE, Redmond, WA 98052, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.1422241,
+          47.6525117
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/Bumbutruck",
+    "twitter_link": "https://twitter.com/bumbutruck",
+    "twitter_screen_name": "bumbutruck",
+    "website": "http://www.bumbutruck.com"
+  }
+}

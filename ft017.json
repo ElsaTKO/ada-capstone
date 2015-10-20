@@ -1,0 +1,32 @@
+{
+  "name": "Fruit Chatter Box",
+  "cuisine": "Sweets",
+  "payment": "Cash or Cards",
+  "description": "Fruit Chatter Box provides fresh, seasonal fresh fruit in cups or on a stick at local festivals and street fairs.",
+  "schedule": {
+    "monday": {},
+    "tuesday": {},
+    "wednesday": {},
+    "thursday": {},
+    "friday": {},
+    "saturday": {},
+    "sunday": {
+      "address": "3401 Evanston Ave N, Seattle, WA 98103, USA",
+      "open": "10:00",
+      "close": "15:00",
+      "geometry": {
+        "coordinates": [
+          -122.3516227,
+          47.65011399999999
+        ],
+        "type": "Point"
+      }
+    }
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/fruitchatterbox",
+    "twitter_link": "https://twitter.com/fruitchatterbox",
+    "twitter_screen_name": "fruitchatterbox",
+    "website": "http://fruitchatterbox.squarespace.com/"
+  }
+}

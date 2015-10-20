@@ -1,0 +1,32 @@
+{
+  "name": "Big Boys Filipino Food Truck",
+  "cuisine": "Filipino / American",
+  "payment": "Cash or Cards",
+  "description": "Bring people together using their sense of Filipino cuisine in a unique and flavorful way.",
+  "schedule": {
+    "monday": {},
+    "tuesday": {
+      "address": "101 Elliott Ave W, Seattle, WA 98119, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.359573,
+          47.619075
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {},
+    "thursday": {},
+    "friday": {},
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/bigboysfilipinofoodtruck",
+    "twitter_link": "https://twitter.com/NateVibez",
+    "twitter_screen_name": "NateVibez",
+    "website": "http://www.bigboysfilipinofoodtruck.com/"
+  }
+}

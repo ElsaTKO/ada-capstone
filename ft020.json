@@ -1,0 +1,65 @@
+{
+  "name": "Budha Bear Bagels",
+  "cuisine": "Sandwiches",
+  "payment": "Cash or cards",
+  "description": "Gourmet Bagel Sandwiches",
+  "schedule": {
+    "monday": {
+      "address": "1735 Jefferson Ave, Tacoma, WA 98402, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.4382339,
+          47.2458914
+        ],
+        "type": "Point"
+      }
+    },
+    "tuesday": {
+      "address": "1735 Jefferson Ave, Tacoma, WA 98402, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.4382339,
+          47.2458914
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {
+      "address": "1735 Jefferson Ave, Tacoma, WA 98402, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.4382339,
+          47.2458914
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {},
+    "friday": {
+      "address": "107 W Stewart Ave, Puyallup, WA 98371, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.294234,
+          47.193229
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/BudhaBearBagelsCafe",
+    "twitter_link": "https://twitter.com/BudhaBearBagels",
+    "twitter_screen_name": "BudhaBearBagels",
+    "website": ""
+  }
+}

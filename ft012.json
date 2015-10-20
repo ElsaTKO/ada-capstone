@@ -1,0 +1,65 @@
+{
+  "name": "Charlie’s",
+  "cuisine": "Burgers / Cheesesteaks",
+  "payment": "Cash or Cards",
+  "description": "A fresh take on American diner fare",
+  "schedule": {
+    "monday": {
+      "address": "531 Stewart St, Seattle, WA 98101, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3376094,
+          47.61316679999999
+        ],
+        "type": "Point"
+      }
+    },
+    "tuesday": {
+      "address": "Microsoft W Campus Access Rd, Redmond, WA 98052, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.1405316,
+          47.66032999999999
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {},
+    "thursday": {
+      "address": "Microsoft W Campus Access Rd, Redmond, WA 98052, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.1405316,
+          47.66032999999999
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "Microsoft W Campus Access Rd, Redmond, WA 98052, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.1405316,
+          47.66032999999999
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/charliesbuns",
+    "twitter_link": "https://twitter.com/CharliesBuns",
+    "twitter_screen_name": "CharliesBuns",
+    "website": "http://www.charliesbunsnstuff.com"
+  }
+}

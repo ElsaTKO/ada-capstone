@@ -70,10 +70,10 @@ app.get('/google', function openConnection(req, res) {
 
   async.forEachOfSeries(old_food_trucks, function iterator(truck_json, index, iteratorCallback) {
 
-    if (index < 10) { // for truck at this index
+    if (index < 20) { // for truck at this index
       return iteratorCallback();
     }
-    if (index > 10) {
+    if (index > 20) {
       return iteratorCallback();
     }
 
@@ -81,7 +81,7 @@ app.get('/google', function openConnection(req, res) {
     sleep.usleep(250000);
     // create new food truck object
     new_food_trucks[index] = truck_json;
-    console.log("\n*NEW FOOD TRUCK " + index + "\n", new_food_trucks[index].name);
+    console.log("\n*NEW FOOD TRUCK " + index + "\n" + new_food_trucks[index].name + "\n");
 
     var lng, lat;
     var old_address, new_address;

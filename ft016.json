@@ -1,0 +1,32 @@
+{
+  "name": "Crisp Crêperie",
+  "cuisine": "French",
+  "payment": "Cash or Cards",
+  "description": "Locally sourced, in-season, top-shelf ingredients in exquisitely crafted crêpes",
+  "schedule": {
+    "monday": {},
+    "tuesday": {},
+    "wednesday": {},
+    "thursday": {
+      "address": "2401 Utah Ave S, Seattle, WA 98134, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3358992,
+          47.5810044
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {},
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/CrispSeattle",
+    "twitter_link": "https://twitter.com/CrispSeattle",
+    "twitter_screen_name": "CrispSeattle",
+    "website": "http://www.crispseattle.com"
+  }
+}

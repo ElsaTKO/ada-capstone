@@ -1,0 +1,87 @@
+{
+  "name": "Big Dog’s",
+  "cuisine": "Hot Dogs",
+  "payment": "Cash or Cards",
+  "description": "Biggest Weiner Around!",
+  "schedule": {
+    "monday": {
+      "address": "University of Washington Bothell, 18115 Campus Way NE, Bothell, WA 98011, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.1907054,
+          47.7590975
+        ],
+        "type": "Point"
+      }
+    },
+    "tuesday": {
+      "address": "19940 Old Owen Rd, Monroe, WA 98272, USA",
+      "open": "11:00",
+      "close": "16:30",
+      "geometry": {
+        "coordinates": [
+          -121.9638701,
+          47.8580377
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {},
+    "thursday": {
+      "address": "19940 Old Owen Rd, Monroe, WA 98272, USA",
+      "open": "11:00",
+      "close": "16:30",
+      "geometry": {
+        "coordinates": [
+          -121.9638701,
+          47.8580377
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "19940 Old Owen Rd, Monroe, WA 98272, USA",
+      "open": "11:00",
+      "close": "16:30",
+      "geometry": {
+        "coordinates": [
+          -121.9638701,
+          47.8580377
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {
+      "address": "19940 Old Owen Rd, Monroe, WA 98272, USA",
+      "open": "11:00",
+      "close": "16:30",
+      "geometry": {
+        "coordinates": [
+          -121.9638701,
+          47.8580377
+        ],
+        "type": "Point"
+      }
+    },
+    "sunday": {
+      "address": "19940 Old Owen Rd, Monroe, WA 98272, USA",
+      "open": "11:00",
+      "close": "16:30",
+      "geometry": {
+        "coordinates": [
+          -121.9638701,
+          47.8580377
+        ],
+        "type": "Point"
+      }
+    }
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/BigDogsTacos",
+    "twitter_link": "https://twitter.com/BigDogBuzz",
+    "twitter_screen_name": "BigDogBuzz",
+    "website": ""
+  }
+}

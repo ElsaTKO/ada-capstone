@@ -1,0 +1,86 @@
+{
+  "name": "Flair Taco",
+  "cuisine": "Mexican",
+  "payment": "Cash Only",
+  "description": "Regular taco truck in the Fremont neighborhood – open 7 days a week and late night.",
+  "schedule": {
+    "monday": {
+      "address": "166 N 35th St, Seattle, WA 98103, USA",
+      "open": "11:00",
+      "close": "22:00",
+      "geometry": {
+        "coordinates": [
+          -122.3553652,
+          47.6516285
+        ],
+        "type": "Point"
+      }
+    },
+    "tuesday": {
+      "address": "166 N 35th St, Seattle, WA 98103, USA",
+      "open": "11:00",
+      "close": "22:00",
+      "geometry": {
+        "coordinates": [
+          -122.3553652,
+          47.6516285
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {
+      "address": "166 N 35th St, Seattle, WA 98103, USA",
+      "open": "11:00",
+      "close": "22:00",
+      "geometry": {
+        "coordinates": [
+          -122.3553652,
+          47.6516285
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "166 N 35th St, Seattle, WA 98103, USA",
+      "open": "11:00",
+      "close": "23:00",
+      "geometry": {
+        "coordinates": [
+          -122.3553652,
+          47.6516285
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "166 N 35th St, Seattle, WA 98103, USA",
+      "open": "11:00",
+      "close": "4:00",
+      "geometry": {
+        "coordinates": [
+          -122.3553652,
+          47.6516285
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {
+      "address": "166 N 35th St, Seattle, WA 98103, USA",
+      "open": "11:00",
+      "close": "4:00",
+      "geometry": {
+        "coordinates": [
+          -122.3553652,
+          47.6516285
+        ],
+        "type": "Point"
+      }
+    },
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/pages/Flair-Taco/197832600252403",
+    "twitter_link": "",
+    "website": ""
+  }
+}
