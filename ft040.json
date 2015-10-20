@@ -1,0 +1,65 @@
+{
+  "name": "Made in Taiwan Food Trailer",
+  "cuisine": "Taiwanese",
+  "payment": "Cash or Cards",
+  "description": "Taiwanese street food",
+  "schedule": {
+    "monday": {},
+    "tuesday": {
+      "address": "503 6th St S, Kirkland, WA 98033, USA",
+      "open": "17:00",
+      "close": "21:00",
+      "geometry": {
+        "coordinates": [
+          -122.1967387,
+          47.6717705
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {
+      "address": "503 6th St S, Kirkland, WA 98033, USA",
+      "open": "17:00",
+      "close": "21:00",
+      "geometry": {
+        "coordinates": [
+          -122.1967387,
+          47.6717705
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "503 6th St S, Kirkland, WA 98033, USA",
+      "open": "17:00",
+      "close": "21:00",
+      "geometry": {
+        "coordinates": [
+          -122.1967387,
+          47.6717705
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {},
+    "saturday": {
+      "address": "17625 NE 65th St, Redmond, WA 98052, USA",
+      "open": "15:00",
+      "close": "21:00",
+      "geometry": {
+        "coordinates": [
+          -122.1049839,
+          47.6635538
+        ],
+        "type": "Point"
+      }
+    },
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/mitfoodtrailer",
+    "twitter_link": "https://twitter.com/mittrailerfood",
+    "twitter_screen_name": "mittrailerfood",
+    "website": "http://mitfoodtrailer.com/"
+  }
+}

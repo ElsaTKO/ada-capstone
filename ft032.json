@@ -1,0 +1,98 @@
+{
+  "name": "Kurbside Kitchen",
+  "cuisine": "Waffles",
+  "payment": "Cash or Cards",
+  "description": "Sweet and savory waffles",
+  "schedule": {
+    "monday": {
+      "address": "Thomas St, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "18:00",
+      "geometry": {
+        "coordinates": [
+          -122.3430313,
+          47.6208963
+        ],
+        "type": "Point"
+      }
+    },
+    "tuesday": {
+      "address": "Thomas St, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "18:00",
+      "geometry": {
+        "coordinates": [
+          -122.3430313,
+          47.6208963
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {
+      "address": "Thomas St, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "18:00",
+      "geometry": {
+        "coordinates": [
+          -122.3430313,
+          47.6208963
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "Thomas St, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "18:00",
+      "geometry": {
+        "coordinates": [
+          -122.3430313,
+          47.6208963
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "Thomas St, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "18:00",
+      "geometry": {
+        "coordinates": [
+          -122.3430313,
+          47.6208963
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {
+      "address": "Thomas St, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "18:00",
+      "geometry": {
+        "coordinates": [
+          -122.3430313,
+          47.6208963
+        ],
+        "type": "Point"
+      }
+    },
+    "sunday": {
+      "address": "Thomas St, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "18:00",
+      "geometry": {
+        "coordinates": [
+          -122.3430313,
+          47.6208963
+        ],
+        "type": "Point"
+      }
+    }
+  },
+  "contact": {
+    "facebook": "",
+    "twitter_link": "https://twitter.com/kurbkitchen",
+    "twitter_screen_name": "kurbkitchen",
+    "website": "http://www.yelp.com/biz/kurbside-kitchen-seattle"
+  }
+}

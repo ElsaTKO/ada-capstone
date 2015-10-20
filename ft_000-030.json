@@ -1959,5 +1959,783 @@
       "website": ""
     }
   },
+  {
+    "name": "Das Brat Wagen",
+    "cuisine": "Bratwurst",
+    "payment": "Cash or Cards",
+    "description": "German-Style mobile food cart",
+    "schedule": {
+      "monday": {},
+      "tuesday": {},
+      "wednesday": {},
+      "thursday": {
+        "address": "1550 NW 49th St, Seattle, WA 98107, USA",
+        "open": "16:00",
+        "close": "21:00",
+        "geometry": {
+          "coordinates": [
+            -122.3780509,
+            47.664623
+          ],
+          "type": "Point"
+        }
+      },
+      "friday": {},
+      "saturday": {
+        "address": "503 6th St S, Kirkland, WA 98033, USA",
+        "open": "12:00",
+        "close": "20:00",
+        "geometry": {
+          "coordinates": [
+            -122.1967387,
+            47.6717705
+          ],
+          "type": "Point"
+        }
+      },
+      "sunday": {
+        "address": "1550 NW 49th St, Seattle, WA 98107, USA",
+        "open": "14:00",
+        "close": "19:00",
+        "geometry": {
+          "coordinates": [
+            -122.3780509,
+            47.664623
+          ],
+          "type": "Point"
+        }
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/dasbrat.wagen",
+      "twitter_link": "https://twitter.com/dasbrat",
+      "twitter_screen_name": "dasbrat",
+      "website": "http://www.dasbratwagen.com/"
+    }
+  },
+  {
+    "name": "Kurbside Kitchen",
+    "cuisine": "Waffles",
+    "payment": "Cash or Cards",
+    "description": "Sweet and savory waffles",
+    "schedule": {
+      "monday": {
+        "address": "Thomas St, Seattle, WA 98109, USA",
+        "open": "11:00",
+        "close": "18:00",
+        "geometry": {
+          "coordinates": [
+            -122.3430313,
+            47.6208963
+          ],
+          "type": "Point"
+        }
+      },
+      "tuesday": {
+        "address": "Thomas St, Seattle, WA 98109, USA",
+        "open": "11:00",
+        "close": "18:00",
+        "geometry": {
+          "coordinates": [
+            -122.3430313,
+            47.6208963
+          ],
+          "type": "Point"
+        }
+      },
+      "wednesday": {
+        "address": "Thomas St, Seattle, WA 98109, USA",
+        "open": "11:00",
+        "close": "18:00",
+        "geometry": {
+          "coordinates": [
+            -122.3430313,
+            47.6208963
+          ],
+          "type": "Point"
+        }
+      },
+      "thursday": {
+        "address": "Thomas St, Seattle, WA 98109, USA",
+        "open": "11:00",
+        "close": "18:00",
+        "geometry": {
+          "coordinates": [
+            -122.3430313,
+            47.6208963
+          ],
+          "type": "Point"
+        }
+      },
+      "friday": {
+        "address": "Thomas St, Seattle, WA 98109, USA",
+        "open": "11:00",
+        "close": "18:00",
+        "geometry": {
+          "coordinates": [
+            -122.3430313,
+            47.6208963
+          ],
+          "type": "Point"
+        }
+      },
+      "saturday": {
+        "address": "Thomas St, Seattle, WA 98109, USA",
+        "open": "11:00",
+        "close": "18:00",
+        "geometry": {
+          "coordinates": [
+            -122.3430313,
+            47.6208963
+          ],
+          "type": "Point"
+        }
+      },
+      "sunday": {
+        "address": "Thomas St, Seattle, WA 98109, USA",
+        "open": "11:00",
+        "close": "18:00",
+        "geometry": {
+          "coordinates": [
+            -122.3430313,
+            47.6208963
+          ],
+          "type": "Point"
+        }
+      }
+    },
+    "contact": {
+      "facebook": "",
+      "twitter_link": "https://twitter.com/kurbkitchen",
+      "twitter_screen_name": "kurbkitchen",
+      "website": "http://www.yelp.com/biz/kurbside-kitchen-seattle"
+    }
+  },
+  {
+    "name": "Mr. Gyros",
+    "cuisine": "Mediterranean",
+    "payment": "Cash or Cards",
+    "description": "Gyros, falafel,  Greek salad, humumus just to name a few",
+    "schedule": {
+      "monday": {
+        "address": "1 Microsoft Way, Redmond, WA 98052, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.128381,
+            47.6395831
+          ],
+          "type": "Point"
+        }
+      },
+      "tuesday": {
+        "address": "1 Microsoft Way, Redmond, WA 98052, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.128381,
+            47.6395831
+          ],
+          "type": "Point"
+        }
+      },
+      "wednesday": {
+        "address": "1 Microsoft Way, Redmond, WA 98052, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.128381,
+            47.6395831
+          ],
+          "type": "Point"
+        }
+      },
+      "thursday": {
+        "address": "1 Microsoft Way, Redmond, WA 98052, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.128381,
+            47.6395831
+          ],
+          "type": "Point"
+        }
+      },
+      "friday": {
+        "address": "1 Microsoft Way, Redmond, WA 98052, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.128381,
+            47.6395831
+          ],
+          "type": "Point"
+        }
+      },
+      "saturday": {},
+      "sunday": {}
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/pages/Mr-Gyros/338624269488239",
+      "twitter_link": "http://www.twitter.com/Mrgyroseattle",
+      "twitter_screen_name": "Mrgyroseattle",
+      "website": "http://www.mrgyroseattle.com"
+    }
+  },
+  {
+    "name": "Luchador Taco Co",
+    "cuisine": "Mexican",
+    "payment": "Cash or Cards",
+    "description": "Vegan tacos, burritos, tortas and tamales",
+    "schedule": {
+      "monday": {
+        "address": "S Main St & Occidental Ave S, Seattle, WA 98104, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.3328885,
+            47.6000475
+          ],
+          "type": "Point"
+        }
+      },
+      "tuesday": {},
+      "wednesday": {
+        "address": "6100 4th Ave S, Seattle, WA 98108, USA",
+        "open": "11:30",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.3288835,
+            47.54714329999999
+          ],
+          "type": "Point"
+        }
+      },
+      "thursday": {
+        "address": "1514 NW Leary Way, Seattle, WA 98107, USA",
+        "open": "18:30",
+        "close": "22:00",
+        "geometry": {
+          "coordinates": [
+            -122.3770908,
+            47.6638963
+          ],
+          "type": "Point"
+        }
+      },
+      "friday": {},
+      "saturday": {},
+      "sunday": {
+        "address": "826 NW 49th St, Seattle, WA 98107, USA",
+        "open": "13:00",
+        "close": "18:00",
+        "geometry": {
+          "coordinates": [
+            -122.367549,
+            47.6645826
+          ],
+          "type": "Point"
+        }
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/luchadortaco",
+      "twitter_link": "https://twitter.com/luchadortaco",
+      "twitter_screen_name": "luchadortaco",
+      "website": ""
+    }
+  },
+  {
+    "name": "Goreeng",
+    "cuisine": "Indonesian / Thai",
+    "payment": "Cash or Cards",
+    "description": "",
+    "schedule": {
+      "monday": {
+        "address": "35th Ave NE & NE 86th St, Seattle, WA 98115, USA",
+        "open": "16:00",
+        "close": "21:00",
+        "geometry": {
+          "coordinates": [
+            -122.2907009,
+            47.6909327
+          ],
+          "type": "Point"
+        }
+      },
+      "tuesday": {
+        "address": "35th Ave NE & NE 86th St, Seattle, WA 98115, USA",
+        "open": "16:00",
+        "close": "21:00",
+        "geometry": {
+          "coordinates": [
+            -122.2907009,
+            47.6909327
+          ],
+          "type": "Point"
+        }
+      },
+      "wednesday": {
+        "address": "35th Ave NE & NE 86th St, Seattle, WA 98115, USA",
+        "open": "16:00",
+        "close": "21:00",
+        "geometry": {
+          "coordinates": [
+            -122.2907009,
+            47.6909327
+          ],
+          "type": "Point"
+        }
+      },
+      "thursday": {
+        "address": "2401 Utah Ave S, Seattle, WA 98134, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.3358992,
+            47.5810044
+          ],
+          "type": "Point"
+        }
+      },
+      "friday": {
+        "address": "35th Ave NE & NE 86th St, Seattle, WA 98115, USA",
+        "open": "16:00",
+        "close": "21:00",
+        "geometry": {
+          "coordinates": [
+            -122.2907009,
+            47.6909327
+          ],
+          "type": "Point"
+        }
+      },
+      "saturday": {
+        "address": "10515 35th Ave NE, Seattle, WA 98125, USA",
+        "geometry": {
+          "coordinates": [
+            -122.2908547,
+            47.70496319999999
+          ],
+          "type": "Point"
+        }
+      },
+      "sunday": {}
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/goreengfood",
+      "twitter_link": "https://twitter.com/goreengfood",
+      "twitter_screen_name": "goreengfood",
+      "website": ""
+    }
+  },
+  {
+    "name": "Hot Dog Stop",
+    "cuisine": "Hot Dogs",
+    "payment": "Unknown",
+    "description": "Authentic New York Style hot dog cart",
+    "schedule": {
+      "monday": {},
+      "tuesday": {
+        "address": "11915 WA-99, Everett, WA 98204, USA",
+        "open": "11:00",
+        "close": "16:00",
+        "geometry": {
+          "coordinates": [
+            -122.256387,
+            47.888913
+          ],
+          "type": "Point"
+        }
+      },
+      "wednesday": {
+        "address": "11915 WA-99, Everett, WA 98204, USA",
+        "open": "11:00",
+        "close": "16:00",
+        "geometry": {
+          "coordinates": [
+            -122.256387,
+            47.888913
+          ],
+          "type": "Point"
+        }
+      },
+      "thursday": {
+        "address": "11915 WA-99, Everett, WA 98204, USA",
+        "open": "11:00",
+        "close": "16:00",
+        "geometry": {
+          "coordinates": [
+            -122.256387,
+            47.888913
+          ],
+          "type": "Point"
+        }
+      },
+      "friday": {
+        "address": "11915 WA-99, Everett, WA 98204, USA",
+        "open": "11:00",
+        "close": "16:00",
+        "geometry": {
+          "coordinates": [
+            -122.256387,
+            47.888913
+          ],
+          "type": "Point"
+        }
+      },
+      "saturday": {
+        "address": "11915 WA-99, Everett, WA 98204, USA",
+        "open": "11:00",
+        "close": "16:00",
+        "geometry": {
+          "coordinates": [
+            -122.256387,
+            47.888913
+          ],
+          "type": "Point"
+        }
+      },
+      "sunday": {}
+    },
+    "contact": {
+      "facebook": "",
+      "twitter_link": "",
+      "website": "http://hotdogstop.net/"
+    }
+  },
+  {
+    "name": "Falafel Salam",
+    "cuisine": "Middle Eastern",
+    "payment": "Cash or Cards",
+    "description": "Gourmet, authentic falafel & shawarma",
+    "schedule": {
+      "monday": {},
+      "tuesday": {
+        "address": "401 Pine St, Seattle, WA 98101, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry" : {
+          "coordinates" : [
+            -122.3369905,
+            47.6118256
+          ],
+          "type": "Point"
+        }
+      },
+      "wednesday": {
+        "address": "Harrison St & Boren Ave N, Seattle, WA 98109, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.3358359,
+            47.6220217
+          ],
+          "type": "Point"
+        }
+      },
+      "thursday": {
+        "address": "Harrison St & Boren Ave N, Seattle, WA 98109, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.3358359,
+            47.6220217
+          ],
+          "type": "Point"
+        }
+      },
+      "friday": {
+        "address": "13th Ave & E Pike St, Seattle, WA 98122, USA",
+        "open": "20:00",
+        "close": "2:30",
+        "geometry": {
+          "coordinates": [
+            -122.31543,
+            47.6143608
+          ],
+          "type": "Point"
+        }
+      },
+      "saturday": {
+        "address": "Broadway & E Pike St, Seattle, WA 98122, USA",
+        "open": "20:00",
+        "close": "2:30",
+        "geometry": {
+          "coordinates": [
+            -122.3208252,
+            47.6140878
+          ],
+          "type": "Point"
+        }
+      },
+      "sunday": {
+        "address": "3401 Evanston Ave N, Seattle, WA 98103, USA",
+        "open": "10:00",
+        "close": "16:00",
+        "geometry": {
+          "coordinates": [
+            -122.3516227,
+            47.65011399999999
+          ],
+          "type": "Point"
+        }
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/FalafelSalam",
+      "twitter_link": "https://twitter.com/FalafelSalam",
+      "twitter_screen_name": "FalafelSalam",
+      "website": "http://falafelsalam.com"
+    }
+  },
+  {
+    "name": "I Love My GFF",
+    "cuisine": "Gluten-Free / Vegetarian",
+    "payment": "Cash or Cards",
+    "description": "Healthy Food With Street Smarts. We serve up sprouted organic quinoa bowls loaded with layers of tangy sauces, veggies, and spice rubbed Draper Valley chicken. It’s mostly organic and 100% gluten free. Vegan options are available.",
+    "schedule": {
+      "monday": {
+        "address": "1000 Minor Ave, Seattle, WA 98104, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.3239246,
+            47.61014850000001
+          ],
+          "type": "Point"
+        }
+      },
+      "tuesday": {
+        "address": "1001 Mercer St, Seattle, WA 98109, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.33675,
+            47.624104
+          ],
+          "type": "Point"
+        }
+      },
+      "wednesday": {
+        "address": "1000 Minor Ave, Seattle, WA 98104, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.3239246,
+            47.61014850000001
+          ],
+          "type": "Point"
+        }
+      },
+      "thursday": {
+        "address": "1001 Mercer St, Seattle, WA 98109, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.33675,
+            47.624104
+          ],
+          "type": "Point"
+        }
+      },
+      "friday": {
+        "address": "2401 Utah Ave S, Seattle, WA 98134, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.3358992,
+            47.5810044
+          ],
+          "type": "Point"
+        }
+      },
+      "saturday": {},
+      "sunday": {
+        "address": "Mercer Island, WA, USA",
+        "open": "10:00",
+        "close": "15:00",
+        "geometry": {
+          "coordinates": [
+            -122.2220673,
+            47.5706548
+          ],
+          "type": "Point"
+        }
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/pages/I-Love-My-GFF-Mobile-Food/318304551534655",
+      "twitter_link": "https://twitter.com/healthyfoodcart",
+      "twitter_screen_name": "healthyfoodcart",
+      "website": "http://www.ilovemygff.com"
+    }
+  },
+  {
+    "name": "Moreno Mexican Food",
+    "cuisine": "Mexican",
+    "payment": "Cash or Cards",
+    "description": "Tortas Tacos Burritos Quesadillas And Catrachan Food",
+    "schedule": {
+      "monday": {
+        "address": "551 S Michigan St, Seattle, WA 98108, USA",
+        "open": "6:00",
+        "close": "21:00",
+        "geometry": {
+          "coordinates": [
+            -122.3270074,
+            47.5458454
+          ],
+          "type": "Point"
+        }
+      },
+      "tuesday": {
+        "address": "551 S Michigan St, Seattle, WA 98108, USA",
+        "open": "6:00",
+        "close": "21:00",
+        "geometry": {
+          "coordinates": [
+            -122.3270074,
+            47.5458454
+          ],
+          "type": "Point"
+        }
+      },
+      "wednesday": {
+        "address": "551 S Michigan St, Seattle, WA 98108, USA",
+        "open": "6:00",
+        "close": "21:00",
+        "geometry": {
+          "coordinates": [
+            -122.3270074,
+            47.5458454
+          ],
+          "type": "Point"
+        }
+      },
+      "thursday": {
+        "address": "551 S Michigan St, Seattle, WA 98108, USA",
+        "open": "6:00",
+        "close": "21:00",
+        "geometry": {
+          "coordinates": [
+            -122.3270074,
+            47.5458454
+          ],
+          "type": "Point"
+        }
+      },
+      "friday": {
+        "address": "551 S Michigan St, Seattle, WA 98108, USA",
+        "open": "6:00",
+        "close": "21:00",
+        "geometry": {
+          "coordinates": [
+            -122.3270074,
+            47.5458454
+          ],
+          "type": "Point"
+        }
+      },
+      "saturday": {
+        "address": "551 S Michigan St, Seattle, WA 98108, USA",
+        "open": "6:00",
+        "close": "21:00",
+        "geometry": {
+          "coordinates": [
+            -122.3270074,
+            47.5458454
+          ],
+          "type": "Point"
+        }
+      },
+      "sunday": {}
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/morenomexicatrachan.aguilar",
+      "twitter_link": "",
+      "website": ""
+    }
+  },
+  {
+    "name": "Made in Taiwan Food Trailer",
+    "cuisine": "Taiwanese",
+    "payment": "Cash or Cards",
+    "description": "Taiwanese street food",
+    "schedule": {
+      "monday": {},
+      "tuesday": {
+        "address": "503 6th St S, Kirkland, WA 98033, USA",
+        "open": "17:00",
+        "close": "21:00",
+        "geometry": {
+          "coordinates": [
+            -122.1967387,
+            47.6717705
+          ],
+          "type": "Point"
+        }
+      },
+      "wednesday": {
+        "address": "503 6th St S, Kirkland, WA 98033, USA",
+        "open": "17:00",
+        "close": "21:00",
+        "geometry": {
+          "coordinates": [
+            -122.1967387,
+            47.6717705
+          ],
+          "type": "Point"
+        }
+      },
+      "thursday": {
+        "address": "503 6th St S, Kirkland, WA 98033, USA",
+        "open": "17:00",
+        "close": "21:00",
+        "geometry": {
+          "coordinates": [
+            -122.1967387,
+            47.6717705
+          ],
+          "type": "Point"
+        }
+      },
+      "friday": {},
+      "saturday": {
+        "address": "17625 NE 65th St, Redmond, WA 98052, USA",
+        "open": "15:00",
+        "close": "21:00",
+        "geometry": {
+          "coordinates": [
+            -122.1049839,
+            47.6635538
+          ],
+          "type": "Point"
+        }
+      },
+      "sunday": {}
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/mitfoodtrailer",
+      "twitter_link": "https://twitter.com/mittrailerfood",
+      "twitter_screen_name": "mittrailerfood",
+      "website": "http://mitfoodtrailer.com/"
+    }
+  },
   
 ]

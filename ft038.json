@@ -1,0 +1,87 @@
+{
+  "name": "I Love My GFF",
+  "cuisine": "Gluten-Free / Vegetarian",
+  "payment": "Cash or Cards",
+  "description": "Healthy Food With Street Smarts. We serve up sprouted organic quinoa bowls loaded with layers of tangy sauces, veggies, and spice rubbed Draper Valley chicken. It’s mostly organic and 100% gluten free. Vegan options are available.",
+  "schedule": {
+    "monday": {
+      "address": "1000 Minor Ave, Seattle, WA 98104, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3239246,
+          47.61014850000001
+        ],
+        "type": "Point"
+      }
+    },
+    "tuesday": {
+      "address": "1001 Mercer St, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.33675,
+          47.624104
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {
+      "address": "1000 Minor Ave, Seattle, WA 98104, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3239246,
+          47.61014850000001
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "1001 Mercer St, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.33675,
+          47.624104
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "2401 Utah Ave S, Seattle, WA 98134, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3358992,
+          47.5810044
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {},
+    "sunday": {
+      "address": "Mercer Island, WA, USA",
+      "open": "10:00",
+      "close": "15:00",
+      "geometry": {
+        "coordinates": [
+          -122.2220673,
+          47.5706548
+        ],
+        "type": "Point"
+      }
+    }
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/pages/I-Love-My-GFF-Mobile-Food/318304551534655",
+    "twitter_link": "https://twitter.com/healthyfoodcart",
+    "twitter_screen_name": "healthyfoodcart",
+    "website": "http://www.ilovemygff.com"
+  }
+}

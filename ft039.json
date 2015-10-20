@@ -1,0 +1,86 @@
+{
+  "name": "Moreno Mexican Food",
+  "cuisine": "Mexican",
+  "payment": "Cash or Cards",
+  "description": "Tortas Tacos Burritos Quesadillas And Catrachan Food",
+  "schedule": {
+    "monday": {
+      "address": "551 S Michigan St, Seattle, WA 98108, USA",
+      "open": "6:00",
+      "close": "21:00",
+      "geometry": {
+        "coordinates": [
+          -122.3270074,
+          47.5458454
+        ],
+        "type": "Point"
+      }
+    },
+    "tuesday": {
+      "address": "551 S Michigan St, Seattle, WA 98108, USA",
+      "open": "6:00",
+      "close": "21:00",
+      "geometry": {
+        "coordinates": [
+          -122.3270074,
+          47.5458454
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {
+      "address": "551 S Michigan St, Seattle, WA 98108, USA",
+      "open": "6:00",
+      "close": "21:00",
+      "geometry": {
+        "coordinates": [
+          -122.3270074,
+          47.5458454
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "551 S Michigan St, Seattle, WA 98108, USA",
+      "open": "6:00",
+      "close": "21:00",
+      "geometry": {
+        "coordinates": [
+          -122.3270074,
+          47.5458454
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "551 S Michigan St, Seattle, WA 98108, USA",
+      "open": "6:00",
+      "close": "21:00",
+      "geometry": {
+        "coordinates": [
+          -122.3270074,
+          47.5458454
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {
+      "address": "551 S Michigan St, Seattle, WA 98108, USA",
+      "open": "6:00",
+      "close": "21:00",
+      "geometry": {
+        "coordinates": [
+          -122.3270074,
+          47.5458454
+        ],
+        "type": "Point"
+      }
+    },
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/morenomexicatrachan.aguilar",
+    "twitter_link": "",
+    "website": ""
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "name": "Goreeng",
+  "cuisine": "Indonesian / Thai",
+  "payment": "Cash or Cards",
+  "description": "",
+  "schedule": {
+    "monday": {
+      "address": "35th Ave NE & NE 86th St, Seattle, WA 98115, USA",
+      "open": "16:00",
+      "close": "21:00",
+      "geometry": {
+        "coordinates": [
+          -122.2907009,
+          47.6909327
+        ],
+        "type": "Point"
+      }
+    },
+    "tuesday": {
+      "address": "35th Ave NE & NE 86th St, Seattle, WA 98115, USA",
+      "open": "16:00",
+      "close": "21:00",
+      "geometry": {
+        "coordinates": [
+          -122.2907009,
+          47.6909327
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {
+      "address": "35th Ave NE & NE 86th St, Seattle, WA 98115, USA",
+      "open": "16:00",
+      "close": "21:00",
+      "geometry": {
+        "coordinates": [
+          -122.2907009,
+          47.6909327
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "2401 Utah Ave S, Seattle, WA 98134, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3358992,
+          47.5810044
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "35th Ave NE & NE 86th St, Seattle, WA 98115, USA",
+      "open": "16:00",
+      "close": "21:00",
+      "geometry": {
+        "coordinates": [
+          -122.2907009,
+          47.6909327
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {
+      "address": "10515 35th Ave NE, Seattle, WA 98125, USA",
+      "geometry": {
+        "coordinates": [
+          -122.2908547,
+          47.70496319999999
+        ],
+        "type": "Point"
+      }
+    },
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/goreengfood",
+    "twitter_link": "https://twitter.com/goreengfood",
+    "twitter_screen_name": "goreengfood",
+    "website": ""
+  }
+}

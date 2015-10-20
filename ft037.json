@@ -1,0 +1,87 @@
+{
+  "name": "Falafel Salam",
+  "cuisine": "Middle Eastern",
+  "payment": "Cash or Cards",
+  "description": "Gourmet, authentic falafel & shawarma",
+  "schedule": {
+    "monday": {},
+    "tuesday": {
+      "address": "401 Pine St, Seattle, WA 98101, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry" : {
+        "coordinates" : [
+          -122.3369905,
+          47.6118256
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {
+      "address": "Harrison St & Boren Ave N, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3358359,
+          47.6220217
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "Harrison St & Boren Ave N, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3358359,
+          47.6220217
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "13th Ave & E Pike St, Seattle, WA 98122, USA",
+      "open": "20:00",
+      "close": "2:30",
+      "geometry": {
+        "coordinates": [
+          -122.31543,
+          47.6143608
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {
+      "address": "Broadway & E Pike St, Seattle, WA 98122, USA",
+      "open": "20:00",
+      "close": "2:30",
+      "geometry": {
+        "coordinates": [
+          -122.3208252,
+          47.6140878
+        ],
+        "type": "Point"
+      }
+    },
+    "sunday": {
+      "address": "3401 Evanston Ave N, Seattle, WA 98103, USA",
+      "open": "10:00",
+      "close": "16:00",
+      "geometry": {
+        "coordinates": [
+          -122.3516227,
+          47.65011399999999
+        ],
+        "type": "Point"
+      }
+    }
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/FalafelSalam",
+    "twitter_link": "https://twitter.com/FalafelSalam",
+    "twitter_screen_name": "FalafelSalam",
+    "website": "http://falafelsalam.com"
+  }
+}

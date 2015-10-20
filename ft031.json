@@ -1,0 +1,54 @@
+{
+  "name": "Das Brat Wagen",
+  "cuisine": "Bratwurst",
+  "payment": "Cash or Cards",
+  "description": "German-Style mobile food cart",
+  "schedule": {
+    "monday": {},
+    "tuesday": {},
+    "wednesday": {},
+    "thursday": {
+      "address": "1550 NW 49th St, Seattle, WA 98107, USA",
+      "open": "16:00",
+      "close": "21:00",
+      "geometry": {
+        "coordinates": [
+          -122.3780509,
+          47.664623
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {},
+    "saturday": {
+      "address": "503 6th St S, Kirkland, WA 98033, USA",
+      "open": "12:00",
+      "close": "20:00",
+      "geometry": {
+        "coordinates": [
+          -122.1967387,
+          47.6717705
+        ],
+        "type": "Point"
+      }
+    },
+    "sunday": {
+      "address": "1550 NW 49th St, Seattle, WA 98107, USA",
+      "open": "14:00",
+      "close": "19:00",
+      "geometry": {
+        "coordinates": [
+          -122.3780509,
+          47.664623
+        ],
+        "type": "Point"
+      }
+    }
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/dasbrat.wagen",
+    "twitter_link": "https://twitter.com/dasbrat",
+    "twitter_screen_name": "dasbrat",
+    "website": "http://www.dasbratwagen.com/"
+  }
+}

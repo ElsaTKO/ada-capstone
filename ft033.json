@@ -1,0 +1,76 @@
+{
+  "name": "Mr. Gyros",
+  "cuisine": "Mediterranean",
+  "payment": "Cash or Cards",
+  "description": "Gyros, falafel,  Greek salad, humumus just to name a few",
+  "schedule": {
+    "monday": {
+      "address": "1 Microsoft Way, Redmond, WA 98052, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.128381,
+          47.6395831
+        ],
+        "type": "Point"
+      }
+    },
+    "tuesday": {
+      "address": "1 Microsoft Way, Redmond, WA 98052, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.128381,
+          47.6395831
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {
+      "address": "1 Microsoft Way, Redmond, WA 98052, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.128381,
+          47.6395831
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "1 Microsoft Way, Redmond, WA 98052, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.128381,
+          47.6395831
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "1 Microsoft Way, Redmond, WA 98052, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.128381,
+          47.6395831
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/pages/Mr-Gyros/338624269488239",
+    "twitter_link": "http://www.twitter.com/Mrgyroseattle",
+    "twitter_screen_name": "Mrgyroseattle",
+    "website": "http://www.mrgyroseattle.com"
+  }
+}
