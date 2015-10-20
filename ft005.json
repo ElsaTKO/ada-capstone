@@ -1,0 +1,77 @@
+
+  {
+    "name": "Bomba Fusion",
+    "cuisine": "Korean / Mexican Fusion",
+    "payment": "Cash or Cards",
+    "description": "",
+    "schedule": {
+      "monday": {
+        "address": "1120 Harrison St, Seattle, WA 98109, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.3352093,
+            47.622025
+          ],
+          "type": "Point"
+        }
+      },
+      "tuesday": {
+        "address": "401 Pine St, Seattle, WA 98101, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry" : {
+          "coordinates" : [
+            -122.3369905,
+            47.6118256
+          ],
+          "type": "Point"
+        }
+      },
+      "wednesday": {
+        "address": "1000 4th Ave, Seattle, WA 98104, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.3329838,
+            47.6066004
+          ],
+          "type": "Point"
+        }
+      },
+      "thursday": {
+        "address": "401 Pine St, Seattle, WA 98101, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry" : {
+          "coordinates" : [
+            -122.3369905,
+            47.6118256
+          ],
+          "type": "Point"
+        }
+      },
+      "friday": {
+        "address": "S Main St & Occidental Ave S, Seattle, WA 98104, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.3328885,
+            47.6000475
+          ],
+          "type": "Point"
+        }
+      },
+      "saturday": {},
+      "sunday": {}
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/bombafusion",
+      "twitter_link": "https://twitter.com/bombafusion",
+      "twitter_screen_name": "bombafusion",
+      "website": "http://bombafusion.com/"
+    }
+  }

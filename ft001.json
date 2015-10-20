@@ -1,0 +1,44 @@
+
+  {
+    "name": "314 PIE",
+    "cuisine": "Sweet and Savory Pies",
+    "payment": "Cash or Cards",
+    "description": "We love pies – sweet and savory. We serve them up to the hungry people in Seattle in our fabulous food truck.",
+    "schedule": {
+      "monday": {},
+      "tuesday": {},
+      "wednesday": {
+        "address": "333 Boren Ave N, Seattle, WA 98109, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.3362079,
+            47.6213267
+          ],
+          "type": "Point"
+        }
+      },
+      "thursday": {
+        "address": "Republican St & Boren Ave N, Seattle, WA 98109, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.3358147,
+            47.6232
+          ],
+          "type": "Point"
+        }
+      },
+      "friday": {},
+      "saturday": {},
+      "sunday": {}
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/pages/314-PIE/341309415945288",
+      "twitter_link": "https://twitter.com/314PIESeattle",
+      "twitter_screen_name": "314PIESeattle",
+      "website": "http://www.314pieseattle.com/"
+    }
+  }

@@ -1,0 +1,76 @@
+
+  {
+    "name": "A Fire Inside Wood Fired Pizza",
+    "cuisine": "Pizza",
+    "payment": "Cash or Cards",
+    "description": "Neapolitan Thin Crust Wood Fired Pizza",
+    "schedule": {
+      "monday": {
+        "address": "5th Ave & Union St, Seattle, WA 98101, USA",
+        "open": "10:30",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.334667,
+            47.6096839
+          ],
+          "type": "Point"
+        }
+      },
+      "tuesday": {
+        "address": "83 S King St, Seattle, WA 98104, USA",
+        "open": "10:30",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.3345507,
+            47.5981458
+          ],
+          "type": "Point"
+        }
+      },
+      "wednesday": {
+        "address": "6th St & Park Ave, Bremerton, WA 98337, USA",
+        "open": "10:30",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.6302286,
+            47.5673165
+          ],
+          "type": "Point"
+        }
+      },
+      "thursday": {
+        "address": "83 S King St, Seattle, WA 98104, USA",
+        "open": "10:30",
+        "close": "18:00",
+        "geometry": {
+          "coordinates": [
+            -122.3345507,
+            47.5981458
+          ],
+          "type": "Point"
+        }
+      },
+      "friday": {
+        "address": "5th Ave & Union St, Seattle, WA 98101, USA",
+        "open": "10:30",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.334667,
+            47.6096839
+          ],
+          "type": "Point"
+        }
+      },
+      "saturday": {},
+      "sunday": {}
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/AFireInsideWoodFiredPizza",
+      "twitter_link": "",
+      "website": ""
+    }
+  }
