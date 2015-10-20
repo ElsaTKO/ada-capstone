@@ -1,0 +1,86 @@
+{
+  "name": "Macho Burgers",
+  "cuisine": "Burgers",
+  "payment": "Cash or Cards",
+  "description": "Tex-Mex Hamburgers, sandwiches, fries & o-rings",
+  "schedule": {
+    "monday": {},
+    "tuesday": {
+      "address": "7758 15th Ave NW, Seattle, WA 98117, USA",
+      "open": "11:00",
+      "close": "22:00",
+      "geometry": {
+        "coordinates": [
+          -122.3764522,
+          47.6867025
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {
+      "address": "7758 15th Ave NW, Seattle, WA 98117, USA",
+      "open": "11:00",
+      "close": "22:00",
+      "geometry": {
+        "coordinates": [
+          -122.3764522,
+          47.6867025
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "7758 15th Ave NW, Seattle, WA 98117, USA",
+      "open": "11:00",
+      "close": "22:00",
+      "geometry": {
+        "coordinates": [
+          -122.3764522,
+          47.6867025
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "7758 15th Ave NW, Seattle, WA 98117, USA",
+      "open": "11:00",
+      "close": "22:00",
+      "geometry": {
+        "coordinates": [
+          -122.3764522,
+          47.6867025
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {
+      "address": "7758 15th Ave NW, Seattle, WA 98117, USA",
+      "open": "11:00",
+      "close": "22:00",
+      "geometry": {
+        "coordinates": [
+          -122.3764522,
+          47.6867025
+        ],
+        "type": "Point"
+      }
+    },
+    "sunday": {
+      "address": "7758 15th Ave NW, Seattle, WA 98117, USA",
+      "open": "11:00",
+      "close": "16:00",
+      "geometry": {
+        "coordinates": [
+          -122.3764522,
+          47.6867025
+        ],
+        "type": "Point"
+      }
+    }
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/pages/Macho-Burgers/688330601235921",
+    "twitter_link": "",
+    "website": ""
+  }
+}

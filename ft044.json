@@ -1,0 +1,65 @@
+{
+  "name": "Jemil’s Big Easy",
+  "cuisine": "Cajun / Creole",
+  "payment": "Cash or Cards",
+  "description": "Down home cajun soul food",
+  "schedule": {
+    "monday": {
+      "address": "Republican St & Terry Ave N, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3371371,
+          47.6232018
+        ],
+        "type": "Point"
+      }
+    },
+    "tuesday": {
+      "address": "Pine St & 7th Ave, Seattle, WA 98101, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3342451,
+          47.6126111
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {},
+    "thursday": {
+      "address": "401 Pine St, Seattle, WA 98101, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry" : {
+        "coordinates" : [
+          -122.3369905,
+          47.6118256
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {},
+    "saturday": {
+      "address": "Des Moines, WA, USA",
+      "open": "10:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3242902,
+          47.4017661
+        ],
+        "type": "Point"
+      }
+    },
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/jemilsbigeasy",
+    "twitter_link": "https://twitter.com/JemilsBigEasy",
+    "twitter_screen_name": "JemilsBigEasy",
+    "website": "http://jemilsbigeasy.com"
+  }
+}

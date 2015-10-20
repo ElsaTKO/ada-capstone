@@ -1,0 +1,76 @@
+{
+  "name": "It’s Bao Time",
+  "cuisine": "Taiwanese",
+  "payment": "Cash or Cards",
+  "description": "Homage to the original Taiwanese night market foods.",
+  "schedule": {
+    "monday": {
+      "address": "333 Boren Ave N, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3362079,
+          47.6213267
+        ],
+        "type": "Point"
+      }
+    },
+    "tuesday": {
+      "address": "Westlake Ave N & Harrison St, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3384426,
+          47.6220467
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {
+      "address": "2401 Utah Ave S, Seattle, WA 98134, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3358992,
+          47.5810044
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "Westlake Ave N & Harrison St, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3384426,
+          47.6220467
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "333 Boren Ave N, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3362079,
+          47.6213267
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/itsbaotime/",
+    "twitter_link": "https://twitter.com/baotime206",
+    "twitter_screen_name": "baotime206",
+    "website": ""
+  }
+}

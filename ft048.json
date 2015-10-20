@@ -1,0 +1,65 @@
+{
+  "name": "Hungry Me",
+  "cuisine": "Mixed East Asian",
+  "payment": "Cash or Cards",
+  "description": "Mixed fast Asian cuisine featuring Singaporean (Hainan) chicken rice, Japanese and Chinese beef brisket, Thai peanut sauce curry",
+  "schedule": {
+    "monday": {},
+    "tuesday": {
+      "address": "Thomas St & Boren Ave N, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "13:30",
+      "geometry": {
+        "coordinates": [
+          -122.3358471,
+          47.620864
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {
+      "address": "401 Elliott Ave W, Seattle, WA 98119, USA",
+      "open": "11:00",
+      "close": "13:30",
+      "geometry": {
+        "coordinates": [
+          -122.3637702,
+          47.6224854
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "Republican St & Boren Ave N, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3358147,
+          47.6232
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "Thomas St & Boren Ave N, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3358471,
+          47.620864
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/hungrymeseattle",
+    "twitter_link": "https://twitter.com/HungryMeSeattle",
+    "twitter_screen_name": "HungryMeSeattle",
+    "website": "http://www.hungrymeseattle.com/"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "name": "My Chef Lynn",
+  "cuisine": "BBQ / Comfort Food",
+  "payment": "Cash or Cards",
+  "description": "Soups, Salads and Sliders!",
+  "schedule": {
+    "monday": {},
+    "tuesday": {},
+    "wednesday": {
+      "address": "Issaquah, WA, USA",
+      "open": "11:00",
+      "close": "13:30",
+      "geometry": {
+        "coordinates": [
+          -122.0326191,
+          47.5301011
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {},
+    "friday": {
+      "address": "2864 77th Ave SE, Mercer Island, WA 98040, USA",
+      "open": "11:00",
+      "close": "13:30",
+      "geometry": {
+        "coordinates": [
+          -122.2348237,
+          47.58458419999999
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {
+      "address": "2864 77th Ave SE, Mercer Island, WA 98040, USA",
+      "open": "11:00",
+      "close": "13:30",
+      "geometry": {
+        "coordinates": [
+          -122.2348237,
+          47.58458419999999
+        ],
+        "type": "Point"
+      }
+    },
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/www.mycheflynn",
+    "twitter_link": "https://twitter.com/mycheflynn",
+    "twitter_screen_name": "mycheflynn",
+    "website": "http://www.mycheflynn.com"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "name": "Garden Sushi",
+  "cuisine": "Japanese",
+  "payment": "Cash or Cards",
+  "description": "Seattle’s first sushi truck",
+  "schedule": {
+    "monday": {
+      "address": "17th Ave NW & NW 54th St, Seattle, WA 98107, USA",
+      "open": "11:00",
+      "close": "21:00",
+      "geometry": {
+        "coordinates": [
+          -122.3788833,
+          47.6679018
+        ],
+        "type": "Point"
+      }
+    },
+    "tuesday": {
+      "address": "17th Ave NW & NW 54th St, Seattle, WA 98107, USA",
+      "open": "11:00",
+      "close": "21:00",
+      "geometry": {
+        "coordinates": [
+          -122.3788833,
+          47.6679018
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {
+      "address": "17th Ave NW & NW 54th St, Seattle, WA 98107, USA",
+      "open": "11:00",
+      "close": "21:00",
+      "geometry": {
+        "coordinates": [
+          -122.3788833,
+          47.6679018
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "17th Ave NW & NW 54th St, Seattle, WA 98107, USA",
+      "open": "11:00",
+      "close": "21:00",
+      "geometry": {
+        "coordinates": [
+          -122.3788833,
+          47.6679018
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "17th Ave NW & NW 54th St, Seattle, WA 98107, USA",
+      "open": "11:00",
+      "close": "21:00",
+      "geometry": {
+        "coordinates": [
+          -122.3788833,
+          47.6679018
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {
+      "address": "17th Ave NW & NW 54th St, Seattle, WA 98107, USA",
+      "open": "12:00",
+      "close": "21:00",
+      "geometry": {
+        "coordinates": [
+          -122.3788833,
+          47.6679018
+        ],
+        "type": "Point"
+      }
+    },
+    "sunday": {
+      "address": "17th Ave NW & NW 54th St, Seattle, WA 98107, USA",
+      "open": "17:00",
+      "close": "21:00",
+      "geometry": {
+        "coordinates": [
+          -122.3788833,
+          47.6679018
+        ],
+        "type": "Point"
+      }
+    }
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/GardenSushi",
+    "twitter_link": "",
+    "website": "http://lauraellis.marketecturehosting.com"
+  }
+}

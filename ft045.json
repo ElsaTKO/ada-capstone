@@ -1,0 +1,54 @@
+{
+  "name": "Gibson’s Frozen Yogurt Truck",
+  "cuisine": "Dessert",
+  "payment": "Cash or Cards",
+  "description": "Light, creamy, self serve frozen yogurt with a multitude of toppings, all from a truck",
+  "schedule": {
+    "monday": {
+      "address": "1102 A St, Tacoma, WA 98402, USA",
+      "open": "11:30",
+      "close": "15:30",
+      "geometry": {
+        "coordinates": [
+          -122.4373449,
+          47.2529952
+        ],
+        "type": "Point"
+      }
+    },
+    "tuesday": {},
+    "wednesday": {
+      "address": "1102 A St, Tacoma, WA 98402, USA",
+      "open": "11:30",
+      "close": "15:30",
+      "geometry": {
+        "coordinates": [
+          -122.4373449,
+          47.2529952
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {},
+    "friday": {
+      "address": "1102 A St, Tacoma, WA 98402, USA",
+      "open": "11:30",
+      "close": "15:30",
+      "geometry": {
+        "coordinates": [
+          -122.4373449,
+          47.2529952
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/GibsonsFrozenYogurtTruck",
+    "twitter_link": "https://twitter.com/gibsonsyotruck",
+    "twitter_screen_name": "gibsonsyotruck",
+    "website": "http://www.gibsonsyogurt.com/truckeventcalendar.html"
+  }
+}

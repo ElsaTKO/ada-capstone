@@ -1,0 +1,65 @@
+{
+  "name": "Kiss My Grits",
+  "cuisine": "Grits-Themed Cuisine",
+  "payment": "Cash or Cards",
+  "description": "Grits-Themed Cuisine",
+  "schedule": {
+    "monday": {},
+    "tuesday": {},
+    "wednesday": {
+      "address": "2401 Utah Ave S, Seattle, WA 98134, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3358992,
+          47.5810044
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "Queen Anne, Seattle, WA, USA",
+      "open": "15:00",
+      "close": "19:30",
+      "geometry": {
+        "coordinates": [
+          -122.3568641,
+          47.6323268
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {},
+    "saturday": {
+      "address": "826 NW 49th St, Seattle, WA 98107, USA",
+      "open": "15:00",
+      "close": "20:00",
+      "geometry": {
+        "coordinates": [
+          -122.367549,
+          47.6645826
+        ],
+        "type": "Point"
+      }
+    },
+    "sunday": {
+      "address": "Mercer Island, WA, USA",
+      "open": "10:00",
+      "close": "15:00",
+      "geometry": {
+        "coordinates": [
+          -122.2220673,
+          47.5706548
+        ],
+        "type": "Point"
+      }
+    }
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/kissmygritstruck",
+    "twitter_link": "https://twitter.com/kmgtruck",
+    "twitter_screen_name": "kmgtruck",
+    "website": "http://www.kmgtruck.com"
+  }
+}

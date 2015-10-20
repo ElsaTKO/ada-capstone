@@ -1,0 +1,76 @@
+{
+  "name": "KC Deez BBQ",
+  "cuisine": "Kansas City Style Barbecue",
+  "payment": "Cash or Cards",
+  "description": "KC Deez BBQ will bring Kansas City Style Barbecue to the Pacific Northwest. Please enjoy the nice smooth Jazz and Blues while you order from our menu.",
+  "schedule": {
+    "monday": {},
+    "tuesday": {},
+    "wednesday": {
+      "address": "707 S Grady Way, Renton, WA 98057, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.2091409,
+          47.4718045
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "34834 Weyerhaeuser Way S, Federal Way, WA 98001, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.2911251,
+          47.289491
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "12833 Martin Luther King Jr Way S, Seattle, WA 98178, USA",
+      "open": "12:00",
+      "close": "19:00",
+      "geometry": {
+        "coordinates": [
+          -122.2589926,
+          47.4876357
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {
+      "address": "Federal Way, WA, USA",
+      "open": "9:00",
+      "close": "15:00",
+      "geometry": {
+        "coordinates": [
+          -122.3126222,
+          47.3223221
+        ],
+        "type": "Point"
+      }
+    },
+    "sunday": {
+      "address": "5718 Rainier Ave S, Seattle, WA 98118, USA",
+      "open": "13:00",
+      "close": "18:00",
+      "geometry": {
+        "coordinates": [
+          -122.2770789,
+          47.5507863
+        ],
+        "type": "Point"
+      }
+    }
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/pages/KC-Deez-BBQ/260845727373783",
+    "twitter_link": "https://twitter.com/KCDeezBBQ",
+    "twitter_screen_name": "KCDeezBBQ",
+    "website": ""
+  }
+}

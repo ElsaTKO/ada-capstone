@@ -1,0 +1,54 @@
+{
+  "name": "Mini … The Dough-Nut",
+  "cuisine": "Sweets",
+  "payment": "Cash or Cards",
+  "description": "",
+  "schedule": {
+    "monday": {},
+    "tuesday": {},
+    "wednesday": {},
+    "thursday": {
+      "address": "E Union St & 23rd Ave, Seattle, WA 98122, USA",
+      "open": "16:00",
+      "close": "22:00",
+      "geometry": {
+        "coordinates": [
+          -122.3027107,
+          47.6129416
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {},
+    "saturday": {
+      "address": "Des Moines, WA, USA",
+      "open": "10:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3242902,
+          47.4017661
+        ],
+        "type": "Point"
+      }
+    },
+    "sunday": {
+      "address": "E Union St & 23rd Ave, Seattle, WA 98122, USA",
+      "open": "11:00",
+      "close": "19:00",
+      "geometry": {
+        "coordinates": [
+          -122.3027107,
+          47.6129416
+        ],
+        "type": "Point"
+      }
+    }
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/pages/Mini-the-dough-nut/544243405716866",
+    "twitter_link": "https://twitter.com/MiniTheDoughNut",
+    "twitter_screen_name": "MiniTheDoughNut",
+    "website": "http://www.minithedough-nut.com"
+  }
+}
