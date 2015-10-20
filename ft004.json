@@ -1,64 +1,63 @@
-
-  {
-    "name": "Caravan Crêpes",
-    "cuisine": "French",
-    "payment": "Cash or Cards",
-    "description": "Sweet and Savory Crêpes",
-    "schedule": {
-      "monday": {},
-      "tuesday": {
-        "address": "Harrison St & Boren Ave N, Seattle, WA 98109, USA",
-        "geometry": {
-          "coordinates": [
-            -122.3358359,
-            47.6220217
-          ],
-          "type": "Point"
-        }
-      },
-      "wednesday": {
-        "address": "S Dearborn St & 5th Ave S, Seattle, WA 98134, USA",
-        "open": "11:00",
-        "close": "13:30",
-        "geometry": {
-          "coordinates": [
-            -122.3276378,
-            47.5958642
-          ],
-          "type": "Point"
-        }
-      },
-      "thursday": {},
-      "friday": {
-        "address": "Westlake Ave N & Harrison St, Seattle, WA 98109, USA",
-        "open": "11:00",
-        "close": "14:00",
-        "geometry": {
-          "coordinates": [
-            -122.3384426,
-            47.6220467
-          ],
-          "type": "Point"
-        }
-      },
-      "saturday": {
-        "address": "Magnolia, Seattle, WA, USA",
-        "open": "10:00",
-        "close": "14:00",
-        "geometry": {
-          "coordinates": [
-            -122.3996602,
-            47.63963020000001
-          ],
-          "type": "Point"
-        }
-      },
-      "sunday": {}
+{
+  "name": "Caravan Crêpes",
+  "cuisine": "French",
+  "payment": "Cash or Cards",
+  "description": "Sweet and Savory Crêpes",
+  "schedule": {
+    "monday": {},
+    "tuesday": {
+      "address": "Harrison St & Boren Ave N, Seattle, WA 98109, USA",
+      "geometry": {
+        "coordinates": [
+          -122.3358359,
+          47.6220217
+        ],
+        "type": "Point"
+      }
     },
-    "contact": {
-      "facebook": "",
-      "twitter_link": "https://twitter.com/caravanseattle",
-      "twitter_screen_name": "caravanseattle",
-      "website": "http://www.caravanseattle.com"
-    }
+    "wednesday": {
+      "address": "S Dearborn St & 5th Ave S, Seattle, WA 98134, USA",
+      "open": "11:00",
+      "close": "13:30",
+      "geometry": {
+        "coordinates": [
+          -122.3276378,
+          47.5958642
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {},
+    "friday": {
+      "address": "Westlake Ave N & Harrison St, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3384426,
+          47.6220467
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {
+      "address": "Magnolia, Seattle, WA, USA",
+      "open": "10:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3996602,
+          47.63963020000001
+        ],
+        "type": "Point"
+      }
+    },
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "",
+    "twitter_link": "https://twitter.com/caravanseattle",
+    "twitter_screen_name": "caravanseattle",
+    "website": "http://www.caravanseattle.com"
   }
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Carmelitos",
+  "cuisine": "Peruvian",
+  "payment": "Cash or Cards",
+  "description": "We are a Peruvian treat truck specializing in doughnuts, cakes, cookies, and ice creams. We also serve fresh juice as well as cold brew and pour over style coffee.",
+  "schedule": {
+    "monday": {},
+    "tuesday": {},
+    "wednesday": {},
+    "thursday": {
+      "address": "6300 Seaview Ave NW, Seattle, WA 98107, USA",
+      "open": "10:00",
+      "close": "18:00",
+      "geometry": {
+        "coordinates": [
+          -122.4060338,
+          47.67448410000001
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "6300 Seaview Ave NW, Seattle, WA 98107, USA",
+      "open": "10:00",
+      "close": "18:00",
+      "geometry": {
+        "coordinates": [
+          -122.4060338,
+          47.67448410000001
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {
+      "address": "6300 Seaview Ave NW, Seattle, WA 98107, USA",
+      "open": "10:00",
+      "close": "18:00",
+      "geometry": {
+        "coordinates": [
+          -122.4060338,
+          47.67448410000001
+        ],
+        "type": "Point"
+      }
+    },
+    "sunday": {
+      "address": "6300 Seaview Ave NW, Seattle, WA 98107, USA",
+      "open": "10:00",
+      "close": "18:00",
+      "geometry": {
+        "coordinates": [
+          -122.4060338,
+          47.67448410000001
+        ],
+        "type": "Point"
+      }
+    }
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/carmelitosballard",
+    "twitter_link": "",
+    "website": ""
+  }
+}

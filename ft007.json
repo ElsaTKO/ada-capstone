@@ -1,0 +1,43 @@
+{
+  "name": "Campfire Chuck Wagon",
+  "cuisine": "BBQ",
+  "payment": "Cash or Cards",
+  "description": "Slow and low BBQ – our happy meats are sourced locally whenever possible and smoked on average an hour and a half per pound over a real wood fire.",
+  "schedule": {
+    "monday": {},
+    "tuesday": {},
+    "wednesday": {},
+    "thursday": {
+      "address": "2300 7th Ave, Seattle, WA 98121, USA",
+      "open": "11:00",
+      "close": "don:00em",
+      "geometry": {
+        "coordinates": [
+          -122.3415988,
+          47.6177514
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "2300 7th Ave, Seattle, WA 98121, USA",
+      "open": "11:00",
+      "close": "don:00em",
+      "geometry": {
+        "coordinates": [
+          -122.3415988,
+          47.6177514
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/campfireforyou",
+    "twitter_link": "https://twitter.com/campfireforyou",
+    "twitter_screen_name": "campfireforyou",
+    "website": "http://campfireforyou.com/"
+  }
+}

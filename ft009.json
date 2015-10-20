@@ -1,0 +1,76 @@
+{
+  "name": "Cheese Wizards",
+  "cuisine": "Sandwiches",
+  "payment": "Cash, Cards, or Level Up",
+  "description": "Grilled Cheese Magic",
+  "schedule": {
+    "monday": {
+      "address": "Westlake Ave N & Republican St, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3384361,
+          47.6232102
+        ],
+        "type": "Point"
+      }
+    },
+    "tuesday": {
+      "address": "144 Western Ave W, Seattle, WA 98119, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.358627,
+          47.6195956
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {
+      "address": "106th Ave NE & NE 6th St, Bellevue, WA 98004, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.1989522,
+          47.6155745
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "Westlake Ave N & Republican St, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3384361,
+          47.6232102
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "144 Western Ave W, Seattle, WA 98119, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.358627,
+          47.6195956
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/CheeseWizards",
+    "twitter_link": "https://twitter.com/CheeseWizards",
+    "twitter_screen_name": "CheeseWizards",
+    "website": "http://wizardsofcheese.com"
+  }
+}

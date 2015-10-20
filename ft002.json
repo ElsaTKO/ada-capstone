@@ -1,98 +1,97 @@
-
-  {
-    "name": "Beloved Mexico",
-    "cuisine": "Mexican",
-    "payment": "Cash or Cards",
-    "description": "Authentic Mexican cuisine made w/ natural, organic ingredients.",
-    "schedule": {
-      "monday": {
-        "address": "4722 Fauntleroy Way SW, Seattle, WA 98116, USA",
-        "open": "10:00",
-        "close": "20:00",
-        "geometry": {
-          "coordinates": [
-            -122.3809729,
-            47.56032630000001
-          ],
-          "type": "Point"
-        }
-      },
-      "tuesday": {
-        "address": "4722 Fauntleroy Way SW, Seattle, WA 98116, USA",
-        "open": "10:00",
-        "close": "20:00",
-        "geometry": {
-          "coordinates": [
-            -122.3809729,
-            47.56032630000001
-          ],
-          "type": "Point"
-        }
-      },
-      "wednesday": {
-        "address": "4722 Fauntleroy Way SW, Seattle, WA 98116, USA",
-        "open": "10:00",
-        "close": "20:00",
-        "geometry": {
-          "coordinates": [
-            -122.3809729,
-            47.56032630000001
-          ],
-          "type": "Point"
-        }
-      },
-      "thursday": {
-        "address": "4722 Fauntleroy Way SW, Seattle, WA 98116, USA",
-        "open": "10:00",
-        "close": "20:00",
-        "geometry": {
-          "coordinates": [
-            -122.3809729,
-            47.56032630000001
-          ],
-          "type": "Point"
-        }
-      },
-      "friday": {
-        "address": "4722 Fauntleroy Way SW, Seattle, WA 98116, USA",
-        "open": "10:00",
-        "close": "20:00",
-        "geometry": {
-          "coordinates": [
-            -122.3809729,
-            47.56032630000001
-          ],
-          "type": "Point"
-        }
-      },
-      "saturday": {
-        "address": "4722 Fauntleroy Way SW, Seattle, WA 98116, USA",
-        "open": "10:00",
-        "close": "20:00",
-        "geometry": {
-          "coordinates": [
-            -122.3809729,
-            47.56032630000001
-          ],
-          "type": "Point"
-        }
-      },
-      "sunday": {
-        "address": "4722 Fauntleroy Way SW, Seattle, WA 98116, USA",
-        "open": "10:00",
-        "close": "20:00",
-        "geometry": {
-          "coordinates": [
-            -122.3809729,
-            47.56032630000001
-          ],
-          "type": "Point"
-        }
+{
+  "name": "Beloved Mexico",
+  "cuisine": "Mexican",
+  "payment": "Cash or Cards",
+  "description": "Authentic Mexican cuisine made w/ natural, organic ingredients.",
+  "schedule": {
+    "monday": {
+      "address": "4722 Fauntleroy Way SW, Seattle, WA 98116, USA",
+      "open": "10:00",
+      "close": "20:00",
+      "geometry": {
+        "coordinates": [
+          -122.3809729,
+          47.56032630000001
+        ],
+        "type": "Point"
       }
     },
-    "contact": {
-      "facebook": "",
-      "twitter_link": "",
-      "website": "http://www.belovedmexico.com"
+    "tuesday": {
+      "address": "4722 Fauntleroy Way SW, Seattle, WA 98116, USA",
+      "open": "10:00",
+      "close": "20:00",
+      "geometry": {
+        "coordinates": [
+          -122.3809729,
+          47.56032630000001
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {
+      "address": "4722 Fauntleroy Way SW, Seattle, WA 98116, USA",
+      "open": "10:00",
+      "close": "20:00",
+      "geometry": {
+        "coordinates": [
+          -122.3809729,
+          47.56032630000001
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "4722 Fauntleroy Way SW, Seattle, WA 98116, USA",
+      "open": "10:00",
+      "close": "20:00",
+      "geometry": {
+        "coordinates": [
+          -122.3809729,
+          47.56032630000001
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "4722 Fauntleroy Way SW, Seattle, WA 98116, USA",
+      "open": "10:00",
+      "close": "20:00",
+      "geometry": {
+        "coordinates": [
+          -122.3809729,
+          47.56032630000001
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {
+      "address": "4722 Fauntleroy Way SW, Seattle, WA 98116, USA",
+      "open": "10:00",
+      "close": "20:00",
+      "geometry": {
+        "coordinates": [
+          -122.3809729,
+          47.56032630000001
+        ],
+        "type": "Point"
+      }
+    },
+    "sunday": {
+      "address": "4722 Fauntleroy Way SW, Seattle, WA 98116, USA",
+      "open": "10:00",
+      "close": "20:00",
+      "geometry": {
+        "coordinates": [
+          -122.3809729,
+          47.56032630000001
+        ],
+        "type": "Point"
+      }
     }
+  },
+  "contact": {
+    "facebook": "",
+    "twitter_link": "",
+    "website": "http://www.belovedmexico.com"
   }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Chick’n Fix",
+  "cuisine": "American / Filipino",
+  "payment": "Cash or Cards",
+  "description": "Serving up delicious chicken treats!",
+  "schedule": {
+    "monday": {},
+    "tuesday": {
+      "address": "Harrison St & Boren Ave N, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3358359,
+          47.6220217
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {},
+    "thursday": {
+      "address": "Harrison St & Boren Ave N, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3358359,
+          47.6220217
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {},
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/chickn.fix",
+    "twitter_link": "https://twitter.com/Chicknfix",
+    "twitter_screen_name": "Chicknfix",
+    "website": "http://www.chicknfix.com"
+  }
+}
