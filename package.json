@@ -6,7 +6,8 @@
     "start": "nodemon ./bin/www",
     "test": "",
     "seed": "node seed.js",
-    "prestart": "mongod --config ~/ada/projects/project-forks/ada-capstone/db/etc/mongod.conf"
+    "doesnt_work": "mongod --config ~/ada/projects/project-forks/ada-capstone/db/etc/mongod.conf",
+    "db": "mongod --dbpath ~/ada/projects/project-forks/ada-capstone/db/"
   },
   "dependencies": {
     "async": "^1.4.2",
