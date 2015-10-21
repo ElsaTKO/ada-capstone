@@ -1,0 +1,75 @@
+{
+  "name": "Seoul Kitchen",
+  "cuisine": "Korean",
+  "payment": "Cash or Cards",
+  "description": "Korean",
+  "schedule": {
+    "monday": {
+      "address": "S Main St & Occidental Ave S, Seattle, WA 98104, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3328885,
+          47.6000475
+        ],
+        "type": "Point"
+      }
+    },
+    "tuesday": {
+      "address": "401 Pine St, Seattle, WA 98101, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry" : {
+        "coordinates" : [
+          -122.3369905,
+          47.6118256
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {
+      "address": "S Main St & Occidental Ave S, Seattle, WA 98104, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3328885,
+          47.6000475
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "401 Pine St, Seattle, WA 98101, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry" : {
+        "coordinates" : [
+          -122.3369905,
+          47.6118256
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "401 Pine St, Seattle, WA 98101, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry" : {
+        "coordinates" : [
+          -122.3369905,
+          47.6118256
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/seoulkitchensea/",
+    "twitter_link": "",
+    "website": "http://seoulkitchenseattle.com/"
+  }
+}

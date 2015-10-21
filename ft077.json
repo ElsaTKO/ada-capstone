@@ -1,0 +1,97 @@
+{
+  "name": "Seattle Wood Fired Pizza",
+  "cuisine": "Pizza",
+  "payment": "Cash or Cards",
+  "description": "Applewood fired, fresh ingredients, cooks in 90 seconds. Homemade crust fresh every day.",
+  "schedule": {
+    "monday": {
+      "address": "1300 Elliott Ave W, Seattle, WA 98119, USA",
+      "open": "11:00",
+      "close": ":008m",
+      "geometry": {
+        "coordinates": [
+          -122.3724679,
+          47.629748
+        ],
+        "type": "Point"
+      }
+    },
+    "tuesday": {
+      "address": "1300 Elliott Ave W, Seattle, WA 98119, USA",
+      "open": "11:00",
+      "close": "20:00",
+      "geometry": {
+        "coordinates": [
+          -122.3724679,
+          47.629748
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {
+      "address": "1300 Elliott Ave W, Seattle, WA 98119, USA",
+      "open": "11:00",
+      "close": "20:00",
+      "geometry": {
+        "coordinates": [
+          -122.3724679,
+          47.629748
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "1300 Elliott Ave W, Seattle, WA 98119, USA",
+      "open": "11:00",
+      "close": "20:00",
+      "geometry": {
+        "coordinates": [
+          -122.3724679,
+          47.629748
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "1300 Elliott Ave W, Seattle, WA 98119, USA",
+      "open": "11:00",
+      "close": "20:00",
+      "geometry": {
+        "coordinates": [
+          -122.3724679,
+          47.629748
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {
+      "address": "1300 Elliott Ave W, Seattle, WA 98119, USA",
+      "open": "11:00",
+      "close": "20:00",
+      "geometry": {
+        "coordinates": [
+          -122.3724679,
+          47.629748
+        ],
+        "type": "Point"
+      }
+    },
+    "sunday": {
+      "address": "1300 Elliott Ave W, Seattle, WA 98119, USA",
+      "open": "11:00",
+      "close": "20:00",
+      "geometry": {
+        "coordinates": [
+          -122.3724679,
+          47.629748
+        ],
+        "type": "Point"
+      }
+    }
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/pages/Seattle-Wood-Fired-Pizza/160549947427401",
+    "twitter_link": "",
+    "website": "http://seattlewoodfiredpizza.com"
+  }
+}

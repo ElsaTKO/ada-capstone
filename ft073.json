@@ -1,0 +1,65 @@
+{
+  "name": "Off the Rez",
+  "cuisine": "Native American",
+  "payment": "Cash or Cards",
+  "description": "Native American inspired cuisine including Indian tacos and fry bread",
+  "schedule": {
+    "monday": {
+      "address": "2401 Utah Ave S, Seattle, WA 98134, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3358992,
+          47.5810044
+        ],
+        "type": "Point"
+      }
+    },
+    "tuesday": {},
+    "wednesday": {
+      "address": "Harrison St & Boren Ave N, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3358359,
+          47.6220217
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "401 Pine St, Seattle, WA 98101, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry" : {
+        "coordinates" : [
+          -122.3369905,
+          47.6118256
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "620 106th Ave NE, Bellevue, WA 98004, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.1979384,
+          47.6160591
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/pages/Off-The-Rez/222926891074111",
+    "twitter_link": "https://twitter.com/OffTheRezTruck",
+    "twitter_screen_name": "OffTheRezTruck",
+    "website": "http://www.offthereztruck.com/"
+  }
+}

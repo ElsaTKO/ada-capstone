@@ -61,6 +61,7 @@ function requestGeocode(address, callback) {
 			console.error("\n***REQUEST ERROR: ", error);
 		} else {
       // console.log("*REQUESTED URL: ", url);
+      // console.log("\n*RESPONSE BODY: ", response.body);
       callback(response.body);
     }
   });
@@ -70,10 +71,10 @@ app.get('/google', function openConnection(req, res) {
 
   async.forEachOfSeries(old_food_trucks, function iterator(truck_json, index, iteratorCallback) {
 
-    if (index < 70) { // for truck at this index
+    if (index < 80) { // for truck at this index
       return iteratorCallback();
     }
-    if (index > 70) {
+    if (index > 80) {
       return iteratorCallback();
     }
 

@@ -1,0 +1,43 @@
+{
+  "name": "Skillet",
+  "cuisine": "Sandwiches",
+  "payment": "Cash or Cards",
+  "description": "Dishing up gourmet burgers and fries, along with their famous bacon jam, from a sleek, silver airstream.",
+  "schedule": {
+    "monday": {},
+    "tuesday": {},
+    "wednesday": {},
+    "thursday": {
+      "address": "106th Ave NE & NE 6th St, Bellevue, WA 98004, USA",
+      "open": "12:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.1989522,
+          47.6155745
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "531 Stewart St, Seattle, WA 98101, USA",
+      "open": "11:30",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3376094,
+          47.61316679999999
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/SkilletStreetFood",
+    "twitter_link": "https://twitter.com/skilletstfood",
+    "twitter_screen_name": "skilletstfood",
+    "website": "http://skilletstreetfood.com"
+  }
+}

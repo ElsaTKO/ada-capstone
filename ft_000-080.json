@@ -4746,5 +4746,520 @@
       "website": "http://www.sweetandsavorypie.com"
     }
   },
+  {
+    "name": "Papa’s Place Food Truck",
+    "cuisine": "Chamorro / Pacific Island Cuisine",
+    "payment": "Cash or Cards",
+    "description": "A taste of Guam fused with the likings of the Mariana and Pacific Islands",
+    "schedule": {
+      "monday": {},
+      "tuesday": {},
+      "wednesday": {},
+      "thursday": {},
+      "friday": {
+        "address": "1325 Lloyd Pkwy, Port Orchard, WA 98367, USA",
+        "open": "11:00",
+        "close": "15:00",
+        "geometry": {
+          "coordinates": [
+            -122.665072,
+            47.524266
+          ],
+          "type": "Point"
+        }
+      },
+      "saturday": {},
+      "sunday": {}
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/PapasPlaceFoodTruck",
+      "twitter_link": "http://www.twitter.com/papasfoodtruck",
+      "twitter_screen_name": "papasfoodtruck",
+      "website": "http://www.papasplace671.com"
+    }
+  },
+  {
+    "name": "Seoul Kitchen",
+    "cuisine": "Korean",
+    "payment": "Cash or Cards",
+    "description": "Korean",
+    "schedule": {
+      "monday": {
+        "address": "S Main St & Occidental Ave S, Seattle, WA 98104, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.3328885,
+            47.6000475
+          ],
+          "type": "Point"
+        }
+      },
+      "tuesday": {
+        "address": "401 Pine St, Seattle, WA 98101, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry" : {
+          "coordinates" : [
+            -122.3369905,
+            47.6118256
+          ],
+          "type": "Point"
+        }
+      },
+      "wednesday": {
+        "address": "S Main St & Occidental Ave S, Seattle, WA 98104, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.3328885,
+            47.6000475
+          ],
+          "type": "Point"
+        }
+      },
+      "thursday": {
+        "address": "401 Pine St, Seattle, WA 98101, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry" : {
+          "coordinates" : [
+            -122.3369905,
+            47.6118256
+          ],
+          "type": "Point"
+        }
+      },
+      "friday": {
+        "address": "401 Pine St, Seattle, WA 98101, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry" : {
+          "coordinates" : [
+            -122.3369905,
+            47.6118256
+          ],
+          "type": "Point"
+        }
+      },
+      "saturday": {},
+      "sunday": {}
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/seoulkitchensea/",
+      "twitter_link": "",
+      "website": "http://seoulkitchenseattle.com/"
+    }
+  },
+  {
+    "name": "Off the Rez",
+    "cuisine": "Native American",
+    "payment": "Cash or Cards",
+    "description": "Native American inspired cuisine including Indian tacos and fry bread",
+    "schedule": {
+      "monday": {
+        "address": "2401 Utah Ave S, Seattle, WA 98134, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.3358992,
+            47.5810044
+          ],
+          "type": "Point"
+        }
+      },
+      "tuesday": {},
+      "wednesday": {
+        "address": "Harrison St & Boren Ave N, Seattle, WA 98109, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.3358359,
+            47.6220217
+          ],
+          "type": "Point"
+        }
+      },
+      "thursday": {
+        "address": "401 Pine St, Seattle, WA 98101, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry" : {
+          "coordinates" : [
+            -122.3369905,
+            47.6118256
+          ],
+          "type": "Point"
+        }
+      },
+      "friday": {
+        "address": "620 106th Ave NE, Bellevue, WA 98004, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.1979384,
+            47.6160591
+          ],
+          "type": "Point"
+        }
+      },
+      "saturday": {},
+      "sunday": {}
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/pages/Off-The-Rez/222926891074111",
+      "twitter_link": "https://twitter.com/OffTheRezTruck",
+      "twitter_screen_name": "OffTheRezTruck",
+      "website": "http://www.offthereztruck.com/"
+    }
+  },
+  {
+    "name": "Plum Vegan Burgers + More",
+    "cuisine": "Vegan burgers, sandwiches, salads",
+    "payment": "Cash or Cards",
+    "description": "Vegan burgers, sandwiches, salads",
+    "schedule": {
+      "monday": {},
+      "tuesday": {
+        "address": "333 Boren Ave N, Seattle, WA 98109, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.3362079,
+            47.6213267
+          ],
+          "type": "Point"
+        }
+      },
+      "wednesday": {},
+      "thursday": {
+        "address": "333 Boren Ave N, Seattle, WA 98109, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.3362079,
+            47.6213267
+          ],
+          "type": "Point"
+        }
+      },
+      "friday": {
+        "address": "2310 E Union St, Seattle, WA 98122, USA",
+        "open": "16:00",
+        "close": "22:00",
+        "geometry": {
+          "coordinates": [
+            -122.3016857,
+            47.6131353
+          ],
+          "type": "Point"
+        }
+      },
+      "saturday": {},
+      "sunday": {
+        "address": "2310 E Union St, Seattle, WA 98122, USA",
+        "open": "16:00",
+        "close": "22:00",
+        "geometry": {
+          "coordinates": [
+            -122.3016857,
+            47.6131353
+          ],
+          "type": "Point"
+        }
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/PlumBistro",
+      "twitter_link": "https://twitter.com/plumbistro",
+      "twitter_screen_name": "plumbistro",
+      "website": "http://www.plumbistro.com"
+    }
+  },
+  {
+    "name": "Richard’s Hot Dogs",
+    "cuisine": "Hot Dogs",
+    "payment": "Cash or Cards",
+    "description": "Bacon Wrapped Hot Dog on a stick. Deep fried bacon.",
+    "schedule": {
+      "monday": {},
+      "tuesday": {},
+      "wednesday": {},
+      "thursday": {
+        "address": "4700 Ohio Ave S, Seattle, WA 98134, USA",
+        "open": "17:00",
+        "close": "clos:00em",
+        "geometry": {
+          "coordinates": [
+            -122.3377055,
+            47.560333
+          ],
+          "type": "Point"
+        }
+      },
+      "friday": {},
+      "saturday": {},
+      "sunday": {}
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/richardshotdogs",
+      "twitter_link": "",
+      "website": "http://www.richardshotdogs.com/"
+    }
+  },
+  {
+    "name": "Seattle Wood Fired Pizza",
+    "cuisine": "Pizza",
+    "payment": "Cash or Cards",
+    "description": "Applewood fired, fresh ingredients, cooks in 90 seconds. Homemade crust fresh every day.",
+    "schedule": {
+      "monday": {
+        "address": "1300 Elliott Ave W, Seattle, WA 98119, USA",
+        "open": "11:00",
+        "close": ":008m",
+        "geometry": {
+          "coordinates": [
+            -122.3724679,
+            47.629748
+          ],
+          "type": "Point"
+        }
+      },
+      "tuesday": {
+        "address": "1300 Elliott Ave W, Seattle, WA 98119, USA",
+        "open": "11:00",
+        "close": "20:00",
+        "geometry": {
+          "coordinates": [
+            -122.3724679,
+            47.629748
+          ],
+          "type": "Point"
+        }
+      },
+      "wednesday": {
+        "address": "1300 Elliott Ave W, Seattle, WA 98119, USA",
+        "open": "11:00",
+        "close": "20:00",
+        "geometry": {
+          "coordinates": [
+            -122.3724679,
+            47.629748
+          ],
+          "type": "Point"
+        }
+      },
+      "thursday": {
+        "address": "1300 Elliott Ave W, Seattle, WA 98119, USA",
+        "open": "11:00",
+        "close": "20:00",
+        "geometry": {
+          "coordinates": [
+            -122.3724679,
+            47.629748
+          ],
+          "type": "Point"
+        }
+      },
+      "friday": {
+        "address": "1300 Elliott Ave W, Seattle, WA 98119, USA",
+        "open": "11:00",
+        "close": "20:00",
+        "geometry": {
+          "coordinates": [
+            -122.3724679,
+            47.629748
+          ],
+          "type": "Point"
+        }
+      },
+      "saturday": {
+        "address": "1300 Elliott Ave W, Seattle, WA 98119, USA",
+        "open": "11:00",
+        "close": "20:00",
+        "geometry": {
+          "coordinates": [
+            -122.3724679,
+            47.629748
+          ],
+          "type": "Point"
+        }
+      },
+      "sunday": {
+        "address": "1300 Elliott Ave W, Seattle, WA 98119, USA",
+        "open": "11:00",
+        "close": "20:00",
+        "geometry": {
+          "coordinates": [
+            -122.3724679,
+            47.629748
+          ],
+          "type": "Point"
+        }
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/pages/Seattle-Wood-Fired-Pizza/160549947427401",
+      "twitter_link": "",
+      "website": "http://seattlewoodfiredpizza.com"
+    }
+  },
+  {
+    "name": "Skillet",
+    "cuisine": "Sandwiches",
+    "payment": "Cash or Cards",
+    "description": "Dishing up gourmet burgers and fries, along with their famous bacon jam, from a sleek, silver airstream.",
+    "schedule": {
+      "monday": {},
+      "tuesday": {},
+      "wednesday": {},
+      "thursday": {
+        "address": "106th Ave NE & NE 6th St, Bellevue, WA 98004, USA",
+        "open": "12:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.1989522,
+            47.6155745
+          ],
+          "type": "Point"
+        }
+      },
+      "friday": {
+        "address": "531 Stewart St, Seattle, WA 98101, USA",
+        "open": "11:30",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.3376094,
+            47.61316679999999
+          ],
+          "type": "Point"
+        }
+      },
+      "saturday": {},
+      "sunday": {}
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/SkilletStreetFood",
+      "twitter_link": "https://twitter.com/skilletstfood",
+      "twitter_screen_name": "skilletstfood",
+      "website": "http://skilletstreetfood.com"
+    }
+  },
+  {
+    "name": "Soda Jerk",
+    "cuisine": "Soda/Drinks",
+    "payment": "Cash or Cards",
+    "description": "Handcrafted sodas and drinks",
+    "schedule": {
+      "monday": {},
+      "tuesday": {},
+      "wednesday": {
+        "address": "4850 Meridian Ave N, Seattle, WA 98103, USA",
+        "open": "15:30",
+        "close": "19:00",
+        "geometry": {
+          "coordinates": [
+            -122.3336788,
+            47.6639551
+          ],
+          "type": "Point"
+        }
+      },
+      "thursday": {
+        "address": "Queen Anne Ave N & W Crockett St, Seattle, WA 98109, USA",
+        "open": "15:00",
+        "close": "19:30",
+        "geometry": {
+          "coordinates": [
+            -122.3569199,
+            47.6371671
+          ],
+          "type": "Point"
+        }
+      },
+      "friday": {},
+      "saturday": {},
+      "sunday": {
+        "address": "Ballard, Seattle, WA, USA",
+        "open": "10:00",
+        "close": "15:00",
+        "geometry": {
+          "coordinates": [
+            -122.3860312,
+            47.6792172
+          ],
+          "type": "Point"
+        }
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/sodajerksoda",
+      "twitter_link": "https://twitter.com/sodajerksoda",
+      "twitter_screen_name": "sodajerksoda",
+      "website": "http://www.sodajerksoda.com"
+    }
+  },
+  {
+    "name": "T and A Gourmet Steamed Cheeseburgers",
+    "cuisine": "Steamed Cheeseburgers",
+    "payment": "Cash or Cards",
+    "description": "Bringing a Connecticut favorite to the West Coast",
+    "schedule": {
+      "monday": {},
+      "tuesday": {},
+      "wednesday": {
+        "address": "Mukilteo, WA, USA",
+        "open": "15:00",
+        "close": "19:00",
+        "geometry": {
+          "coordinates": [
+            -122.3045815,
+            47.9445396
+          ],
+          "type": "Point"
+        }
+      },
+      "thursday": {
+        "address": "116 E 5th St, North Bend, WA 98045, USA",
+        "open": "15:00",
+        "close": "20:00",
+        "geometry": {
+          "coordinates": [
+            -121.7821431,
+            47.4978209
+          ],
+          "type": "Point"
+        }
+      },
+      "friday": {
+        "address": "8415 Paine Field Blvd, Mukilteo, WA 98275, USA",
+        "open": "13:00",
+        "close": "20:00",
+        "geometry": {
+          "coordinates": [
+            -122.2901028,
+            47.9213209
+          ],
+          "type": "Point"
+        }
+      },
+      "saturday": {},
+      "sunday": {}
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/pages/TAs-gourmet-steamed-cheeseburgers/176750095739175",
+      "twitter_link": "",
+      "website": "http://www.tandasteamedcheeseburgers.com/"
+    }
+  },
   
 ]

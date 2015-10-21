@@ -1,0 +1,53 @@
+{
+  "name": "T and A Gourmet Steamed Cheeseburgers",
+  "cuisine": "Steamed Cheeseburgers",
+  "payment": "Cash or Cards",
+  "description": "Bringing a Connecticut favorite to the West Coast",
+  "schedule": {
+    "monday": {},
+    "tuesday": {},
+    "wednesday": {
+      "address": "Mukilteo, WA, USA",
+      "open": "15:00",
+      "close": "19:00",
+      "geometry": {
+        "coordinates": [
+          -122.3045815,
+          47.9445396
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "116 E 5th St, North Bend, WA 98045, USA",
+      "open": "15:00",
+      "close": "20:00",
+      "geometry": {
+        "coordinates": [
+          -121.7821431,
+          47.4978209
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "8415 Paine Field Blvd, Mukilteo, WA 98275, USA",
+      "open": "13:00",
+      "close": "20:00",
+      "geometry": {
+        "coordinates": [
+          -122.2901028,
+          47.9213209
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/pages/TAs-gourmet-steamed-cheeseburgers/176750095739175",
+    "twitter_link": "",
+    "website": "http://www.tandasteamedcheeseburgers.com/"
+  }
+}

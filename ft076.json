@@ -1,0 +1,31 @@
+{
+  "name": "Richard’s Hot Dogs",
+  "cuisine": "Hot Dogs",
+  "payment": "Cash or Cards",
+  "description": "Bacon Wrapped Hot Dog on a stick. Deep fried bacon.",
+  "schedule": {
+    "monday": {},
+    "tuesday": {},
+    "wednesday": {},
+    "thursday": {
+      "address": "4700 Ohio Ave S, Seattle, WA 98134, USA",
+      "open": "17:00",
+      "close": "clos:00em",
+      "geometry": {
+        "coordinates": [
+          -122.3377055,
+          47.560333
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {},
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/richardshotdogs",
+    "twitter_link": "",
+    "website": "http://www.richardshotdogs.com/"
+  }
+}

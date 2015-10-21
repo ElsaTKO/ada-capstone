@@ -1,0 +1,65 @@
+{
+  "name": "Plum Vegan Burgers + More",
+  "cuisine": "Vegan burgers, sandwiches, salads",
+  "payment": "Cash or Cards",
+  "description": "Vegan burgers, sandwiches, salads",
+  "schedule": {
+    "monday": {},
+    "tuesday": {
+      "address": "333 Boren Ave N, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3362079,
+          47.6213267
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {},
+    "thursday": {
+      "address": "333 Boren Ave N, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3362079,
+          47.6213267
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "2310 E Union St, Seattle, WA 98122, USA",
+      "open": "16:00",
+      "close": "22:00",
+      "geometry": {
+        "coordinates": [
+          -122.3016857,
+          47.6131353
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {},
+    "sunday": {
+      "address": "2310 E Union St, Seattle, WA 98122, USA",
+      "open": "16:00",
+      "close": "22:00",
+      "geometry": {
+        "coordinates": [
+          -122.3016857,
+          47.6131353
+        ],
+        "type": "Point"
+      }
+    }
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/PlumBistro",
+    "twitter_link": "https://twitter.com/plumbistro",
+    "twitter_screen_name": "plumbistro",
+    "website": "http://www.plumbistro.com"
+  }
+}

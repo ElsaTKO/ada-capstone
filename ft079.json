@@ -1,0 +1,54 @@
+{
+  "name": "Soda Jerk",
+  "cuisine": "Soda/Drinks",
+  "payment": "Cash or Cards",
+  "description": "Handcrafted sodas and drinks",
+  "schedule": {
+    "monday": {},
+    "tuesday": {},
+    "wednesday": {
+      "address": "4850 Meridian Ave N, Seattle, WA 98103, USA",
+      "open": "15:30",
+      "close": "19:00",
+      "geometry": {
+        "coordinates": [
+          -122.3336788,
+          47.6639551
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "Queen Anne Ave N & W Crockett St, Seattle, WA 98109, USA",
+      "open": "15:00",
+      "close": "19:30",
+      "geometry": {
+        "coordinates": [
+          -122.3569199,
+          47.6371671
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {},
+    "saturday": {},
+    "sunday": {
+      "address": "Ballard, Seattle, WA, USA",
+      "open": "10:00",
+      "close": "15:00",
+      "geometry": {
+        "coordinates": [
+          -122.3860312,
+          47.6792172
+        ],
+        "type": "Point"
+      }
+    }
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/sodajerksoda",
+    "twitter_link": "https://twitter.com/sodajerksoda",
+    "twitter_screen_name": "sodajerksoda",
+    "website": "http://www.sodajerksoda.com"
+  }
+}

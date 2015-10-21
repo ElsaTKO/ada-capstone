@@ -1,0 +1,32 @@
+{
+  "name": "Papa’s Place Food Truck",
+  "cuisine": "Chamorro / Pacific Island Cuisine",
+  "payment": "Cash or Cards",
+  "description": "A taste of Guam fused with the likings of the Mariana and Pacific Islands",
+  "schedule": {
+    "monday": {},
+    "tuesday": {},
+    "wednesday": {},
+    "thursday": {},
+    "friday": {
+      "address": "1325 Lloyd Pkwy, Port Orchard, WA 98367, USA",
+      "open": "11:00",
+      "close": "15:00",
+      "geometry": {
+        "coordinates": [
+          -122.665072,
+          47.524266
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/PapasPlaceFoodTruck",
+    "twitter_link": "http://www.twitter.com/papasfoodtruck",
+    "twitter_screen_name": "papasfoodtruck",
+    "website": "http://www.papasplace671.com"
+  }
+}

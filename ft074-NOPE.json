@@ -1,0 +1,21 @@
+{
+  "name": "Pioneer Grill Hot Dogs",
+  "cuisine": "Hot Dogs",
+  "payment": "Cash Only",
+  "description": "Hot Dog Cart",
+  "schedule": {
+    "monday": {},
+    "tuesday": {},
+    "wednesday": {},
+    "thursday": {},
+    "friday": {},
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/pioneergrillhotdogs",
+    "twitter_link": "https://twitter.com/pioneergrill",
+    "twitter_screen_name": "pioneergrill",
+    "website": "http://www.pioneergrillhotdogs.com"
+  }
+}
