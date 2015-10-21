@@ -1,0 +1,46 @@
+{
+  "name": "Yumbit Food Truck",
+  "cuisine": "Taiwanese Bento",
+  "payment": "Cash or Cards",
+  "description": "Yumbit Food Truck offers the authentic Taiwanese Bento, appetizers, fresh fruit juice, and many other Asian desserts, side dishes, etc.",
+  "schedule": {
+    "monday": {},
+    "tuesday": {
+      "address": "10827 NE 8th St, Bellevue, WA 98004, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.193925,
+          47.617033
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {
+      "address": "2000 9th Ave",
+      "open": "11:00",
+      "close": "14:00"
+    },
+    "thursday": {
+      "address": "10827 NE 8th St, Bellevue, WA 98004, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.193925,
+          47.617033
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {},
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/yumbit",
+    "twitter_link": "",
+    "website": "http://foodtruck.yumb.it/"
+  }
+}

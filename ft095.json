@@ -1,0 +1,65 @@
+{
+  "name": "Wicked Pies",
+  "cuisine": "Pizza",
+  "payment": "Cash or Cards",
+  "description": "Pizza & Gelato + Focaccia Sandwiches & Salads. Our menu is made with nothing but the best of Mother Nature’s finest. All products are made with natural, organic, and GMO free ingredients, with a hint of Twin Peaks",
+  "schedule": {
+    "monday": {},
+    "tuesday": {
+      "address": "907 NW Ballard Way, Seattle, WA 98107, USA",
+      "open": "11:00",
+      "close": "15:00",
+      "geometry": {
+        "coordinates": [
+          -122.3695287,
+          47.6624875
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {
+      "address": "6100 4th Ave S, Seattle, WA 98108, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3288835,
+          47.54714329999999
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "500 Yale Ave N, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3301121,
+          47.6233544
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "Naval Reserve Armory, 860 Terry Ave N, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "15:00",
+      "geometry": {
+        "coordinates": [
+          -122.3366394,
+          47.62758640000001
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/wickedpies",
+    "twitter_link": "https://twitter.com/wicked_pies",
+    "twitter_screen_name": "wicked_pies",
+    "website": "http://www.wickedpies.com/"
+  }
+}

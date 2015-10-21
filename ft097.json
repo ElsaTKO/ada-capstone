@@ -1,0 +1,76 @@
+{
+  "name": "The People’s Burger",
+  "cuisine": "Burgers",
+  "payment": "Cash or Cards",
+  "description": "Handmade burgers, fries and tots",
+  "schedule": {
+    "monday": {
+      "address": "Harrison St & Boren Ave N, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3358359,
+          47.6220217
+        ],
+        "type": "Point"
+      }
+    },
+    "tuesday": {
+      "address": "401 Pine St, Seattle, WA 98101, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry" : {
+        "coordinates" : [
+          -122.3369905,
+          47.6118256
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {
+      "address": "922 Occidental Ave S, Seattle, WA 98134, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3332206,
+          47.5950003
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "922 Occidental Ave S, Seattle, WA 98134, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3332206,
+          47.5950003
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "922 Occidental Ave S, Seattle, WA 98134, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3332206,
+          47.5950003
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/thepeoplesburger",
+    "twitter_link": "https://twitter.com/pplsbrgrtrk",
+    "twitter_screen_name": "pplsbrgrtrk",
+    "website": "http://www.thepeoplesburgertruck.com"
+  }
+}

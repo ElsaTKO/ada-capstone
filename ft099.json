@@ -1,0 +1,65 @@
+{
+  "name": "The Frying Dutchman",
+  "cuisine": "Seafood",
+  "payment": "Cash or Cards",
+  "description": "Mobile Fish, Chips, and Tacos",
+  "schedule": {
+    "monday": {},
+    "tuesday": {
+      "address": "1203 Porter Way, Milton, WA 98354, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3249548,
+          47.2484812
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {
+      "address": "Tacoma, WA, USA",
+      "open": "11:00",
+      "close": "15:00",
+      "geometry": {
+        "coordinates": [
+          -122.4442906,
+          47.2528768
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {},
+    "friday": {
+      "address": "1607 45th St E, Sumner, WA 98390, USA",
+      "open": "10:30",
+      "close": "13:30",
+      "geometry": {
+        "coordinates": [
+          -122.2350726,
+          47.2169014
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {
+      "address": "Federal Way, WA, USA",
+      "open": "10:00",
+      "close": "15:00",
+      "geometry": {
+        "coordinates": [
+          -122.3126222,
+          47.3223221
+        ],
+        "type": "Point"
+      }
+    },
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/EatTheDutch",
+    "twitter_link": "https://twitter.com/eatthedutch",
+    "twitter_screen_name": "eatthedutch",
+    "website": "http://www.eatthedutch.com/"
+  }
+}

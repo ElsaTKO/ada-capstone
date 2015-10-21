@@ -1,0 +1,54 @@
+{
+  "name": "Spicy Papaya",
+  "cuisine": "Lao and Thai",
+  "payment": "Cash or cards",
+  "description": "Authentic Laotian dishes. Famous Papaya Salad, Lao-Style Noodles, Grilled Lemongrass Wings, Spicy Basil Chicken and Sticky Rice.  Made from fresh ingredients with love from our culture to yours.",
+  "schedule": {
+    "monday": {},
+    "tuesday": {
+      "address": "618 Park Ave N, Renton, WA 98057, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.2018128,
+          47.49278469999999
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {
+      "address": "707 Lind Ave SW, Renton, WA 98057, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.2238011,
+          47.4729196
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {},
+    "friday": {},
+    "saturday": {
+      "address": "330 S Meridian, Puyallup, WA 98371, USA",
+      "open": "9:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.2939837,
+          47.1885314
+        ],
+        "type": "Point"
+      }
+    },
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/spicypapayaft",
+    "twitter_link": "https://twitter.com/spicypapaya",
+    "twitter_screen_name": "spicypapaya",
+    "website": ""
+  }
+}

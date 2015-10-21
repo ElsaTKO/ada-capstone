@@ -1,0 +1,98 @@
+{
+  "name": "Tuscan Stone Pizza",
+  "cuisine": "Pizza",
+  "payment": "Cash or Cards",
+  "description": "Offering superior quality, affordable prices and great taste!",
+  "schedule": {
+    "monday": {
+      "address": "2885 78th Ave SE, Mercer Island, WA 98040, USA",
+      "open": "11:00",
+      "close": "20:00",
+      "geometry": {
+        "coordinates": [
+          -122.2341293,
+          47.5846477
+        ],
+        "type": "Point"
+      }
+    },
+    "tuesday": {
+      "address": "2885 78th Ave SE, Mercer Island, WA 98040, USA",
+      "open": "11:00",
+      "close": "20:00",
+      "geometry": {
+        "coordinates": [
+          -122.2341293,
+          47.5846477
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {
+      "address": "2885 78th Ave SE, Mercer Island, WA 98040, USA",
+      "open": "11:00",
+      "close": "20:00",
+      "geometry": {
+        "coordinates": [
+          -122.2341293,
+          47.5846477
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "2885 78th Ave SE, Mercer Island, WA 98040, USA",
+      "open": "11:00",
+      "close": "20:00",
+      "geometry": {
+        "coordinates": [
+          -122.2341293,
+          47.5846477
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "2885 78th Ave SE, Mercer Island, WA 98040, USA",
+      "open": "11:00",
+      "close": "20:00",
+      "geometry": {
+        "coordinates": [
+          -122.2341293,
+          47.5846477
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {
+      "address": "2885 78th Ave SE, Mercer Island, WA 98040, USA",
+      "open": "11:00",
+      "close": "20:00",
+      "geometry": {
+        "coordinates": [
+          -122.2341293,
+          47.5846477
+        ],
+        "type": "Point"
+      }
+    },
+    "sunday": {
+      "address": "2885 78th Ave SE, Mercer Island, WA 98040, USA",
+      "open": "0:00",
+      "close": "20:00",
+      "geometry": {
+        "coordinates": [
+          -122.2341293,
+          47.5846477
+        ],
+        "type": "Point"
+      }
+    }
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/TuscanStonePizza",
+    "twitter_link": "https://twitter.com/TuscanPizza",
+    "twitter_screen_name": "TuscanPizza",
+    "website": "http://www.tuscanstonepizza.com/"
+  }
+}

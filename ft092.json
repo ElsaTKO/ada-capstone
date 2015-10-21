@@ -1,0 +1,65 @@
+{
+  "name": "Seattle Pops",
+  "cuisine": "Sweets",
+  "payment": "Cash or Cards",
+  "description": "We are a family run business, having fun bringing Seattle the best frozen treats on a stick!",
+  "schedule": {
+    "monday": {},
+    "tuesday": {},
+    "wednesday": {
+      "address": "Columbia City, Seattle, WA, USA",
+      "open": "15:00",
+      "close": "19:00",
+      "geometry": {
+        "coordinates": [
+          -122.2864991,
+          47.55986559999999
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "Bellevue, WA, USA",
+      "open": "15:00",
+      "close": "19:00",
+      "geometry": {
+        "coordinates": [
+          -122.2006786,
+          47.610377
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {},
+    "saturday": {
+      "address": "University District, Seattle, WA, USA",
+      "open": "9:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3138767,
+          47.6627771
+        ],
+        "type": "Point"
+      }
+    },
+    "sunday": {
+      "address": "3401 Evanston Ave N, Seattle, WA 98103, USA",
+      "open": "10:00",
+      "close": "17:00",
+      "geometry": {
+        "coordinates": [
+          -122.3516227,
+          47.65011399999999
+        ],
+        "type": "Point"
+      }
+    }
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/SeattlePops",
+    "twitter_link": "https://twitter.com/TheSeattlePops",
+    "twitter_screen_name": "TheSeattlePops",
+    "website": "http://seattlepops.com/"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "name": "The Box",
+  "cuisine": "Asian Fusion",
+  "payment": "Cash or Cards",
+  "description": "Asian meets French at this Kirkland-based truck",
+  "schedule": {
+    "monday": {
+      "address": "Hookstown, PA 15050, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -80.4437781,
+          40.5929599
+        ],
+        "type": "Point"
+      }
+    },
+    "tuesday": {
+      "address": "103 110th Ave NE (in the back lot of Toys R Us under their building signage)",
+      "open": "11:00",
+      "close": "14:00"
+    },
+    "wednesday": {
+      "address": "12000 115th Ave NE (in the parking lot of NetAcquire Corporation, across the street from NWMLS)",
+      "open": "11:00",
+      "close": "14:00"
+    },
+    "thursday": {
+      "address": "1756 114th Ave SE (in front of Edifecs building at the back of Bellefield Office Park)",
+      "open": "11:00",
+      "close": "14:00"
+    },
+    "friday": {
+      "address": "Homestead, PA 15120, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -79.9024779,
+          40.4004712
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/theboxonwheels",
+    "twitter_link": "https://twitter.com/theboxonwheels",
+    "twitter_screen_name": "theboxonwheels",
+    "website": "http://www.theboxonwheels.com"
+  }
+}
+]
