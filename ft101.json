@@ -1,0 +1,53 @@
+{
+  "name": "Tacos El Tajin",
+  "cuisine": "Mexican",
+  "payment": "Cash or Cards",
+  "description": "Taco Truck",
+  "schedule": {
+    "monday": {
+      "address": "1041 Mercer St, Seattle, WA 98109, USA",
+      "open": "10:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.336594,
+          47.6245354
+        ],
+        "type": "Point"
+      }
+    },
+    "tuesday": {},
+    "wednesday": {
+      "address": "Harrison/Denny-Blaine, Seattle, WA, USA",
+      "open": "10:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.2864809,
+          47.6214746
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "1041 Mercer St, Seattle, WA 98109, USA",
+      "open": "10:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.336594,
+          47.6245354
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {},
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/pages/Tacos-El-Tajin/156034444429798",
+    "twitter_link": "",
+    "website": ""
+  }
+}

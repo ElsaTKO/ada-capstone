@@ -1,0 +1,65 @@
+{
+  "name": "Where Ya At",
+  "cuisine": "Cajun / Creole",
+  "payment": "Cash or Cards (50 cent charge for cards)",
+  "description": "Bringing New Orleans street food to the curbs of Seattle",
+  "schedule": {
+    "monday": {},
+    "tuesday": {
+      "address": "2401 Utah Ave S, Seattle, WA 98134, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3358992,
+          47.5810044
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {
+      "address": "106th Ave NE & NE 6th St, Bellevue, WA 98004, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.1989522,
+          47.6155745
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "5805 Airport Way S, Seattle, WA 98108, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3183435,
+          47.5506524
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "101 Elliott Ave W, Seattle, WA 98119, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.359573,
+          47.619075
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/whereyaatmatt",
+    "twitter_link": "https://twitter.com/WhereYaAtMatt",
+    "twitter_screen_name": "WhereYaAtMatt",
+    "website": "http://www.whereyaatmatt.com/"
+  }
+}

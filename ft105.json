@@ -1,0 +1,32 @@
+{
+  "name": "The Ultimate Melt",
+  "cuisine": "Gourmet Grilled Cheese",
+  "payment": "Cash or Cards",
+  "description": "Gourmet grilled cheese",
+  "schedule": {
+    "monday": {
+      "address": "108th Ave NE & NE 4th St, Bellevue, WA 98004, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.1962169,
+          47.6137969
+        ],
+        "type": "Point"
+      }
+    },
+    "tuesday": {},
+    "wednesday": {},
+    "thursday": {},
+    "friday": {},
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/theultimatemelt",
+    "twitter_link": "https://www.twitter.com/theultimatemelt",
+    "twitter_screen_name": "theultimatemelt",
+    "website": "http://www.theultimatemelt.com"
+  }
+}

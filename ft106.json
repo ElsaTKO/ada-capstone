@@ -1,0 +1,52 @@
+{
+  "name": "Tasty Vibes",
+  "cuisine": "Burgers",
+  "payment": "Cash or Cards",
+  "description": "We construct high quality burgers and sandwiches using quality ingredients. We have fun and our customer service is the best in the business!",
+  "schedule": {
+    "monday": {},
+    "tuesday": {
+      "address": "Fairview Ave N & Republican St, Seattle, WA 98109, USA",
+      "open": "10:00",
+      "close": "15:00",
+      "geometry": {
+        "coordinates": [
+          -122.3343277,
+          47.6231234
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {
+      "address": "S Main St & Occidental Ave S, Seattle, WA 98104, USA",
+      "geometry": {
+        "coordinates": [
+          -122.3328885,
+          47.6000475
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {},
+    "friday": {
+      "address": "Fairview Ave N & Republican St, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3343277,
+          47.6231234
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/tastyvibe",
+    "twitter_link": "https://twitter.com/tastyvibestruck",
+    "twitter_screen_name": "tastyvibestruck",
+    "website": "http://www.tastyvibes.net/"
+  }
+}

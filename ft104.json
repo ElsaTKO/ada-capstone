@@ -1,0 +1,32 @@
+{
+  "name": "Stacks",
+  "cuisine": "Burgers",
+  "payment": "Cash or Cards",
+  "description": "At STACKS, our “Burger Architects” are passionate about providing a chef-driven dining experience with imaginative, great-tasting gourmet burgers along side our hand cut fries and custom shakes crafted with only the freshest all-natural ingredients from the northwest.",
+  "schedule": {
+    "monday": {},
+    "tuesday": {},
+    "wednesday": {},
+    "thursday": {},
+    "friday": {
+      "address": "3600 S 344th St, Federal Way, WA 98001, USA",
+      "open": "10:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.2879182,
+          47.2942632
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/stacks.burgers",
+    "twitter_link": "https://twitter.com/StacksBurgers1",
+    "twitter_screen_name": "StacksBurgers1",
+    "website": "http://stacksburgers.com/"
+  }
+}

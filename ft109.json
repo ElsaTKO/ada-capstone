@@ -1,0 +1,76 @@
+{
+  "name": "Xplosive Truck",
+  "cuisine": "Filipino-Vietnamese Fusion",
+  "payment": "Cash Only",
+  "description": "Delicious banh mi and spicy fusion tacos",
+  "schedule": {
+    "monday": {
+      "address": "Republican St & Boren Ave N, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "13:30",
+      "geometry": {
+        "coordinates": [
+          -122.3358147,
+          47.6232
+        ],
+        "type": "Point"
+      }
+    },
+    "tuesday": {
+      "address": "425 Terry Ave N, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "13:30",
+      "geometry": {
+        "coordinates": [
+          -122.3374441,
+          47.622652
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {
+      "address": "Republican St & Boren Ave N, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "13:30",
+      "geometry": {
+        "coordinates": [
+          -122.3358147,
+          47.6232
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "Thomas St & Boren Ave N, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "13:30",
+      "geometry": {
+        "coordinates": [
+          -122.3358471,
+          47.620864
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "425 Terry Ave N, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3374441,
+          47.622652
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/xplosivemobilefoodtruck",
+    "twitter_link": "https://twitter.com/XplosiveFoodTrk",
+    "twitter_screen_name": "XplosiveFoodTrk",
+    "website": "http://www.xplosivemobilefoodtruck.com/"
+  }
+}

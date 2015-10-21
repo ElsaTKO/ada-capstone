@@ -1,0 +1,53 @@
+{
+  "name": "Yummy Box",
+  "cuisine": "Asian",
+  "payment": "Cash or Cards",
+  "description": "Serving favorite Asian street foods incorporating fresh locally sourced ingredients",
+  "schedule": {
+    "monday": {},
+    "tuesday": {
+      "address": "14679 NE 95th St, Redmond, WA 98052, USA",
+      "open": "16:00",
+      "close": "20:00",
+      "geometry": {
+        "coordinates": [
+          -122.144557,
+          47.68585940000001
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {},
+    "thursday": {
+      "address": "17625 NE 65th St, Redmond, WA 98052, USA",
+      "open": "16:00",
+      "close": "20:00",
+      "geometry": {
+        "coordinates": [
+          -122.1049839,
+          47.6635538
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "14679 NE 95th St, Redmond, WA 98052, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.144557,
+          47.68585940000001
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/pages/yummy-box/1516836118530658",
+    "twitter_link": "",
+    "website": "http://yummyboxfoodtruck.com/"
+  }
+}

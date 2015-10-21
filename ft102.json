@@ -1,0 +1,65 @@
+{
+  "name": "Veraci Pizza",
+  "cuisine": "Pizza",
+  "payment": "Cash Only",
+  "description": "Seattle’s original traveling wood-fired pizza company",
+  "schedule": {
+    "monday": {},
+    "tuesday": {},
+    "wednesday": {
+      "address": "Kirkland, WA, USA",
+      "open": "14:00",
+      "close": "19:00",
+      "geometry": {
+        "coordinates": [
+          -122.2087353,
+          47.6814875
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "Queen Anne Ave N & W Crockett St, Seattle, WA 98109, USA",
+      "open": "15:00",
+      "close": "19:30",
+      "geometry": {
+        "coordinates": [
+          -122.3569199,
+          47.6371671
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "Phinney Ave N & N 67th St, Seattle, WA 98103, USA",
+      "open": "15:00",
+      "close": "19:00",
+      "geometry": {
+        "coordinates": [
+          -122.3551422,
+          47.6778851
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {},
+    "sunday": {
+      "address": "Mercer Island, WA, USA",
+      "open": "10:00",
+      "close": "15:00",
+      "geometry": {
+        "coordinates": [
+          -122.2220673,
+          47.5706548
+        ],
+        "type": "Point"
+      }
+    }
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/veracipizza",
+    "twitter_link": "https://twitter.com/veraciseattle",
+    "twitter_screen_name": "veraciseattle",
+    "website": "http://www.veracipizza.com/"
+  }
+}
