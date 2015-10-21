@@ -1,0 +1,24 @@
+{
+  "name": "Frank’s Franks",
+  "cuisine": "Hot Dogs",
+  "payment": "Cash or Cards",
+  "description": "Gourmet hot dogs, weiners, sausages, hot links and more, contact at 425.761.9447 or franksfranks3@gmail.com",
+  "schedule": {
+    "monday": {},
+    "tuesday": {},
+    "wednesday": {},
+    "thursday": {},
+    "friday": {},
+    "saturday": {},
+    "sunday": {
+      "address": "Auburn Farmers Market",
+      "open": "10:00",
+      "close": "15:00"
+    }
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/franksfrankshotdogs",
+    "twitter_link": "",
+    "website": ""
+  }
+}

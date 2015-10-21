@@ -1,0 +1,76 @@
+{
+  "name": "NaanSense",
+  "cuisine": "Indian",
+  "payment": "Cash or Cards",
+  "description": "Seattle’s only truck with an on-board Tandoori Oven serving fresh Naan to order!",
+  "schedule": {
+    "monday": {
+      "address": "Microsoft W Campus Access Rd, Redmond, WA 98052, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.1405316,
+          47.66032999999999
+        ],
+        "type": "Point"
+      }
+    },
+    "tuesday": {
+      "address": "106th Ave NE & NE 6th St, Bellevue, WA 98004, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.1989522,
+          47.6155745
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {
+      "address": "Republican St & Boren Ave N, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "13:30",
+      "geometry": {
+        "coordinates": [
+          -122.3358147,
+          47.6232
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "1st Avenue South & S King St, Seattle, WA 98104, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3341415,
+          47.5982809
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "Republican St & Boren Ave N, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "13:30",
+      "geometry": {
+        "coordinates": [
+          -122.3358147,
+          47.6232
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/SeattleNaanSense",
+    "twitter_link": "https://twitter.com/NaanSenseMobile",
+    "twitter_screen_name": "NaanSenseMobile",
+    "website": "http://www.naansenseseattle.com/"
+  }
+}

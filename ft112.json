@@ -1,0 +1,75 @@
+{
+  "name": "Buddha Bruddah",
+  "cuisine": "Asian",
+  "payment": "Cash or Cards",
+  "description": "Gourmet Asian mixed plates",
+  "schedule": {
+    "monday": {
+      "address": "Westlake Ave N & Harrison St, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3384426,
+          47.6220467
+        ],
+        "type": "Point"
+      }
+    },
+    "tuesday": {
+      "address": "964 Republican St, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3388248,
+          47.6232768
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {
+      "address": "5th Ave & Stewart St, Seattle, WA 98101, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3378294,
+          47.6130023
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "200 Boren Ave N, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3358441,
+          47.61972230000001
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "Westlake Ave N & Harrison St, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3384426,
+          47.6220467
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/BuddhaBruddah",
+    "twitter_link": "",
+    "website": "http://www.buddhabruddah.com"
+  }
+}

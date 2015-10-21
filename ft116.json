@@ -1,0 +1,76 @@
+{
+  "name": "Hot Revolution Donuts",
+  "cuisine": "Dessert",
+  "payment": "Cash or Cards",
+  "description": "We feature hot mini-donuts made to order with a variety of spice coatings, great icing and sauces and toppings. We also feature Fonte F2 Coffee.",
+  "schedule": {
+    "monday": {
+      "address": "Union SLU, 905 Dexter Ave N, Seattle, WA 98109, USA",
+      "open": "7:00",
+      "close": "13:00",
+      "geometry": {
+        "coordinates": [
+          -122.3427507,
+          47.62779039999999
+        ],
+        "type": "Point"
+      }
+    },
+    "tuesday": {
+      "address": "Union SLU, 905 Dexter Ave N, Seattle, WA 98109, USA",
+      "open": "7:00",
+      "close": "13:00",
+      "geometry": {
+        "coordinates": [
+          -122.3427507,
+          47.62779039999999
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {
+      "address": "Union SLU, 905 Dexter Ave N, Seattle, WA 98109, USA",
+      "open": "7:00",
+      "close": "13:00",
+      "geometry": {
+        "coordinates": [
+          -122.3427507,
+          47.62779039999999
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "Union SLU, 905 Dexter Ave N, Seattle, WA 98109, USA",
+      "open": "7:00",
+      "close": "13:00",
+      "geometry": {
+        "coordinates": [
+          -122.3427507,
+          47.62779039999999
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "Union SLU, 905 Dexter Ave N, Seattle, WA 98109, USA",
+      "open": "7:00",
+      "close": "13:00",
+      "geometry": {
+        "coordinates": [
+          -122.3427507,
+          47.62779039999999
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/HotRevolutionDonuts",
+    "twitter_link": "https://twitter.com/HotRevDonuts",
+    "twitter_screen_name": "HotRevDonuts",
+    "website": "http://www.hotrevolutiondonuts.com/"
+  }
+}

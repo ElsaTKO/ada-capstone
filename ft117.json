@@ -1,0 +1,54 @@
+{
+  "name": "Roll OK Please",
+  "cuisine": "Indian Kathi Rolls",
+  "payment": "Cash or Cards",
+  "description": "Indian street food, featuring Kathi Rolls",
+  "schedule": {
+    "monday": {
+      "address": "106th Ave NE & NE 6th St, Bellevue, WA 98004, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.1989522,
+          47.6155745
+        ],
+        "type": "Point"
+      }
+    },
+    "tuesday": {},
+    "wednesday": {
+      "address": "999 Lake Dr, Issaquah, WA 98027, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.050648,
+          47.548675
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "16331 NE 72nd Way, Redmond, WA 98052, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.1223593,
+          47.6688279
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {},
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/rollokplease",
+    "twitter_link": "https://twitter.com/RollOKPlease",
+    "twitter_screen_name": "RollOKPlease",
+    "website": "http://www.rollokplease.com"
+  }
+}

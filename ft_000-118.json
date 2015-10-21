@@ -6973,5 +6973,480 @@
       "website": "http://www.tatstruck.com"
     }
   },
-  
+  {
+    "name": "BeezNeez Gourmet Sausages",
+    "cuisine": "Hot Dogs",
+    "payment": "Cash or Cards",
+    "description": "Alaskan Reindeer Sausages & other gourmet and exotic Sausages and hotdogs",
+    "schedule": {
+      "monday": {},
+      "tuesday": {
+        "address": "S Main St & Occidental Ave S, Seattle, WA 98104, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.3328885,
+            47.6000475
+          ],
+          "type": "Point"
+        }
+      },
+      "wednesday": {
+        "address": "S Main St & Occidental Ave S, Seattle, WA 98104, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.3328885,
+            47.6000475
+          ],
+          "type": "Point"
+        }
+      },
+      "thursday": {
+        "address": "S Main St & Occidental Ave S, Seattle, WA 98104, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.3328885,
+            47.6000475
+          ],
+          "type": "Point"
+        }
+      },
+      "friday": {
+        "address": "NW Market St & 24th Ave NW, Seattle, WA 98107, USA",
+        "open": "21:00",
+        "close": "2:30",
+        "geometry": {
+          "coordinates": [
+            -122.3875802,
+            47.66867870000001
+          ],
+          "type": "Point"
+        }
+      },
+      "saturday": {
+        "address": "NW Market St & 24th Ave NW, Seattle, WA 98107, USA",
+        "open": "21:00",
+        "close": "2:30",
+        "geometry": {
+          "coordinates": [
+            -122.3875802,
+            47.66867870000001
+          ],
+          "type": "Point"
+        }
+      },
+      "sunday": {
+        "address": "S Main St & Occidental Ave S, Seattle, WA 98104, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.3328885,
+            47.6000475
+          ],
+          "type": "Point"
+        }
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/BeezNeezSausageSeattle",
+      "twitter_link": "https://twitter.com/BeezNeezSeattle",
+      "twitter_screen_name": "BeezNeezSeattle",
+      "website": "http://beezneezsausages.com/"
+    }
+  },
+  {
+    "name": "Buddha Bruddah",
+    "cuisine": "Asian",
+    "payment": "Cash or Cards",
+    "description": "Gourmet Asian mixed plates",
+    "schedule": {
+      "monday": {
+        "address": "Westlake Ave N & Harrison St, Seattle, WA 98109, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.3384426,
+            47.6220467
+          ],
+          "type": "Point"
+        }
+      },
+      "tuesday": {
+        "address": "964 Republican St, Seattle, WA 98109, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.3388248,
+            47.6232768
+          ],
+          "type": "Point"
+        }
+      },
+      "wednesday": {
+        "address": "5th Ave & Stewart St, Seattle, WA 98101, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.3378294,
+            47.6130023
+          ],
+          "type": "Point"
+        }
+      },
+      "thursday": {
+        "address": "200 Boren Ave N, Seattle, WA 98109, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.3358441,
+            47.61972230000001
+          ],
+          "type": "Point"
+        }
+      },
+      "friday": {
+        "address": "Westlake Ave N & Harrison St, Seattle, WA 98109, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.3384426,
+            47.6220467
+          ],
+          "type": "Point"
+        }
+      },
+      "saturday": {},
+      "sunday": {}
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/BuddhaBruddah",
+      "twitter_link": "",
+      "website": "http://www.buddhabruddah.com"
+    }
+  },
+  {
+    "name": "Convoy Coffee",
+    "cuisine": "Coffee",
+    "payment": "Cash or Cards",
+    "description": "A bike-driven mobile coffee stand bringing manually-brewed specialty coffee to Seattle streets, previously Handlebar Coffee.",
+    "schedule": {
+      "monday": {},
+      "tuesday": {},
+      "wednesday": {
+        "address": "4850 Meridian Ave N, Seattle, WA 98103, USA",
+        "open": "15:30",
+        "close": "19:00",
+        "geometry": {
+          "coordinates": [
+            -122.3336788,
+            47.6639551
+          ],
+          "type": "Point"
+        }
+      },
+      "thursday": {},
+      "friday": {},
+      "saturday": {
+        "address": "4252 Fremont Ave N, Seattle, WA 98103, USA",
+        "open": "9:00",
+        "close": "11:00",
+        "geometry": {
+          "coordinates": [
+            -122.3498911,
+            47.65881
+          ],
+          "type": "Point"
+        }
+      },
+      "sunday": {
+        "address": "Ballard, Seattle, WA, USA",
+        "open": "10:00",
+        "close": "15:00",
+        "geometry": {
+          "coordinates": [
+            -122.3860312,
+            47.6792172
+          ],
+          "type": "Point"
+        }
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/convoycoffee",
+      "twitter_link": "https://twitter.com/convoycoffee",
+      "twitter_screen_name": "convoycoffee",
+      "website": "http://instagram.com/convoycoffee"
+    }
+  },
+  {
+    "name": "NaanSense",
+    "cuisine": "Indian",
+    "payment": "Cash or Cards",
+    "description": "Seattle’s only truck with an on-board Tandoori Oven serving fresh Naan to order!",
+    "schedule": {
+      "monday": {
+        "address": "Microsoft W Campus Access Rd, Redmond, WA 98052, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.1405316,
+            47.66032999999999
+          ],
+          "type": "Point"
+        }
+      },
+      "tuesday": {
+        "address": "106th Ave NE & NE 6th St, Bellevue, WA 98004, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.1989522,
+            47.6155745
+          ],
+          "type": "Point"
+        }
+      },
+      "wednesday": {
+        "address": "Republican St & Boren Ave N, Seattle, WA 98109, USA",
+        "open": "11:00",
+        "close": "13:30",
+        "geometry": {
+          "coordinates": [
+            -122.3358147,
+            47.6232
+          ],
+          "type": "Point"
+        }
+      },
+      "thursday": {
+        "address": "1st Avenue South & S King St, Seattle, WA 98104, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.3341415,
+            47.5982809
+          ],
+          "type": "Point"
+        }
+      },
+      "friday": {
+        "address": "Republican St & Boren Ave N, Seattle, WA 98109, USA",
+        "open": "11:00",
+        "close": "13:30",
+        "geometry": {
+          "coordinates": [
+            -122.3358147,
+            47.6232
+          ],
+          "type": "Point"
+        }
+      },
+      "saturday": {},
+      "sunday": {}
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/SeattleNaanSense",
+      "twitter_link": "https://twitter.com/NaanSenseMobile",
+      "twitter_screen_name": "NaanSenseMobile",
+      "website": "http://www.naansenseseattle.com/"
+    }
+  },
+  {
+    "name": "Hot Revolution Donuts",
+    "cuisine": "Dessert",
+    "payment": "Cash or Cards",
+    "description": "We feature hot mini-donuts made to order with a variety of spice coatings, great icing and sauces and toppings. We also feature Fonte F2 Coffee.",
+    "schedule": {
+      "monday": {
+        "address": "Union SLU, 905 Dexter Ave N, Seattle, WA 98109, USA",
+        "open": "7:00",
+        "close": "13:00",
+        "geometry": {
+          "coordinates": [
+            -122.3427507,
+            47.62779039999999
+          ],
+          "type": "Point"
+        }
+      },
+      "tuesday": {
+        "address": "Union SLU, 905 Dexter Ave N, Seattle, WA 98109, USA",
+        "open": "7:00",
+        "close": "13:00",
+        "geometry": {
+          "coordinates": [
+            -122.3427507,
+            47.62779039999999
+          ],
+          "type": "Point"
+        }
+      },
+      "wednesday": {
+        "address": "Union SLU, 905 Dexter Ave N, Seattle, WA 98109, USA",
+        "open": "7:00",
+        "close": "13:00",
+        "geometry": {
+          "coordinates": [
+            -122.3427507,
+            47.62779039999999
+          ],
+          "type": "Point"
+        }
+      },
+      "thursday": {
+        "address": "Union SLU, 905 Dexter Ave N, Seattle, WA 98109, USA",
+        "open": "7:00",
+        "close": "13:00",
+        "geometry": {
+          "coordinates": [
+            -122.3427507,
+            47.62779039999999
+          ],
+          "type": "Point"
+        }
+      },
+      "friday": {
+        "address": "Union SLU, 905 Dexter Ave N, Seattle, WA 98109, USA",
+        "open": "7:00",
+        "close": "13:00",
+        "geometry": {
+          "coordinates": [
+            -122.3427507,
+            47.62779039999999
+          ],
+          "type": "Point"
+        }
+      },
+      "saturday": {},
+      "sunday": {}
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/HotRevolutionDonuts",
+      "twitter_link": "https://twitter.com/HotRevDonuts",
+      "twitter_screen_name": "HotRevDonuts",
+      "website": "http://www.hotrevolutiondonuts.com/"
+    }
+  },
+  {
+    "name": "Roll OK Please",
+    "cuisine": "Indian Kathi Rolls",
+    "payment": "Cash or Cards",
+    "description": "Indian street food, featuring Kathi Rolls",
+    "schedule": {
+      "monday": {
+        "address": "106th Ave NE & NE 6th St, Bellevue, WA 98004, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.1989522,
+            47.6155745
+          ],
+          "type": "Point"
+        }
+      },
+      "tuesday": {},
+      "wednesday": {
+        "address": "999 Lake Dr, Issaquah, WA 98027, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.050648,
+            47.548675
+          ],
+          "type": "Point"
+        }
+      },
+      "thursday": {
+        "address": "16331 NE 72nd Way, Redmond, WA 98052, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.1223593,
+            47.6688279
+          ],
+          "type": "Point"
+        }
+      },
+      "friday": {},
+      "saturday": {},
+      "sunday": {}
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/rollokplease",
+      "twitter_link": "https://twitter.com/RollOKPlease",
+      "twitter_screen_name": "RollOKPlease",
+      "website": "http://www.rollokplease.com"
+    }
+  },
+  {
+    "name": "Peasant Food Manifesto",
+    "cuisine": "Global Fusion",
+    "payment": "Cash or Cards",
+    "description": "Global Fusion Comfort Foods!",
+    "schedule": {
+      "monday": {},
+      "tuesday": {},
+      "wednesday": {
+        "address": "106th Ave NE & NE 6th St, Bellevue, WA 98004, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.1989522,
+            47.6155745
+          ],
+          "type": "Point"
+        }
+      },
+      "thursday": {
+        "address": "Thomas St & Terry Ave N, Seattle, WA 98109, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.3371547,
+            47.6208669
+          ],
+          "type": "Point"
+        }
+      },
+      "friday": {},
+      "saturday": {
+        "address": "826 NW 49th St, Seattle, WA 98107, USA",
+        "open": "14:00",
+        "close": "17:00",
+        "geometry": {
+          "coordinates": [
+            -122.367549,
+            47.6645826
+          ],
+          "type": "Point"
+        }
+      },
+      "sunday": {}
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/peasantfoodmanifesto",
+      "twitter_link": "https://twitter.com/EatLikeAPeasant",
+      "twitter_screen_name": "EatLikeAPeasant",
+      "website": "http://www.peasantfoodmanifesto.com"
+    }
+  }
 ]
