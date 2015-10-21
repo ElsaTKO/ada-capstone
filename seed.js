@@ -2,12 +2,13 @@ var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 var db = mongoose.connection;
 var assert = require('assert');
-var food_trucks = require('./food_trucks_data_2015-10-16T23:33:01.747Z');
+var food_trucks = require('./FOOD_TRUCK_GEO');
 // var breweries = require('./BREWERY_DATA.JSON');
 // var distilleries = require ('./DISTILLERY_DATA.JSON');
 
 mongoose.connect('mongodb://localhost/boozeybites');
 console.log('Connected to database.');
+
 db.collection("foodtrucks").drop(function(err) {
   if (err) {
     console.log("Collection drop error: ", err);
@@ -32,92 +33,15 @@ db.collection("foodtrucks").drop(function(err) {
 //   }
 // });
 
-var scheduleSchema = new Schema({
-  address: String,
-  geometry: { // GeoJSON
-    type: { type: String, default: "Point" },
-    coordinates: [Number]
-  },
-  open: String,
-  close: String
-});
+var FoodTruck = require('./models/foodtruck');
+var Brewery = require('./models/brewery');
+var Distillery = require('./models/distillery');
 
-var opencloseSchema = new Schema({
-  open: String,
-  close: String
-});
-
-var foodtruckSchema = new Schema({
-  establishment: String,
-  name: String,
-  cuisine: String,
-  payment: String,
-  description: String,
-  schedule: {
-    monday: [scheduleSchema],
-    tuesday: [scheduleSchema],
-    wednesday: [scheduleSchema],
-    thursday: [scheduleSchema],
-    friday: [scheduleSchema],
-    saturday: [scheduleSchema],
-    sunday: [scheduleSchema]
-  },
-  contact: {
-    facebook: String,
-    twitter_link: String,
-    twitter_id: String,
-    twitter_screen_name: String,
-    twitter_name: String,
-    website: String
-  }
- });
-
- var brewerySchema = new Schema({
-   name: String,
-   address: String,
-   geometry: { // GeoJSON
-     type: { type: String, default: "Point" },
-     coordinates: [Number]
-   },
-   schedule: {
-     monday: [opencloseSchema],
-     tuesday: [opencloseSchema],
-     wednesday: [opencloseSchema],
-     thursday: [opencloseSchema],
-     friday: [opencloseSchema],
-     saturday: [opencloseSchema],
-     sunday: [opencloseSchema]
-   },
-    website: String
-  });
-
-  var distillerySchema = new Schema({
-    name: String,
-    address: String,
-    geometry: { // GeoJSON
-      type: { type: String, default: "Point" },
-      coordinates: [Number]
-    },
-    schedule: {
-      monday: [opencloseSchema],
-      tuesday: [opencloseSchema],
-      wednesday: [opencloseSchema],
-      thursday: [opencloseSchema],
-      friday: [opencloseSchema],
-      saturday: [opencloseSchema],
-      sunday: [opencloseSchema]
-    },
-     website: String
-   });
-
-var FoodTruck = mongoose.model('foodtruck', foodtruckSchema);
-var Brewery = mongoose.model('brewery', brewerySchema);
-var Distillery = mongoose.model('distillery', distillerySchema);
 
 // Insert data into collection
 FoodTruck.collection.insertMany(food_trucks, function(err,res) {
        assert.equal(null, err);
-       assert.equal(119, res.insertedCount);
+       assert.equal(116, res.insertedCount);
        console.log(res.insertedCount);
 
        db.close();
