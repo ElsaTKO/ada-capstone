@@ -1,0 +1,42 @@
+{
+  "name": "Stella Fiore Wood Fired Pizza",
+  "cuisine": "Pizza",
+  "payment": "Cash or Cards",
+  "description": "Wood filred pizza with fresh & local ingredients, made to order!",
+  "schedule": {
+    "monday": {},
+    "tuesday": {
+      "address": "Westlake Ave N & Republican St, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "13:30",
+      "geometry": {
+        "coordinates": [
+          -122.3384361,
+          47.6232102
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {},
+    "thursday": {
+      "address": "Westlake Ave N & Republican St, Seattle, WA 98109, USA",
+      "open": "11:00",
+      "close": "13:30",
+      "geometry": {
+        "coordinates": [
+          -122.3384361,
+          47.6232102
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {},
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/pages/Stella-Rossa-Wood-Fired-Pizza/466841566694455",
+    "twitter_link": "",
+    "website": ""
+  }
+}

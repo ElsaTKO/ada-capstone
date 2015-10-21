@@ -1,0 +1,42 @@
+{
+  "name": "Sir Chef Pinoy Rice Bowl",
+  "cuisine": "Filipino",
+  "payment": "Cash or Cards",
+  "description": "Filipino Authentic Crispy Chicken Adobo, Lumpia- Hawaiian, Pork, Beef, Chumi Noodles, Pork BBQ, Chicken and Pork Tocino",
+  "schedule": {
+    "monday": {},
+    "tuesday": {},
+    "wednesday": {},
+    "thursday": {},
+    "friday": {
+      "address": "500 Yale St, Fircrest, WA 98466, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.5118171,
+          47.2420271
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {},
+    "sunday": {
+      "address": "1220 W Nickerson St, Seattle, WA 98119, USA",
+      "open": "15:00",
+      "close": "20:00",
+      "geometry": {
+        "coordinates": [
+          -122.3730974,
+          47.655811
+        ],
+        "type": "Point"
+      }
+    }
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/profile.php?id=100009847711906",
+    "twitter_link": "",
+    "website": ""
+  }
+}

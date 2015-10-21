@@ -1,0 +1,53 @@
+{
+  "name": "Saffron Spice",
+  "cuisine": "Indian",
+  "payment": "Cash or Cards",
+  "description": "Indian inspired wraps and bowls",
+  "schedule": {
+    "monday": {
+      "address": "2116 Westlake Ave, Seattle, WA 98121, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3380199,
+          47.6171865
+        ],
+        "type": "Point"
+      }
+    },
+    "tuesday": {
+      "address": "2116 Westlake Ave, Seattle, WA 98121, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3380199,
+          47.6171865
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {},
+    "thursday": {
+      "address": "2116 Westlake Ave, Seattle, WA 98121, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.3380199,
+          47.6171865
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {},
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/SaffronSpiceSeattle",
+    "twitter_link": "",
+    "website": "http://saffronspice.weebly.com"
+  }
+}

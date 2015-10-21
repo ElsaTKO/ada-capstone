@@ -5261,5 +5261,562 @@
       "website": "http://www.tandasteamedcheeseburgers.com/"
     }
   },
+  {
+    "name": "Stella Fiore Wood Fired Pizza",
+    "cuisine": "Pizza",
+    "payment": "Cash or Cards",
+    "description": "Wood filred pizza with fresh & local ingredients, made to order!",
+    "schedule": {
+      "monday": {},
+      "tuesday": {
+        "address": "Westlake Ave N & Republican St, Seattle, WA 98109, USA",
+        "open": "11:00",
+        "close": "13:30",
+        "geometry": {
+          "coordinates": [
+            -122.3384361,
+            47.6232102
+          ],
+          "type": "Point"
+        }
+      },
+      "wednesday": {},
+      "thursday": {
+        "address": "Westlake Ave N & Republican St, Seattle, WA 98109, USA",
+        "open": "11:00",
+        "close": "13:30",
+        "geometry": {
+          "coordinates": [
+            -122.3384361,
+            47.6232102
+          ],
+          "type": "Point"
+        }
+      },
+      "friday": {},
+      "saturday": {},
+      "sunday": {}
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/pages/Stella-Rossa-Wood-Fired-Pizza/466841566694455",
+      "twitter_link": "",
+      "website": ""
+    }
+  },
+  {
+    "name": "Sugars Gelato",
+    "cuisine": "Sweets",
+    "payment": "Cash or Cards",
+    "description": "All natural gelato – rich, delicious, Italian style ice cream!",
+    "schedule": {
+      "monday": {},
+      "tuesday": {},
+      "wednesday": {},
+      "thursday": {
+        "address": "22307 Dock Ave S, Des Moines, WA 98198, USA",
+        "geometry": {
+          "coordinates": [
+            -122.3292642,
+            47.4014315
+          ],
+          "type": "Point"
+        }
+      },
+      "friday": {},
+      "saturday": {},
+      "sunday": {}
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/SugarsGelato",
+      "twitter_link": "https://twitter.com/sugarsgelato",
+      "twitter_screen_name": "sugarsgelato",
+      "website": "http://www.sugarsgelato.com"
+    }
+  },
+  {
+    "name": "Seattle Biscuit Co.",
+    "cuisine": "Sandwiches / Breakfast",
+    "payment": "Cash or Cards",
+    "description": "Handmade Southern-style biscuits (biscuits and gravy, huge biscuit sandwiches, etc.)  with amazing locally sourced ingredients.",
+    "schedule": {
+      "monday": {},
+      "tuesday": {},
+      "wednesday": {
+        "address": "1406 NW 53rd St, Seattle, WA 98107, USA",
+        "open": "17:00",
+        "close": "20:00",
+        "geometry": {
+          "coordinates": [
+            -122.374099,
+            47.667386
+          ],
+          "type": "Point"
+        }
+      },
+      "thursday": {},
+      "friday": {},
+      "saturday": {},
+      "sunday": {}
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/SeattleBiscuitCompany",
+      "twitter_link": "https://twitter.com/SeattleBisCo",
+      "twitter_screen_name": "SeattleBisCo",
+      "website": "http://www.seattlebiscuitcompany.com"
+    }
+  },
+  {
+    "name": "Secret Sausage",
+    "cuisine": "Hot Dogs",
+    "payment": "Unknown",
+    "description": "Serving our own take on “Pioneer Square”, Seattle style hot dogs. CREAM CHEESE!",
+    "schedule": {
+      "monday": {
+        "address": "Microsoft W Campus Access Rd, Redmond, WA 98052, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.1405316,
+            47.66032999999999
+          ],
+          "type": "Point"
+        }
+      },
+      "tuesday": {
+        "address": "Microsoft W Campus Access Rd, Redmond, WA 98052, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.1405316,
+            47.66032999999999
+          ],
+          "type": "Point"
+        }
+      },
+      "wednesday": {
+        "address": "Microsoft W Campus Access Rd, Redmond, WA 98052, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.1405316,
+            47.66032999999999
+          ],
+          "type": "Point"
+        }
+      },
+      "thursday": {
+        "address": "Microsoft W Campus Access Rd, Redmond, WA 98052, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.1405316,
+            47.66032999999999
+          ],
+          "type": "Point"
+        }
+      },
+      "friday": {
+        "address": "1475 120th Ave NE, Bellevue, WA 98005, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.1811912,
+            47.6230578
+          ],
+          "type": "Point"
+        }
+      },
+      "saturday": {},
+      "sunday": {
+        "address": "3401 Evanston Ave N, Seattle, WA 98103, USA",
+        "open": "10:00",
+        "close": "16:00",
+        "geometry": {
+          "coordinates": [
+            -122.3516227,
+            47.65011399999999
+          ],
+          "type": "Point"
+        }
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/pages/Secret-Sausage/140307463178",
+      "twitter_link": "https://twitter.com/secretsausages",
+      "twitter_screen_name": "secretsausages",
+      "website": "http://www.secretsausageseattle.com/"
+    }
+  },
+  {
+    "name": "Seattle Chicken Over Rice",
+    "cuisine": "Mediterranean",
+    "payment": "Cash or Cards",
+    "description": "Stop by and try Seattle’s version of New York’s classic street food!",
+    "schedule": {
+      "monday": {
+        "address": "401 Pine St, Seattle, WA 98101, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry" : {
+          "coordinates" : [
+            -122.3369905,
+            47.6118256
+          ],
+          "type": "Point"
+        }
+      },
+      "tuesday": {
+        "address": "S Main St & Occidental Ave S, Seattle, WA 98104, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.3328885,
+            47.6000475
+          ],
+          "type": "Point"
+        }
+      },
+      "wednesday": {
+        "address": "106th Ave NE & NE 6th St, Bellevue, WA 98004, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.1989522,
+            47.6155745
+          ],
+          "type": "Point"
+        }
+      },
+      "thursday": {
+        "address": "S Main St & Occidental Ave S, Seattle, WA 98104, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.3328885,
+            47.6000475
+          ],
+          "type": "Point"
+        }
+      },
+      "friday": {
+        "address": "Republican St & Boren Ave N, Seattle, WA 98109, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.3358147,
+            47.6232
+          ],
+          "type": "Point"
+        }
+      },
+      "saturday": {},
+      "sunday": {}
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/seattlechicken",
+      "twitter_link": "https://twitter.com/seattle_chicken",
+      "twitter_screen_name": "seattle_chicken",
+      "website": "http://www.seattlechickenoverrice.com/"
+    }
+  },
+  {
+    "name": "Sir Chef Pinoy Rice Bowl",
+    "cuisine": "Filipino",
+    "payment": "Cash or Cards",
+    "description": "Filipino Authentic Crispy Chicken Adobo, Lumpia- Hawaiian, Pork, Beef, Chumi Noodles, Pork BBQ, Chicken and Pork Tocino",
+    "schedule": {
+      "monday": {},
+      "tuesday": {},
+      "wednesday": {},
+      "thursday": {},
+      "friday": {
+        "address": "500 Yale St, Fircrest, WA 98466, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.5118171,
+            47.2420271
+          ],
+          "type": "Point"
+        }
+      },
+      "saturday": {},
+      "sunday": {
+        "address": "1220 W Nickerson St, Seattle, WA 98119, USA",
+        "open": "15:00",
+        "close": "20:00",
+        "geometry": {
+          "coordinates": [
+            -122.3730974,
+            47.655811
+          ],
+          "type": "Point"
+        }
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/profile.php?id=100009847711906",
+      "twitter_link": "",
+      "website": ""
+    }
+  },
+  {
+    "name": "Saffron Spice",
+    "cuisine": "Indian",
+    "payment": "Cash or Cards",
+    "description": "Indian inspired wraps and bowls",
+    "schedule": {
+      "monday": {
+        "address": "2116 Westlake Ave, Seattle, WA 98121, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.3380199,
+            47.6171865
+          ],
+          "type": "Point"
+        }
+      },
+      "tuesday": {
+        "address": "2116 Westlake Ave, Seattle, WA 98121, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.3380199,
+            47.6171865
+          ],
+          "type": "Point"
+        }
+      },
+      "wednesday": {},
+      "thursday": {
+        "address": "2116 Westlake Ave, Seattle, WA 98121, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.3380199,
+            47.6171865
+          ],
+          "type": "Point"
+        }
+      },
+      "friday": {},
+      "saturday": {},
+      "sunday": {}
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/SaffronSpiceSeattle",
+      "twitter_link": "",
+      "website": "http://saffronspice.weebly.com"
+    }
+  },
+  {
+    "name": "The Brick Wood-Fired Pizza",
+    "cuisine": "Pizza",
+    "payment": "Cash or Cards",
+    "description": "Wood-Fired Pizza",
+    "schedule": {
+      "monday": {},
+      "tuesday": {},
+      "wednesday": {},
+      "thursday": {},
+      "friday": {
+        "address": "19501 144th Ave NE, Woodinville, WA 98072, USA",
+        "open": "18:00",
+        "close": "21:00",
+        "geometry": {
+          "coordinates": [
+            -122.1477643,
+            47.7690162
+          ],
+          "type": "Point"
+        }
+      },
+      "saturday": {
+        "address": "19501 144th Ave NE, Woodinville, WA 98072, USA",
+        "open": "13:00",
+        "close": "17:00",
+        "geometry": {
+          "coordinates": [
+            -122.1477643,
+            47.7690162
+          ],
+          "type": "Point"
+        }
+      },
+      "sunday": {
+        "address": "19501 144th Ave NE, Woodinville, WA 98072, USA",
+        "open": "13:00",
+        "close": "17:00",
+        "geometry": {
+          "coordinates": [
+            -122.1477643,
+            47.7690162
+          ],
+          "type": "Point"
+        }
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/thebrickwoodfiredpizza",
+      "twitter_link": "https://twitter.com/BrickPizzaWA",
+      "twitter_screen_name": "BrickPizzaWA",
+      "website": "http://www.thebrickwood-firedpizza.com/"
+    }
+  },
+  {
+    "name": "Snout & Co.",
+    "cuisine": "Cuban",
+    "payment": "Cash or Cards",
+    "description": "Cubans, rice and beans, tostones – Soul food from Cuba to South Carolina, just like grandma used to make.",
+    "schedule": {
+      "monday": {
+        "address": "106th Ave NE & NE 6th St, Bellevue, WA 98004, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.1989522,
+            47.6155745
+          ],
+          "type": "Point"
+        }
+      },
+      "tuesday": {
+        "address": "S Main St & Occidental Ave S, Seattle, WA 98104, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.3328885,
+            47.6000475
+          ],
+          "type": "Point"
+        }
+      },
+      "wednesday": {
+        "address": "101 Elliott Ave W, Seattle, WA 98119, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.359573,
+            47.619075
+          ],
+          "type": "Point"
+        }
+      },
+      "thursday": {
+        "address": "106th Ave NE & NE 6th St, Bellevue, WA 98004, USA",
+        "open": "11:00",
+        "close": "14:00",
+        "geometry": {
+          "coordinates": [
+            -122.1989522,
+            47.6155745
+          ],
+          "type": "Point"
+        }
+      },
+      "friday": {},
+      "saturday": {},
+      "sunday": {}
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/snoutandco",
+      "twitter_link": "https://twitter.com/SnoutAndCo",
+      "twitter_screen_name": "SnoutAndCo",
+      "website": "http://www.snoutandco.com"
+    }
+  },
+  {
+    "name": "Seattle Cookie Counter",
+    "cuisine": "Sweets",
+    "payment": "Cash or Cards",
+    "description": "We serve 100% vegan ice cream sandwiches – we make the ice cream and the cookies by hand and pre-package the sandwiches at our kitchen space.",
+    "schedule": {
+      "monday": {},
+      "tuesday": {},
+      "wednesday": {
+        "address": "401 Pine St, Seattle, WA 98101, USA",
+        "open": "15:00",
+        "close": "19:00",
+        "geometry" : {
+          "coordinates" : [
+            -122.3369905,
+            47.6118256
+          ],
+          "type": "Point"
+        }
+      },
+      "thursday": {
+        "address": "800 NE 65th St, Seattle, WA 98115, USA",
+        "open": "16:00",
+        "close": "21:00",
+        "geometry": {
+          "coordinates": [
+            -122.3197323,
+            47.676053
+          ],
+          "type": "Point"
+        }
+      },
+      "friday": {
+        "address": "401 15th Ave E, Seattle, WA 98112, USA",
+        "open": "15:00",
+        "close": "21:00",
+        "geometry": {
+          "coordinates": [
+            -122.3129809,
+            47.6220535
+          ],
+          "type": "Point"
+        }
+      },
+      "saturday": {
+        "address": "800 NE 65th St, Seattle, WA 98115, USA",
+        "open": "12:00",
+        "close": "18:00",
+        "geometry": {
+          "coordinates": [
+            -122.3197323,
+            47.676053
+          ],
+          "type": "Point"
+        }
+      },
+      "sunday": {
+        "address": "4440 California Ave SW, Seattle, WA 98116, USA",
+        "open": "11:00",
+        "close": "16:00",
+        "geometry": {
+          "coordinates": [
+            -122.3865084,
+            47.5635392
+          ],
+          "type": "Point"
+        }
+      }
+    },
+    "contact": {
+      "facebook": "https://www.facebook.com/SeattleCookieCounter",
+      "twitter_link": "https://twitter.com/seattlecookie",
+      "twitter_screen_name": "seattlecookie",
+      "website": "http://www.seattlecookiecounter.com/"
+    }
+  },
   
 ]

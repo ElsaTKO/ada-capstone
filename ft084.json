@@ -1,0 +1,87 @@
+{
+  "name": "Secret Sausage",
+  "cuisine": "Hot Dogs",
+  "payment": "Unknown",
+  "description": "Serving our own take on “Pioneer Square”, Seattle style hot dogs. CREAM CHEESE!",
+  "schedule": {
+    "monday": {
+      "address": "Microsoft W Campus Access Rd, Redmond, WA 98052, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.1405316,
+          47.66032999999999
+        ],
+        "type": "Point"
+      }
+    },
+    "tuesday": {
+      "address": "Microsoft W Campus Access Rd, Redmond, WA 98052, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.1405316,
+          47.66032999999999
+        ],
+        "type": "Point"
+      }
+    },
+    "wednesday": {
+      "address": "Microsoft W Campus Access Rd, Redmond, WA 98052, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.1405316,
+          47.66032999999999
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "Microsoft W Campus Access Rd, Redmond, WA 98052, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.1405316,
+          47.66032999999999
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "1475 120th Ave NE, Bellevue, WA 98005, USA",
+      "open": "11:00",
+      "close": "14:00",
+      "geometry": {
+        "coordinates": [
+          -122.1811912,
+          47.6230578
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {},
+    "sunday": {
+      "address": "3401 Evanston Ave N, Seattle, WA 98103, USA",
+      "open": "10:00",
+      "close": "16:00",
+      "geometry": {
+        "coordinates": [
+          -122.3516227,
+          47.65011399999999
+        ],
+        "type": "Point"
+      }
+    }
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/pages/Secret-Sausage/140307463178",
+    "twitter_link": "https://twitter.com/secretsausages",
+    "twitter_screen_name": "secretsausages",
+    "website": "http://www.secretsausageseattle.com/"
+  }
+}

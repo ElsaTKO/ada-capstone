@@ -1,0 +1,32 @@
+{
+  "name": "Seattle Biscuit Co.",
+  "cuisine": "Sandwiches / Breakfast",
+  "payment": "Cash or Cards",
+  "description": "Handmade Southern-style biscuits (biscuits and gravy, huge biscuit sandwiches, etc.)  with amazing locally sourced ingredients.",
+  "schedule": {
+    "monday": {},
+    "tuesday": {},
+    "wednesday": {
+      "address": "1406 NW 53rd St, Seattle, WA 98107, USA",
+      "open": "17:00",
+      "close": "20:00",
+      "geometry": {
+        "coordinates": [
+          -122.374099,
+          47.667386
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {},
+    "friday": {},
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/SeattleBiscuitCompany",
+    "twitter_link": "https://twitter.com/SeattleBisCo",
+    "twitter_screen_name": "SeattleBisCo",
+    "website": "http://www.seattlebiscuitcompany.com"
+  }
+}

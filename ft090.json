@@ -1,0 +1,76 @@
+{
+  "name": "Seattle Cookie Counter",
+  "cuisine": "Sweets",
+  "payment": "Cash or Cards",
+  "description": "We serve 100% vegan ice cream sandwiches – we make the ice cream and the cookies by hand and pre-package the sandwiches at our kitchen space.",
+  "schedule": {
+    "monday": {},
+    "tuesday": {},
+    "wednesday": {
+      "address": "401 Pine St, Seattle, WA 98101, USA",
+      "open": "15:00",
+      "close": "19:00",
+      "geometry" : {
+        "coordinates" : [
+          -122.3369905,
+          47.6118256
+        ],
+        "type": "Point"
+      }
+    },
+    "thursday": {
+      "address": "800 NE 65th St, Seattle, WA 98115, USA",
+      "open": "16:00",
+      "close": "21:00",
+      "geometry": {
+        "coordinates": [
+          -122.3197323,
+          47.676053
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {
+      "address": "401 15th Ave E, Seattle, WA 98112, USA",
+      "open": "15:00",
+      "close": "21:00",
+      "geometry": {
+        "coordinates": [
+          -122.3129809,
+          47.6220535
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {
+      "address": "800 NE 65th St, Seattle, WA 98115, USA",
+      "open": "12:00",
+      "close": "18:00",
+      "geometry": {
+        "coordinates": [
+          -122.3197323,
+          47.676053
+        ],
+        "type": "Point"
+      }
+    },
+    "sunday": {
+      "address": "4440 California Ave SW, Seattle, WA 98116, USA",
+      "open": "11:00",
+      "close": "16:00",
+      "geometry": {
+        "coordinates": [
+          -122.3865084,
+          47.5635392
+        ],
+        "type": "Point"
+      }
+    }
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/SeattleCookieCounter",
+    "twitter_link": "https://twitter.com/seattlecookie",
+    "twitter_screen_name": "seattlecookie",
+    "website": "http://www.seattlecookiecounter.com/"
+  }
+}

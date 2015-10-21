@@ -1,0 +1,54 @@
+{
+  "name": "The Brick Wood-Fired Pizza",
+  "cuisine": "Pizza",
+  "payment": "Cash or Cards",
+  "description": "Wood-Fired Pizza",
+  "schedule": {
+    "monday": {},
+    "tuesday": {},
+    "wednesday": {},
+    "thursday": {},
+    "friday": {
+      "address": "19501 144th Ave NE, Woodinville, WA 98072, USA",
+      "open": "18:00",
+      "close": "21:00",
+      "geometry": {
+        "coordinates": [
+          -122.1477643,
+          47.7690162
+        ],
+        "type": "Point"
+      }
+    },
+    "saturday": {
+      "address": "19501 144th Ave NE, Woodinville, WA 98072, USA",
+      "open": "13:00",
+      "close": "17:00",
+      "geometry": {
+        "coordinates": [
+          -122.1477643,
+          47.7690162
+        ],
+        "type": "Point"
+      }
+    },
+    "sunday": {
+      "address": "19501 144th Ave NE, Woodinville, WA 98072, USA",
+      "open": "13:00",
+      "close": "17:00",
+      "geometry": {
+        "coordinates": [
+          -122.1477643,
+          47.7690162
+        ],
+        "type": "Point"
+      }
+    }
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/thebrickwoodfiredpizza",
+    "twitter_link": "https://twitter.com/BrickPizzaWA",
+    "twitter_screen_name": "BrickPizzaWA",
+    "website": "http://www.thebrickwood-firedpizza.com/"
+  }
+}

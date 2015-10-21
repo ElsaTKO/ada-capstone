@@ -1,0 +1,30 @@
+{
+  "name": "Sugars Gelato",
+  "cuisine": "Sweets",
+  "payment": "Cash or Cards",
+  "description": "All natural gelato – rich, delicious, Italian style ice cream!",
+  "schedule": {
+    "monday": {},
+    "tuesday": {},
+    "wednesday": {},
+    "thursday": {
+      "address": "22307 Dock Ave S, Des Moines, WA 98198, USA",
+      "geometry": {
+        "coordinates": [
+          -122.3292642,
+          47.4014315
+        ],
+        "type": "Point"
+      }
+    },
+    "friday": {},
+    "saturday": {},
+    "sunday": {}
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/SugarsGelato",
+    "twitter_link": "https://twitter.com/sugarsgelato",
+    "twitter_screen_name": "sugarsgelato",
+    "website": "http://www.sugarsgelato.com"
+  }
+}
