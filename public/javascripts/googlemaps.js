@@ -10,7 +10,8 @@ function getFoodtrucks() {
 }
 
 function pinFoodtrucks(foodtrucks) {
-  // console.log(JSON.stringify(foodtrucks[0]));
+  console.log(foodtrucks.length);
+  console.log(foodtrucks[0]);
 
   // Place markers on map
         // for( i = 0; i < json.length; i++) {
