@@ -26,21 +26,37 @@ function determineWeekday() {
   return weekday;
 }
 
-function getFoodtrucks(map) {
+function convertToAmPm(time) {
+  var hour = time.split(":")[0]; // 12:00 => 12
+  var min = time.split(":")[1]; // 12:00 => 00
+  var ampm;
+  if (hour === 0) {
+    hour = 12; // 0:00 => 12:00
+    ampm = "am";
+  }
+  if (hour > 12) {
+    hour -= 12; // 13:00 => 1:00
+    ampm = "pm";
+  } else {
+    ampm = "am";
+  }
+  var converted_time = hour + ":" + min + ampm;
+  return converted_time;
+}
+
+function getFoodtrucks(map, infowindow) {
   $.ajax({
     type: "GET",
     url: '/api/foodtrucks',
     dataType: "json",
     success: function (res) {
-      pinFoodtrucks(res, map);
+      pinFoodtrucks(res, map, infowindow);
     }
   });
 }
 
-function pinFoodtrucks(foodtrucks, map) {
+function pinFoodtrucks(foodtrucks, map, infowindow) {
   var weekday = determineWeekday();
-
-  var infowindow = new google.maps.InfoWindow({});
 
   for (i = 0; i < foodtrucks.length; i++) {
     var lng = foodtrucks[i].schedule["" + weekday + ""][0].geometry.coordinates[0];
@@ -52,9 +68,15 @@ function pinFoodtrucks(foodtrucks, map) {
     var payment = foodtrucks[i].payment.toLowerCase();
     var description = foodtrucks[i].description;
     var open = foodtrucks[i].schedule["" + weekday + ""][0].open;
+    if (open !== undefined) {
+      open = convertToAmPm(open);
+    }
     var close = foodtrucks[i].schedule["" + weekday + ""][0].close;
-    var address = foodtrucks[i].schedule["" + weekday + ""].address;
-
+    if (close !== undefined) {
+      close = convertToAmPm(close);
+    }
+    var address = foodtrucks[i].schedule["" + weekday + ""][0].address;
+    
     var content = "<div class='infowindow'><p>Name: " + name + "</p><p>Cuisine: " + cuisine + "</p><p>Accepted payment: " + payment + "</p><p>" + description + "</p><p>Open: " + open + "</p><p>Close: " + close + "</p><p>Address (approximate): " + address + "</p></div>";
 
     var marker = new google.maps.Marker({
@@ -85,7 +107,9 @@ function initMap() {
     center: {lat: 47.6097, lng: -122.3331}
   });
 
-  getFoodtrucks(map);
+  var infowindow = new google.maps.InfoWindow({});
+
+  getFoodtrucks(map, infowindow);
   // getBreweries();
   // getDistilleries();
 }
