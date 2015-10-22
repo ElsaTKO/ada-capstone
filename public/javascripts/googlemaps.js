@@ -61,7 +61,6 @@ function pinFoodtrucks(foodtrucks, map, infowindow) {
   for (i = 0; i < foodtrucks.length; i++) {
     var lng = foodtrucks[i].schedule["" + weekday + ""][0].geometry.coordinates[0];
     var lat = foodtrucks[i].schedule["" + weekday + ""][0].geometry.coordinates[1];
-    // var latLng = new google.maps.LatLng(foodtrucks[i].schedule["" + weekday + ""][0].geometry.coordinates[1], foodtrucks[i].schedule["" + weekday + ""][0].geometry.coordinates[0]);
     var latLng = new google.maps.LatLng(lat, lng);
     var name = foodtrucks[i].name;
     var cuisine = foodtrucks[i].cuisine;
@@ -87,10 +86,17 @@ function pinFoodtrucks(foodtrucks, map, infowindow) {
 
     var content = "<div class='infowindow'><p>" + name + "</p><p>Cuisine: " + cuisine + "</p><p>Accepted payment: " + payment + "</p><p>" + description + "</p><p>Hours: " + open + " - " + close + "</p>" + facebook_link + " " + twitter_link + " " + website_link + "<p>Address (approximate): " + address + "</p></div>";
 
+    var image = 'images/foodtruck.png';
+    // var beachMarker = new google.maps.Marker({
+    //   position: {lat: -33.890, lng: 151.274},
+    //   map: map,
+    //   icon: image
+    // });
+
     var marker = new google.maps.Marker({
       position: latLng,
       map: map,
-      label: "F",
+      icon: image,
       content: content
     });
 
