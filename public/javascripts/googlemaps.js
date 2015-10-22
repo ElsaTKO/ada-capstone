@@ -1,29 +1,53 @@
-function getFoodtrucks() {
+function determineWeekday() {
+  var today = new Date();
+  var weekday_integer = today.getDay(); // 0 for Sunday, 1 for Monday, etc
+  var hour = today.getHours(); // 0 for midnight, 23:59 for 11:59pm
+
+  // is it late night? food trucks might still be out from previous day
+  if (hour >= 0 && hour <= 4) {
+    // is it sunday? rewinding one day needs to be 6, not -1
+    if (weekday_integer === 0) {
+      weekday_integer = 6;
+    } else {
+      weekday_integer -= 1;
+    }
+  }
+
+  var weekdayMap = {
+    0: "sunday",
+    1: "monday",
+    2: "tuesday",
+    3: "wednesday",
+    4: "thursday",
+    5: "friday",
+    6: "saturday"
+  };
+  var weekday = weekdayMap[weekday_integer];
+  return weekday;
+}
+
+function getFoodtrucks(map) {
   $.ajax({
     type: "GET",
     url: '/api/foodtrucks',
     dataType: "json",
     success: function (res) {
-      pinFoodtrucks(res);
+      pinFoodtrucks(res, map);
     }
   });
 }
 
-function pinFoodtrucks(foodtrucks) {
-  console.log(foodtrucks.length);
-  console.log(foodtrucks[0]);
+function pinFoodtrucks(foodtrucks, map) {
+  var weekday = determineWeekday();
 
-  // Place markers on map
-        // for( i = 0; i < json.length; i++) {
-        //     var latLng = new google.maps.LatLng(json[i].lat, json[i].lng);
-        //     var marker = new google.maps.Marker({
-        //         position: latLng,
-        //         map: map
-        //     });
-        // }
+  for (i = 0; i < foodtrucks.length; i++) {
+    var latLng = new google.maps.LatLng(foodtrucks[i].schedule["" + weekday + ""][0].geometry.coordinates[1], foodtrucks[i].schedule["" + weekday + ""][0].geometry.coordinates[0]);
+    var marker = new google.maps.Marker({
+      position: latLng,
+      map: map
+    });
+  }
 }
-
-
 
 // function getBreweries() {
 //
@@ -34,25 +58,12 @@ function pinFoodtrucks(foodtrucks) {
 // }
 
 function initMap() {
-
-  getFoodtrucks();
-  // getBreweries();
-  // getDistilleries();
-
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 12,
     center: {lat: 47.6097, lng: -122.3331}
   });
 
-  var marker = new google.maps.Marker({
-    position: {lat: 47.6220217, lng: -122.3358359},
-    map: map,
-    title: 'Hello World!'
-  });
-
-  // var marker2 = new google.maps.Marker({
-  //   position: {lat: 47.5981458, lng: -122.3345507},
-  //   map: map,
-  //   title: 'Hello World2!'
-  // });
+  getFoodtrucks(map);
+  // getBreweries();
+  // getDistilleries();
 }
