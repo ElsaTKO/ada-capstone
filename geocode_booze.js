@@ -34,12 +34,12 @@ var new_breweries = [];
 function iterateBreweries(old_breweries) {
   for (i = 0; i < old_breweries.length; i++) {
     // DEBUGGING
-    if (i < 0) { // FOR THIS INDEX
+    if (i < 30) { // FOR THIS INDEX
       continue;
     }
-    if (i > 0) { // FOR THIS INDEX
-      return;
-    }
+    // if (i > 29) { // FOR THIS INDEX
+    //   return;
+    // }
     new_brewery = old_breweries[i];
     createRequestFromAddress(new_brewery, i);
   }
@@ -78,7 +78,7 @@ function addGeoToJson(body, brewery, index) {
     brewery.geometry["coordinates"] = [];
     brewery.geometry["type"] = "Point";
 
-    var possibilities = {}
+    var possibilities = {};
     for (i = 0; i < data.results.length; i++) {
       var formatted_address = data.results[i].formatted_address;
       var lng = data.results[i].geometry.location.lng;
@@ -88,7 +88,7 @@ function addGeoToJson(body, brewery, index) {
     }
     // console.log("*** " + brewery.name + " HAS MORE THAN ONE RESULT:\n", JSON.stringify(data.results, null, 2));
     console.log("*** ORIGINAL:\n", JSON.stringify(brewery, null, 2));
-    console.log("*** PLEASE CHOOSE A RESULT:\n", possibilities);
+    console.log("*** PLEASE CHOOSE A RESULT:\n", JSON.stringify(possibilities, null, 2));
     writeBreweryToFile(brewery, index);
   } else {
     var result = data.results[0];
