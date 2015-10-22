@@ -40,11 +40,25 @@ function getFoodtrucks(map) {
 function pinFoodtrucks(foodtrucks, map) {
   var weekday = determineWeekday();
 
+  var infowindow = new google.maps.InfoWindow({});
+
   for (i = 0; i < foodtrucks.length; i++) {
     var latLng = new google.maps.LatLng(foodtrucks[i].schedule["" + weekday + ""][0].geometry.coordinates[1], foodtrucks[i].schedule["" + weekday + ""][0].geometry.coordinates[0]);
+
+    var content = foodtrucks[i].name;
+
     var marker = new google.maps.Marker({
       position: latLng,
-      map: map
+      map: map,
+      label: "F",
+      content: content
+    });
+
+    marker.addListener('click', function(e) {
+      infowindow.close();
+      // var content = foodtrucks[i].name;
+      infowindow.setContent(this.content);
+      infowindow.open(map, this);
     });
   }
 }
