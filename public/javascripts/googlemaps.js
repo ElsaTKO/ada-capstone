@@ -76,8 +76,16 @@ function pinFoodtrucks(foodtrucks, map, infowindow) {
       close = convertToAmPm(close);
     }
     var address = foodtrucks[i].schedule["" + weekday + ""][0].address;
-    
-    var content = "<div class='infowindow'><p>Name: " + name + "</p><p>Cuisine: " + cuisine + "</p><p>Accepted payment: " + payment + "</p><p>" + description + "</p><p>Open: " + open + "</p><p>Close: " + close + "</p><p>Address (approximate): " + address + "</p></div>";
+    var facebook_url = foodtrucks[i].contact.facebook;
+    var facebook_link = "<a href='" + facebook_url + "' target='_blank'>Facebook</a>";
+    var twitter_url = foodtrucks[i].contact.twitter_link;
+    var twitter_link = "<a href='" + twitter_url + "' target='_blank'>Twitter</a>";
+    var website_url = foodtrucks[i].contact.website;
+    var website_link = "<a href='" + website_url + "' target='_blank'>website</a>";
+
+    // add way to only append urls if they are defined
+
+    var content = "<div class='infowindow'><p>" + name + "</p><p>Cuisine: " + cuisine + "</p><p>Accepted payment: " + payment + "</p><p>" + description + "</p><p>Hours: " + open + " - " + close + "</p>" + facebook_link + " " + twitter_link + " " + website_link + "<p>Address (approximate): " + address + "</p></div>";
 
     var marker = new google.maps.Marker({
       position: latLng,
