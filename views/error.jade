@@ -1,6 +1,11 @@
-extends layout
+doctype html
+html
+  head
+    meta(name='viewport', content='initial-scale=1.0, user-scalable=no')
+    meta(charset='utf-8')
+    title BOOZEY BITES
 
-block content
-  h1= message
-  h2= error.status
-  pre #{error.stack}
+  body
+    h1= message
+    h2= error.status
+    pre #{error.stack}
