@@ -1,0 +1,15 @@
+{
+  "name": "Stoup Brewing",
+  "street": "1108 NW 52nd St.",
+  "city": "Seattle",
+  "state": "WA",
+  "zip": "98107",
+  "address": "1108 NW 52nd St., Seattle, WA 98107",
+  "geometry": {
+    "coordinates": [
+      -122.371202,
+      47.6666529
+    ],
+    "type": "Point"
+  }
+}

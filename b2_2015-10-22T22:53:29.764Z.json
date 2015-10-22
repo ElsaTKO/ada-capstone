@@ -1,0 +1,15 @@
+{
+  "name": "Big Al Brewing",
+  "street": "9832 14th Ave SW",
+  "city": "Seattle",
+  "state": "WA",
+  "zip": "98106",
+  "address": "9832 14th Ave SW, Seattle, WA 98106",
+  "geometry": {
+    "coordinates": [
+      -122.352381,
+      47.514338
+    ],
+    "type": "Point"
+  }
+}

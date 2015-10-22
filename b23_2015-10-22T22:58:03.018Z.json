@@ -1,0 +1,15 @@
+{
+  "name": "Spinnaker Bay Brewing",
+  "street": "5718 Rainier Ave S",
+  "city": "Seattle",
+  "state": "WA",
+  "zip": "98118",
+  "address": "5718 Rainier Ave S, Seattle, WA 98118",
+  "geometry": {
+    "coordinates": [
+      -122.2770789,
+      47.5507863
+    ],
+    "type": "Point"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Holy Mountain Brewing",
+  "street": "1421 Elliott Ave W.",
+  "city": "Seattle",
+  "state": "WA",
+  "zip": "98119",
+  "address": "1421 Elliott Ave W., Seattle, WA 98119",
+  "geometry": {
+    "coordinates": [
+      -122.3745168,
+      47.6308076
+    ],
+    "type": "Point"
+  }
+}

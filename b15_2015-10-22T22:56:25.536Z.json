@@ -1,0 +1,15 @@
+{
+  "name": "West Seattle Brewing Company",
+  "street": "4415 Fauntleroy Way SW",
+  "city": "Seattle",
+  "state": "WA",
+  "zip": "98126",
+  "address": "4415 Fauntleroy Way SW, Seattle, WA 98126",
+  "geometry": {
+    "coordinates": [
+      -122.3776532,
+      47.5643571
+    ],
+    "type": "Point"
+  }
+}

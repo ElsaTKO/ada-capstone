@@ -1,0 +1,15 @@
+{
+  "name": "Two Beers Brewing Co.",
+  "street": "4700 Ohio Ave. S., Unit A",
+  "city": "Seattle",
+  "state": "WA",
+  "zip": "98134",
+  "address": "4700 Ohio Ave. S., Unit A, Seattle, WA 98134",
+  "geometry": {
+    "coordinates": [
+      -122.3377055,
+      47.560333
+    ],
+    "type": "Point"
+  }
+}

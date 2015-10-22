@@ -1,0 +1,15 @@
+{
+  "name": "Populuxe Brewing",
+  "street": "826B NW 49th St",
+  "city": "Seattle",
+  "state": "WA",
+  "zip": "98107",
+  "address": "826B NW 49th St, Seattle, WA 98107",
+  "geometry": {
+    "coordinates": [
+      -122.367549,
+      47.6645826
+    ],
+    "type": "Point"
+  }
+}

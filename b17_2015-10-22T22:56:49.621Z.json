@@ -1,0 +1,15 @@
+{
+  "name": "Rooftop Brewing Company",
+  "street": "6 Dravus St",
+  "city": "Seattle",
+  "state": "WA",
+  "zip": "98109",
+  "address": "6 Dravus St, Seattle, WA 98109",
+  "geometry": {
+    "coordinates": [
+      -122.3572991,
+      47.6489096
+    ],
+    "type": "Point"
+  }
+}

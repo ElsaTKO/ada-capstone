@@ -1,0 +1,15 @@
+{
+  "name": "Ghostfish Brewing Co.",
+  "street": "2942 1st Ave. S.",
+  "city": "Seattle",
+  "state": "WA",
+  "zip": "98134",
+  "address": "2942 1st Ave. S., Seattle, WA 98134",
+  "geometry": {
+    "coordinates": [
+      -122.3338489,
+      47.5762875
+    ],
+    "type": "Point"
+  }
+}

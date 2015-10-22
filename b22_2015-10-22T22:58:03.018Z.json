@@ -1,0 +1,15 @@
+{
+  "name": "Lowercase Brewing",
+  "street": "8103 8th Ave S.",
+  "city": "Seattle",
+  "state": "WA",
+  "zip": "98108",
+  "address": "8103 8th Ave S., Seattle, WA 98108",
+  "geometry": {
+    "coordinates": [
+      -122.3231782,
+      47.53038890000001
+    ],
+    "type": "Point"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Northwest Peaks Brewery",
+  "street": "4912 17th Avenue NW Ste B",
+  "city": "Seattle",
+  "state": "WA",
+  "zip": "98107",
+  "address": "4912 17th Avenue NW Ste B, Seattle, WA 98107",
+  "geometry": {
+    "coordinates": [
+      -122.3786014,
+      47.664828
+    ],
+    "type": "Point"
+  }
+}

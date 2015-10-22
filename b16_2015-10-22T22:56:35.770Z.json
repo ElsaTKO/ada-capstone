@@ -1,0 +1,15 @@
+{
+  "name": "Standard Brewing",
+  "street": "2504 S Jackson St",
+  "city": "Seattle",
+  "state": "WA",
+  "zip": "98144",
+  "address": "2504 S Jackson St, Seattle, WA 98144",
+  "geometry": {
+    "coordinates": [
+      -122.2995779,
+      47.5994442
+    ],
+    "type": "Point"
+  }
+}

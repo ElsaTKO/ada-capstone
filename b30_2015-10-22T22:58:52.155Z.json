@@ -1,0 +1,15 @@
+{
+  "name": "Hellbent Brewing Co.",
+  "street": "13035 Lake City Way NE",
+  "city": "Seattle",
+  "state": "WA",
+  "zip": "98125",
+  "address": "13035 Lake City Way NE, Seattle, WA 98125",
+  "geometry": {
+    "coordinates": [
+      -122.293177,
+      47.7239727
+    ],
+    "type": "Point"
+  }
+}

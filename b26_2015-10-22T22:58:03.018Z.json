@@ -1,0 +1,15 @@
+{
+  "name": "Flying Lion Brewing",
+  "street": "5041 Rainier Avenue S",
+  "city": "Seattle",
+  "state": "WA",
+  "zip": "98118",
+  "address": "5041 Rainier Avenue S, Seattle, WA 98118",
+  "geometry": {
+    "coordinates": [
+      -122.2842903,
+      47.5559893
+    ],
+    "type": "Point"
+  }
+}

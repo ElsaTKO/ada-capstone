@@ -1,0 +1,12 @@
+{
+  "name": "Georgetown Brewing Company",
+  "street": "5840 Airport Way S #201",
+  "city": "Seattle",
+  "state": "WA",
+  "zip": "98108",
+  "address": "5840 Airport Way S, Seattle, WA 98108, USA",
+  "geometry": {
+    "coordinates": [ -122.3179016, 47.5505918 ],
+    "type": "Point"
+  }
+}

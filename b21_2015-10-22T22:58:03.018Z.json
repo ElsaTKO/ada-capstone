@@ -1,0 +1,15 @@
+{
+  "name": "Burdick Brewery",
+  "street": "783 S Elmgrove St",
+  "city": "Seattle",
+  "state": "WA",
+  "zip": "98108",
+  "address": "783 S Elmgrove St, Seattle, WA 98108",
+  "geometry": {
+    "coordinates": [
+      -122.3251868,
+      47.53054119999999
+    ],
+    "type": "Point"
+  }
+}

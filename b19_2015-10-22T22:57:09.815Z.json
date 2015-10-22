@@ -1,0 +1,15 @@
+{
+  "name": "Tin Dog Brewing",
+  "street": "309 S Cloverdale St. Unit A2",
+  "city": "Seattle",
+  "state": "WA",
+  "zip": "98108",
+  "address": "309 S Cloverdale St. Unit A2, Seattle, WA 98108",
+  "geometry": {
+    "coordinates": [
+      -122.3302815,
+      47.5256844
+    ],
+    "type": "Point"
+  }
+}

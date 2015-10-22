@@ -1,0 +1,15 @@
+{
+  "name": "Peddler Brewing Company",
+  "street": "1514 NW Leary Way",
+  "city": "Seattle",
+  "state": "WA",
+  "zip": "98107",
+  "address": "1514 NW Leary Way, Seattle, WA 98107",
+  "geometry": {
+    "coordinates": [
+      -122.3770908,
+      47.6638963
+    ],
+    "type": "Point"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Urban Family Brewing",
+  "street": "4441 26th Ave W",
+  "city": "Seattle",
+  "state": "WA",
+  "zip": "98199",
+  "address": "4441 26th Ave W, Seattle, WA 98199",
+  "geometry": {
+    "coordinates": [
+      -122.3899519,
+      47.6605583
+    ],
+    "type": "Point"
+  }
+}

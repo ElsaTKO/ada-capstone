@@ -1,0 +1,15 @@
+{
+  "name": "Schooner Exact",
+  "street": "3901 1st Avenue South",
+  "city": "Seattle",
+  "state": "WA",
+  "zip": "98134",
+  "address": "3901 1st Avenue South, Seattle, WA 98134",
+  "geometry": {
+    "coordinates": [
+      -122.3356331,
+      47.5677389
+    ],
+    "type": "Point"
+  }
+}

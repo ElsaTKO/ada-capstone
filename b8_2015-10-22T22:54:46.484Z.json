@@ -1,0 +1,15 @@
+{
+  "name": "Hilliard's Brewing",
+  "street": "1550 NW 49th Street",
+  "city": "Seattle",
+  "state": "WA",
+  "zip": "98107",
+  "address": "1550 NW 49th Street, Seattle, WA 98107",
+  "geometry": {
+    "coordinates": [
+      -122.3780509,
+      47.664623
+    ],
+    "type": "Point"
+  }
+}

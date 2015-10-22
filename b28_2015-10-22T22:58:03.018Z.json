@@ -1,0 +1,15 @@
+{
+  "name": "Counterbalance Brewing Co.",
+  "street": "503 South Michigan Street, Suite B",
+  "city": "Seattle",
+  "state": "WA",
+  "zip": "98108",
+  "address": "503 South Michigan Street, Suite B, Seattle, WA 98108",
+  "geometry": {
+    "coordinates": [
+      -122.3280271,
+      47.5455529
+    ],
+    "type": "Point"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Odin Brewing",
+  "street": "9130 15th Pl. S.",
+  "city": "Seattle",
+  "state": "WA",
+  "zip": "98108",
+  "address": "9130 15th Pl. S., Seattle, WA 98108",
+  "geometry": {
+    "coordinates": [
+      -122.3118124,
+      47.5213271
+    ],
+    "type": "Point"
+  }
+}
