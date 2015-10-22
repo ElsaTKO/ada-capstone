@@ -74,8 +74,22 @@ function addGeoToJson(body, brewery, index) {
   console.log(data.results[0].geometry.location.lng);
   console.log(data.results[0].geometry.location.lat);
   if (data.results.length > 1) {
-    console.log("*** " + brewery.name + " HAS MORE THAN ONE RESULT:\n", body);
-    console.log("*** PLEASE CHOOSE A RESULT. ORIGINAL:\n", brewery);
+    brewery["geometry"] = {};
+    brewery.geometry["coordinates"] = [];
+    brewery.geometry["type"] = "Point";
+
+    var possibilities = {}
+    for (i = 0; i < data.results.length; i++) {
+      var formatted_address = data.results[i].formatted_address;
+      var lng = data.results[i].geometry.location.lng;
+      var lat = data.results[i].geometry.location.lat;
+      var lng_lat = [lng, lat];
+      possibilities[""+ data.results[i].formatted_address +""] = lng_lat;
+    }
+    // console.log("*** " + brewery.name + " HAS MORE THAN ONE RESULT:\n", JSON.stringify(data.results, null, 2));
+    console.log("*** ORIGINAL:\n", JSON.stringify(brewery, null, 2));
+    console.log("*** PLEASE CHOOSE A RESULT:\n", possibilities);
+    writeBreweryToFile(brewery, index);
   } else {
     var result = data.results[0];
 
@@ -86,7 +100,7 @@ function addGeoToJson(body, brewery, index) {
 
     brewery["geometry"] = {};
     brewery.geometry["coordinates"] = lng_lat;
-    brewery.geomtry["type"] = "Point";
+    brewery.geometry["type"] = "Point";
 
     writeBreweryToFile(brewery, index);
   }
@@ -96,7 +110,7 @@ function writeBreweryToFile(brewery, index) {
   fs.writeFile('b' + index + "_" + timestamp + '.json', JSON.stringify(brewery, null, 2), function (err) {
     if (err) throw err;
   });
-  console.log("DONE with brewery" + index);
+  console.log("\nDONE: BREWERY " + index);
 }
 
 app.get('/google', function openConnection(req, res) {
