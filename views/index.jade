@@ -1,7 +1,23 @@
-extends layout
+doctype html
+html
+  head
+    meta(name='viewport', content='initial-scale=1.0, user-scalable=no')
+    meta(charset='utf-8')
+    title BOOZEY BITES
+    style.
+      html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      }
+      #map {
+      height: 100%;
+      }
+  body
+    #map
 
-block content
-  h1= title
-  p Welcome to #{title}
-  p #{json}
-  p wtf
+    script(type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js').
+
+    script(type='text/javascript' src='/javascripts/googlemaps.js').
+    
+    script(async='', defer='', src='https://maps.googleapis.com/maps/api/js?key=#{GOOGLE_KEY}&callback=initMap').
