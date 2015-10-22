@@ -11,7 +11,7 @@ var brewerySchema = new Schema({
   name: String,
   address: String,
   geometry: { // GeoJSON
-    type: { type: String, default: "Point" },
+    type: { type: String },
     coordinates: [Number]
   },
   schedule: {

@@ -10,8 +10,19 @@ function getFoodtrucks() {
 }
 
 function pinFoodtrucks(foodtrucks) {
-  console.log(foodtrucks[0]);
+  // console.log(JSON.stringify(foodtrucks[0]));
+
+  // Place markers on map
+        // for( i = 0; i < json.length; i++) {
+        //     var latLng = new google.maps.LatLng(json[i].lat, json[i].lng);
+        //     var marker = new google.maps.Marker({
+        //         position: latLng,
+        //         map: map
+        //     });
+        // }
 }
+
+
 
 // function getBreweries() {
 //

@@ -5,7 +5,7 @@ var Schema = mongoose.Schema;
 var scheduleSchema = new Schema({
   address: String,
   geometry: { // GeoJSON
-    type: { type: String, default: "Point" },
+    type: { type: String },
     coordinates: [Number]
   },
   open: String,
