@@ -43,9 +43,19 @@ function pinFoodtrucks(foodtrucks, map) {
   var infowindow = new google.maps.InfoWindow({});
 
   for (i = 0; i < foodtrucks.length; i++) {
-    var latLng = new google.maps.LatLng(foodtrucks[i].schedule["" + weekday + ""][0].geometry.coordinates[1], foodtrucks[i].schedule["" + weekday + ""][0].geometry.coordinates[0]);
+    var lng = foodtrucks[i].schedule["" + weekday + ""][0].geometry.coordinates[0];
+    var lat = foodtrucks[i].schedule["" + weekday + ""][0].geometry.coordinates[1];
+    // var latLng = new google.maps.LatLng(foodtrucks[i].schedule["" + weekday + ""][0].geometry.coordinates[1], foodtrucks[i].schedule["" + weekday + ""][0].geometry.coordinates[0]);
+    var latLng = new google.maps.LatLng(lat, lng);
+    var name = foodtrucks[i].name;
+    var cuisine = foodtrucks[i].cuisine;
+    var payment = foodtrucks[i].payment.toLowerCase();
+    var description = foodtrucks[i].description;
+    var open = foodtrucks[i].schedule["" + weekday + ""][0].open;
+    var close = foodtrucks[i].schedule["" + weekday + ""][0].close;
+    var address = foodtrucks[i].schedule["" + weekday + ""].address;
 
-    var content = foodtrucks[i].name;
+    var content = "<div class='infowindow'><p>Name: " + name + "</p><p>Cuisine: " + cuisine + "</p><p>Accepted payment: " + payment + "</p><p>" + description + "</p><p>Open: " + open + "</p><p>Close: " + close + "</p><p>Address (approximate): " + address + "</p></div>";
 
     var marker = new google.maps.Marker({
       position: latLng,
@@ -55,8 +65,6 @@ function pinFoodtrucks(foodtrucks, map) {
     });
 
     marker.addListener('click', function(e) {
-      infowindow.close();
-      // var content = foodtrucks[i].name;
       infowindow.setContent(this.content);
       infowindow.open(map, this);
     });
