@@ -157,11 +157,11 @@
   }
   ,
   {
-    "name": "",
-    "address": "",
+    "name": "Woodinville Whiskey Co.",
+    "address": "14509 Woodinville-Redmond Rd NE, Woodinville, WA 98072",
     "contact": {
-      "website": "",
-      "facebook": ""
+      "website": "http://www.woodinvillewhiskeyco.com/",
+      "facebook": "https://www.facebook.com/woodinvillewhiskeyco",
     },
     "geometry": {
       "type": "Point",
@@ -172,11 +172,11 @@
   }
   ,
   {
-    "name": "",
-    "address": "",
+    "name": "Old Ballard Liquor Co",
+    "address": "4421 Shilshole Ave NW, Seattle, WA 98107",
     "contact": {
-      "website": "",
-      "facebook": ""
+      "website": "http://www.oldballardliquorco.com/index.htm",
+      "facebook": "https://www.facebook.com/OldBallardLiquorCo"
     },
     "geometry": {
       "type": "Point",
