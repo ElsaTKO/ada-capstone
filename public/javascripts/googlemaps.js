@@ -102,10 +102,69 @@ function pinFoodtrucks(foodtrucks, map, infowindow) {
   }
 }
 
-// function getBreweries() {
-//
-// }
-//
+function getBreweries(map, infowindow) {
+  $.ajax({
+    type: "GET",
+    url: '/api/breweries',
+    dataType: "json",
+    success: function (res) {
+      pinBreweries(res, map, infowindow);
+    }
+  });
+}
+
+function pinBreweries(breweries, map, infowindow) {
+  // var weekday = determineWeekday();
+
+  for (i = 0; i < breweries.length; i++) {
+    var lng = breweries[i].geometry.coordinates[0];
+    var lat = breweries[i].geometry.coordinates[1];
+    var latLng = new google.maps.LatLng(lat, lng);
+    // var lng = foodtrucks[i].schedule["" + weekday + ""][0].geometry.coordinates[0];
+    // var lat = foodtrucks[i].schedule["" + weekday + ""][0].geometry.coordinates[1];
+    // var latLng = new google.maps.LatLng(lat, lng);
+    // var name = foodtrucks[i].name;
+    // var cuisine = foodtrucks[i].cuisine;
+    // var payment = foodtrucks[i].payment.toLowerCase();
+    // var description = foodtrucks[i].description;
+    // var open = foodtrucks[i].schedule["" + weekday + ""][0].open;
+    // if (open !== undefined) {
+    //   open = convertToAmPm(open);
+    // }
+    // var close = foodtrucks[i].schedule["" + weekday + ""][0].close;
+    // if (close !== undefined) {
+    //   close = convertToAmPm(close);
+    // }
+    // var address = foodtrucks[i].schedule["" + weekday + ""][0].address;
+    // var facebook_url = foodtrucks[i].contact.facebook;
+    // var facebook_link = "<a href='" + facebook_url + "' target='_blank'>Facebook</a>";
+    // var twitter_url = foodtrucks[i].contact.twitter_link;
+    // var twitter_link = "<a href='" + twitter_url + "' target='_blank'>Twitter</a>";
+    // var website_url = foodtrucks[i].contact.website;
+    // var website_link = "<a href='" + website_url + "' target='_blank'>website</a>";
+
+    // add way to only append urls if they are defined
+
+    var content = "lol";
+
+    // var content = "<div class='infowindow'><p>" + name + "</p><p>Cuisine: " + cuisine + "</p><p>Accepted payment: " + payment + "</p><p>" + description + "</p><p>Hours: " + open + " - " + close + "</p><p class='warning'>*** Location and hours may not be accurate. Check the schedule directly. ***</p>" + facebook_link + " " + twitter_link + " " + website_link + "<p>Address (approximate): " + address + "</p></div>";
+
+    var image = 'images/brewery.png';
+
+    var marker = new google.maps.Marker({
+      position: latLng,
+      map: map,
+      icon: image,
+      content: content
+    });
+
+    marker.addListener('click', function(e) {
+      infowindow.setContent(this.content);
+      infowindow.open(map, this);
+    });
+  }
+}
+
 // function getDistilleries() {
 //
 // }
@@ -119,6 +178,6 @@ function initMap() {
   var infowindow = new google.maps.InfoWindow({});
 
   getFoodtrucks(map, infowindow);
-  // getBreweries();
+  getBreweries(map, infowindow);
   // getDistilleries();
 }
