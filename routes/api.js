@@ -60,5 +60,13 @@ router.get('/breweries', function(req, res, next) {
 });
 
 /* GET api distilleries. */
+router.get('/distilleries', function(req, res, next) {
+  Distillery.find(function(err, distilleries) {
+      if (err) {
+        res.send(err);
+      }
+      res.json(distilleries);
+    });
+});
 
 module.exports = router;
