@@ -1,0 +1,17 @@
+{
+  "name": "Westland Distillery",
+  "address": "2931 1st Avenue South, Seattle, WA 98134",
+  "contact": {
+    "website": "http://westlanddistillery.com/",
+    "facebook": "https://www.facebook.com/westlanddistillery",
+    "twitter_link": "https://twitter.com/WestlandWhiskey",
+    "twitter_screen_name": "WestlandWhiskey"
+  },
+  "geometry": {
+    "coordinates": [
+      -122.3346268,
+      47.57653089999999
+    ],
+    "type": "Point"
+  }
+}

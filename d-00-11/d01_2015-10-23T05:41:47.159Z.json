@@ -1,0 +1,17 @@
+{
+  "name": "Fremont Mischief",
+  "address": "132 N Canal Street, Seattle, WA 98103",
+  "contact": {
+    "website": "http://www.fremontmischief.com/",
+    "facebook": "http://www.facebook.com/pages/Fremont-Mischief/233881853343205",
+    "twitter_link": "https://twitter.com/FremontMischief",
+    "twitter_screen_name": "FremontMischief"
+  },
+  "geometry": {
+    "coordinates": [
+      -122.3547419,
+      47.6505781
+    ],
+    "type": "Point"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Sound Spirits",
+  "address": "1630 15th Ave W, Seattle, WA 98119",
+  "contact": {
+    "website": "http://www.drinksoundspirits.com/",
+    "facebook": "http://www.facebook.com/pages/Sound-Spirits/100865654053"
+  },
+  "geometry": {
+    "coordinates": [
+      -122.3756374,
+      47.6344727
+    ],
+    "type": "Point"
+  }
+}

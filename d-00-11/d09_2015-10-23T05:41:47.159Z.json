@@ -1,0 +1,17 @@
+{
+  "name": "Batch 206 Distillery",
+  "address": "1417 Elliott Ave W, Seattle, WA 98119",
+  "contact": {
+    "website": "http://batch206.com/",
+    "facebook": "https://www.facebook.com/batch206",
+    "twitter_link": "https://twitter.com/batch206",
+    "twitter_screen_name": "batch206"
+  },
+  "geometry": {
+    "coordinates": [
+      -122.3735884,
+      47.63059570000001
+    ],
+    "type": "Point"
+  }
+}

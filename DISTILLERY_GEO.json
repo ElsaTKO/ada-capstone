@@ -9,10 +9,11 @@
       "twitter_screen_name": "2bar"
     },
     "geometry": {
-      "type": "Point",
       "coordinates": [
-
-      ]
+        -122.3278876,
+        47.5764923
+      ],
+      "type": "Point"
     }
   },
   {
@@ -25,10 +26,11 @@
       "twitter_screen_name": "FremontMischief"
     },
     "geometry": {
-      "type": "Point",
       "coordinates": [
-
-      ]
+        -122.3547419,
+        47.6505781
+      ],
+      "type": "Point"
     }
   },
   {
@@ -39,10 +41,11 @@
       "facebook": "http://www.facebook.com/pages/Oola-Distillery/184760184868850"
     },
     "geometry": {
-      "type": "Point",
       "coordinates": [
-
-      ]
+        -122.314585,
+        47.6131635
+      ],
+      "type": "Point"
     }
   },
   {
@@ -53,10 +56,11 @@
       "facebook": "http://www.facebook.com/pages/Sound-Spirits/100865654053"
     },
     "geometry": {
-      "type": "Point",
       "coordinates": [
-
-      ]
+        -122.3756374,
+        47.6344727
+      ],
+      "type": "Point"
     }
   },
   {
@@ -69,10 +73,11 @@
       "twitter_screen_name": "SunLiquor"
     },
     "geometry": {
-      "type": "Point",
       "coordinates": [
-
-      ]
+        -122.3248786,
+        47.6142339
+      ],
+      "type": "Point"
     }
   },
   {
@@ -85,15 +90,16 @@
       "twitter_screen_name": "CopperworksDist"
     },
     "geometry": {
-      "type": "Point",
       "coordinates": [
-
-      ]
+        -122.339804,
+        47.6059016
+      ],
+      "type": "Point"
     }
   },
   {
     "name": "Letterpress Distilling",
-    "address": "85 South Atlantic Street, #110, Seattle, Washington 98134",
+    "address": "85 S Atlantic St #110, Seattle, WA 98134",
     "contact": {
       "website": "http://www.letterpressdistilling.com/",
       "facebook": "https://www.facebook.com/letterpress.distilling",
@@ -101,10 +107,11 @@
       "twitter_screen_name": "lp_distilling"
     },
     "geometry": {
-      "type": "Point",
       "coordinates": [
-
-      ]
+        -122.33551,
+        47.589931
+      ],
+      "type": "Point"
     }
   },
   {
@@ -117,10 +124,11 @@
       "twitter_screen_name": "3howls"
     },
     "geometry": {
-      "type": "Point",
       "coordinates": [
-
-      ]
+        -122.3281012,
+        47.5884773
+      ],
+      "type": "Point"
     }
   },
   {
@@ -133,10 +141,11 @@
       "twitter_screen_name": "WestlandWhiskey"
     },
     "geometry": {
-      "type": "Point",
       "coordinates": [
-
-      ]
+        -122.3346268,
+        47.57653089999999
+      ],
+      "type": "Point"
     }
   },
   {
@@ -149,13 +158,13 @@
       "twitter_screen_name": "batch206"
     },
     "geometry": {
-      "type": "Point",
       "coordinates": [
-
-      ]
+        -122.3735884,
+        47.63059570000001
+      ],
+      "type": "Point"
     }
-  }
-  ,
+  },
   {
     "name": "Woodinville Whiskey Co.",
     "address": "14509 Woodinville-Redmond Rd NE, Woodinville, WA 98072",
@@ -164,10 +173,11 @@
       "facebook": "https://www.facebook.com/woodinvillewhiskeyco"
     },
     "geometry": {
-      "type": "Point",
       "coordinates": [
-
-      ]
+        -122.153221,
+        47.7333749
+      ],
+      "type": "Point"
     }
   },
   {
@@ -178,10 +188,11 @@
       "facebook": "https://www.facebook.com/OldBallardLiquorCo"
     },
     "geometry": {
-      "type": "Point",
       "coordinates": [
-
-      ]
+        -122.374219,
+        47.6611689
+      ],
+      "type": "Point"
     }
   }
 ]

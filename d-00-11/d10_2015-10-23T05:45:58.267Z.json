@@ -1,0 +1,15 @@
+{
+  "name": "Woodinville Whiskey Co.",
+  "address": "14509 Woodinville-Redmond Rd NE, Woodinville, WA 98072",
+  "contact": {
+    "website": "http://www.woodinvillewhiskeyco.com/",
+    "facebook": "https://www.facebook.com/woodinvillewhiskeyco"
+  },
+  "geometry": {
+    "coordinates": [
+      -122.153221,
+      47.7333749
+    ],
+    "type": "Point"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Old Ballard Liquor Co",
+  "address": "4421 Shilshole Ave NW, Seattle, WA 98107",
+  "contact": {
+    "website": "http://www.oldballardliquorco.com/index.htm",
+    "facebook": "https://www.facebook.com/OldBallardLiquorCo"
+  },
+  "geometry": {
+    "coordinates": [
+      -122.374219,
+      47.6611689
+    ],
+    "type": "Point"
+  }
+}

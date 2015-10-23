@@ -1,0 +1,17 @@
+{
+  "name": "2bar Spirits",
+  "address": "2960 4th Ave S, Seattle, WA 98134",
+  "contact": {
+    "website": "http://2barspirits.com/",
+    "facebook": "https://www.facebook.com/2BarSpirits",
+    "twitter_link": "https://twitter.com/2bar",
+    "twitter_screen_name": "2bar"
+  },
+  "geometry": {
+    "coordinates": [
+      -122.3278876,
+      47.5764923
+    ],
+    "type": "Point"
+  }
+}

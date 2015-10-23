@@ -1,0 +1,17 @@
+{
+  "name": "Sun Liquor Distillery",
+  "address": "514 East Pike Street, Seattle, WA 98122",
+  "contact": {
+    "website": "http://sunliquor.com/",
+    "facebook": "https://www.facebook.com/pages/Sun-Liquor/170710672943903",
+    "twitter_link": "https://twitter.com/sunliquor",
+    "twitter_screen_name": "SunLiquor"
+  },
+  "geometry": {
+    "coordinates": [
+      -122.3248786,
+      47.6142339
+    ],
+    "type": "Point"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Letterpress Distilling",
+  "address": "85 S Atlantic St #110, Seattle, WA 98134",
+  "contact": {
+    "website": "http://www.letterpressdistilling.com/",
+    "facebook": "https://www.facebook.com/letterpress.distilling",
+    "twitter_link": "https://twitter.com/lp_distilling",
+    "twitter_screen_name": "lp_distilling"
+  },
+  "geometry": {
+    "coordinates": [
+      -122.33551,
+      47.589931
+    ],
+    "type": "Point"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Copperworks Distilling",
+  "address": "1250 Alaskan Way, Seattle, WA 98101",
+  "contact": {
+    "website": "http://copperworksdistilling.com/",
+    "facebook": "https://www.facebook.com/CopperworksDistilling",
+    "twitter_link": "https://twitter.com/CopperworksDist",
+    "twitter_screen_name": "CopperworksDist"
+  },
+  "geometry": {
+    "coordinates": [
+      -122.339804,
+      47.6059016
+    ],
+    "type": "Point"
+  }
+}

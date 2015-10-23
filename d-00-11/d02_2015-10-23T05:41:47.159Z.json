@@ -1,0 +1,15 @@
+{
+  "name": "OOLA Distillery",
+  "address": "1314 East Union Street, Seattle, WA 98122",
+  "contact": {
+    "website": "http://www.ooladistillery.com/",
+    "facebook": "http://www.facebook.com/pages/Oola-Distillery/184760184868850"
+  },
+  "geometry": {
+    "coordinates": [
+      -122.314585,
+      47.6131635
+    ],
+    "type": "Point"
+  }
+}
