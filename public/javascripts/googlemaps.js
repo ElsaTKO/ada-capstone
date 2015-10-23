@@ -44,6 +44,13 @@ function convertToAmPm(time) {
   return converted_time;
 }
 
+function generateDirectionsUrl(lat, lng) {
+  // example
+  // https://www.google.com/maps/dir/Current+Location/47.12345,-122.12345
+  var directions = "https://www.google.com/maps/dir/Current+Location/" + lat + "," + lng;
+  return directions;
+}
+
 function getFoodtrucks(map, infowindow) {
   $.ajax({
     type: "GET",
@@ -75,6 +82,8 @@ function pinFoodtrucks(foodtrucks, map, infowindow) {
       close = convertToAmPm(close);
     }
     var address = foodtrucks[i].schedule["" + weekday + ""][0].address;
+    var directions_url = generateDirectionsUrl(lat, lng);
+    var directions_link = "<a href='" + directions_url + "' target='_blank'>Directions</a>";
     var facebook_url = foodtrucks[i].contact.facebook;
     var facebook_link = "<a href='" + facebook_url + "' target='_blank'>Facebook</a>";
     var twitter_url = foodtrucks[i].contact.twitter_link;
@@ -84,7 +93,7 @@ function pinFoodtrucks(foodtrucks, map, infowindow) {
 
     // add way to only append urls if they are defined
 
-    var content = "<div class='infowindow'><p>" + name + "</p><p>Cuisine: " + cuisine + "</p><p>Accepted payment: " + payment + "</p><p>" + description + "</p><p>Hours: " + open + " - " + close + "</p><p class='warning'>*** Location and hours may not be accurate. Check the schedule directly. ***</p>" + facebook_link + " " + twitter_link + " " + website_link + "<p>Address (approximate): " + address + "</p></div>";
+    var content = "<div class='infowindow'><p>" + name + "</p><p>Cuisine: " + cuisine + "</p><p>Accepted payment: " + payment + "</p><p>" + description + "</p><p>Hours: " + open + " - " + close + "</p><p class='warning'>*** Location and hours may not be accurate. Check the schedule directly. ***</p>" + facebook_link + " " + twitter_link + " " + website_link + "<p>Address (approximate): " + address + "</p><p>" + directions_link + "</p></div>";
 
     var image = 'images/foodtruck.png';
 
@@ -123,8 +132,10 @@ function pinBreweries(breweries, map, infowindow) {
 
     var name = breweries[i].name;
     var address = breweries[i].address;
+    var directions_url = generateDirectionsUrl(lat, lng);
+    var directions_link = "<a href='" + directions_url + "' target='_blank'>Directions</a>";
 
-    var content = "<div class='infowindow'><p>" + name + "</p><p>Address: " + address + "</p></div>";
+    var content = "<div class='infowindow'><p>" + name + "</p><p>Address: " + address + "</p><p>" + directions_link + "</p></div>";
 
     var image = 'images/brewery.png';
 
@@ -163,8 +174,10 @@ function pinDistilleries(distilleries, map, infowindow) {
 
     var name = distilleries[i].name;
     var address = distilleries[i].address;
+    var directions_url = generateDirectionsUrl(lat, lng);
+    var directions_link = "<a href='" + directions_url + "' target='_blank'>Directions</a>";
 
-    var content = "<div class='infowindow'><p>" + name + "</p><p>Address: " + address + "</p></div>";
+    var content = "<div class='infowindow'><p>" + name + "</p><p>Address: " + address + "</p><p>" + directions_link + "</p></div>";
 
     var image = 'images/distillery.png';
 
