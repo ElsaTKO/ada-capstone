@@ -1,0 +1,188 @@
+[
+  {
+    "name": "2bar Spirits",
+    "address": "2960 4th Ave S, Seattle, WA 98134",
+    "contact": {
+      "website": "http://2barspirits.com/",
+      "facebook": "https://www.facebook.com/2BarSpirits",
+      "twitter_link": "https://twitter.com/2bar",
+      "twitter_screen_name": "2bar"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+
+      ]
+    }
+  },
+  {
+    "name": "Fremont Mischief",
+    "address": "132 N Canal Street, Seattle, WA 98103",
+    "contact": {
+      "website": "http://www.fremontmischief.com/",
+      "facebook": "http://www.facebook.com/pages/Fremont-Mischief/233881853343205",
+      "twitter_link": "https://twitter.com/FremontMischief",
+      "twitter_screen_name": "FremontMischief"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+
+      ]
+    }
+  },
+  {
+    "name": "OOLA Distillery",
+    "address": "1314 East Union Street, Seattle, WA 98122",
+    "contact": {
+      "website": "http://www.ooladistillery.com/",
+      "facebook": "http://www.facebook.com/pages/Oola-Distillery/184760184868850"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+
+      ]
+    }
+  },
+  {
+    "name": "Sound Spirits",
+    "address": "1630 15th Ave W, Seattle, WA 98119",
+    "contact": {
+      "website": "http://www.drinksoundspirits.com/",
+      "facebook": "http://www.facebook.com/pages/Sound-Spirits/100865654053"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+
+      ]
+    }
+  },
+  {
+    "name": "Sun Liquor Distillery",
+    "address": "514 East Pike Street, Seattle, WA 98122",
+    "contact": {
+      "website": "http://sunliquor.com/",
+      "facebook": "https://www.facebook.com/pages/Sun-Liquor/170710672943903",
+      "twitter_link": "https://twitter.com/sunliquor",
+      "twitter_screen_name": "SunLiquor"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+
+      ]
+    }
+  },
+  {
+    "name": "Copperworks Distilling",
+    "address": "1250 Alaskan Way, Seattle, WA 98101",
+    "contact": {
+      "website": "http://copperworksdistilling.com/",
+      "facebook": "https://www.facebook.com/CopperworksDistilling",
+      "twitter_link": "https://twitter.com/CopperworksDist",
+      "twitter_screen_name": "CopperworksDist"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+
+      ]
+    }
+  },
+  {
+    "name": "Letterpress Distilling",
+    "address": "85 South Atlantic Street, #110, Seattle, Washington 98134",
+    "contact": {
+      "website": "http://www.letterpressdistilling.com/",
+      "facebook": "https://www.facebook.com/letterpress.distilling",
+      "twitter_link": "https://twitter.com/lp_distilling",
+      "twitter_screen_name": "lp_distilling"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+
+      ]
+    }
+  },
+  {
+    "name": "3 Howls Distillery",
+    "address": "426 S Massachusetts St, Seattle, WA 98134",
+    "contact": {
+      "website": "http://3howls.com/",
+      "facebook": "https://www.facebook.com/3howls",
+      "twitter_link": "https://twitter.com/3howls",
+      "twitter_screen_name": "3howls"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+
+      ]
+    }
+  },
+  {
+    "name": "Westland Distillery",
+    "address": "2931 1st Avenue South, Seattle, WA 98134",
+    "contact": {
+      "website": "http://westlanddistillery.com/",
+      "facebook": "https://www.facebook.com/westlanddistillery",
+      "twitter_link": "https://twitter.com/WestlandWhiskey",
+      "twitter_screen_name": "WestlandWhiskey"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+
+      ]
+    }
+  },
+  {
+    "name": "Batch 206 Distillery",
+    "address": "1417 Elliott Ave W, Seattle, WA 98119",
+    "contact": {
+      "website": "http://batch206.com/",
+      "facebook": "https://www.facebook.com/batch206",
+      "twitter_link": "https://twitter.com/batch206",
+      "twitter_screen_name": "batch206"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+
+      ]
+    }
+  }
+  ,
+  {
+    "name": "",
+    "address": "",
+    "contact": {
+      "website": "",
+      "facebook": ""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+
+      ]
+    }
+  }
+  ,
+  {
+    "name": "",
+    "address": "",
+    "contact": {
+      "website": "",
+      "facebook": ""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+
+      ]
+    }
+  }
+]
