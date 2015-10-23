@@ -23,7 +23,14 @@ var brewerySchema = new Schema({
     saturday: [opencloseSchema],
     sunday: [opencloseSchema]
   },
-   website: String
+  contact: {
+    facebook: String,
+    twitter_link: String,
+    twitter_id: String,
+    twitter_screen_name: String,
+    twitter_name: String,
+    website: String
+  }
  });
 
  var Brewery = mongoose.model('brewery', brewerySchema);
