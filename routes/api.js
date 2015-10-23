@@ -30,7 +30,7 @@ function determineWeekday() {
 }
 
 var FoodTruck = require('../models/foodtruck');
-// var Brewery = require('../models/brewery');
+var Brewery = require('../models/brewery');
 // var Distillery = require('../models/distillery');
 
 /* GET api foodtrucks. */
@@ -50,6 +50,14 @@ router.get('/foodtrucks', function(req, res, next) {
 });
 
 /* GET api breweries. */
+router.get('/breweries', function(req, res, next) {
+  Brewery.find(function(err, brewries) {
+      if (err) {
+        res.send(err);
+      }
+      res.json(brewries);
+    });
+});
 
 /* GET api distilleries. */
 
