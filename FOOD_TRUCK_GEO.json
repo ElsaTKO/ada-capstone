@@ -440,7 +440,7 @@
       "thursday": {
         "address": "2300 7th Ave, Seattle, WA 98121, USA",
         "open": "11:00",
-        "close": "don:00em",
+        "close": "done",
         "geometry": {
           "coordinates": [
             -122.3415988,
@@ -452,7 +452,7 @@
       "friday": {
         "address": "2300 7th Ave, Seattle, WA 98121, USA",
         "open": "11:00",
-        "close": "don:00em",
+        "close": "done",
         "geometry": {
           "coordinates": [
             -122.3415988,
@@ -4995,7 +4995,7 @@
       "thursday": {
         "address": "4700 Ohio Ave S, Seattle, WA 98134, USA",
         "open": "17:00",
-        "close": "clos:00em",
+        "close": "done",
         "geometry": {
           "coordinates": [
             -122.3377055,
@@ -5023,7 +5023,7 @@
       "monday": {
         "address": "1300 Elliott Ave W, Seattle, WA 98119, USA",
         "open": "11:00",
-        "close": ":008m",
+        "close": ":20:00",
         "geometry": {
           "coordinates": [
             -122.3724679,
@@ -6333,7 +6333,7 @@
       },
       "sunday": {
         "address": "2885 78th Ave SE, Mercer Island, WA 98040, USA",
-        "open": "0:00",
+        "open": "12:00",
         "close": "20:00",
         "geometry": {
           "coordinates": [
