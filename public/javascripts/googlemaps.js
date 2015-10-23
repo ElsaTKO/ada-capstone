@@ -45,16 +45,85 @@ function convertToAmPm(time) {
 }
 
 function determineFoodtruckOpenCloseState(foodtruck, weekday) {
-  var open = foodtruck.schedule["" + weekday + ""].open;
-  var close = foodtruck.schedule["" + weekday + ""].close;
+  var open = foodtruck.schedule["" + weekday + ""].open; // "9:00"
+  var close = foodtruck.schedule["" + weekday + ""].close; // "17:00"
 
   // convert time strings for open and close into two time objects
-  // how to determine which date "now" is applied to?
-  // if current time is same date as opening time, make a post-midnight closing time on tomorrow's date
-  // if current time is same date as closing time && there is a post-midnight closing time, make opening time on yesterday's date
+  // how to determine which date "now" is applied to ...?
   // determine if now is between the two times
     // if so, open, and marker should be colored
     // else closed, and marker should be gray
+
+  // earliest any food truck opens is 6am.
+  // latest any food truck closes is 4am.
+  // for all food trucks that close after midnight,
+  // weekday is set back one day.
+  // must calculate current, open, and close times
+  // based on that adjustment.
+
+  // now could be 4:00-23:59, 0:00-3:59
+  // open could be 4:00-23:59
+  // close could be 4:00-23:59, 0:00-3:59
+
+  // now 4
+  // open 4
+  // close 4
+  //
+  // now 0
+  // open 4
+  // close 4
+  //
+  // now 4
+  // open 4
+  // close 0
+  //
+  // now 0
+  // open 4
+  // close 0
+
+  var now = new Date();
+
+  // if
+    // now 4:00-23:59
+    // &&
+    // open 4:00-23:59
+    // &&
+    // close 4:00-23:59
+  // now => today => 0
+  // open => today => 0
+  // close => today => 0
+
+  // if
+    // now 0:00-3:59
+    // &&
+    // open 4:00-23:59
+    // &&
+    // close 4:00-23:59
+  // now => today => 0
+  // open => yesterday => -1
+  // close => yesterday => -1
+
+  // if
+    // now 4:00-23:59
+    // &&
+    // open 4:00-23:59
+    // &&
+    // close 0:00-3:59
+  // now => today => 0
+  // open => today => 0
+  // close => tomorrow => +1
+
+  // if
+    // now 0:00-3:59
+    // &&
+    // open 4:00-23:59
+    // &&
+    // close 0:00-3:59
+  // now => today => 0
+  // open => yesterday => -1
+  // close => today => 0
+
+
 }
 
 function generateDirectionsUrl(lat, lng) {
