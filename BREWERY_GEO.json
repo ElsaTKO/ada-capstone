@@ -1,0 +1,509 @@
+[
+  {
+    "name": "Georgetown Brewing Company",
+    "street": "5840 Airport Way S #201",
+    "city": "Seattle",
+    "state": "WA",
+    "zip": "98108",
+    "address": "5840 Airport Way S, Seattle, WA 98108, USA",
+    "geometry": {
+      "coordinates": [ -122.3179016, 47.5505918 ],
+      "type": "Point"
+    }
+  },
+  {
+    "name": "Maritime Pacific Brewing Company",
+    "street": "1514 NW Leary Way",
+    "city": "Seattle",
+    "state": "WA",
+    "zip": "98107",
+    "address": "1514 NW Leary Way, Seattle, WA 98107",
+    "geometry": {
+      "coordinates": [
+        -122.3770908,
+        47.6638963
+      ],
+      "type": "Point"
+    }
+  },
+  {
+    "name": "Big Al Brewing",
+    "street": "9832 14th Ave SW",
+    "city": "Seattle",
+    "state": "WA",
+    "zip": "98106",
+    "address": "9832 14th Ave SW, Seattle, WA 98106",
+    "geometry": {
+      "coordinates": [
+        -122.352381,
+        47.514338
+      ],
+      "type": "Point"
+    }
+  },
+  {
+    "name": "Fremont Brewing Company",
+    "street": "3409 Woodland Park Avenue North",
+    "city": "Seattle",
+    "state": "WA",
+    "zip": "98103",
+    "address": "3409 Woodland Park Avenue North, Seattle, WA 98103",
+    "geometry": {
+      "coordinates": [
+        -122.344303,
+        47.6491625
+      ],
+      "type": "Point"
+    }
+  },
+  {
+    "name": "Odin Brewing",
+    "street": "9130 15th Pl. S.",
+    "city": "Seattle",
+    "state": "WA",
+    "zip": "98108",
+    "address": "9130 15th Pl. S., Seattle, WA 98108",
+    "geometry": {
+      "coordinates": [
+        -122.3118124,
+        47.5213271
+      ],
+      "type": "Point"
+    }
+  },
+  {
+    "name": "EPIC Ales",
+    "street": "3201 First Ave South, #104",
+    "city": "Seattle",
+    "state": "WA",
+    "zip": "98134",
+    "address": "3201 First Ave South, #104, Seattle, WA 98134",
+    "geometry": {
+      "coordinates": [
+        -104.9502411,
+        39.7178164
+      ],
+      "type": "Point"
+    }
+  },
+  {
+    "name": "Northwest Peaks Brewery",
+    "street": "4912 17th Avenue NW Ste B",
+    "city": "Seattle",
+    "state": "WA",
+    "zip": "98107",
+    "address": "4912 17th Avenue NW Ste B, Seattle, WA 98107",
+    "geometry": {
+      "coordinates": [
+        -122.3786014,
+        47.664828
+      ],
+      "type": "Point"
+    }
+  },
+  {
+    "name": "Emerald City Beer Co.",
+    "street": "3100 Airport Way S",
+    "city": "Seattle",
+    "state": "WA",
+    "zip": "98134",
+    "address": "3100 Airport Way S, Seattle, WA 98134",
+    "geometry": {
+      "coordinates": [
+        -122.3204606,
+        47.5766937
+      ],
+      "type": "Point"
+    }
+  },
+  {
+    "name": "Hilliard's Brewing",
+    "street": "1550 NW 49th Street",
+    "city": "Seattle",
+    "state": "WA",
+    "zip": "98107",
+    "address": "1550 NW 49th Street, Seattle, WA 98107",
+    "geometry": {
+      "coordinates": [
+        -122.3780509,
+        47.664623
+      ],
+      "type": "Point"
+    }
+  },
+  {
+    "name": "Schooner Exact",
+    "street": "3901 1st Avenue South",
+    "city": "Seattle",
+    "state": "WA",
+    "zip": "98134",
+    "address": "3901 1st Avenue South, Seattle, WA 98134",
+    "geometry": {
+      "coordinates": [
+        -122.3356331,
+        47.5677389
+      ],
+      "type": "Point"
+    }
+  },
+  {
+    "name": "Two Beers Brewing Co.",
+    "street": "4700 Ohio Ave. S., Unit A",
+    "city": "Seattle",
+    "state": "WA",
+    "zip": "98134",
+    "address": "4700 Ohio Ave. S., Unit A, Seattle, WA 98134",
+    "geometry": {
+      "coordinates": [
+        -122.3377055,
+        47.560333
+      ],
+      "type": "Point"
+    }
+  },
+  {
+    "name": "Reuben's Brews",
+    "street": "1406 NW 53rd Street, Suite 1A",
+    "city": "Seattle",
+    "state": "WA",
+    "zip": "98107",
+    "address": "1406 NW 53rd Street, Suite 1A, Seattle, WA 98107",
+    "geometry": {
+      "coordinates": [
+        -122.374099,
+        47.667386
+      ],
+      "type": "Point"
+    }
+  },
+  {
+    "name": "Machine House Brewing",
+    "street": "5840 Airport Way S",
+    "city": "Seattle",
+    "state": "WA",
+    "zip": "98108",
+    "address": "5840 Airport Way S, Seattle, WA 98108",
+    "geometry": {
+      "coordinates": [
+        -122.3179016,
+        47.5505918
+      ],
+      "type": "Point"
+    }
+  },
+  {
+    "name": "Peddler Brewing Company",
+    "street": "1514 NW Leary Way",
+    "city": "Seattle",
+    "state": "WA",
+    "zip": "98107",
+    "address": "1514 NW Leary Way, Seattle, WA 98107",
+    "geometry": {
+      "coordinates": [
+        -122.3770908,
+        47.6638963
+      ],
+      "type": "Point"
+    }
+  },
+  {
+    "name": "Populuxe Brewing",
+    "street": "826B NW 49th St",
+    "city": "Seattle",
+    "state": "WA",
+    "zip": "98107",
+    "address": "826B NW 49th St, Seattle, WA 98107",
+    "geometry": {
+      "coordinates": [
+        -122.367549,
+        47.6645826
+      ],
+      "type": "Point"
+    }
+  },
+  {
+    "name": "West Seattle Brewing Company",
+    "street": "4415 Fauntleroy Way SW",
+    "city": "Seattle",
+    "state": "WA",
+    "zip": "98126",
+    "address": "4415 Fauntleroy Way SW, Seattle, WA 98126",
+    "geometry": {
+      "coordinates": [
+        -122.3776532,
+        47.5643571
+      ],
+      "type": "Point"
+    }
+  },
+  {
+    "name": "Standard Brewing",
+    "street": "2504 S Jackson St",
+    "city": "Seattle",
+    "state": "WA",
+    "zip": "98144",
+    "address": "2504 S Jackson St, Seattle, WA 98144",
+    "geometry": {
+      "coordinates": [
+        -122.2995779,
+        47.5994442
+      ],
+      "type": "Point"
+    }
+  },
+  {
+    "name": "Rooftop Brewing Company",
+    "street": "6 Dravus St",
+    "city": "Seattle",
+    "state": "WA",
+    "zip": "98109",
+    "address": "6 Dravus St, Seattle, WA 98109",
+    "geometry": {
+      "coordinates": [
+        -122.3572991,
+        47.6489096
+      ],
+      "type": "Point"
+    }
+  },
+  {
+    "name": "Seapine Brewing Company",
+    "street": "3828 4th Ave S Ste 2",
+    "city": "Seattle",
+    "state": "WA",
+    "zip": "98134",
+    "address": "3828 4th Ave S Ste 2, Seattle, WA 98134",
+    "geometry": {
+      "coordinates": [
+        -122.3286055,
+        47.5692032
+      ],
+      "type": "Point"
+    }
+  },
+  {
+    "name": "Tin Dog Brewing",
+    "street": "309 S Cloverdale St. Unit A2",
+    "city": "Seattle",
+    "state": "WA",
+    "zip": "98108",
+    "address": "309 S Cloverdale St. Unit A2, Seattle, WA 98108",
+    "geometry": {
+      "coordinates": [
+        -122.3302815,
+        47.5256844
+      ],
+      "type": "Point"
+    }
+  },
+  {
+    "name": "Stoup Brewing",
+    "street": "1108 NW 52nd St.",
+    "city": "Seattle",
+    "state": "WA",
+    "zip": "98107",
+    "address": "1108 NW 52nd St., Seattle, WA 98107",
+    "geometry": {
+      "coordinates": [
+        -122.371202,
+        47.6666529
+      ],
+      "type": "Point"
+    }
+  },
+  {
+    "name": "Burdick Brewery",
+    "street": "783 S Elmgrove St",
+    "city": "Seattle",
+    "state": "WA",
+    "zip": "98108",
+    "address": "783 S Elmgrove St, Seattle, WA 98108",
+    "geometry": {
+      "coordinates": [
+        -122.3251868,
+        47.53054119999999
+      ],
+      "type": "Point"
+    }
+  },
+  {
+    "name": "Lowercase Brewing",
+    "street": "8103 8th Ave S.",
+    "city": "Seattle",
+    "state": "WA",
+    "zip": "98108",
+    "address": "8103 8th Ave S., Seattle, WA 98108",
+    "geometry": {
+      "coordinates": [
+        -122.3231782,
+        47.53038890000001
+      ],
+      "type": "Point"
+    }
+  },
+  {
+    "name": "Spinnaker Bay Brewing",
+    "street": "5718 Rainier Ave S",
+    "city": "Seattle",
+    "state": "WA",
+    "zip": "98118",
+    "address": "5718 Rainier Ave S, Seattle, WA 98118",
+    "geometry": {
+      "coordinates": [
+        -122.2770789,
+        47.5507863
+      ],
+      "type": "Point"
+    }
+  },
+  {
+    "name": "Bluebird Microcreamery and Brewery",
+    "street": "7400 Greenwood Ave N",
+    "city": "Seattle",
+    "state": "WA",
+    "zip": "98103",
+    "address": "7400 Greenwood Ave N, Seattle, WA 98103",
+    "geometry": {
+      "coordinates": [
+        -122.3550469,
+        47.6826527
+      ],
+      "type": "Point"
+    }
+  },
+  {
+    "name": "Bad Jimmy's Brewing Co.",
+    "street": "4358 B Leary Way NW",
+    "city": "Seattle",
+    "state": "WA",
+    "zip": "98107",
+    "address": "4358 B Leary Way NW, Seattle, WA 98107",
+    "geometry": {
+      "coordinates": [
+        -122.3657552,
+        47.6603168
+      ],
+      "type": "Point"
+    }
+  },
+  {
+    "name": "Flying Lion Brewing",
+    "street": "5041 Rainier Avenue S",
+    "city": "Seattle",
+    "state": "WA",
+    "zip": "98118",
+    "address": "5041 Rainier Avenue S, Seattle, WA 98118",
+    "geometry": {
+      "coordinates": [
+        -122.2842903,
+        47.5559893
+      ],
+      "type": "Point"
+    }
+  },
+  {
+    "name": "Urban Family Brewing",
+    "street": "4441 26th Ave W",
+    "city": "Seattle",
+    "state": "WA",
+    "zip": "98199",
+    "address": "4441 26th Ave W, Seattle, WA 98199",
+    "geometry": {
+      "coordinates": [
+        -122.3899519,
+        47.6605583
+      ],
+      "type": "Point"
+    }
+  },
+  {
+    "name": "Counterbalance Brewing Co.",
+    "street": "503 South Michigan Street, Suite B",
+    "city": "Seattle",
+    "state": "WA",
+    "zip": "98108",
+    "address": "503 South Michigan Street, Suite B, Seattle, WA 98108",
+    "geometry": {
+      "coordinates": [
+        -122.3280271,
+        47.5455529
+      ],
+      "type": "Point"
+    }
+  },
+  {
+    "name": "Holy Mountain Brewing",
+    "street": "1421 Elliott Ave W.",
+    "city": "Seattle",
+    "state": "WA",
+    "zip": "98119",
+    "address": "1421 Elliott Ave W., Seattle, WA 98119",
+    "geometry": {
+      "coordinates": [
+        -122.3745168,
+        47.6308076
+      ],
+      "type": "Point"
+    }
+  },
+  {
+    "name": "Hellbent Brewing Co.",
+    "street": "13035 Lake City Way NE",
+    "city": "Seattle",
+    "state": "WA",
+    "zip": "98125",
+    "address": "13035 Lake City Way NE, Seattle, WA 98125",
+    "geometry": {
+      "coordinates": [
+        -122.293177,
+        47.7239727
+      ],
+      "type": "Point"
+    }
+  },
+  {
+    "name": "Lantern Brewing Co.",
+    "street": "938 N 95TH ST",
+    "city": "Seattle",
+    "state": "WA",
+    "zip": "98103",
+    "address": "938 N 95TH ST, Seattle, WA 98103",
+    "geometry": {
+      "coordinates": [
+        -122.345602,
+        47.698077
+      ],
+      "type": "Point"
+    }
+  },
+  {
+    "name": "Ghostfish Brewing Co.",
+    "street": "2942 1st Ave. S.",
+    "city": "Seattle",
+    "state": "WA",
+    "zip": "98134",
+    "address": "2942 1st Ave. S., Seattle, WA 98134",
+    "geometry": {
+      "coordinates": [
+        -122.3338489,
+        47.5762875
+      ],
+      "type": "Point"
+    }
+  },
+  {
+    "name": "Lucky Envelope Brewing",
+    "street": "907 NW 50th St",
+    "city": "Seattle",
+    "state": "WA",
+    "zip": "98107",
+    "address": "907 NW 50th St, Seattle, WA 98107",
+    "geometry": {
+      "coordinates": [
+        -122.3691164,
+        47.6648778
+      ],
+      "type": "Point"
+    }
+  }
+]
