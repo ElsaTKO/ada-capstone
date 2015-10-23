@@ -48,6 +48,12 @@ function determineFoodtruckOpenCloseState(foodtruck, weekday) {
   var open = foodtruck.schedule["" + weekday + ""].open; // "9:00"
   var close = foodtruck.schedule["" + weekday + ""].close; // "17:00"
 
+  // var now = new Date();
+  // var yesterday = new Date().setDate(now.getDate() -1);
+  // var tomorrow = new Date().setDate(now.getDate() +1);
+  // dateObj.setHours(hoursValue[, minutesValue[, secondsValue[, msValue]]])
+
+
   // convert time strings for open and close into two time objects
   // how to determine which date "now" is applied to ...?
   // determine if now is between the two times
@@ -80,8 +86,6 @@ function determineFoodtruckOpenCloseState(foodtruck, weekday) {
   // now 0
   // open 4
   // close 0
-
-  var now = new Date();
 
   // if
     // now 4:00-23:59
