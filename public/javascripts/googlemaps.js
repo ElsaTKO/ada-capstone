@@ -142,9 +142,45 @@ function pinBreweries(breweries, map, infowindow) {
   }
 }
 
-// function getDistilleries() {
-//
-// }
+function getDistilleries(map, infowindow) {
+  $.ajax({
+    type: "GET",
+    url: '/api/distilleries',
+    dataType: "json",
+    success: function (res) {
+      pinDistilleries(res, map, infowindow);
+    }
+  });
+}
+
+function pinDistilleries(distilleries, map, infowindow) {
+  // var weekday = determineWeekday();
+
+  for (i = 0; i < distilleries.length; i++) {
+    var lng = distilleries[i].geometry.coordinates[0];
+    var lat = distilleries[i].geometry.coordinates[1];
+    var latLng = new google.maps.LatLng(lat, lng);
+
+    var name = distilleries[i].name;
+    var address = distilleries[i].address;
+
+    var content = "<div class='infowindow'><p>" + name + "</p><p>Address: " + address + "</p></div>";
+
+    var image = 'images/distillery.png';
+
+    var marker = new google.maps.Marker({
+      position: latLng,
+      map: map,
+      icon: image,
+      content: content
+    });
+
+    marker.addListener('click', function(e) {
+      infowindow.setContent(this.content);
+      infowindow.open(map, this);
+    });
+  }
+}
 
 function initMap() {
   var map = new google.maps.Map(document.getElementById('map'), {
@@ -156,5 +192,5 @@ function initMap() {
 
   getFoodtrucks(map, infowindow);
   getBreweries(map, infowindow);
-  // getDistilleries();
+  getDistilleries(map, infowindow);
 }
