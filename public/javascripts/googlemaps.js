@@ -44,6 +44,19 @@ function convertToAmPm(time) {
   return converted_time;
 }
 
+function determineFoodtruckOpenCloseState(foodtruck, weekday) {
+  var open = foodtruck.schedule["" + weekday + ""].open;
+  var close = foodtruck.schedule["" + weekday + ""].close;
+
+  // convert time strings for open and close into two time objects
+  // how to determine which date "now" is applied to?
+  // if current time is same date as opening time, make a post-midnight closing time on tomorrow's date
+  // if current time is same date as closing time && there is a post-midnight closing time, make opening time on yesterday's date
+  // determine if now is between the two times
+    // if so, open, and marker should be colored
+    // else closed, and marker should be gray
+}
+
 function generateDirectionsUrl(lat, lng) {
   // example
   // https://www.google.com/maps/dir/Current+Location/47.12345,-122.12345
@@ -93,7 +106,7 @@ function pinFoodtrucks(foodtrucks, map, infowindow) {
 
     // add way to only append urls if they are defined
 
-    var content = "<div class='infowindow'><p>" + name + "</p><p>Cuisine: " + cuisine + "</p><p>Accepted payment: " + payment + "</p><p>" + description + "</p><p>Hours: " + open + " - " + close + "</p><p class='warning'>*** Location and hours may not be accurate. Check the schedule directly. ***</p>" + facebook_link + " " + twitter_link + " " + website_link + "<p>Address (approximate): " + address + "</p><p>" + directions_link + "</p></div>";
+    var content = "<div class='infowindow'><p>" + name + "</p><p>Cuisine: " + cuisine + "</p><p>Accepted payment: " + payment + "</p><p>" + description + "</p><p>Hours: " + open + " - " + close + "</p><p class='warning'>*** Location and hours may not be accurate. Check the schedule directly. ***</p>" + facebook_link + " - " + twitter_link + " - " + website_link + "<p>Address (approximate): " + address + "</p><p>" + directions_link + "</p></div>";
 
     var image = 'images/foodtruck.png';
 
@@ -134,6 +147,12 @@ function pinBreweries(breweries, map, infowindow) {
     var address = breweries[i].address;
     var directions_url = generateDirectionsUrl(lat, lng);
     var directions_link = "<a href='" + directions_url + "' target='_blank'>Directions</a>";
+    // var facebook_url = breweries[i].contact.facebook;
+    // var facebook_link = "<a href='" + facebook_url + "' target='_blank'>Facebook</a>";
+    // var twitter_url = breweries[i].contact.twitter_link;
+    // var twitter_link = "<a href='" + twitter_url + "' target='_blank'>Twitter</a>";
+    // var website_url = breweries[i].contact.website;
+    // var website_link = "<a href='" + website_url + "' target='_blank'>website</a>";
 
     var content = "<div class='infowindow'><p>" + name + "</p><p>Address: " + address + "</p><p>" + directions_link + "</p></div>";
 
@@ -176,6 +195,12 @@ function pinDistilleries(distilleries, map, infowindow) {
     var address = distilleries[i].address;
     var directions_url = generateDirectionsUrl(lat, lng);
     var directions_link = "<a href='" + directions_url + "' target='_blank'>Directions</a>";
+    // // var facebook_url = distilleries[i].contact.facebook;
+    // // var facebook_link = "<a href='" + facebook_url + "' target='_blank'>Facebook</a>";
+    // var twitter_url = distilleries[i].contact.twitter_link;
+    // var twitter_link = "<a href='" + twitter_url + "' target='_blank'>Twitter</a>";
+    // var website_url = distilleries[i].contact.website;
+    // var website_link = "<a href='" + website_url + "' target='_blank'>website</a>";
 
     var content = "<div class='infowindow'><p>" + name + "</p><p>Address: " + address + "</p><p>" + directions_link + "</p></div>";
 
