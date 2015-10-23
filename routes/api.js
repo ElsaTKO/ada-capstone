@@ -31,7 +31,7 @@ function determineWeekday() {
 
 var FoodTruck = require('../models/foodtruck');
 var Brewery = require('../models/brewery');
-// var Distillery = require('../models/distillery');
+var Distillery = require('../models/distillery');
 
 /* GET api foodtrucks. */
 router.get('/foodtrucks', function(req, res, next) {
