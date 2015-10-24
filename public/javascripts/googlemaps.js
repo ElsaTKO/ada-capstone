@@ -45,14 +45,23 @@ function convertToAmPm(time) {
 }
 
 function determineFoodtruckOpenCloseState(foodtruck, weekday) {
-  var open = foodtruck.schedule["" + weekday + ""].open; // "9:00"
-  var close = foodtruck.schedule["" + weekday + ""].close; // "17:00"
 
-  // var now = new Date();
+  var open_time = foodtruck.schedule[weekday].open; // "9:00"
+  var open_hour = open_time.split(":")[0] *1; // 9
+  var open_min = open_time.split(":")[1] *1; // 0
+
+  var close_time = foodtruck.schedule[weekday].close; // "17:30"
+  var close_hour = close_time.split(":")[0] *1; // 17
+  var close_min = close_time.split(":")[1] *1; // 30
+
+  var now = new Date();
+  var open = new Date(now).setHours(open_hour, open_min);
+  var close = new Date(now).setHours(close_hour, close_min);
+
+  // case switch for date adjustment
+
   // var yesterday = new Date().setDate(now.getDate() -1);
   // var tomorrow = new Date().setDate(now.getDate() +1);
-  // dateObj.setHours(hoursValue[, minutesValue[, secondsValue[, msValue]]])
-
 
   // convert time strings for open and close into two time objects
   // how to determine which date "now" is applied to ...?
@@ -70,22 +79,6 @@ function determineFoodtruckOpenCloseState(foodtruck, weekday) {
   // now could be 4:00-23:59, 0:00-3:59
   // open could be 4:00-23:59
   // close could be 4:00-23:59, 0:00-3:59
-
-  // now 4
-  // open 4
-  // close 4
-  //
-  // now 0
-  // open 4
-  // close 4
-  //
-  // now 4
-  // open 4
-  // close 0
-  //
-  // now 0
-  // open 4
-  // close 0
 
   // if
     // now 4:00-23:59
