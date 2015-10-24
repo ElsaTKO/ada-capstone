@@ -47,18 +47,62 @@ function convertToAmPm(time) {
 function determineFoodtruckOpenCloseState(foodtruck, weekday) {
 
   var open_time = foodtruck.schedule[weekday].open; // "9:00"
-  var open_hour = open_time.split(":")[0] *1; // 9
-  var open_min = open_time.split(":")[1] *1; // 0
+  var open_hour = parseInt(open_time.split(":")[0]); // 9
+  var open_min = parseInt(open_time.split(":")[1]); // 0
 
   var close_time = foodtruck.schedule[weekday].close; // "17:30"
-  var close_hour = close_time.split(":")[0] *1; // 17
-  var close_min = close_time.split(":")[1] *1; // 30
+  var close_hour = parseInt(close_time.split(":")[0]); // 17
+  var close_min = parseInt(close_time.split(":")[1]); // 30
 
   var now = new Date();
+  var now_hour = now.getHours();
+
   var open = new Date(now).setHours(open_hour, open_min);
   var close = new Date(now).setHours(close_hour, close_min);
 
-  // case switch for date adjustment
+  if (now_hour >= 4 && open_hour >= 4 && close_hour >= 4) {
+    // if
+      // now 4:00-23:59
+      // &&
+      // open 4:00-23:59
+      // &&
+      // close 4:00-23:59
+    // now => today => 0
+    // open => today => 0
+    // close => today => 0
+  } else if (now_hour < 4 && open_hour >= 4 && close_hour >= 4) {
+    // if
+      // now 0:00-3:59
+      // &&
+      // open 4:00-23:59
+      // &&
+      // close 4:00-23:59
+    // now => today => 0
+    // open => yesterday => -1
+    // close => yesterday => -1
+  } else if (now_hour >= 4 && open_hour >= 4 && close_hour < 4) {
+    // if
+      // now 4:00-23:59
+      // &&
+      // open 4:00-23:59
+      // &&
+      // close 0:00-3:59
+    // now => today => 0
+    // open => today => 0
+    // close => tomorrow => +1
+  } else if (now_hour < 4 && open_hour >= 4 && close_hour < 4) {
+    // if
+      // now 0:00-3:59
+      // &&
+      // open 4:00-23:59
+      // &&
+      // close 0:00-3:59
+    // now => today => 0
+    // open => yesterday => -1
+    // close => today => 0
+  } else {
+    console.error("Open time may be after midnight... Or there's an error.");
+  }
 
   // var yesterday = new Date().setDate(now.getDate() -1);
   // var tomorrow = new Date().setDate(now.getDate() +1);
@@ -77,7 +121,7 @@ function determineFoodtruckOpenCloseState(foodtruck, weekday) {
   // based on that adjustment.
 
   // now could be 4:00-23:59, 0:00-3:59
-  // open could be 4:00-23:59
+  // open could be 4:00-23:59 // assumes no food truck opens after midnight
   // close could be 4:00-23:59, 0:00-3:59
 
   // if
