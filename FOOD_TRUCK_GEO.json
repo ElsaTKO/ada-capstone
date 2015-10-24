@@ -440,7 +440,6 @@
       "thursday": {
         "address": "2300 7th Ave, Seattle, WA 98121, USA",
         "open": "11:00",
-        "close": "done",
         "geometry": {
           "coordinates": [
             -122.3415988,
@@ -452,7 +451,6 @@
       "friday": {
         "address": "2300 7th Ave, Seattle, WA 98121, USA",
         "open": "11:00",
-        "close": "done",
         "geometry": {
           "coordinates": [
             -122.3415988,
@@ -4995,7 +4993,6 @@
       "thursday": {
         "address": "4700 Ohio Ave S, Seattle, WA 98134, USA",
         "open": "17:00",
-        "close": "done",
         "geometry": {
           "coordinates": [
             -122.3377055,
