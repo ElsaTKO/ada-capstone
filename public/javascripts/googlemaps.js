@@ -158,14 +158,18 @@ function pinFoodtrucks(foodtrucks, map, infowindow) {
     var cuisine = foodtrucks[i].cuisine;
     var payment = foodtrucks[i].payment.toLowerCase();
     var description = foodtrucks[i].description;
-    var open_ampm, close_ampm;
     var open = foodtrucks[i].schedule["" + weekday + ""][0].open;
+    var open_ampm, close_ampm;
     if (open !== undefined) {
       open_ampm = convertToAmPm(open);
+    } else {
+      open_ampm = "";
     }
     var close = foodtrucks[i].schedule["" + weekday + ""][0].close;
     if (close !== undefined) {
       close_ampm = convertToAmPm(close);
+    } else {
+      close_ampm = "";
     }
     var address = foodtrucks[i].schedule["" + weekday + ""][0].address;
     var directions_url = generateDirectionsUrl(lat, lng);
