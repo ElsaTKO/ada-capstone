@@ -29,17 +29,21 @@ function determineWeekday() {
 function convertToAmPm(time) {
   var hour = time.split(":")[0]; // 12:00 => 12
   var min = time.split(":")[1]; // 12:00 => 00
+  hour = parseInt(hour);
+  
   var ampm;
   if (hour === 0) {
     hour = 12; // 0:00 => 12:00
     ampm = "am";
-  }
-  if (hour > 12) {
+  } else if (hour === 12) {
+    ampm = "pm";
+  } else if (hour > 12) {
     hour -= 12; // 13:00 => 1:00
     ampm = "pm";
   } else {
     ampm = "am";
   }
+
   var converted_time = hour + ":" + min + ampm;
   return converted_time;
 }
