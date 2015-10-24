@@ -4,7 +4,7 @@ function determineWeekday() {
   var hour = today.getHours(); // 0 for midnight, 23:59 for 11:59pm
 
   // is it late night? food trucks might still be out from previous day
-  if (hour >= 0 && hour <= 4) {
+  if (hour >= 0 && hour < 4) {
     // is it sunday? rewinding one day needs to be 6, not -1
     if (weekday_integer === 0) {
       weekday_integer = 6;
