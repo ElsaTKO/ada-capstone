@@ -44,12 +44,12 @@ function convertToAmPm(time) {
   return converted_time;
 }
 
-function foodtruckIsClosedHuh(foodtruck, weekday) {
-  var open_time = foodtruck.schedule[weekday].open; // "9:00"
+function foodtruckIsClosedHuh(open_time, close_time) {
+  // var open_time = foodtruck.schedule[weekday][0].open; // "9:00"
   var open_hour = parseInt(open_time.split(":")[0]); // 9
   var open_min = parseInt(open_time.split(":")[1]); // 0
 
-  var close_time = foodtruck.schedule[weekday].close; // "17:30"
+  // var close_time = foodtruck.schedule[weekday][0].close; // "17:30"
   var close_hour = parseInt(close_time.split(":")[0]); // 17
   var close_min = parseInt(close_time.split(":")[1]); // 30
 
@@ -91,8 +91,8 @@ function foodtruckIsClosedHuh(foodtruck, weekday) {
     // now => today => 0
     // open => yesterday => -1
     // close => yesterday => -1
-    open = open.setDate(now.getDate() -1);
-    close = close.setDate(now.getDate() -1);
+    open = new Date(open).setDate(now.getDate() -1);
+    close = new Date(close).setDate(now.getDate() -1);
 
   } else if (now_hour >= 4 && open_hour >= 4 && close_hour < 4) {
     // if
@@ -104,7 +104,7 @@ function foodtruckIsClosedHuh(foodtruck, weekday) {
     // now => today => 0
     // open => today => 0
     // close => tomorrow => +1
-    close = close.setDate(now.getDate() +1);
+    close = new Date(close).setDate(now.getDate() +1);
 
   } else if (now_hour < 4 && open_hour >= 4 && close_hour < 4) {
     // if
@@ -116,7 +116,7 @@ function foodtruckIsClosedHuh(foodtruck, weekday) {
     // now => today => 0
     // open => yesterday => -1
     // close => today => 0
-    open = open.setDate(now.getDate() -1);
+    open = new Date(open).setDate(now.getDate() -1);
 
   } else {
     console.error("A food truck opening time may be after midnight. Or something went wrong.");
@@ -158,13 +158,14 @@ function pinFoodtrucks(foodtrucks, map, infowindow) {
     var cuisine = foodtrucks[i].cuisine;
     var payment = foodtrucks[i].payment.toLowerCase();
     var description = foodtrucks[i].description;
+    var open_ampm, close_ampm;
     var open = foodtrucks[i].schedule["" + weekday + ""][0].open;
     if (open !== undefined) {
-      open = convertToAmPm(open);
+      open_ampm = convertToAmPm(open);
     }
     var close = foodtrucks[i].schedule["" + weekday + ""][0].close;
     if (close !== undefined) {
-      close = convertToAmPm(close);
+      close_ampm = convertToAmPm(close);
     }
     var address = foodtrucks[i].schedule["" + weekday + ""][0].address;
     var directions_url = generateDirectionsUrl(lat, lng);
@@ -178,9 +179,19 @@ function pinFoodtrucks(foodtrucks, map, infowindow) {
 
     // add way to only append urls if they are defined
 
-    var content = "<div class='infowindow'><p>" + name + "</p><p>Cuisine: " + cuisine + "</p><p>Accepted payment: " + payment + "</p><p>" + description + "</p><p>Hours: " + open + " - " + close + "</p><p class='warning'>*** Location and hours may not be accurate. Check the schedule directly. ***</p>" + facebook_link + " - " + twitter_link + " - " + website_link + "<p>Address (approximate): " + address + "</p><p>" + directions_link + "</p></div>";
+    var content = "<div class='infowindow'><p>" + name + "</p><p>Cuisine: " + cuisine + "</p><p>Accepted payment: " + payment + "</p><p>" + description + "</p><p>Hours: " + open_ampm + " - " + close_ampm + "</p><p class='warning'>*** Location and hours may not be accurate. Check the schedule directly. ***</p>" + facebook_link + " - " + twitter_link + " - " + website_link + "<p>Address (approximate): " + address + "</p><p>" + directions_link + "</p></div>";
 
-    var image = 'images/foodtruck.png';
+    var image;
+    if (open !== undefined && close !== undefined) {
+      var is_closed = foodtruckIsClosedHuh(open, close);
+      if (is_closed === true) {
+        image = 'images/foodtruck_closed.png';
+      } else {
+        image = 'images/foodtruck.png';
+      }
+    } else {
+      image = 'images/foodtruck.png';
+    }
 
     var marker = new google.maps.Marker({
       position: latLng,
