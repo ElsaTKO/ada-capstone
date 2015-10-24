@@ -1,8 +1,53 @@
+/*html,
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}*/
+
+html {
+  height: 100%;
+  font-size: 16px;
+  line-height: 1.2;
+  font-family: Arial, sans-serif;
+}
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#container {
+  width: 100%;
+  height: 100%;
+}
+#menu {
+  z-index: 1000;
+  position: absolute;
+  /*top: 0;*/
+  left: 40%;
+  width: 20%;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.75);
+  color: #000;
+  text-align: center;
+  display: inline-block;
 }
 
-a {
-  color: #00B7FF;
+#map {
+  width: 100%;
+  height: 100%;
+}
+
+#menu h1 {
+  font-family: Chelsea Market, sans-serif;
+  font-size: 2rem;
+  margin-top: 0.34em;
+    margin-right: 0.34em;
+    margin-bottom: 0;
+    margin-left: 0.34em;
+}
+
+#menu p {
+  font-size: 1rem;
+  margin: 0.34em;
 }

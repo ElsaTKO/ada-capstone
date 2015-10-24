@@ -30,7 +30,7 @@ function convertToAmPm(time) {
   var hour = time.split(":")[0]; // 12:00 => 12
   var min = time.split(":")[1]; // 12:00 => 00
   hour = parseInt(hour);
-  
+
   var ampm;
   if (hour === 0) {
     hour = 12; // 0:00 => 12:00

@@ -1,23 +1,21 @@
 doctype html
 html
   head
+    link(href='https://fonts.googleapis.com/css?family=Chelsea+Market', rel='stylesheet', type='text/css')
+    link(href='/stylesheets/style.css', rel='stylesheet')
     meta(name='viewport', content='initial-scale=1.0, user-scalable=no')
     meta(charset='utf-8')
-    title BOOZEY BITES
-    style.
-      html, body {
-      height: 100%;
-      margin: 0;
-      padding: 0;
-      }
-      #map {
-      height: 100%;
-      }
+    meta(name='description', content="Mapping Seattle's food trucks, microbreweries, and distilleries.")
+    title Boozey Bites
   body
-    #map
+    #container
+      #menu
+        h1 boozey bites
+        p mapping Seattle's food trucks, microbreweries, and distilleries
+      #map
 
     script(type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js').
 
     script(type='text/javascript' src='/javascripts/googlemaps.js').
-    
+
     script(async='', defer='', src='https://maps.googleapis.com/maps/api/js?key=#{GOOGLE_KEY}&callback=initMap').
