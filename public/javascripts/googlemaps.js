@@ -1,8 +1,3 @@
-// <i class="fa fa-twitter"></i>
-// <i class="fa fa-facebook"></i>
-// <i class="fa fa-home"></i>
-// <i class="fa fa-exclamation-triangle"></i>
-
 var introbox = $("#introbox");
 introbox.on('click', function(e) {
     e.preventDefault();
@@ -151,13 +146,7 @@ function generateDirectionsUrl(lat, lng) {
   return directions;
 }
 
-function setFoodtruckContent(foodtruck, weekday) {
-  // create content div
-  // if attribute exists,
-    // create tag and populate it
-    // append tag to content div
-  // return content div
-
+function setFoodtruckContent(foodtruck, weekday, lat, lng) {
   // create div and table
   var contentDiv = $("<div></div>").addClass("infowindow");
   var table = $("<table></table>").addClass("table");
@@ -194,40 +183,81 @@ function setFoodtruckContent(foodtruck, weekday) {
   table.append(description_row);
 
   // add hours
-  if (foodtruck.schedule[weekday][0].open !== undefined && foodtruck.schedule[weekday][0].close !== undefined) {
+  if (foodtruck.schedule[weekday][0].open !== undefined) { // at least has open time
     var hours_row = $("<tr></tr>").addClass("hours-row");
     var hours_header = $("<td></td>").addClass("header").text("Hours");
-
-    var open, close, hours_cell;
-    if (foodtruck.schedule[weekday][0].open !== undefined) {
-      open = foodtruck.schedule[weekday][0].open;
-    }
+    var open = foodtruck.schedule[weekday][0].open;
+    var open_ampm = convertToAmPm(open);
+    var close, hours_cell, close_ampm;
     if (foodtruck.schedule[weekday][0].close !== undefined) {
       close = foodtruck.schedule[weekday][0].close;
+      close_ampm = convertToAmPm(close);
     }
-
-    if (open !== undefined && close !== undefined) {
-      hours_cell = $("<td></td>").addClass("hours").text(open + " - " + close);
-    } else if (open !== undefined && close === undefined) {
-      hours_cell = $("<td></td>").addClass("hours").text(open + " - ?");
-    } else if (open === undefined && close !== undefined) {
-      hours_cell = $("<td></td>").addClass("hours").text(" ? - " + close);
+    if (close !== undefined) { // both times given
+      hours_cell = $("<td></td>").addClass("hours").text(open_ampm + " - " + close_ampm);
+    } else if (open !== undefined && close === undefined) { // missing close
+      hours_cell = $("<td></td>").addClass("hours").text(open_ampm + " - ?");
     }
-
     var warning = $("<i></i>").addClass("fa fa-exclamation-triangle");
-    var hours_warning = $("<td></td>").addClass("hours-warning").text(warning + " confirm schedule");
+    var hours_warning = $("<td></td>").addClass("hours-warning");
+    hours_warning.append(warning, " confirm schedule");
     hours_row.append(hours_header, hours_cell, hours_warning);
     table.append(hours_row);
   }
 
-  // add social links (no colspans)
-  // add address (colspan 2)
-  // add directions (colspan 3)
+  if (foodtruck.contact.facebook !== undefined || foodtruck.contact.twitter_link !== undefined || foodtruck.contact.website !== undefined) {
+    var social_row = $("<tr></tr>").addClass("social-row");
+    var home_cell = $("<td></td>").addClass("home");
+    var twitter_cell = $("<td></td>").addClass("twitter");
+    var facebook_cell = $("<td></td>").addClass("facebook");
 
+    if (foodtruck.contact.website !== undefined) { // have website
+      var website_url = foodtruck.contact.website;
+      var home = $("<i></i>").addClass("fa fa-home");
+      var website_link = $("<a></a>").attr({target: "_blank", href: website_url}).html(home);
+      home_cell.append(website_link);
+      social_row.append(home_cell);
+    }
+
+    if (foodtruck.contact.twitter !== undefined) { // have twitter
+      var twitter_url = foodtruck.contact.twitter;
+      var bird = $("<i></i>").addClass("fa fa-twitter");
+      var twitter_link = $("<a></a>").attr({target: "_blank", href: twitter_url}).html(bird);
+      twitter_cell.append(twitter_link);
+      social_row.append(twitter_cell);
+    }
+
+    if (foodtruck.contact.facebook !== undefined) { // have facebook
+      var facebook_url = foodtruck.contact.facebook;
+      var eff = $("<i></i>").addClass("fa fa-facebook");
+      var facebook_link = $("<a></a>").attr({target: "_blank", href: facebook_url}).html(eff);
+      facebook_cell.append(facebook_link);
+      social_row.append(facebook_cell);
+    }
+    table.append(social_row);
+  }
+
+  // add address
+  var address = foodtruck.schedule[weekday][0].address;
+  var address_row = $("<tr></tr>").addClass("address-row");
+  var address_header = $("<td></td>").addClass("header").text("Address (approximate)");
+  var address_cell = $("<td></td>").addClass("address").attr("colspan", "2").text(address);
+  address_row.append(address_header, address_cell);
+  table.append(address_row);
+
+  // add directions
+  var directions_url = generateDirectionsUrl(lat, lng);
+  var directions_link = $("<a target='_blank' href='" + directions_url + "'>Directions</a>");
+  var directions_row = $("<tr></tr>").addClass("directions-row");
+  var directions_cell = $("<td></td>").addClass("directions").attr("colspan", "3");
+  directions_cell.append(directions_link);
+  directions_row.append(directions_cell);
+  table.append(directions_row);
 
   // append table to div
   contentDiv.append(table);
-  return contentDiv;
+  // console.log(contentDiv[0].innerHTML);
+  return contentDiv[0].innerHTML;
 }
 
 function getFoodtrucks(map, infowindow) {
@@ -245,39 +275,41 @@ function pinFoodtrucks(foodtrucks, map, infowindow) {
   var weekday = determineWeekday();
 
   for (i = 0; i < foodtrucks.length; i++) {
-    var lng = foodtrucks[i].schedule[weekday][0].geometry.coordinates[0];
-    var lat = foodtrucks[i].schedule[weekday][0].geometry.coordinates[1];
+    var foodtruck = foodtrucks[i];
+    var lng = foodtruck.schedule[weekday][0].geometry.coordinates[0];
+    var lat = foodtruck.schedule[weekday][0].geometry.coordinates[1];
     var latLng = new google.maps.LatLng(lat, lng);
-    var name = foodtrucks[i].name;
-    var cuisine = foodtrucks[i].cuisine;
-    var payment = foodtrucks[i].payment.toLowerCase();
-    var description = foodtrucks[i].description;
-    var open = foodtrucks[i].schedule[weekday][0].open;
+    // var name = foodtruck.name;
+    // var cuisine = foodtruck.cuisine;
+    // var payment = foodtruck.payment.toLowerCase();
+    // var description = foodtruck.description;
+    var open = foodtruck.schedule[weekday][0].open;
     var open_ampm, close_ampm;
     if (open !== undefined) {
-      open_ampm = convertToAmPm(open);
+      // open_ampm = convertToAmPm(open);
     } else {
-      open_ampm = "";
+      // open_ampm = "";
     }
-    var close = foodtrucks[i].schedule[weekday][0].close;
+    var close = foodtruck.schedule[weekday][0].close;
     if (close !== undefined) {
-      close_ampm = convertToAmPm(close);
+      // close_ampm = convertToAmPm(close);
     } else {
-      close_ampm = "";
+      // close_ampm = "";
     }
-    var address = foodtrucks[i].schedule[weekday][0].address;
-    var directions_url = generateDirectionsUrl(lat, lng);
-    var directions_link = "<a href='" + directions_url + "' target='_blank'>Directions</a>";
-    var facebook_url = foodtrucks[i].contact.facebook;
-    var facebook_link = "<a href='" + facebook_url + "' target='_blank'>Facebook</a>";
-    var twitter_url = foodtrucks[i].contact.twitter_link;
-    var twitter_link = "<a href='" + twitter_url + "' target='_blank'>Twitter</a>";
-    var website_url = foodtrucks[i].contact.website;
-    var website_link = "<a href='" + website_url + "' target='_blank'>website</a>";
+    // var address = foodtruck.schedule[weekday][0].address;
+    // var directions_url = generateDirectionsUrl(lat, lng);
+    // var directions_link = "<a href='" + directions_url + "' target='_blank'>Directions</a>";
+    // var facebook_url = foodtruck.contact.facebook;
+    // var facebook_link = "<a href='" + facebook_url + "' target='_blank'>Facebook</a>";
+    // var twitter_url = foodtruck.contact.twitter_link;
+    // var twitter_link = "<a href='" + twitter_url + "' target='_blank'>Twitter</a>";
+    // var website_url = foodtruck.contact.website;
+    // var website_link = "<a href='" + website_url + "' target='_blank'>website</a>";
 
     // add way to only append urls if they are defined
 
-    var content = "<div class='infowindow'><p>" + name + "</p><p>Cuisine: " + cuisine + "</p><p>Accepted payment: " + payment + "</p><p>" + description + "</p><p>Hours: " + open_ampm + " - " + close_ampm + "</p><p class='warning'>*** Location and hours may not be accurate. Check the schedule directly. ***</p>" + facebook_link + " - " + twitter_link + " - " + website_link + "<p>Address (approximate): " + address + "</p><p>" + directions_link + "</p></div>";
+    // var content = "<div class='infowindow'><p>" + name + "</p><p>Cuisine: " + cuisine + "</p><p>Accepted payment: " + payment + "</p><p>" + description + "</p><p>Hours: " + open_ampm + " - " + close_ampm + "</p><p class='warning'>*** Location and hours may not be accurate. Check the schedule directly. ***</p>" + facebook_link + " - " + twitter_link + " - " + website_link + "<p>Address (approximate): " + address + "</p><p>" + directions_link + "</p></div>";
+    var content = setFoodtruckContent(foodtruck, weekday, lat, lng);
 
     var image;
     if (open !== undefined && close !== undefined) {
