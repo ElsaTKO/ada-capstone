@@ -41,7 +41,6 @@ body {
 #wrapper {
   height: auto;
   width: auto;
-  color: #000;
   padding: 1em;
   display: flex;
   flex-direction: column;
@@ -51,21 +50,28 @@ body {
 #wrapper h1 {
   font-family: Chelsea Market, sans-serif;
   font-size: 4rem;
+  color: #000;
 }
 
 #wrapper h2 {
   font-size: 2rem;
+  color: #000;
 }
 
 #wrapper p {
   font-size: 1rem;
+  color: #a8a8a8;
 }
 
 #wrapper a {
+  color: #8C8CC5;
+  text-decoration: none;
 }
 
 #wrapper i {
   cursor: pointer;
+  color: #000;
+  font-size: 4rem;
 }
 
 #map {
@@ -74,7 +80,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (max-device-width : 480px) {
   #wrapper h1 {
     font-size: 2rem;
   }
@@ -93,7 +99,7 @@ body {
 }
 
 /* Smartphones (landscape) ----------- */
-@media only screen and (min-width : 321px) {
+@media only screen and (max-device-width : 321px) {
   #wrapper h1 {
     font-size: 2rem;
   }
@@ -112,7 +118,7 @@ body {
 }
 
 /* Smartphones (portrait) ----------- */
-@media only screen and (max-width : 320px) {
+@media only screen and (max-device-width : 320px) {
   #wrapper h1 {
     font-size: 1rem;
   }
