@@ -2338,7 +2338,6 @@
   {
     "name": "Hot Dog Stop",
     "cuisine": "Hot Dogs",
-    "payment": "Unknown",
     "description": "Authentic New York Style hot dog cart",
     "schedule": {
       "monday": {},
@@ -3602,7 +3601,6 @@
   {
     "name": "Papa Bois",
     "cuisine": "Caribbean Fusion",
-    "payment": "Unknown",
     "description": "A mash up of Caribbean and Southeast Asian flavors",
     "schedule": {
       "monday": {
@@ -5365,7 +5363,6 @@
   {
     "name": "Secret Sausage",
     "cuisine": "Hot Dogs",
-    "payment": "Unknown",
     "description": "Serving our own take on “Pioneer Square”, Seattle style hot dogs. CREAM CHEESE!",
     "schedule": {
       "monday": {
