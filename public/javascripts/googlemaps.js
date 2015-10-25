@@ -1,3 +1,8 @@
+// <i class="fa fa-twitter"></i>
+// <i class="fa fa-facebook"></i>
+// <i class="fa fa-home"></i>
+// <i class="fa fa-exclamation-triangle"></i>
+
 var introbox = $("#introbox");
 introbox.on('click', function(e) {
     e.preventDefault();
@@ -146,6 +151,85 @@ function generateDirectionsUrl(lat, lng) {
   return directions;
 }
 
+function setFoodtruckContent(foodtruck, weekday) {
+  // create content div
+  // if attribute exists,
+    // create tag and populate it
+    // append tag to content div
+  // return content div
+
+  // create div and table
+  var contentDiv = $("<div></div>").addClass("infowindow");
+  var table = $("<table></table>").addClass("table");
+
+  // add name
+  var name = foodtruck.name;
+  var name_row = $("<tr></tr>").addClass("name-row");
+  var name_cell = $("<td></td>").addClass("name").attr("colspan", "3").text(name);
+  name_row.append(name_cell);
+  table.append(name_row);
+
+  // add cuisine
+  var cuisine = foodtruck.cuisine;
+  var cuisine_row = $("<tr></tr>").addClass("cuisine-row");
+  var cuisine_header = $("<td></td>").addClass("header").text("Cuisine");
+  var cuisine_cell = $("<td></td>").addClass("cuisine").attr("colspan", "2").text(cuisine);
+  cuisine_row.append(cuisine_header, cuisine_cell);
+  table.append(cuisine_row);
+
+  if (foodtruck.payment !== undefined) {
+    var payment = foodtruck.payment;
+    var payment_row = $("<tr></tr>").addClass("payment-row");
+    var payment_header = $("<td></td>").addClass("header").text("Payment");
+    var payment_cell = $("<td></td>").addClass("payment").attr("colspan", "2").text(payment.toLowerCase());
+    payment_row.append(payment_header, payment_cell);
+    table.append(payment_row);
+  }
+
+  // add description
+  var description = foodtruck.description;
+  var description_row = $("<tr></tr>").addClass("description-row");
+  var description_cell = $("<td></td>").addClass("description").attr("colspan", "3").text(description);
+  description_row.append(description_cell);
+  table.append(description_row);
+
+  // add hours
+  if (foodtruck.schedule[weekday][0].open !== undefined && foodtruck.schedule[weekday][0].close !== undefined) {
+    var hours_row = $("<tr></tr>").addClass("hours-row");
+    var hours_header = $("<td></td>").addClass("header").text("Hours");
+
+    var open, close, hours_cell;
+    if (foodtruck.schedule[weekday][0].open !== undefined) {
+      open = foodtruck.schedule[weekday][0].open;
+    }
+    if (foodtruck.schedule[weekday][0].close !== undefined) {
+      close = foodtruck.schedule[weekday][0].close;
+    }
+
+    if (open !== undefined && close !== undefined) {
+      hours_cell = $("<td></td>").addClass("hours").text(open + " - " + close);
+    } else if (open !== undefined && close === undefined) {
+      hours_cell = $("<td></td>").addClass("hours").text(open + " - ?");
+    } else if (open === undefined && close !== undefined) {
+      hours_cell = $("<td></td>").addClass("hours").text(" ? - " + close);
+    }
+
+    var warning = $("<i></i>").addClass("fa fa-exclamation-triangle");
+    var hours_warning = $("<td></td>").addClass("hours-warning").text(warning + " confirm schedule");
+    hours_row.append(hours_header, hours_cell, hours_warning);
+    table.append(hours_row);
+  }
+
+  // add social links (no colspans)
+  // add address (colspan 2)
+  // add directions (colspan 3)
+
+
+  // append table to div
+  contentDiv.append(table);
+  return contentDiv;
+}
+
 function getFoodtrucks(map, infowindow) {
   $.ajax({
     type: "GET",
@@ -161,27 +245,27 @@ function pinFoodtrucks(foodtrucks, map, infowindow) {
   var weekday = determineWeekday();
 
   for (i = 0; i < foodtrucks.length; i++) {
-    var lng = foodtrucks[i].schedule["" + weekday + ""][0].geometry.coordinates[0];
-    var lat = foodtrucks[i].schedule["" + weekday + ""][0].geometry.coordinates[1];
+    var lng = foodtrucks[i].schedule[weekday][0].geometry.coordinates[0];
+    var lat = foodtrucks[i].schedule[weekday][0].geometry.coordinates[1];
     var latLng = new google.maps.LatLng(lat, lng);
     var name = foodtrucks[i].name;
     var cuisine = foodtrucks[i].cuisine;
     var payment = foodtrucks[i].payment.toLowerCase();
     var description = foodtrucks[i].description;
-    var open = foodtrucks[i].schedule["" + weekday + ""][0].open;
+    var open = foodtrucks[i].schedule[weekday][0].open;
     var open_ampm, close_ampm;
     if (open !== undefined) {
       open_ampm = convertToAmPm(open);
     } else {
       open_ampm = "";
     }
-    var close = foodtrucks[i].schedule["" + weekday + ""][0].close;
+    var close = foodtrucks[i].schedule[weekday][0].close;
     if (close !== undefined) {
       close_ampm = convertToAmPm(close);
     } else {
       close_ampm = "";
     }
-    var address = foodtrucks[i].schedule["" + weekday + ""][0].address;
+    var address = foodtrucks[i].schedule[weekday][0].address;
     var directions_url = generateDirectionsUrl(lat, lng);
     var directions_link = "<a href='" + directions_url + "' target='_blank'>Directions</a>";
     var facebook_url = foodtrucks[i].contact.facebook;
