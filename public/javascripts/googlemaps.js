@@ -1,3 +1,9 @@
+var introbox = $("#introbox");
+introbox.on('click', function(e) {
+    e.preventDefault();
+    introbox.hide();
+});
+
 function determineWeekday() {
   var today = new Date();
   var weekday_integer = today.getDay(); // 0 for Sunday, 1 for Monday, etc
