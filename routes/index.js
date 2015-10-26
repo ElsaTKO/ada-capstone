@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-
+var app = express();
 if (app.get('env') === 'development') {
   var dotenv  = require('dotenv');
   dotenv.load();
