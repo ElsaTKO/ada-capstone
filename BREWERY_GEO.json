@@ -6,6 +6,11 @@
     "state": "WA",
     "zip": "98108",
     "address": "5840 Airport Way S, Seattle, WA 98108, USA",
+    "contact": {
+      "facebook": "",
+      "twitter_link": "",
+      "website": ""
+    },
     "geometry": {
       "coordinates": [ -122.3179016, 47.5505918 ],
       "type": "Point"
@@ -18,6 +23,11 @@
     "state": "WA",
     "zip": "98107",
     "address": "1514 NW Leary Way, Seattle, WA 98107",
+    "contact": {
+      "facebook": "",
+      "twitter_link": "",
+      "website": ""
+    },
     "geometry": {
       "coordinates": [
         -122.3770908,
@@ -33,6 +43,11 @@
     "state": "WA",
     "zip": "98106",
     "address": "9832 14th Ave SW, Seattle, WA 98106",
+    "contact": {
+      "facebook": "",
+      "twitter_link": "",
+      "website": ""
+    },
     "geometry": {
       "coordinates": [
         -122.352381,
@@ -48,6 +63,11 @@
     "state": "WA",
     "zip": "98103",
     "address": "3409 Woodland Park Avenue North, Seattle, WA 98103",
+    "contact": {
+      "facebook": "",
+      "twitter_link": "",
+      "website": ""
+    },
     "geometry": {
       "coordinates": [
         -122.344303,
@@ -63,6 +83,11 @@
     "state": "WA",
     "zip": "98108",
     "address": "9130 15th Pl. S., Seattle, WA 98108",
+    "contact": {
+      "facebook": "",
+      "twitter_link": "",
+      "website": ""
+    },
     "geometry": {
       "coordinates": [
         -122.3118124,
@@ -78,6 +103,11 @@
     "state": "WA",
     "zip": "98134",
     "address": "3201 First Ave South, #104, Seattle, WA 98134",
+    "contact": {
+      "facebook": "",
+      "twitter_link": "",
+      "website": ""
+    },
     "geometry": {
       "coordinates": [
         -104.9502411,
@@ -93,6 +123,11 @@
     "state": "WA",
     "zip": "98107",
     "address": "4912 17th Avenue NW Ste B, Seattle, WA 98107",
+    "contact": {
+      "facebook": "",
+      "twitter_link": "",
+      "website": ""
+    },
     "geometry": {
       "coordinates": [
         -122.3786014,
@@ -108,6 +143,11 @@
     "state": "WA",
     "zip": "98134",
     "address": "3100 Airport Way S, Seattle, WA 98134",
+    "contact": {
+      "facebook": "",
+      "twitter_link": "",
+      "website": ""
+    },
     "geometry": {
       "coordinates": [
         -122.3204606,
@@ -123,6 +163,11 @@
     "state": "WA",
     "zip": "98107",
     "address": "1550 NW 49th Street, Seattle, WA 98107",
+    "contact": {
+      "facebook": "",
+      "twitter_link": "",
+      "website": ""
+    },
     "geometry": {
       "coordinates": [
         -122.3780509,
@@ -138,6 +183,11 @@
     "state": "WA",
     "zip": "98134",
     "address": "3901 1st Avenue South, Seattle, WA 98134",
+    "contact": {
+      "facebook": "",
+      "twitter_link": "",
+      "website": ""
+    },
     "geometry": {
       "coordinates": [
         -122.3356331,
@@ -153,6 +203,11 @@
     "state": "WA",
     "zip": "98134",
     "address": "4700 Ohio Ave. S., Unit A, Seattle, WA 98134",
+    "contact": {
+      "facebook": "",
+      "twitter_link": "",
+      "website": ""
+    },
     "geometry": {
       "coordinates": [
         -122.3377055,
@@ -168,6 +223,11 @@
     "state": "WA",
     "zip": "98107",
     "address": "1406 NW 53rd Street, Suite 1A, Seattle, WA 98107",
+    "contact": {
+      "facebook": "",
+      "twitter_link": "",
+      "website": ""
+    },
     "geometry": {
       "coordinates": [
         -122.374099,
@@ -183,6 +243,11 @@
     "state": "WA",
     "zip": "98108",
     "address": "5840 Airport Way S, Seattle, WA 98108",
+    "contact": {
+      "facebook": "",
+      "twitter_link": "",
+      "website": ""
+    },
     "geometry": {
       "coordinates": [
         -122.3179016,
@@ -198,6 +263,11 @@
     "state": "WA",
     "zip": "98107",
     "address": "1514 NW Leary Way, Seattle, WA 98107",
+    "contact": {
+      "facebook": "",
+      "twitter_link": "",
+      "website": ""
+    },
     "geometry": {
       "coordinates": [
         -122.3770908,
@@ -213,6 +283,11 @@
     "state": "WA",
     "zip": "98107",
     "address": "826B NW 49th St, Seattle, WA 98107",
+    "contact": {
+      "facebook": "",
+      "twitter_link": "",
+      "website": ""
+    },
     "geometry": {
       "coordinates": [
         -122.367549,
@@ -228,6 +303,11 @@
     "state": "WA",
     "zip": "98126",
     "address": "4415 Fauntleroy Way SW, Seattle, WA 98126",
+    "contact": {
+      "facebook": "",
+      "twitter_link": "",
+      "website": ""
+    },
     "geometry": {
       "coordinates": [
         -122.3776532,
@@ -243,6 +323,11 @@
     "state": "WA",
     "zip": "98144",
     "address": "2504 S Jackson St, Seattle, WA 98144",
+    "contact": {
+      "facebook": "",
+      "twitter_link": "",
+      "website": ""
+    },
     "geometry": {
       "coordinates": [
         -122.2995779,
@@ -258,6 +343,11 @@
     "state": "WA",
     "zip": "98109",
     "address": "6 Dravus St, Seattle, WA 98109",
+    "contact": {
+      "facebook": "",
+      "twitter_link": "",
+      "website": ""
+    },
     "geometry": {
       "coordinates": [
         -122.3572991,
@@ -273,6 +363,11 @@
     "state": "WA",
     "zip": "98134",
     "address": "3828 4th Ave S Ste 2, Seattle, WA 98134",
+    "contact": {
+      "facebook": "",
+      "twitter_link": "",
+      "website": ""
+    },
     "geometry": {
       "coordinates": [
         -122.3286055,
@@ -288,6 +383,11 @@
     "state": "WA",
     "zip": "98108",
     "address": "309 S Cloverdale St. Unit A2, Seattle, WA 98108",
+    "contact": {
+      "facebook": "",
+      "twitter_link": "",
+      "website": ""
+    },
     "geometry": {
       "coordinates": [
         -122.3302815,
@@ -303,6 +403,11 @@
     "state": "WA",
     "zip": "98107",
     "address": "1108 NW 52nd St., Seattle, WA 98107",
+    "contact": {
+      "facebook": "",
+      "twitter_link": "",
+      "website": ""
+    },
     "geometry": {
       "coordinates": [
         -122.371202,
@@ -318,6 +423,11 @@
     "state": "WA",
     "zip": "98108",
     "address": "783 S Elmgrove St, Seattle, WA 98108",
+    "contact": {
+      "facebook": "",
+      "twitter_link": "",
+      "website": ""
+    },
     "geometry": {
       "coordinates": [
         -122.3251868,
@@ -333,6 +443,11 @@
     "state": "WA",
     "zip": "98108",
     "address": "8103 8th Ave S., Seattle, WA 98108",
+    "contact": {
+      "facebook": "",
+      "twitter_link": "",
+      "website": ""
+    },
     "geometry": {
       "coordinates": [
         -122.3231782,
@@ -348,6 +463,11 @@
     "state": "WA",
     "zip": "98118",
     "address": "5718 Rainier Ave S, Seattle, WA 98118",
+    "contact": {
+      "facebook": "",
+      "twitter_link": "",
+      "website": ""
+    },
     "geometry": {
       "coordinates": [
         -122.2770789,
@@ -363,6 +483,11 @@
     "state": "WA",
     "zip": "98103",
     "address": "7400 Greenwood Ave N, Seattle, WA 98103",
+    "contact": {
+      "facebook": "",
+      "twitter_link": "",
+      "website": ""
+    },
     "geometry": {
       "coordinates": [
         -122.3550469,
@@ -378,6 +503,11 @@
     "state": "WA",
     "zip": "98107",
     "address": "4358 B Leary Way NW, Seattle, WA 98107",
+    "contact": {
+      "facebook": "",
+      "twitter_link": "",
+      "website": ""
+    },
     "geometry": {
       "coordinates": [
         -122.3657552,
@@ -393,6 +523,11 @@
     "state": "WA",
     "zip": "98118",
     "address": "5041 Rainier Avenue S, Seattle, WA 98118",
+    "contact": {
+      "facebook": "",
+      "twitter_link": "",
+      "website": ""
+    },
     "geometry": {
       "coordinates": [
         -122.2842903,
@@ -408,6 +543,11 @@
     "state": "WA",
     "zip": "98199",
     "address": "4441 26th Ave W, Seattle, WA 98199",
+    "contact": {
+      "facebook": "",
+      "twitter_link": "",
+      "website": ""
+    },
     "geometry": {
       "coordinates": [
         -122.3899519,
@@ -423,6 +563,11 @@
     "state": "WA",
     "zip": "98108",
     "address": "503 South Michigan Street, Suite B, Seattle, WA 98108",
+    "contact": {
+      "facebook": "",
+      "twitter_link": "",
+      "website": ""
+    },
     "geometry": {
       "coordinates": [
         -122.3280271,
@@ -438,6 +583,11 @@
     "state": "WA",
     "zip": "98119",
     "address": "1421 Elliott Ave W., Seattle, WA 98119",
+    "contact": {
+      "facebook": "",
+      "twitter_link": "",
+      "website": ""
+    },
     "geometry": {
       "coordinates": [
         -122.3745168,
@@ -453,6 +603,11 @@
     "state": "WA",
     "zip": "98125",
     "address": "13035 Lake City Way NE, Seattle, WA 98125",
+    "contact": {
+      "facebook": "",
+      "twitter_link": "",
+      "website": ""
+    },
     "geometry": {
       "coordinates": [
         -122.293177,
@@ -468,6 +623,11 @@
     "state": "WA",
     "zip": "98103",
     "address": "938 N 95TH ST, Seattle, WA 98103",
+    "contact": {
+      "facebook": "",
+      "twitter_link": "",
+      "website": ""
+    },
     "geometry": {
       "coordinates": [
         -122.345602,
@@ -483,6 +643,11 @@
     "state": "WA",
     "zip": "98134",
     "address": "2942 1st Ave. S., Seattle, WA 98134",
+    "contact": {
+      "facebook": "",
+      "twitter_link": "",
+      "website": ""
+    },
     "geometry": {
       "coordinates": [
         -122.3338489,
@@ -498,6 +663,11 @@
     "state": "WA",
     "zip": "98107",
     "address": "907 NW 50th St, Seattle, WA 98107",
+    "contact": {
+      "facebook": "",
+      "twitter_link": "",
+      "website": ""
+    },
     "geometry": {
       "coordinates": [
         -122.3691164,
