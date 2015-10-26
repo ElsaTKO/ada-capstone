@@ -86,8 +86,8 @@ body {
 }
 
 .social-row a {
-  padding-left: 3rem;
-  padding-right: 3rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .name-row h2 {
