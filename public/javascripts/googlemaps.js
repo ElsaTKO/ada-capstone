@@ -206,35 +206,32 @@ function setFoodtruckContent(foodtruck, weekday, lat, lng) {
     table.append(hours_row);
   }
 
+  // add social
   if (foodtruck.contact.facebook !== undefined || foodtruck.contact.twitter_link !== undefined || foodtruck.contact.website !== undefined) {
     var social_row = $("<tr></tr>").addClass("social-row");
-    var home_cell = $("<td></td>").addClass("home");
-    var twitter_cell = $("<td></td>").addClass("twitter");
-    var facebook_cell = $("<td></td>").addClass("facebook");
+    var social_cell = $("<td></td>").addClass("social").attr("colspan", "3");
 
-    if (foodtruck.contact.website !== undefined) { // have website
+    if (foodtruck.contact.website !== undefined && foodtruck.contact.website !== "") { // have website
       var website_url = foodtruck.contact.website;
       var home = $("<i></i>").addClass("fa fa-home");
       var website_link = $("<a></a>").attr({target: "_blank", href: website_url}).html(home);
-      home_cell.append(website_link);
-      social_row.append(home_cell);
+      social_cell.append(website_link);
     }
 
-    if (foodtruck.contact.twitter_link !== undefined) { // have twitter
+    if (foodtruck.contact.twitter_link !== undefined && foodtruck.contact.twitter_link !== "") { // have twitter
       var twitter_url = foodtruck.contact.twitter_link;
       var bird = $("<i></i>").addClass("fa fa-twitter");
       var twitter_link = $("<a></a>").attr({target: "_blank", href: twitter_url}).html(bird);
-      twitter_cell.append(twitter_link);
-      social_row.append(twitter_cell);
+      social_cell.append(twitter_link);
     }
 
-    if (foodtruck.contact.facebook !== undefined) { // have facebook
+    if (foodtruck.contact.facebook !== undefined && foodtruck.contact.facebook !== "") { // have facebook
       var facebook_url = foodtruck.contact.facebook;
       var eff = $("<i></i>").addClass("fa fa-facebook");
       var facebook_link = $("<a></a>").attr({target: "_blank", href: facebook_url}).html(eff);
-      facebook_cell.append(facebook_link);
-      social_row.append(facebook_cell);
+      social_cell.append(facebook_link);
     }
+    social_row.append(social_cell);
     table.append(social_row);
   }
 
@@ -242,6 +239,70 @@ function setFoodtruckContent(foodtruck, weekday, lat, lng) {
   var address = foodtruck.schedule[weekday][0].address;
   var address_row = $("<tr></tr>").addClass("address-row");
   var address_header = $("<td></td>").addClass("header").text("Address (approximate):");
+  var address_cell = $("<td></td>").addClass("address").attr("colspan", "2").text(address);
+  address_row.append(address_header, address_cell);
+  table.append(address_row);
+
+  // add directions
+  var directions_url = generateDirectionsUrl(lat, lng);
+  var directions_link = $("<a target='_blank' href='" + directions_url + "'>Directions</a>");
+  var directions_row = $("<tr></tr>").addClass("directions-row");
+  var directions_cell = $("<td></td>").addClass("directions").attr("colspan", "3");
+  directions_cell.append(directions_link);
+  directions_row.append(directions_cell);
+  table.append(directions_row);
+
+  // append table to div
+  contentDiv.append(table);
+  // console.log(contentDiv[0].innerHTML);
+  return contentDiv[0].innerHTML;
+}
+
+function setEstablishmentContent(establishment, lat, lng) {
+  // create div and table
+  var contentDiv = $("<div></div>");
+  var table = $("<table></table>").addClass("infotable");
+
+  // add name
+  var name = $("<h2></h2>").text(establishment.name);
+  var name_row = $("<tr></tr>").addClass("name-row");
+  var name_cell = $("<td></td>").addClass("name").attr("colspan", "3");
+  name_cell.append(name);
+  name_row.append(name_cell);
+  table.append(name_row);
+
+  if (establishment.contact.facebook !== undefined || establishment.contact.twitter_link !== undefined || establishment.contact.website !== undefined) {
+    var social_row = $("<tr></tr>").addClass("social-row");
+    var social_cell = $("<td></td>").addClass("social").attr("colspan", "3");
+
+    if (establishment.contact.website !== undefined && establishment.contact.website !== "") { // have website
+      var website_url = establishment.contact.website;
+      var home = $("<i></i>").addClass("fa fa-home");
+      var website_link = $("<a></a>").attr({target: "_blank", href: website_url}).html(home);
+      social_cell.append(website_link);
+    }
+
+    if (establishment.contact.twitter_link !== undefined && establishment.contact.twitter_link !== "") { // have twitter
+      var twitter_url = establishment.contact.twitter_link;
+      var bird = $("<i></i>").addClass("fa fa-twitter");
+      var twitter_link = $("<a></a>").attr({target: "_blank", href: twitter_url}).html(bird);
+      social_cell.append(twitter_link);
+    }
+
+    if (establishment.contact.facebook !== undefined && establishment.contact.facebook !== "") { // have facebook
+      var facebook_url = establishment.contact.facebook;
+      var eff = $("<i></i>").addClass("fa fa-facebook");
+      var facebook_link = $("<a></a>").attr({target: "_blank", href: facebook_url}).html(eff);
+      social_cell.append(facebook_link);
+    }
+    social_row.append(social_cell);
+    table.append(social_row);
+  }
+
+  // add address
+  var address = establishment.address;
+  var address_row = $("<tr></tr>").addClass("address-row");
+  var address_header = $("<td></td>").addClass("header").text("Address:");
   var address_cell = $("<td></td>").addClass("address").attr("colspan", "2").text(address);
   address_row.append(address_header, address_cell);
   table.append(address_row);
@@ -280,36 +341,9 @@ function pinFoodtrucks(foodtrucks, map, infowindow) {
     var lng = foodtruck.schedule[weekday][0].geometry.coordinates[0];
     var lat = foodtruck.schedule[weekday][0].geometry.coordinates[1];
     var latLng = new google.maps.LatLng(lat, lng);
-    // var name = foodtruck.name;
-    // var cuisine = foodtruck.cuisine;
-    // var payment = foodtruck.payment.toLowerCase();
-    // var description = foodtruck.description;
     var open = foodtruck.schedule[weekday][0].open;
     var open_ampm, close_ampm;
-    if (open !== undefined) {
-      // open_ampm = convertToAmPm(open);
-    } else {
-      // open_ampm = "";
-    }
     var close = foodtruck.schedule[weekday][0].close;
-    if (close !== undefined) {
-      // close_ampm = convertToAmPm(close);
-    } else {
-      // close_ampm = "";
-    }
-    // var address = foodtruck.schedule[weekday][0].address;
-    // var directions_url = generateDirectionsUrl(lat, lng);
-    // var directions_link = "<a href='" + directions_url + "' target='_blank'>Directions</a>";
-    // var facebook_url = foodtruck.contact.facebook;
-    // var facebook_link = "<a href='" + facebook_url + "' target='_blank'>Facebook</a>";
-    // var twitter_url = foodtruck.contact.twitter_link;
-    // var twitter_link = "<a href='" + twitter_url + "' target='_blank'>Twitter</a>";
-    // var website_url = foodtruck.contact.website;
-    // var website_link = "<a href='" + website_url + "' target='_blank'>website</a>";
-
-    // add way to only append urls if they are defined
-
-    // var content = "<div class='infowindow'><p>" + name + "</p><p>Cuisine: " + cuisine + "</p><p>Accepted payment: " + payment + "</p><p>" + description + "</p><p>Hours: " + open_ampm + " - " + close_ampm + "</p><p class='warning'>*** Location and hours may not be accurate. Check the schedule directly. ***</p>" + facebook_link + " - " + twitter_link + " - " + website_link + "<p>Address (approximate): " + address + "</p><p>" + directions_link + "</p></div>";
     var content = setFoodtruckContent(foodtruck, weekday, lat, lng);
 
     var image;
@@ -353,22 +387,24 @@ function pinBreweries(breweries, map, infowindow) {
   // var weekday = determineWeekday();
 
   for (i = 0; i < breweries.length; i++) {
-    var lng = breweries[i].geometry.coordinates[0];
-    var lat = breweries[i].geometry.coordinates[1];
+    var brewery = breweries[i];
+    var lng = brewery.geometry.coordinates[0];
+    var lat = brewery.geometry.coordinates[1];
     var latLng = new google.maps.LatLng(lat, lng);
 
-    var name = breweries[i].name;
-    var address = breweries[i].address;
-    var directions_url = generateDirectionsUrl(lat, lng);
-    var directions_link = "<a href='" + directions_url + "' target='_blank'>Directions</a>";
-    // var facebook_url = breweries[i].contact.facebook;
+    // var name = brewery.name;
+    // var address = brewery.address;
+    // var directions_url = generateDirectionsUrl(lat, lng);
+    // var directions_link = "<a href='" + directions_url + "' target='_blank'>Directions</a>";
+    // var facebook_url = brewery.contact.facebook;
     // var facebook_link = "<a href='" + facebook_url + "' target='_blank'>Facebook</a>";
-    // var twitter_url = breweries[i].contact.twitter_link;
+    // var twitter_url = brewery.contact.twitter_link;
     // var twitter_link = "<a href='" + twitter_url + "' target='_blank'>Twitter</a>";
-    // var website_url = breweries[i].contact.website;
+    // var website_url = brewery.contact.website;
     // var website_link = "<a href='" + website_url + "' target='_blank'>website</a>";
 
-    var content = "<div class='infowindow'><p>" + name + "</p><p>Address: " + address + "</p><p>" + directions_link + "</p></div>";
+    // var content = "<div class='infowindow'><p>" + name + "</p><p>Address: " + address + "</p><p>" + directions_link + "</p></div>";
+    var content = setEstablishmentContent(brewery, lat, lng);
 
     var image = 'images/brewery.png';
 
@@ -401,22 +437,24 @@ function pinDistilleries(distilleries, map, infowindow) {
   // var weekday = determineWeekday();
 
   for (i = 0; i < distilleries.length; i++) {
-    var lng = distilleries[i].geometry.coordinates[0];
-    var lat = distilleries[i].geometry.coordinates[1];
+    var distillery = distilleries[i];
+    var lng = distillery.geometry.coordinates[0];
+    var lat = distillery.geometry.coordinates[1];
     var latLng = new google.maps.LatLng(lat, lng);
 
-    var name = distilleries[i].name;
-    var address = distilleries[i].address;
-    var directions_url = generateDirectionsUrl(lat, lng);
-    var directions_link = "<a href='" + directions_url + "' target='_blank'>Directions</a>";
-    // // var facebook_url = distilleries[i].contact.facebook;
+    // var name = distillery.name;
+    // var address = distillery.address;
+    // var directions_url = generateDirectionsUrl(lat, lng);
+    // var directions_link = "<a href='" + directions_url + "' target='_blank'>Directions</a>";
+    // // var facebook_url = distillery.contact.facebook;
     // // var facebook_link = "<a href='" + facebook_url + "' target='_blank'>Facebook</a>";
-    // var twitter_url = distilleries[i].contact.twitter_link;
+    // var twitter_url = distillery.contact.twitter_link;
     // var twitter_link = "<a href='" + twitter_url + "' target='_blank'>Twitter</a>";
-    // var website_url = distilleries[i].contact.website;
+    // var website_url = distillery.contact.website;
     // var website_link = "<a href='" + website_url + "' target='_blank'>website</a>";
 
-    var content = "<div class='infowindow'><p>" + name + "</p><p>Address: " + address + "</p><p>" + directions_link + "</p></div>";
+    // var content = "<div class='infowindow'><p>" + name + "</p><p>Address: " + address + "</p><p>" + directions_link + "</p></div>";
+    var content = setEstablishmentContent(distillery, lat, lng);
 
     var image = 'images/distillery.png';
 

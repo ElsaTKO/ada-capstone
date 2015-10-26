@@ -85,6 +85,11 @@ body {
   text-align: center;
 }
 
+.social-row a {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
 .name-row h2 {
   margin-top: 0;
   margin-bottom: 0;
