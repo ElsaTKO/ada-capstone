@@ -8,7 +8,8 @@
     "seed": "node seed.js",
     "db_from_config": "mongod --config ~/ada/projects/project-forks/ada-capstone/db/etc/mongod.conf",
     "db": "mongod --dbpath ~/ada/projects/project-forks/ada-capstone/db/",
-    "prestart": "mongod --dbpath ./db --fork --logpath ./db/log/mongodb.log"
+    "prestart": "mongod --dbpath ./db --fork --logpath ./db/log/mongodb.log",
+    "prod start": "node app.js"
   },
   "dependencies": {
     "async": "^1.4.2",
