@@ -148,20 +148,21 @@ function generateDirectionsUrl(lat, lng) {
 
 function setFoodtruckContent(foodtruck, weekday, lat, lng) {
   // create div and table
-  var contentDiv = $("<div></div>").addClass("infowindow");
-  var table = $("<table></table>").addClass("table");
+  var contentDiv = $("<div></div>");
+  var table = $("<table></table>").addClass("infotable");
 
   // add name
-  var name = foodtruck.name;
+  var name = $("<h2></h2>").text(foodtruck.name);
   var name_row = $("<tr></tr>").addClass("name-row");
-  var name_cell = $("<td></td>").addClass("name").attr("colspan", "3").text(name);
+  var name_cell = $("<td></td>").addClass("name").attr("colspan", "3");
+  name_cell.append(name);
   name_row.append(name_cell);
   table.append(name_row);
 
   // add cuisine
   var cuisine = foodtruck.cuisine;
   var cuisine_row = $("<tr></tr>").addClass("cuisine-row");
-  var cuisine_header = $("<td></td>").addClass("header").text("Cuisine");
+  var cuisine_header = $("<td></td>").addClass("header").text("Cuisine:");
   var cuisine_cell = $("<td></td>").addClass("cuisine").attr("colspan", "2").text(cuisine);
   cuisine_row.append(cuisine_header, cuisine_cell);
   table.append(cuisine_row);
@@ -169,7 +170,7 @@ function setFoodtruckContent(foodtruck, weekday, lat, lng) {
   if (foodtruck.payment !== undefined) {
     var payment = foodtruck.payment;
     var payment_row = $("<tr></tr>").addClass("payment-row");
-    var payment_header = $("<td></td>").addClass("header").text("Payment");
+    var payment_header = $("<td></td>").addClass("header").text("Accepted payment:");
     var payment_cell = $("<td></td>").addClass("payment").attr("colspan", "2").text(payment.toLowerCase());
     payment_row.append(payment_header, payment_cell);
     table.append(payment_row);
@@ -185,7 +186,7 @@ function setFoodtruckContent(foodtruck, weekday, lat, lng) {
   // add hours
   if (foodtruck.schedule[weekday][0].open !== undefined) { // at least has open time
     var hours_row = $("<tr></tr>").addClass("hours-row");
-    var hours_header = $("<td></td>").addClass("header").text("Hours");
+    var hours_header = $("<td></td>").addClass("header").text("Hours:");
     var open = foodtruck.schedule[weekday][0].open;
     var open_ampm = convertToAmPm(open);
     var close, hours_cell, close_ampm;
@@ -219,8 +220,8 @@ function setFoodtruckContent(foodtruck, weekday, lat, lng) {
       social_row.append(home_cell);
     }
 
-    if (foodtruck.contact.twitter !== undefined) { // have twitter
-      var twitter_url = foodtruck.contact.twitter;
+    if (foodtruck.contact.twitter_link !== undefined) { // have twitter
+      var twitter_url = foodtruck.contact.twitter_link;
       var bird = $("<i></i>").addClass("fa fa-twitter");
       var twitter_link = $("<a></a>").attr({target: "_blank", href: twitter_url}).html(bird);
       twitter_cell.append(twitter_link);
@@ -240,7 +241,7 @@ function setFoodtruckContent(foodtruck, weekday, lat, lng) {
   // add address
   var address = foodtruck.schedule[weekday][0].address;
   var address_row = $("<tr></tr>").addClass("address-row");
-  var address_header = $("<td></td>").addClass("header").text("Address (approximate)");
+  var address_header = $("<td></td>").addClass("header").text("Address (approximate):");
   var address_cell = $("<td></td>").addClass("address").attr("colspan", "2").text(address);
   address_row.append(address_header, address_cell);
   table.append(address_row);

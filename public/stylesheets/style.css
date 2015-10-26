@@ -1,10 +1,3 @@
-/*html,
-body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}*/
-
 html {
   height: 100%;
   font-size: 16px;
@@ -77,6 +70,41 @@ body {
 #map {
   width: 100%;
   height: 100%;
+}
+
+.hours-warning {
+  color: #A80000;
+}
+
+.hours {
+  font-weight: bold;
+}
+
+.social-row {
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.name-row h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.infotable td:nth-child(2) {
+  padding-left: 1rem;
+}
+
+.infotable td {
+  padding-bottom: 0.34rem;
+}
+
+.description-row td {
+  font-style: italic;
+  padding-bottom: 1rem;
+}
+
+.infotable tr:last-child td {
+  padding-bottom: 0;
 }
 
 /* Smartphones (portrait and landscape) ----------- */
