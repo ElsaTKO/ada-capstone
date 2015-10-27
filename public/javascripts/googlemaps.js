@@ -1,6 +1,6 @@
 var introbox = $("#introbox");
 introbox.on('click', function(e) {
-    e.preventDefault();
+    // e.preventDefault();
     introbox.hide();
 });
 
