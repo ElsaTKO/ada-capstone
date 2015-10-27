@@ -13,7 +13,7 @@ var app     = express();
 var dotenv  = require('dotenv');
 dotenv.load();
 
-var GOOGLE_KEY = process.env.GOOGLE_KEY;
+var GOOGLE_KEY = process.env.GOOGLE_DEV_KEY;
 
 var new_date = new Date();
 var timestamp = new_date.toJSON();

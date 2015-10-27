@@ -7,7 +7,7 @@ var app     = express();
 var dotenv  = require('dotenv');
 dotenv.load();
 
-var GOOGLE_KEY = process.env.GOOGLE_KEY;
+var GOOGLE_KEY = process.env.GOOGLE_DEV_KEY;
 
 // https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY
 
