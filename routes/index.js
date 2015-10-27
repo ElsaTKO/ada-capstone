@@ -1,12 +1,13 @@
 var express = require('express');
 var router = express.Router();
 var app = express();
+var GOOGLE_KEY;
 if (app.get('env') === 'development') {
   var dotenv  = require('dotenv');
   dotenv.load();
-  var GOOGLE_KEY = process.env.GOOGLE_DEV_KEY;
+  GOOGLE_KEY = process.env.GOOGLE_DEV_KEY;
 } else {
-  var GOOGLE_KEY = process.env.GOOGLE_PROD_KEY;
+  GOOGLE_KEY = process.env.GOOGLE_PROD_KEY;
 }
 
 
