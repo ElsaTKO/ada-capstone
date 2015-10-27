@@ -43,6 +43,7 @@ body {
 #wrapper h1 {
   font-size: 4rem;
   color: #000;
+  margin-bottom: 1rem;
 }
 
 #wrapper h2 {
@@ -52,11 +53,11 @@ body {
 
 #wrapper p {
   font-size: 1rem;
-  color: #a8a8a8;
+  color: #808080;
 }
 
 #wrapper a {
-  color: #8C8CC5;
+  color: #4055BF;
   text-decoration: none;
 }
 
