@@ -1,7 +1,6 @@
 doctype html
 html
   head
-    link(href='https://fonts.googleapis.com/css?family=Chelsea+Market', rel='stylesheet', type='text/css')
     link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css')
     link(href='/stylesheets/style.css', rel='stylesheet')
     meta(name='viewport', content='initial-scale=1.0, user-scalable=no')
@@ -20,14 +19,11 @@ html
             #[a(target="_blank", href="http://beermapping.com/") The Beer Mapping Project]. Icons from
             #[a(target="_blank", href="https://mapicons.mapsmarker.com/") Maps Icons Collection].
           p: i.fa.fa-times
-          p: a.twitter-mention-button(href='https://twitter.com/intent/tweet?screen_name=ElsaMoluf&text=%23boozeybites%20', data-size='large', data-related='ElsaMoluf', data-dnt='true') Tweet to @ElsaMoluf
+          p: #[a(target="_blank", href="https://twitter.com/ElsaMoluf") by Elsa]
       #map
 
     script(type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js').
 
     script(type='text/javascript' src='/javascripts/googlemaps.js').
-
-    script.
-      !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
 
     script(async='', defer='', src='https://maps.googleapis.com/maps/api/js?key=#{GOOGLE_KEY}&callback=initMap').
