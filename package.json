@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "test": "mocha",
+    "test": "mocha --recursive",
     "seed": "node seed.js",
     "db_from_config": "mongod --config ./db/etc/mongod.conf",
     "db": "mongod --dbpath ./db/",
@@ -28,6 +28,7 @@
     "nodemon": "^1.7.1",
     "request": "latest",
     "serve-favicon": "~2.3.0",
+    "should": "^7.1.1",
     "sleep": "^3.0.0",
     "supertest": "^1.1.0",
     "xml2js": "^0.4.13"
