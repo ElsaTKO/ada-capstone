@@ -5018,7 +5018,7 @@
       "monday": {
         "address": "1300 Elliott Ave W, Seattle, WA 98119, USA",
         "open": "11:00",
-        "close": ":20:00",
+        "close": "20:00",
         "geometry": {
           "coordinates": [
             -122.3724679,
