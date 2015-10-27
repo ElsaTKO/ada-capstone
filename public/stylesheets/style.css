@@ -43,7 +43,6 @@ body {
 #wrapper h1 {
   font-size: 4rem;
   color: #000;
-  margin-bottom: 1rem;
 }
 
 #wrapper h2 {
@@ -113,7 +112,7 @@ body {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (max-device-width : 480px) {
+@media only screen and (max-width : 480px) {
   #wrapper h1 {
     font-size: 2rem;
   }
@@ -132,7 +131,7 @@ body {
 }
 
 /* Smartphones (landscape) ----------- */
-@media only screen and (max-device-width : 321px) {
+@media only screen and (max-width : 321px) {
   #wrapper h1 {
     font-size: 2rem;
   }
@@ -151,7 +150,7 @@ body {
 }
 
 /* Smartphones (portrait) ----------- */
-@media only screen and (max-device-width : 320px) {
+@media only screen and (max-width : 320px) {
   #wrapper h1 {
     font-size: 1rem;
   }
