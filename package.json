@@ -6,9 +6,9 @@
     "start": "node ./bin/www",
     "test": "",
     "seed": "node seed.js",
-    "db_from_config": "mongod --config ~/ada/projects/project-forks/ada-capstone/db/etc/mongod.conf",
-    "db": "mongod --dbpath ~/ada/projects/project-forks/ada-capstone/db/",
-    "dev_db": "mongod --dbpath ./db --fork --logpath ./db/log/mongodb.log",
+    "db_from_config": "mongod --config ./db/etc/mongod.conf",
+    "db": "mongod --dbpath ./db/",
+    "dev_db": "mongod --dbpath ./db",
     "dev_start": "nodemon ./bin/www"
   },
   "dependencies": {
