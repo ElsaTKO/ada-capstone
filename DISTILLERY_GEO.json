@@ -2,6 +2,30 @@
   {
     "name": "2bar Spirits",
     "address": "2960 4th Ave S, Seattle, WA 98134",
+    "schedule": {
+      "monday": {},
+      "tuesday": {
+        "open": "9:00",
+        "close": "18:00"
+      },
+      "wednesday": {
+        "open": "9:00",
+        "close": "18:00"
+      },
+      "thursday": {
+        "open": "9:00",
+        "close": "18:00"
+      },
+      "friday": {
+        "open": "9:00",
+        "close": "18:00"
+      },
+      "saturday": {
+        "open": "13:00",
+        "close": "18:00"
+      },
+      "sunday": {}
+    },
     "contact": {
       "website": "http://2barspirits.com/",
       "facebook": "https://www.facebook.com/2BarSpirits",
@@ -19,6 +43,30 @@
   {
     "name": "Fremont Mischief",
     "address": "132 N Canal Street, Seattle, WA 98103",
+    "schedule": {
+      "monday": {},
+      "tuesday": {},
+      "wednesday": {
+        "open": "12:00",
+        "close": "18:00"
+      },
+      "thursday": {
+        "open": "12:00",
+        "close": "18:00"
+      },
+      "friday": {
+        "open": "12:00",
+        "close": "18:00"
+      },
+      "saturday": {
+        "open": "11:00",
+        "close": "18:00"
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "17:00"
+      }
+    },
     "contact": {
       "website": "http://www.fremontmischief.com/",
       "facebook": "http://www.facebook.com/pages/Fremont-Mischief/233881853343205",
@@ -36,6 +84,24 @@
   {
     "name": "OOLA Distillery",
     "address": "1314 East Union Street, Seattle, WA 98122",
+    "schedule": {
+      "monday": {},
+      "tuesday": {},
+      "wednesday": {},
+      "thursday": {
+        "open": "12:00",
+        "close": "20:00"
+      },
+      "friday": {
+        "open": "12:00",
+        "close": "20:00"
+      },
+      "saturday": {
+        "open": "12:00",
+        "close": "20:00"
+      },
+      "sunday": {}
+    },
     "contact": {
       "website": "http://www.ooladistillery.com/",
       "facebook": "http://www.facebook.com/pages/Oola-Distillery/184760184868850"
@@ -51,6 +117,36 @@
   {
     "name": "Sound Spirits",
     "address": "1630 15th Ave W, Seattle, WA 98119",
+    "schedule": {
+      "monday": {
+        "open": "16:30",
+        "close": "18:00"
+      },
+      "tuesday": {
+        "open": "12:00",
+        "close": "18:00"
+      },
+      "wednesday": {
+        "open": "12:00",
+        "close": "18:00"
+      },
+      "thursday": {
+        "open": "16:30",
+        "close": "18:00"
+      },
+      "friday": {
+        "open": "12:00",
+        "close": "18:00"
+      },
+      "saturday": {
+        "open": "12:00",
+        "close": "18:00"
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "17:00"
+      }
+    },
     "contact": {
       "website": "http://www.drinksoundspirits.com/",
       "facebook": "http://www.facebook.com/pages/Sound-Spirits/100865654053"
@@ -64,25 +160,38 @@
     }
   },
   {
-    "name": "Sun Liquor Distillery",
-    "address": "514 East Pike Street, Seattle, WA 98122",
-    "contact": {
-      "website": "http://sunliquor.com/",
-      "facebook": "https://www.facebook.com/pages/Sun-Liquor/170710672943903",
-      "twitter_link": "https://twitter.com/sunliquor",
-      "twitter_screen_name": "SunLiquor"
-    },
-    "geometry": {
-      "coordinates": [
-        -122.3248786,
-        47.6142339
-      ],
-      "type": "Point"
-    }
-  },
-  {
     "name": "Copperworks Distilling",
     "address": "1250 Alaskan Way, Seattle, WA 98101",
+    "schedule": {
+      "monday": {
+        "open": "12:00",
+        "close": "18:00"
+      },
+      "tuesday": {
+        "open": "12:00",
+        "close": "18:00"
+      },
+      "wednesday": {
+        "open": "12:00",
+        "close": "18:00"
+      },
+      "thursday": {
+        "open": "12:00",
+        "close": "18:00"
+      },
+      "friday": {
+        "open": "12:00",
+        "close": "19:00"
+      },
+      "saturday": {
+        "open": "12:00",
+        "close": "19:00"
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "17:00"
+      }
+    },
     "contact": {
       "website": "http://copperworksdistilling.com/",
       "facebook": "https://www.facebook.com/CopperworksDistilling",
