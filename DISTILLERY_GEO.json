@@ -209,6 +209,21 @@
   {
     "name": "Letterpress Distilling",
     "address": "85 S Atlantic St #110, Seattle, WA 98134",
+    "schedule": {
+      "monday": {},
+      "tuesday": {},
+      "wednesday": {},
+      "thursday": {},
+      "friday": {},
+      "saturday": {
+        "open": "12:00",
+        "close": "18:00"
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "18:00"
+      }
+    },
     "contact": {
       "website": "http://www.letterpressdistilling.com/",
       "facebook": "https://www.facebook.com/letterpress.distilling",
@@ -226,6 +241,30 @@
   {
     "name": "3 Howls Distillery",
     "address": "426 S Massachusetts St, Seattle, WA 98134",
+    "schedule": {
+      "monday": {
+        "open": "8:30",
+        "close": "14:00"
+      },
+      "tuesday": {
+        "open": "8:30",
+        "close": "14:00"
+      },
+      "wednesday": {
+        "open": "8:30",
+        "close": "14:00"
+      },
+      "thursday": {
+        "open": "8:30",
+        "close": "14:00"
+      },
+      "friday": {
+        "open": "8:30",
+        "close": "14:00"
+      },
+      "saturday": {},
+      "sunday": {}
+    },
     "contact": {
       "website": "http://3howls.com/",
       "facebook": "https://www.facebook.com/3howls",
@@ -243,6 +282,30 @@
   {
     "name": "Westland Distillery",
     "address": "2931 1st Avenue South, Seattle, WA 98134",
+    "schedule": {
+      "monday": {},
+      "tuesday": {
+        "open": "11:00",
+        "close": "18:00"
+      },
+      "wednesday": {
+        "open": "11:00",
+        "close": "18:00"
+      },
+      "thursday": {
+        "open": "11:00",
+        "close": "18:00"
+      },
+      "friday": {
+        "open": "11:00",
+        "close": "20:00"
+      },
+      "saturday": {
+        "open": "11:00",
+        "close": "20:00"
+      },
+      "sunday": {}
+    },
     "contact": {
       "website": "http://westlanddistillery.com/",
       "facebook": "https://www.facebook.com/westlanddistillery",
@@ -260,6 +323,30 @@
   {
     "name": "Batch 206 Distillery",
     "address": "1417 Elliott Ave W, Seattle, WA 98119",
+    "schedule": {
+      "monday": {},
+      "tuesday": {},
+      "wednesday": {
+        "open": "14:00",
+        "close": "18:00"
+      },
+      "thursday": {
+        "open": "14:00",
+        "close": "18:00"
+      },
+      "friday": {
+        "open": "14:00",
+        "close": "18:00"
+      },
+      "saturday": {
+        "open": "12:00",
+        "close": "18:00"
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "18:00"
+      }
+    },
     "contact": {
       "website": "http://batch206.com/",
       "facebook": "https://www.facebook.com/batch206",
@@ -277,6 +364,36 @@
   {
     "name": "Woodinville Whiskey Co.",
     "address": "14509 Woodinville-Redmond Rd NE, Woodinville, WA 98072",
+    "schedule": {
+      "monday": {
+        "open": "11:00",
+        "close": "17:00"
+      },
+      "tuesday": {
+        "open": "11:00",
+        "close": "17:00"
+      },
+      "wednesday": {
+        "open": "11:00",
+        "close": "17:00"
+      },
+      "thursday": {
+        "open": "11:00",
+        "close": "17:00"
+      },
+      "friday": {
+        "open": "11:00",
+        "close": "17:00"
+      },
+      "saturday": {
+        "open": "11:00",
+        "close": "17:00"
+      },
+      "sunday": {
+        "open": "11:00",
+        "close": "17:00"
+      }
+    },
     "contact": {
       "website": "http://www.woodinvillewhiskeyco.com/",
       "facebook": "https://www.facebook.com/woodinvillewhiskeyco"
@@ -292,8 +409,26 @@
   {
     "name": "Old Ballard Liquor Co",
     "address": "4421 Shilshole Ave NW, Seattle, WA 98107",
+    "schedule": {
+      "monday": {},
+      "tuesday": {},
+      "wednesday": {},
+      "thursday": {},
+      "friday": {
+        "open": "14:00",
+        "close": "18:00"
+      },
+      "saturday": {
+        "open": "14:00",
+        "close": "18:00"
+      },
+      "sunday": {
+        "open": "14:00",
+        "close": "18:00"
+      }
+    },
     "contact": {
-      "website": "http://www.oldballardliquorco.com/index.htm",
+      "website": "http://www.oldballardliquorco.com/",
       "facebook": "https://www.facebook.com/OldBallardLiquorCo"
     },
     "geometry": {
