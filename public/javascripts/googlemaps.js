@@ -201,7 +201,7 @@ function setFoodtruckContent(foodtruck, weekday, lat, lng) {
     }
     var warning = $("<i></i>").addClass("fa fa-exclamation-triangle");
     var hours_warning = $("<td></td>").addClass("hours-warning");
-    hours_warning.append(warning, " confirm schedule");
+    hours_warning.append(warning, " be sure to confirm schedule");
     hours_row.append(hours_header, hours_cell, hours_warning);
     table.append(hours_row);
   }
@@ -290,7 +290,7 @@ function setEstablishmentContent(establishment, weekday, lat, lng) {
     }
     warning = $("<i></i>").addClass("fa fa-exclamation-triangle");
     hours_warning = $("<td></td>").addClass("hours-warning");
-    hours_warning.append(warning, " confirm schedule");
+    hours_warning.append(warning, " be sure to confirm schedule");
     hours_row.append(hours_header, hours_cell, hours_warning);
     table.append(hours_row);
   } else { // it's closed today
@@ -299,7 +299,7 @@ function setEstablishmentContent(establishment, weekday, lat, lng) {
     hours_cell = $("<td></td>").addClass("hours").text("closed today");
     warning = $("<i></i>").addClass("fa fa-exclamation-triangle");
     hours_warning = $("<td></td>").addClass("hours-warning");
-    hours_warning.append(warning, " confirm schedule");
+    hours_warning.append(warning, " be sure to confirm schedule");
     hours_row.append(hours_header, hours_cell, hours_warning);
     table.append(hours_row);
   }
