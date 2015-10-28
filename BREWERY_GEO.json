@@ -996,10 +996,38 @@
     "state": "WA",
     "zip": "98103",
     "address": "7400 Greenwood Ave N, Seattle, WA 98103",
+    "schedule": {
+      "monday": {
+        "open": "15:00",
+        "close": "22:00"
+      },
+      "tuesday": {
+        "open": "15:00",
+        "close": "22:00"
+      },
+      "wednesday": {
+        "open": "15:00",
+        "close": "22:00"
+      },
+      "thursday": {
+        "open": "15:00",
+        "close": "22:00"
+      },
+      "friday": {
+        "open": "15:00",
+        "close": "22:00"
+      },
+      "saturday": {
+        "open": "12:00",
+        "close": "22:00"
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "22:00"
+      }
+    },
     "contact": {
-      "facebook": "",
-      "twitter_link": "",
-      "website": ""
+      "facebook": "https://www.facebook.com/bluebirdseattle/",
     },
     "geometry": {
       "coordinates": [
@@ -1016,10 +1044,41 @@
     "state": "WA",
     "zip": "98107",
     "address": "4358 B Leary Way NW, Seattle, WA 98107",
+    "schedule": {
+      "monday": {
+        "open": "15:00",
+        "close": "0:00"
+      },
+      "tuesday": {
+        "open": "15:00",
+        "close": "0:00"
+      },
+      "wednesday": {
+        "open": "15:00",
+        "close": "0:00"
+      },
+      "thursday": {
+        "open": "15:00",
+        "close": "0:00"
+      },
+      "friday": {
+        "open": "12:00",
+        "close": "2:00"
+      },
+      "saturday": {
+        "open": "12:00",
+        "close": "2:00"
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "0:00"
+      }
+    },
     "contact": {
-      "facebook": "",
-      "twitter_link": "",
-      "website": ""
+      "facebook": "https://www.facebook.com/Bad-Jimmys-Brewing-Co-200605819975291/",
+      "twitter_link": "https://twitter.com/BadJimmys",
+      "twitter_screen_name": "BadJimmys",
+      "website": "http://www.badjimmysbrewingco.com/"
     },
     "geometry": {
       "coordinates": [
@@ -1036,10 +1095,41 @@
     "state": "WA",
     "zip": "98118",
     "address": "5041 Rainier Avenue S, Seattle, WA 98118",
+    "schedule": {
+      "monday": {
+        "open": "16:00",
+        "close": "0:00"
+      },
+      "tuesday": {
+        "open": "16:00",
+        "close": "0:00"
+      },
+      "wednesday": {
+        "open": "16:00",
+        "close": "0:00"
+      },
+      "thursday": {
+        "open": "16:00",
+        "close": "0:00"
+      },
+      "friday": {
+        "open": "16:00",
+        "close": "0:00"
+      },
+      "saturday": {
+        "open": "12:00",
+        "close": "0:00"
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "22:00"
+      }
+    },
     "contact": {
-      "facebook": "",
-      "twitter_link": "",
-      "website": ""
+      "facebook": "https://www.facebook.com/flyinglionbrewing",
+      "twitter_link": "https://twitter.com/flyinglionbeer",
+      "twitter_screen_name": "flyinglionbeer",
+      "website": "http://www.flyinglionbrewing.com/"
     },
     "geometry": {
       "coordinates": [
@@ -1056,10 +1146,32 @@
     "state": "WA",
     "zip": "98199",
     "address": "4441 26th Ave W, Seattle, WA 98199",
+    "schedule": {
+      "monday": {},
+      "tuesday": {},
+      "wednesday": {},
+      "thursday": {
+        "open": "16:00",
+        "close": "21:00"
+      },
+      "friday": {
+        "open": "16:00",
+        "close": "21:00"
+      },
+      "saturday": {
+        "open": "13:00",
+        "close": "21:00"
+      },
+      "sunday": {
+        "open": "13:00",
+        "close": "19:00"
+      }
+    },
     "contact": {
-      "facebook": "",
-      "twitter_link": "",
-      "website": ""
+      "facebook": "https://www.facebook.com/urbanfamilybrewing/",
+      "twitter_link": "https://twitter.com/urbanfambrewing",
+      "twitter_screen_name": "urbanfambrewing",
+      "website": "http://www.urbanfamilybrewing.com/"
     },
     "geometry": {
       "coordinates": [
@@ -1076,10 +1188,35 @@
     "state": "WA",
     "zip": "98108",
     "address": "503 South Michigan Street, Suite B, Seattle, WA 98108",
+    "schedule": {
+      "monday": {},
+      "tuesday": {},
+      "wednesday": {
+        "open": "15:00",
+        "close": "20:00"
+      },
+      "thursday": {
+        "open": "15:00",
+        "close": "20:00"
+      },
+      "friday": {
+        "open": "15:00",
+        "close": "20:00"
+      },
+      "saturday": {
+        "open": "14:00",
+        "close": "18:00"
+      },
+      "sunday": {
+        "open": "14:00",
+        "close": "18:00"
+      }
+    },
     "contact": {
-      "facebook": "",
-      "twitter_link": "",
-      "website": ""
+      "facebook": "https://www.facebook.com/counterbalancebeer",
+      "twitter_link": "https://twitter.com/CounterBalBeer",
+      "twitter_screen_name": "CounterBalBeer",
+      "website": "http://counterbalancebeer.com/"
     },
     "geometry": {
       "coordinates": [
