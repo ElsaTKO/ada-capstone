@@ -26,13 +26,23 @@ describe('Brewery', function () {
 
   describe('#create()', function () {
     it('should create a new brewery', function (done) {
-      // Create a Brewery object to pass to Brewery.create()
       Brewery.create(brewery, function (err, createdBrewery) {
-        // Confirm that that an error does not exist
         should.not.exist(err);
-        // verify that the returned user is what we expect
+
         createdBrewery.name.should.equal('Brew Eerie');
-        // Call done to tell mocha that we are done with this test
+        done();
+      });
+    });
+  });
+
+  describe('#find()', function () {
+    it('should find the brewery', function (done) {
+      Brewery.collection.insert(brewery);
+
+      Brewery.findOne(function (err, foundBrewery) {
+        should.not.exist(err);
+
+        foundBrewery.name.should.equal('Brew Eerie');
         done();
       });
     });

@@ -41,13 +41,23 @@ describe('FoodTruck', function () {
 
   describe('#create()', function () {
     it('should create a new foodtruck', function (done) {
-      // Create a FoodTruck object to pass to FoodTruck.create()
       FoodTruck.create(foodtruck, function (err, createdFoodTruck) {
-        // Confirm that that an error does not exist
         should.not.exist(err);
-        // verify that the returned user is what we expect
+
         createdFoodTruck.name.should.equal('The Worst Wurst');
-        // Call done to tell mocha that we are done with this test
+        done();
+      });
+    });
+  });
+
+  describe('#find()', function () {
+    it('should find the foodtruck', function (done) {
+      FoodTruck.collection.insert(foodtruck);
+
+      FoodTruck.findOne(function (err, foundFoodTruck) {
+        should.not.exist(err);
+        
+        foundFoodTruck.name.should.equal('The Worst Wurst');
         done();
       });
     });
