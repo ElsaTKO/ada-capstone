@@ -856,20 +856,51 @@
   },
   {
     "name": "Burdick Brewery",
-    "street": "783 S Elmgrove St",
+    "street": "8103 8th Ave S",
     "city": "Seattle",
     "state": "WA",
     "zip": "98108",
-    "address": "783 S Elmgrove St, Seattle, WA 98108",
+    "address": "8103 8th Ave S, Seattle, WA 98108",
+    "schedule": {
+      "monday": {
+        "open": "14:00",
+        "close": "20:00"
+      },
+      "tuesday": {
+        "open": "14:00",
+        "close": "20:00"
+      },
+      "wednesday": {
+        "open": "14:00",
+        "close": "20:00"
+      },
+      "thursday": {
+        "open": "14:00",
+        "close": "20:00"
+      },
+      "friday": {
+        "open": "15:00",
+        "close": "20:00"
+      },
+      "saturday": {
+        "open": "14:00",
+        "close": "18:00"
+      },
+      "sunday": {
+        "open": "14:00",
+        "close": "18:00"
+      }
+    },
     "contact": {
-      "facebook": "",
-      "twitter_link": "",
-      "website": ""
+      "facebook": "https://www.facebook.com/BurdickBrewery/",
+      "twitter_link": "https://twitter.com/BurdickBrewery",
+      "twitter_screen_name": "BurdickBrewery",
+      "website": "http://www.burdickbrewery.com/"
     },
     "geometry": {
       "coordinates": [
-        -122.3251868,
-        47.53054119999999
+        -122.3231782,
+        47.53038890000001
       ],
       "type": "Point"
     }
@@ -881,10 +912,32 @@
     "state": "WA",
     "zip": "98108",
     "address": "8103 8th Ave S., Seattle, WA 98108",
+    "schedule": {
+      "monday": {},
+      "tuesday": {},
+      "wednesday": {},
+      "thursday": {
+        "open": "16:00",
+        "close": "21:00"
+      },
+      "friday": {
+        "open": "16:00",
+        "close": "21:00"
+      },
+      "saturday": {
+        "open": "12:00",
+        "close": "20:00"
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "20:00"
+      }
+    },
     "contact": {
-      "facebook": "",
-      "twitter_link": "",
-      "website": ""
+      "facebook": "https://www.facebook.com/lowercasebeer",
+      "twitter_link": "https://twitter.com/lowercasebeer",
+      "twitter_screen_name": "lowercasebeer",
+      "website": "http://www.lowercasebrewing.com/"
     },
     "geometry": {
       "coordinates": [
@@ -901,10 +954,32 @@
     "state": "WA",
     "zip": "98118",
     "address": "5718 Rainier Ave S, Seattle, WA 98118",
+    "schedule": {
+      "monday": {},
+      "tuesday": {},
+      "wednesday": {},
+      "thursday": {
+        "open": "17:00",
+        "close": "21:30"
+      },
+      "friday": {
+        "open": "17:00",
+        "close": "23:00"
+      },
+      "saturday": {
+        "open": "17:00",
+        "close": "23:00"
+      },
+      "sunday": {
+        "open": "13:00",
+        "close": "18:00"
+      }
+    },
     "contact": {
-      "facebook": "",
-      "twitter_link": "",
-      "website": ""
+      "facebook": "https://www.facebook.com/SpinnakerBayBrewingLlc",
+      "twitter_link": "https://twitter.com/SBBrewing",
+      "twitter_screen_name": "SBBrewing",
+      "website": "http://spinnakerbaybrewing.com/"
     },
     "geometry": {
       "coordinates": [
