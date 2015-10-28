@@ -400,20 +400,51 @@
   },
   {
     "name": "Reuben's Brews",
-    "street": "1406 NW 53rd Street, Suite 1A",
+    "street": "5010 14th Ave NW",
     "city": "Seattle",
     "state": "WA",
     "zip": "98107",
-    "address": "1406 NW 53rd Street, Suite 1A, Seattle, WA 98107",
+    "address": "5010 14th Ave NW, Seattle, WA 98107",
+    "schedule": {
+      "monday": {
+        "open": "15:00",
+        "close": "21:00"
+      },
+      "tuesday": {
+        "open": "15:00",
+        "close": "21:00"
+      },
+      "wednesday": {
+        "open": "15:00",
+        "close": "21:00"
+      },
+      "thursday": {
+        "open": "15:00",
+        "close": "21:00"
+      },
+      "friday": {
+        "open": "12:00",
+        "close": "21:00"
+      },
+      "saturday": {
+        "open": "12:00",
+        "close": "21:00"
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "21:00"
+      }
+    },
     "contact": {
-      "facebook": "",
-      "twitter_link": "",
-      "website": ""
+      "facebook": "https://www.facebook.com/Reubensbrews/",
+      "twitter_link": "https://twitter.com/Reubensbrews",
+      "twitter_screen_name": "Reubensbrews",
+      "website": "http://www.reubensbrews.com/"
     },
     "geometry": {
       "coordinates": [
-        -122.374099,
-        47.667386
+        -122.3730986,
+        47.66539789999999
       ],
       "type": "Point"
     }
