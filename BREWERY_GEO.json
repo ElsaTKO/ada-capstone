@@ -34,9 +34,10 @@
       "sunday": {}
     },
     "contact": {
-      "facebook": "",
-      "twitter_link": "",
-      "website": ""
+      "facebook": "https://www.facebook.com/Georgetown-Brewing-19221622538/",
+      "twitter_link": "https://twitter.com/GeorgetownBeer",
+      "twitter_screen_name": "GeorgetownBeer",
+      "website": "http://georgetownbeer.com/"
     },
     "geometry": {
       "coordinates": [ -122.3179016, 47.5505918 ],
@@ -50,10 +51,41 @@
     "state": "WA",
     "zip": "98107",
     "address": "1514 NW Leary Way, Seattle, WA 98107",
+    "schedule": {
+      "monday": {
+        "open": "11:00",
+        "close": "23:00"
+      },
+      "tuesday": {
+        "open": "11:00",
+        "close": "23:00"
+      },
+      "wednesday": {
+        "open": "11:00",
+        "close": "23:00"
+      },
+      "thursday": {
+        "open": "11:00",
+        "close": "23:00"
+      },
+      "friday": {
+        "open": "11:00",
+        "close": "0:00"
+      },
+      "saturday": {
+        "open": "11:00",
+        "close": "0:00"
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "21:00"
+      }
+    },
     "contact": {
-      "facebook": "",
-      "twitter_link": "",
-      "website": ""
+      "facebook": "https://www.facebook.com/Maritime-Pacific-Brewery-130576053648026/",
+      "twitter_link": "https://twitter.com/MaritimePacific",
+      "twitter_screen_name": "MaritimePacific",
+      "website": "http://maritimebrewery.com/"
     },
     "geometry": {
       "coordinates": [
@@ -70,10 +102,41 @@
     "state": "WA",
     "zip": "98106",
     "address": "9832 14th Ave SW, Seattle, WA 98106",
+    "schedule": {
+      "monday": {
+        "open": "15:00",
+        "close": "21:00"
+      },
+      "tuesday": {
+        "open": "15:00",
+        "close": "21:00"
+      },
+      "wednesday": {
+        "open": "15:00",
+        "close": "21:00"
+      },
+      "thursday": {
+        "open": "15:00",
+        "close": "21:00"
+      },
+      "friday": {
+        "open": "15:00",
+        "close": "22:00"
+      },
+      "saturday": {
+        "open": "14:00",
+        "close": "22:00"
+      },
+      "sunday": {
+        "open": "14:00",
+        "close": "19:00"
+      }
+    },
     "contact": {
-      "facebook": "",
-      "twitter_link": "",
-      "website": ""
+      "facebook": "https://www.facebook.com/bigalbrewing/",
+      "twitter_link": "https://twitter.com/big_al_brewing",
+      "twitter_screen_name": "big_al_brewing",
+      "website": "https://bigalbrewing.wordpress.com/"
     },
     "geometry": {
       "coordinates": [
@@ -90,10 +153,41 @@
     "state": "WA",
     "zip": "98103",
     "address": "3409 Woodland Park Avenue North, Seattle, WA 98103",
+    "schedule": {
+      "monday": {
+        "open": "11:00",
+        "close": "21:00"
+      },
+      "tuesday": {
+        "open": "11:00",
+        "close": "21:00"
+      },
+      "wednesday": {
+        "open": "11:00",
+        "close": "21:00"
+      },
+      "thursday": {
+        "open": "11:00",
+        "close": "21:00"
+      },
+      "friday": {
+        "open": "11:00",
+        "close": "21:00"
+      },
+      "saturday": {
+        "open": "11:00",
+        "close": "21:00"
+      },
+      "sunday": {
+        "open": "11:00",
+        "close": "21:00"
+      }
+    },
     "contact": {
-      "facebook": "",
-      "twitter_link": "",
-      "website": ""
+      "facebook": "https://www.facebook.com/Fremont-Brewing-Company-128777587151652/",
+      "twitter_link": "https://twitter.com/fremontbrewing",
+      "twitter_screen_name": "fremontbrewing",
+      "website": "http://www.fremontbrewing.com/"
     },
     "geometry": {
       "coordinates": [
