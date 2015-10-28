@@ -300,36 +300,47 @@
     }
   },
   {
-    "name": "Emerald City Beer Co.",
-    "street": "3100 Airport Way S",
-    "city": "Seattle",
-    "state": "WA",
-    "zip": "98134",
-    "address": "3100 Airport Way S, Seattle, WA 98134",
-    "contact": {
-      "facebook": "",
-      "twitter_link": "",
-      "website": ""
-    },
-    "geometry": {
-      "coordinates": [
-        -122.3204606,
-        47.5766937
-      ],
-      "type": "Point"
-    }
-  },
-  {
-    "name": "Hilliard's Brewing",
+    "name": "Hilliard's Beer",
     "street": "1550 NW 49th Street",
     "city": "Seattle",
     "state": "WA",
     "zip": "98107",
     "address": "1550 NW 49th Street, Seattle, WA 98107",
+    "schedule": {
+      "monday": {
+        "open": "15:00",
+        "close": "22:00"
+      },
+      "tuesday": {
+        "open": "15:00",
+        "close": "22:00"
+      },
+      "wednesday": {
+        "open": "15:00",
+        "close": "22:00"
+      },
+      "thursday": {
+        "open": "15:00",
+        "close": "22:00"
+      },
+      "friday": {
+        "open": "15:00",
+        "close": "23:00"
+      },
+      "saturday": {
+        "open": "12:00",
+        "close": "23:00"
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "19:00"
+      }
+    },
     "contact": {
-      "facebook": "",
-      "twitter_link": "",
-      "website": ""
+      "facebook": "https://www.facebook.com/HilliardsBeer",
+      "twitter_link": "https://twitter.com/HilliardsBeer",
+      "twitter_screen_name": "HilliardsBeer",
+      "website": "http://www.hilliardsbeer.com/"
     },
     "geometry": {
       "coordinates": [
