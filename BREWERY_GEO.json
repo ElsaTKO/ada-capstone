@@ -203,16 +203,47 @@
     "city": "Seattle",
     "state": "WA",
     "zip": "98108",
-    "address": "9130 15th Pl. S., Seattle, WA 98108",
+    "address": "402 Baker Blvd, Tukwila, WA 98188",
+    "schedule": {
+      "monday": {
+        "open": "",
+        "close": ""
+      },
+      "tuesday": {
+        "open": "",
+        "close": ""
+      },
+      "wednesday": {
+        "open": "",
+        "close": ""
+      },
+      "thursday": {
+        "open": "",
+        "close": ""
+      },
+      "friday": {
+        "open": "",
+        "close": ""
+      },
+      "saturday": {
+        "open": "",
+        "close": ""
+      },
+      "sunday": {
+        "open": "",
+        "close": ""
+      }
+    },
     "contact": {
       "facebook": "",
       "twitter_link": "",
+      "twitter_screen_name": "",
       "website": ""
     },
     "geometry": {
       "coordinates": [
-        -122.3118124,
-        47.5213271
+        -122.2520835,
+        47.4586201
       ],
       "type": "Point"
     }
