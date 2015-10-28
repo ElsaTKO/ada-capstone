@@ -54,7 +54,7 @@ function convertToAmPm(time) {
   return converted_time;
 }
 
-function foodtruckIsClosedHuh(open_time, close_time) {
+function isClosedHuh(open_time, close_time) {
   // var open_time = foodtruck.schedule[weekday][0].open; // "9:00"
   var open_hour = parseInt(open_time.split(":")[0]); // 9
   var open_min = parseInt(open_time.split(":")[1]); // 0
@@ -129,7 +129,7 @@ function foodtruckIsClosedHuh(open_time, close_time) {
     open = new Date(open).setDate(now.getDate() -1);
 
   } else {
-    console.error("A food truck opening time may be after midnight. Or something went wrong.");
+    console.error("An open/closed status calculation failed.");
   }
 
   if (now >= open && now < close) {
@@ -258,7 +258,7 @@ function setFoodtruckContent(foodtruck, weekday, lat, lng) {
   return contentDiv[0].innerHTML;
 }
 
-function setEstablishmentContent(establishment, lat, lng) {
+function setEstablishmentContent(establishment, weekday, lat, lng) {
   // create div and table
   var contentDiv = $("<div></div>");
   var table = $("<table></table>").addClass("infotable");
@@ -271,6 +271,40 @@ function setEstablishmentContent(establishment, lat, lng) {
   name_row.append(name_cell);
   table.append(name_row);
 
+  // add hours
+  var hours_row, hours_header, hours_cell, warning, hours_warning;
+  if (establishment.schedule[weekday][0].open !== undefined) { // at least has open time
+    hours_row = $("<tr></tr>").addClass("hours-row");
+    hours_header = $("<td></td>").addClass("header").text("Hours:");
+    var open = establishment.schedule[weekday][0].open;
+    var open_ampm = convertToAmPm(open);
+    var close, close_ampm;
+    if (establishment.schedule[weekday][0].close !== undefined) {
+      close = establishment.schedule[weekday][0].close;
+      close_ampm = convertToAmPm(close);
+    }
+    if (close !== undefined) { // both times given
+      hours_cell = $("<td></td>").addClass("hours").text(open_ampm + " - " + close_ampm);
+    } else if (open !== undefined && close === undefined) { // missing close
+      hours_cell = $("<td></td>").addClass("hours").text(open_ampm + " - ?");
+    }
+    warning = $("<i></i>").addClass("fa fa-exclamation-triangle");
+    hours_warning = $("<td></td>").addClass("hours-warning");
+    hours_warning.append(warning, " confirm schedule");
+    hours_row.append(hours_header, hours_cell, hours_warning);
+    table.append(hours_row);
+  } else { // it's closed today
+    hours_row = $("<tr></tr>");
+    hours_header = $("<td></td>").addClass("header").text("Hours:");
+    hours_cell = $("<td></td>").addClass("hours").text("closed today");
+    warning = $("<i></i>").addClass("fa fa-exclamation-triangle");
+    hours_warning = $("<td></td>").addClass("hours-warning");
+    hours_warning.append(warning, " confirm schedule");
+    hours_row.append(hours_header, hours_cell, hours_warning);
+    table.append(hours_row);
+  }
+
+  // add social
   if (establishment.contact.facebook !== undefined || establishment.contact.twitter_link !== undefined || establishment.contact.website !== undefined) {
     var social_row = $("<tr></tr>").addClass("social-row");
     var social_cell = $("<td></td>").addClass("social").attr("colspan", "3");
@@ -348,7 +382,7 @@ function pinFoodtrucks(foodtrucks, map, infowindow) {
 
     var image;
     if (open !== undefined && close !== undefined) {
-      var is_closed = foodtruckIsClosedHuh(open, close);
+      var is_closed = isClosedHuh(open, close);
       if (is_closed === true) {
         image = 'images/foodtruck_closed.png';
       } else {
@@ -384,7 +418,7 @@ function getBreweries(map, infowindow) {
 }
 
 function pinBreweries(breweries, map, infowindow) {
-  // var weekday = determineWeekday();
+  var weekday = determineWeekday();
 
   for (i = 0; i < breweries.length; i++) {
     var brewery = breweries[i];
@@ -392,21 +426,22 @@ function pinBreweries(breweries, map, infowindow) {
     var lat = brewery.geometry.coordinates[1];
     var latLng = new google.maps.LatLng(lat, lng);
 
-    // var name = brewery.name;
-    // var address = brewery.address;
-    // var directions_url = generateDirectionsUrl(lat, lng);
-    // var directions_link = "<a href='" + directions_url + "' target='_blank'>Directions</a>";
-    // var facebook_url = brewery.contact.facebook;
-    // var facebook_link = "<a href='" + facebook_url + "' target='_blank'>Facebook</a>";
-    // var twitter_url = brewery.contact.twitter_link;
-    // var twitter_link = "<a href='" + twitter_url + "' target='_blank'>Twitter</a>";
-    // var website_url = brewery.contact.website;
-    // var website_link = "<a href='" + website_url + "' target='_blank'>website</a>";
+    var open = brewery.schedule[weekday][0].open;
+    var open_ampm, close_ampm;
+    var close = brewery.schedule[weekday][0].close;
+    var content = setEstablishmentContent(brewery, weekday, lat, lng);
 
-    // var content = "<div class='infowindow'><p>" + name + "</p><p>Address: " + address + "</p><p>" + directions_link + "</p></div>";
-    var content = setEstablishmentContent(brewery, lat, lng);
-
-    var image = 'images/brewery.png';
+    var image;
+    if (open !== undefined && close !== undefined) {
+      var is_closed = isClosedHuh(open, close);
+      if (is_closed === true) {
+        image = 'images/brewery_closed.png';
+      } else {
+        image = 'images/brewery.png';
+      }
+    } else {
+      image = 'images/brewery_closed.png';
+    }
 
     var marker = new google.maps.Marker({
       position: latLng,
@@ -434,7 +469,7 @@ function getDistilleries(map, infowindow) {
 }
 
 function pinDistilleries(distilleries, map, infowindow) {
-  // var weekday = determineWeekday();
+  var weekday = determineWeekday();
 
   for (i = 0; i < distilleries.length; i++) {
     var distillery = distilleries[i];
@@ -442,21 +477,22 @@ function pinDistilleries(distilleries, map, infowindow) {
     var lat = distillery.geometry.coordinates[1];
     var latLng = new google.maps.LatLng(lat, lng);
 
-    // var name = distillery.name;
-    // var address = distillery.address;
-    // var directions_url = generateDirectionsUrl(lat, lng);
-    // var directions_link = "<a href='" + directions_url + "' target='_blank'>Directions</a>";
-    // // var facebook_url = distillery.contact.facebook;
-    // // var facebook_link = "<a href='" + facebook_url + "' target='_blank'>Facebook</a>";
-    // var twitter_url = distillery.contact.twitter_link;
-    // var twitter_link = "<a href='" + twitter_url + "' target='_blank'>Twitter</a>";
-    // var website_url = distillery.contact.website;
-    // var website_link = "<a href='" + website_url + "' target='_blank'>website</a>";
+    var open = distillery.schedule[weekday][0].open;
+    var open_ampm, close_ampm;
+    var close = distillery.schedule[weekday][0].close;
+    var content = setEstablishmentContent(distillery, weekday, lat, lng);
 
-    // var content = "<div class='infowindow'><p>" + name + "</p><p>Address: " + address + "</p><p>" + directions_link + "</p></div>";
-    var content = setEstablishmentContent(distillery, lat, lng);
-
-    var image = 'images/distillery.png';
+    var image;
+    if (open !== undefined && close !== undefined) {
+      var is_closed = isClosedHuh(open, close);
+      if (is_closed === true) {
+        image = 'images/distillery_closed.png';
+      } else {
+        image = 'images/distillery.png';
+      }
+    } else {
+      image = 'images/distillery_closed.png';
+    }
 
     var marker = new google.maps.Marker({
       position: latLng,
