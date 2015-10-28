@@ -199,46 +199,46 @@
   },
   {
     "name": "Odin Brewing",
-    "street": "9130 15th Pl. S.",
+    "street": "402 Baker Blvd",
     "city": "Seattle",
     "state": "WA",
-    "zip": "98108",
+    "zip": "98188",
     "address": "402 Baker Blvd, Tukwila, WA 98188",
     "schedule": {
       "monday": {
-        "open": "",
-        "close": ""
+        "open": "14:00",
+        "close": "21:00"
       },
       "tuesday": {
-        "open": "",
-        "close": ""
+        "open": "14:00",
+        "close": "21:00"
       },
       "wednesday": {
-        "open": "",
-        "close": ""
+        "open": "14:00",
+        "close": "21:00"
       },
       "thursday": {
-        "open": "",
-        "close": ""
+        "open": "14:00",
+        "close": "21:00"
       },
       "friday": {
-        "open": "",
-        "close": ""
+        "open": "12:00",
+        "close": "23:00"
       },
       "saturday": {
-        "open": "",
-        "close": ""
+        "open": "12:00",
+        "close": "23:00"
       },
       "sunday": {
-        "open": "",
-        "close": ""
+        "open": "12:00",
+        "close": "20:00"
       }
     },
     "contact": {
-      "facebook": "",
-      "twitter_link": "",
-      "twitter_screen_name": "",
-      "website": ""
+      "facebook": "https://www.facebook.com/Odinbrewing",
+      "twitter_link": "https://twitter.com/OdinBrewingCo",
+      "twitter_screen_name": "OdinBrewingCo",
+      "website": "https://odinbrewing.wordpress.com/"
     },
     "geometry": {
       "coordinates": [
@@ -249,41 +249,52 @@
     }
   },
   {
-    "name": "EPIC Ales",
-    "street": "3201 First Ave South, #104",
-    "city": "Seattle",
-    "state": "WA",
-    "zip": "98134",
-    "address": "3201 First Ave South, #104, Seattle, WA 98134",
-    "contact": {
-      "facebook": "",
-      "twitter_link": "",
-      "website": ""
-    },
-    "geometry": {
-      "coordinates": [
-        -104.9502411,
-        39.7178164
-      ],
-      "type": "Point"
-    }
-  },
-  {
-    "name": "Northwest Peaks Brewery",
-    "street": "4912 17th Avenue NW Ste B",
+    "name": "Northwest Peaks Brewery (the Bergschrund)",
+    "street": "4818 17th Ave NW",
     "city": "Seattle",
     "state": "WA",
     "zip": "98107",
-    "address": "4912 17th Avenue NW Ste B, Seattle, WA 98107",
+    "address": "4818 17th Ave NW, Seattle, WA 98107",
+    "schedule": {
+      "monday": {
+        "open": "15:00",
+        "close": "23:00"
+      },
+      "tuesday": {
+        "open": "15:00",
+        "close": "23:00"
+      },
+      "wednesday": {
+        "open": "15:00",
+        "close": "23:00"
+      },
+      "thursday": {
+        "open": "15:00",
+        "close": "23:00"
+      },
+      "friday": {
+        "open": "15:00",
+        "close": "1:00"
+      },
+      "saturday": {
+        "open": "11:30",
+        "close": "1:00"
+      },
+      "sunday": {
+        "open": "11:30",
+        "close": "21:00"
+      }
+    },
     "contact": {
-      "facebook": "",
-      "twitter_link": "",
-      "website": ""
+      "facebook": "https://www.facebook.com/NWPeaksBrewery",
+      "twitter_link": "https://twitter.com/NWPeaksBrewery",
+      "twitter_screen_name": "NWPeaksBrewery",
+      "website": "http://www.nwpeaksbrewery.com/"
     },
     "geometry": {
       "coordinates": [
-        -122.3786014,
-        47.664828
+        -122.3786404,
+        47.6642489
       ],
       "type": "Point"
     }
