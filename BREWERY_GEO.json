@@ -735,10 +735,20 @@
     "state": "WA",
     "zip": "98134",
     "address": "3828 4th Ave S Ste 2, Seattle, WA 98134",
+    "schedule": {
+      "monday": {},
+      "tuesday": {},
+      "wednesday": {},
+      "thursday": {},
+      "friday": {},
+      "saturday": {},
+      "sunday": {}
+    },
     "contact": {
-      "facebook": "",
-      "twitter_link": "",
-      "website": ""
+      "facebook": "https://www.facebook.com/SeapineBrewingCompany",
+      "twitter_link": "https://twitter.com/seapinebrewing",
+      "twitter_screen_name": "seapinebrewing",
+      "website": "http://seapinebrewing.com/"
     },
     "geometry": {
       "coordinates": [
@@ -755,10 +765,38 @@
     "state": "WA",
     "zip": "98108",
     "address": "309 S Cloverdale St. Unit A2, Seattle, WA 98108",
+    "schedule": {
+      "monday": {},
+      "tuesday": {
+        "open": "16:00",
+        "close": "20:00"
+      },
+      "wednesday": {
+        "open": "16:00",
+        "close": "20:00"
+      },
+      "thursday": {
+        "open": "16:00",
+        "close": "20:00"
+      },
+      "friday": {
+        "open": "16:00",
+        "close": "20:00"
+      },
+      "saturday": {
+        "open": "15:00",
+        "close": "19:00"
+      },
+      "sunday": {
+        "open": "15:00",
+        "close": "19:00"
+      }
+    },
     "contact": {
-      "facebook": "",
-      "twitter_link": "",
-      "website": ""
+      "facebook": "https://www.facebook.com/TinDogBrewing",
+      "twitter_link": "https://twitter.com/tindogbrewing",
+      "twitter_screen_name": "tindogbrewing",
+      "website": "http://tindogbrewing.com/"
     },
     "geometry": {
       "coordinates": [
@@ -775,10 +813,38 @@
     "state": "WA",
     "zip": "98107",
     "address": "1108 NW 52nd St., Seattle, WA 98107",
+    "schedule": {
+      "monday": {},
+      "tuesday": {
+        "open": "15:00",
+        "close": "21:00"
+      },
+      "wednesday": {
+        "open": "15:00",
+        "close": "21:00"
+      },
+      "thursday": {
+        "open": "15:00",
+        "close": "21:00"
+      },
+      "friday": {
+        "open": "15:00",
+        "close": "22:00"
+      },
+      "saturday": {
+        "open": "12:00",
+        "close": "22:00"
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "21:00"
+      }
+    },
     "contact": {
-      "facebook": "",
-      "twitter_link": "",
-      "website": ""
+      "facebook": "https://www.facebook.com/StoupBrewing",
+      "twitter_link": "https://twitter.com/stoupbrewing",
+      "twitter_screen_name": "stoupbrewing",
+      "website": "http://www.stoupbrewing.com/"
     },
     "geometry": {
       "coordinates": [
