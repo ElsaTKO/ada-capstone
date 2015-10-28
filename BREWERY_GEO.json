@@ -456,10 +456,35 @@
     "state": "WA",
     "zip": "98108",
     "address": "5840 Airport Way S, Seattle, WA 98108",
+    "schedule": {
+      "monday": {},
+      "tuesday": {},
+      "wednesday": {
+        "open": "15:00",
+        "close": "21:00"
+      },
+      "thursday": {
+        "open": "15:00",
+        "close": "21:00"
+      },
+      "friday": {
+        "open": "15:00",
+        "close": "21:00"
+      },
+      "saturday": {
+        "open": "12:00",
+        "close": "21:00"
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "18:00"
+      }
+    },
     "contact": {
-      "facebook": "",
-      "twitter_link": "",
-      "website": ""
+      "facebook": "https://www.facebook.com/MachineHouseBrewery",
+      "twitter_link": "https://twitter.com/machinehouse",
+      "twitter_screen_name": "machinehouse",
+      "website": "http://www.machinehousebrewery.com/"
     },
     "geometry": {
       "coordinates": [
@@ -476,10 +501,35 @@
     "state": "WA",
     "zip": "98107",
     "address": "1514 NW Leary Way, Seattle, WA 98107",
+    "schedule": {
+      "monday": {},
+      "tuesday": {},
+      "wednesday": {
+        "open": "16:00",
+        "close": "22:00"
+      },
+      "thursday": {
+        "open": "16:00",
+        "close": "23:00"
+      },
+      "friday": {
+        "open": "16:00",
+        "close": "23:00"
+      },
+      "saturday": {
+        "open": "11:00",
+        "close": "23:00"
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "20:00"
+      }
+    },
     "contact": {
-      "facebook": "",
-      "twitter_link": "",
-      "website": ""
+      "facebook": "https://www.facebook.com/PeddlerBrewing",
+      "twitter_link": "https://twitter.com/PeddlerBrewing",
+      "twitter_screen_name": "PeddlerBrewing",
+      "website": "http://www.peddlerbrewing.com/"
     },
     "geometry": {
       "coordinates": [
@@ -496,10 +546,32 @@
     "state": "WA",
     "zip": "98107",
     "address": "826B NW 49th St, Seattle, WA 98107",
+    "schedule": {
+      "monday": {},
+      "tuesday": {},
+      "wednesday": {},
+      "thursday": {
+        "open": "16:30",
+        "close": "21:00"
+      },
+      "friday": {
+        "open": "16:30",
+        "close": "22:00"
+      },
+      "saturday": {
+        "open": "12:00",
+        "close": "22:00"
+      },
+      "sunday": {
+        "open": "13:00",
+        "close": "20:00"
+      }
+    },
     "contact": {
-      "facebook": "",
-      "twitter_link": "",
-      "website": ""
+      "facebook": "https://www.facebook.com/PopuluxeBrewing",
+      "twitter_link": "https://twitter.com/PopuluxeBrewing",
+      "twitter_screen_name": "PopuluxeBrewing",
+      "website": "http://www.populuxebrewing.com/"
     },
     "geometry": {
       "coordinates": [
@@ -516,10 +588,41 @@
     "state": "WA",
     "zip": "98126",
     "address": "4415 Fauntleroy Way SW, Seattle, WA 98126",
+    "schedule": {
+      "monday": {
+        "open": "15:00",
+        "close": "23:00"
+      },
+      "tuesday": {
+        "open": "15:00",
+        "close": "23:00"
+      },
+      "wednesday": {
+        "open": "15:00",
+        "close": "23:00"
+      },
+      "thursday": {
+        "open": "15:00",
+        "close": "23:00"
+      },
+      "friday": {
+        "open": "15:00",
+        "close": "0:00"
+      },
+      "saturday": {
+        "open": "13:00",
+        "close": "0:00"
+      },
+      "sunday": {
+        "open": "13:00",
+        "close": "0:00"
+      }
+    },
     "contact": {
-      "facebook": "",
-      "twitter_link": "",
-      "website": ""
+      "facebook": "https://www.facebook.com/westseattlebrewingco/",
+      "twitter_link": "https://twitter.com/ws_brewing",
+      "twitter_screen_name": "ws_brewing",
+      "website": "http://westseattlebrewing.com/"
     },
     "geometry": {
       "coordinates": [
