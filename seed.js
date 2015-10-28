@@ -69,7 +69,7 @@ function seedFoodtrucks() {
 function seedBreweries() {
   Brewery.collection.insertMany(breweries, function(err,res) {
         assert.equal(null, err);
-        assert.equal(34, res.insertedCount);
+        assert.equal(31, res.insertedCount);
         console.log("Breweries: ", res.insertedCount);
 
         // db.close();
@@ -79,7 +79,7 @@ function seedBreweries() {
 function seedDistilleries() {
   Distillery.collection.insertMany(distilleries, function(err,res) {
         assert.equal(null, err);
-        assert.equal(12, res.insertedCount);
+        assert.equal(11, res.insertedCount);
         console.log("Distilleries: ", res.insertedCount);
 
         // db.close();
