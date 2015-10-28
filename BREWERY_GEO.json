@@ -6,6 +6,33 @@
     "state": "WA",
     "zip": "98108",
     "address": "5840 Airport Way S, Seattle, WA 98108, USA",
+    "schedule": {
+      "monday": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "tuesday": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "wednesday": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "thursday": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "friday": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "saturday": {
+        "open": "10:00",
+        "close": "16:00"
+      },
+      "sunday": {}
+    },
     "contact": {
       "facebook": "",
       "twitter_link": "",
