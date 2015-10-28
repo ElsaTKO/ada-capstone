@@ -639,10 +639,35 @@
     "state": "WA",
     "zip": "98144",
     "address": "2504 S Jackson St, Seattle, WA 98144",
+    "schedule": {
+      "monday": {},
+      "tuesday": {},
+      "wednesday": {
+        "open": "16:00",
+        "close": "20:00"
+      },
+      "thursday": {
+        "open": "16:00",
+        "close": "20:00"
+      },
+      "friday": {
+        "open": "16:00",
+        "close": "20:00"
+      },
+      "saturday": {
+        "open": "14:00",
+        "close": "20:00"
+      },
+      "sunday": {
+        "open": "14:00",
+        "close": "20:00"
+      }
+    },
     "contact": {
-      "facebook": "",
-      "twitter_link": "",
-      "website": ""
+      "facebook": "https://www.facebook.com/StandardBrewing",
+      "twitter_link": "https://twitter.com/StandardBrewing",
+      "twitter_screen_name": "StandardBrewing",
+      "website": "http://standardbrew.com/"
     },
     "geometry": {
       "coordinates": [
@@ -654,20 +679,51 @@
   },
   {
     "name": "Rooftop Brewing Company",
-    "street": "6 Dravus St",
+    "street": "1220 W Nickerson St",
     "city": "Seattle",
     "state": "WA",
     "zip": "98109",
-    "address": "6 Dravus St, Seattle, WA 98109",
+    "address": "1220 W Nickerson St, Seattle, WA 98119",
+    "schedule": {
+      "monday": {
+        "open": "15:00",
+        "close": "21:00"
+      },
+      "tuesday": {
+        "open": "15:00",
+        "close": "21:00"
+      },
+      "wednesday": {
+        "open": "15:00",
+        "close": "21:00"
+      },
+      "thursday": {
+        "open": "15:00",
+        "close": "22:00"
+      },
+      "friday": {
+        "open": "15:00",
+        "close": "22:00"
+      },
+      "saturday": {
+        "open": "12:00",
+        "close": "22:00"
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "20:00"
+      }
+    },
     "contact": {
-      "facebook": "",
-      "twitter_link": "",
-      "website": ""
+      "facebook": "https://www.facebook.com/RooftopBrewCo/",
+      "twitter_link": "https://twitter.com/RooftopBrewCo",
+      "twitter_screen_name": "RooftopBrewCo",
+      "website": "http://rooftopbrewco.com/"
     },
     "geometry": {
       "coordinates": [
-        -122.3572991,
-        47.6489096
+        -122.3730974,
+        47.655811
       ],
       "type": "Point"
     }
