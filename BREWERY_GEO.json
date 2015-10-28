@@ -1233,10 +1233,38 @@
     "state": "WA",
     "zip": "98119",
     "address": "1421 Elliott Ave W., Seattle, WA 98119",
+    "schedule": {
+      "monday": {
+        "open": "15:00",
+        "close": "21:00"
+      },
+      "tuesday": {},
+      "wednesday": {
+        "open": "15:00",
+        "close": "21:00"
+      },
+      "thursday": {
+        "open": "15:00",
+        "close": "21:00"
+      },
+      "friday": {
+        "open": "12:00",
+        "close": "22:00"
+      },
+      "saturday": {
+        "open": "12:00",
+        "close": "22:00"
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "21:00"
+      }
+    },
     "contact": {
-      "facebook": "",
-      "twitter_link": "",
-      "website": ""
+      "facebook": "https://www.facebook.com/HolyMountainBrewing/",
+      "twitter_link": "https://twitter.com/holymtnbrewing",
+      "twitter_screen_name": "holymtnbrewing",
+      "website": "http://holymountainbrewing.com/"
     },
     "geometry": {
       "coordinates": [
@@ -1253,10 +1281,41 @@
     "state": "WA",
     "zip": "98125",
     "address": "13035 Lake City Way NE, Seattle, WA 98125",
+    "schedule": {
+      "monday": {
+        "open": "14:00",
+        "close": "22:00"
+      },
+      "tuesday": {
+        "open": "14:00",
+        "close": "22:00"
+      },
+      "wednesday": {
+        "open": "14:00",
+        "close": "22:00"
+      },
+      "thursday": {
+        "open": "14:00",
+        "close": "22:00"
+      },
+      "friday": {
+        "open": "14:00",
+        "close": "0:00"
+      },
+      "saturday": {
+        "open": "12:00",
+        "close": "0:00"
+      },
+      "sunday": {
+        "open": "12:00",
+        "close": "22:00"
+      }
+    },
     "contact": {
-      "facebook": "",
-      "twitter_link": "",
-      "website": ""
+      "facebook": "https://www.facebook.com/HellbentBrewing/",
+      "twitter_link": "https://twitter.com/HellbentB",
+      "twitter_screen_name": "HellbentB",
+      "website": "http://www.hellbentbrewingcompany.com/"
     },
     "geometry": {
       "coordinates": [
@@ -1273,10 +1332,29 @@
     "state": "WA",
     "zip": "98103",
     "address": "938 N 95TH ST, Seattle, WA 98103",
+    "schedule": {
+      "monday": {},
+      "tuesday": {},
+      "wednesday": {},
+      "thursday": {
+        "open": "17:00",
+        "close": "21:00"
+      },
+      "friday": {
+        "open": "16:00",
+        "close": "21:00"
+      },
+      "saturday": {
+        "open": "16:00",
+        "close": "21:00"
+      },
+      "sunday": {}
+    },
     "contact": {
-      "facebook": "",
-      "twitter_link": "",
-      "website": ""
+      "facebook": "https://www.facebook.com/lanternbrewing",
+      "twitter_link": "https://twitter.com/lanternbrewing",
+      "twitter_screen_name": "lanternbrewing",
+      "website": "http://www.lanternbrewing.com/"
     },
     "geometry": {
       "coordinates": [
@@ -1293,10 +1371,38 @@
     "state": "WA",
     "zip": "98134",
     "address": "2942 1st Ave. S., Seattle, WA 98134",
+    "schedule": {
+      "monday": {},
+      "tuesday": {
+        "open": "15:00",
+        "close": "21:00"
+      },
+      "wednesday": {
+        "open": "15:00",
+        "close": "21:00"
+      },
+      "thursday": {
+        "open": "15:00",
+        "close": "21:00"
+      },
+      "friday": {
+        "open": "15:00",
+        "close": "22:00"
+      },
+      "saturday": {
+        "open": "15:00",
+        "close": "22:00"
+      },
+      "sunday": {
+        "open": "10:00",
+        "close": "19:00"
+      }
+    },
     "contact": {
-      "facebook": "",
-      "twitter_link": "",
-      "website": ""
+      "facebook": "https://www.facebook.com/GhostfishBrewingCompany",
+      "twitter_link": "https://twitter.com/GhostfishBrewCO",
+      "twitter_screen_name": "GhostfishBrewCO",
+      "website": "http://ghostfishbrewing.com/"
     },
     "geometry": {
       "coordinates": [
@@ -1313,10 +1419,32 @@
     "state": "WA",
     "zip": "98107",
     "address": "907 NW 50th St, Seattle, WA 98107",
+    "schedule": {
+      "monday": {},
+      "tuesday": {},
+      "wednesday": {},
+      "thursday": {
+        "open": "15:00",
+        "close": "21:00"
+      },
+      "friday": {
+        "open": "15:00",
+        "close": "21:00"
+      },
+      "saturday": {
+        "open": "12:00",
+        "close": "21:00"
+      },
+      "sunday": {
+        "open": "13:00",
+        "close": "19:00"
+      }
+    },
     "contact": {
-      "facebook": "",
-      "twitter_link": "",
-      "website": ""
+      "facebook": "https://www.facebook.com/luckyenvelopebrewing",
+      "twitter_link": "https://twitter.com/luckyenvbrewing",
+      "twitter_screen_name": "luckyenvbrewing",
+      "website": "http://www.luckyenvelopebrewing.com/"
     },
     "geometry": {
       "coordinates": [
