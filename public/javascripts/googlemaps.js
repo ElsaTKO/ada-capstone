@@ -509,6 +509,41 @@ function pinDistilleries(distilleries, map, infowindow) {
 }
 
 function initMap() {
+
+  // create legend
+  var legend = document.createElement('div');
+  legend.style.backgroundColor = '#fff';
+  legend.style.padding = "1em";
+
+  // put stuff in legend
+  var brewery_row = document.createElement('div');
+  var brewery_icon = new Image();
+  brewery_icon.src = 'images/brewery.png';
+  brewery_row.appendChild(brewery_icon);
+  brewery_row.innerHTML = brewery_row.innerHTML + 'brewery';
+  legend.appendChild(brewery_row);
+
+  var distillery_row = document.createElement('div');
+  var distillery_icon = new Image();
+  distillery_icon.src = 'images/distillery.png';
+  distillery_row.appendChild(distillery_icon);
+  distillery_row.innerHTML = distillery_row.innerHTML + 'distillery';
+  legend.appendChild(distillery_row);
+
+  var foodtruck_row = document.createElement('div');
+  var foodtruck_icon = new Image();
+  foodtruck_icon.src = 'images/foodtruck.png';
+  foodtruck_row.appendChild(foodtruck_icon);
+  foodtruck_row.innerHTML = foodtruck_row.innerHTML + 'foodtruck';
+  legend.appendChild(foodtruck_row);
+
+  var foodtruck_closed_row = document.createElement('div');
+  var foodtruck_closed_icon = new Image();
+  foodtruck_closed_icon.src = 'images/foodtruck_closed.png';
+  foodtruck_closed_row.appendChild(foodtruck_closed_icon);
+  foodtruck_closed_row.innerHTML = foodtruck_closed_row.innerHTML + 'closed';
+  legend.appendChild(foodtruck_closed_row);
+
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 12,
     center: {lat: 47.6097, lng: -122.3331}
@@ -519,4 +554,8 @@ function initMap() {
   getFoodtrucks(map, infowindow);
   getBreweries(map, infowindow);
   getDistilleries(map, infowindow);
+
+  legend.index = 1;
+  map.controls[google.maps.ControlPosition.LEFT_CENTER].push(legend);
+
 }
