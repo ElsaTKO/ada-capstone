@@ -12,3 +12,4 @@ exclude_paths:
 - "convert_brewery_xml_to_js.js"
 - "geocode_booze.js"
 - "scraper.js"
+- "get_geocodes.js"
