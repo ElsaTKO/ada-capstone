@@ -1,6 +1,5 @@
 var introbox = $("#introbox");
 introbox.on('click', function(e) {
-    // e.preventDefault();
     introbox.hide();
 });
 
@@ -527,19 +526,15 @@ function createInfoButton(introbox) {
 }
 
 function toggle(id) {
-       var e = document.getElementById(id);
-       if(e.style.display == 'block')
-          e.style.display = 'none';
-       else
-          e.style.display = 'block';
-    }
+  var e = document.getElementById(id);
+  if (e.style.display == 'block') {
+    e.style.display = 'none';
+  } else {
+    e.style.display = 'block';
+  }
+}
 
 function initMap() {
-  var info_button = createInfoButton(introbox);
-  google.maps.event.addDomListener(info_button, 'click', function() {
-    toggle("introbox");
-  });
-
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 12,
     center: {lat: 47.6097, lng: -122.3331}
@@ -551,6 +546,10 @@ function initMap() {
   getBreweries(map, infowindow);
   getDistilleries(map, infowindow);
 
+  var info_button = createInfoButton(introbox);
+  google.maps.event.addDomListener(info_button, 'click', function() {
+    toggle("introbox");
+  });
   info_button.index = 1;
   map.controls[google.maps.ControlPosition.TOP_RIGHT].push(info_button);
 }
