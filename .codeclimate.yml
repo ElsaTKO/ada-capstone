@@ -1,3 +1,13 @@
+languages:
+   Ruby: false
+   JavaScript: true
+   Python: false
+   PHP: false
+
+exclude_paths:
+- spec/**/*
+- vendor/**/*
+- test/**/*
 - "async_geocoder.js"
 - "convert_brewery_xml_to_js.js"
 - "geocode_booze.js"
