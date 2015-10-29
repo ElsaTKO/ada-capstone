@@ -455,6 +455,8 @@ function pinFoodtrucks(foodtrucks, map, infowindow) {
       is_closed = isClosedHuhOnlyOpen(open);
       if (is_closed === true) {
         image = 'images/foodtruck_closed.png';
+      } else {
+        image = 'images/foodtruck.png';
       }
     } else {
       image = 'images/foodtruck.png';
