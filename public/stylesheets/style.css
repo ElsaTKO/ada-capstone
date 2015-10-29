@@ -71,7 +71,18 @@ body {
   height: 100%;
 }
 
+#map a,
+#map a:link,
+#map a:visited,
+#map a:hover,
+#map a:active {
+  color: #0000ee;
+}
+
 .hours-warning {
+  color: #A80000;
+}
+.hours-warning .fa-exclamation-triangle {
   color: #A80000;
 }
 
