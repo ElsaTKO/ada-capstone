@@ -38,11 +38,13 @@ body {
 #wrapper h1 {
   font-size: 4rem;
   color: #000;
+  font-weight: bold;
 }
 
 #wrapper h2 {
   font-size: 2rem;
   color: #000;
+  font-weight: bold;
 }
 
 #wrapper p {
