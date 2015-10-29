@@ -79,6 +79,21 @@ body {
   color: #0000ee;
 }
 
+#legend {
+  background-color: #fff;
+  color: #565656;
+  padding: 0.5em;
+}
+
+#legend .label,
+#legend img {
+  vertical-align: middle;
+}
+
+#legend .closed-row .label {
+  font-weight: bold;
+}
+
 .hours-warning {
   color: #A80000;
 }

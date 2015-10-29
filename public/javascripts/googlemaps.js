@@ -512,36 +512,51 @@ function initMap() {
 
   // create legend
   var legend = document.createElement('div');
-  legend.style.backgroundColor = '#fff';
-  legend.style.padding = "1em";
+  legend.id = 'legend';
 
   // put stuff in legend
   var brewery_row = document.createElement('div');
   var brewery_icon = new Image();
   brewery_icon.src = 'images/brewery.png';
+  brewery_row.className = "brewery-row";
+  brewery_label = document.createElement('span');
+  brewery_label.className = 'label';
+  brewery_label.innerHTML = 'brewery';
   brewery_row.appendChild(brewery_icon);
-  brewery_row.innerHTML = brewery_row.innerHTML + 'brewery';
+  brewery_row.appendChild(brewery_label);
   legend.appendChild(brewery_row);
 
   var distillery_row = document.createElement('div');
   var distillery_icon = new Image();
   distillery_icon.src = 'images/distillery.png';
+  distillery_row.className = "distillery-row";
+  distillery_label = document.createElement('span');
+  distillery_label.className = 'label';
+  distillery_label.innerHTML = 'distillery';
   distillery_row.appendChild(distillery_icon);
-  distillery_row.innerHTML = distillery_row.innerHTML + 'distillery';
+  distillery_row.appendChild(distillery_label);
   legend.appendChild(distillery_row);
 
   var foodtruck_row = document.createElement('div');
   var foodtruck_icon = new Image();
   foodtruck_icon.src = 'images/foodtruck.png';
+  foodtruck_row.className = "foodtruck-row";
+  foodtruck_label = document.createElement('span');
+  foodtruck_label.className = 'label';
+  foodtruck_label.innerHTML = 'foodtruck';
   foodtruck_row.appendChild(foodtruck_icon);
-  foodtruck_row.innerHTML = foodtruck_row.innerHTML + 'foodtruck';
+  foodtruck_row.appendChild(foodtruck_label);
   legend.appendChild(foodtruck_row);
 
   var foodtruck_closed_row = document.createElement('div');
   var foodtruck_closed_icon = new Image();
   foodtruck_closed_icon.src = 'images/foodtruck_closed.png';
+  foodtruck_closed_row.className = "closed-row";
+  foodtruck_closed_label = document.createElement('span');
+  foodtruck_closed_label.className = 'label';
+  foodtruck_closed_label.innerHTML = 'closed';
   foodtruck_closed_row.appendChild(foodtruck_closed_icon);
-  foodtruck_closed_row.innerHTML = foodtruck_closed_row.innerHTML + 'closed';
+  foodtruck_closed_row.appendChild(foodtruck_closed_label);
   legend.appendChild(foodtruck_closed_row);
 
   var map = new google.maps.Map(document.getElementById('map'), {
