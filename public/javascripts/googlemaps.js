@@ -140,6 +140,67 @@ function isClosedHuh(open_time, close_time) {
   }
 }
 
+function isClosedHuhOnlyOpen(open_time) {
+  // var open_time = foodtruck.schedule[weekday][0].open; // "9:00"
+  var open_hour = parseInt(open_time.split(":")[0]); // 9
+  var open_min = parseInt(open_time.split(":")[1]); // 0
+
+  // var close_time = foodtruck.schedule[weekday][0].close; // "17:30"
+  // var close_hour = parseInt(close_time.split(":")[0]); // 17
+  // var close_min = parseInt(close_time.split(":")[1]); // 30
+
+  var now = new Date();
+  var now_hour = now.getHours();
+
+  var open = new Date().setHours(open_hour, open_min);
+  // var close = new Date().setHours(close_hour, close_min);
+
+  // earliest any food truck opens is 6am.
+  // latest any food truck closes is 4am.
+  // for all food trucks that close after midnight,
+  // weekday is set back one day.
+  // must calculate current, open, and close times
+  // based on that adjustment.
+  // now could be 4:00-23:59, 0:00-3:59
+  // open could be 4:00-23:59 // assumes no food truck opens after midnight
+  // close could be 4:00-23:59, 0:00-3:59
+  if (now_hour >= 4 && open_hour >= 4) {
+    // if
+      // now 4:00-23:59
+      // &&
+      // open 4:00-23:59
+      // &&
+      // close 4:00-23:59
+    // now => today => 0
+    // open => today => 0
+    // close => today => 0
+
+    // all good, do nothing
+
+  } else if (now_hour < 4 && open_hour >= 4) {
+    // if
+      // now 0:00-3:59
+      // &&
+      // open 4:00-23:59
+      // &&
+      // close 4:00-23:59
+    // now => today => 0
+    // open => yesterday => -1
+    // close => yesterday => -1
+    open = new Date(open).setDate(now.getDate() -1);
+    // close = new Date(close).setDate(now.getDate() -1);
+
+  } else {
+    console.error("An open/closed status calculation may have failed.");
+  }
+
+  if (now >= open) {
+    return false; // open now
+  } else {
+    return true; // closed now
+  }
+}
+
 function generateDirectionsUrl(lat, lng) {
   // example
   // https://www.google.com/maps/dir/Current+Location/47.12345,-122.12345
@@ -382,12 +443,18 @@ function pinFoodtrucks(foodtrucks, map, infowindow) {
     var content = setFoodtruckContent(foodtruck, weekday, lat, lng);
 
     var image;
-    if (open !== undefined && close !== undefined) {
-      var is_closed = isClosedHuh(open, close);
-      if (is_closed === true) {
+    var is_closed;
+    if (open !== undefined && close !== undefined) { // have both times
+      is_closed = isClosedHuh(open, close);
+      if (is_closed === true) { // if closed
         image = 'images/foodtruck_closed.png';
       } else {
         image = 'images/foodtruck.png';
+      }
+    } else if (open !== undefined && close === undefined) { // if only open time
+      is_closed = isClosedHuhOnlyOpen(open);
+      if (is_closed === true) {
+        image = 'images/foodtruck_closed.png';
       }
     } else {
       image = 'images/foodtruck.png';
