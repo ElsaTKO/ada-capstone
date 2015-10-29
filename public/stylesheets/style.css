@@ -79,19 +79,19 @@ body {
   color: #0000ee;
 }
 
-#legend {
+#info-button-div {
   background-color: #fff;
-  color: #565656;
-  padding: 0.5em;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 2px;
+  box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px;
+
 }
 
-#legend .label,
-#legend img {
-  vertical-align: middle;
-}
-
-#legend .closed-row .label {
-  font-weight: bold;
+#info-button-div i {
+  padding: 0.34em;
+  color: #000;
+  font-size: 1.75em;
 }
 
 .hours-warning {

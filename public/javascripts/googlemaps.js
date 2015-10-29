@@ -4,6 +4,8 @@ introbox.on('click', function(e) {
     introbox.hide();
 });
 
+
+
 function determineWeekday() {
   var today = new Date();
   var weekday_integer = today.getDay(); // 0 for Sunday, 1 for Monday, etc
@@ -508,56 +510,35 @@ function pinDistilleries(distilleries, map, infowindow) {
   }
 }
 
+function createInfoButton(introbox) {
+  var info_button_div = document.createElement('div');
+  info_button_div.id = "info-button-div";
+
+  var info_button = document.createElement('i');
+  info_button.className = "fa fa-info-circle";
+
+  info_button_div.appendChild(info_button);
+
+  // google.maps.event.addDomListener(info_button, 'click', function() {
+  //   introbox.el.style.display = '';
+  // });
+
+  return info_button_div;
+}
+
+function toggle(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }
+
 function initMap() {
-
-  // create legend
-  var legend = document.createElement('div');
-  legend.id = 'legend';
-
-  // put stuff in legend
-  var brewery_row = document.createElement('div');
-  var brewery_icon = new Image();
-  brewery_icon.src = 'images/brewery.png';
-  brewery_row.className = "brewery-row";
-  brewery_label = document.createElement('span');
-  brewery_label.className = 'label';
-  brewery_label.innerHTML = 'brewery';
-  brewery_row.appendChild(brewery_icon);
-  brewery_row.appendChild(brewery_label);
-  legend.appendChild(brewery_row);
-
-  var distillery_row = document.createElement('div');
-  var distillery_icon = new Image();
-  distillery_icon.src = 'images/distillery.png';
-  distillery_row.className = "distillery-row";
-  distillery_label = document.createElement('span');
-  distillery_label.className = 'label';
-  distillery_label.innerHTML = 'distillery';
-  distillery_row.appendChild(distillery_icon);
-  distillery_row.appendChild(distillery_label);
-  legend.appendChild(distillery_row);
-
-  var foodtruck_row = document.createElement('div');
-  var foodtruck_icon = new Image();
-  foodtruck_icon.src = 'images/foodtruck.png';
-  foodtruck_row.className = "foodtruck-row";
-  foodtruck_label = document.createElement('span');
-  foodtruck_label.className = 'label';
-  foodtruck_label.innerHTML = 'foodtruck';
-  foodtruck_row.appendChild(foodtruck_icon);
-  foodtruck_row.appendChild(foodtruck_label);
-  legend.appendChild(foodtruck_row);
-
-  var foodtruck_closed_row = document.createElement('div');
-  var foodtruck_closed_icon = new Image();
-  foodtruck_closed_icon.src = 'images/foodtruck_closed.png';
-  foodtruck_closed_row.className = "closed-row";
-  foodtruck_closed_label = document.createElement('span');
-  foodtruck_closed_label.className = 'label';
-  foodtruck_closed_label.innerHTML = 'closed';
-  foodtruck_closed_row.appendChild(foodtruck_closed_icon);
-  foodtruck_closed_row.appendChild(foodtruck_closed_label);
-  legend.appendChild(foodtruck_closed_row);
+  var info_button = createInfoButton(introbox);
+  google.maps.event.addDomListener(info_button, 'click', function() {
+    toggle("introbox");
+  });
 
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 12,
@@ -570,7 +551,6 @@ function initMap() {
   getBreweries(map, infowindow);
   getDistilleries(map, infowindow);
 
-  legend.index = 1;
-  map.controls[google.maps.ControlPosition.LEFT_CENTER].push(legend);
-
+  info_button.index = 1;
+  map.controls[google.maps.ControlPosition.TOP_RIGHT].push(info_button);
 }
